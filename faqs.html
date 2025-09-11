@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<!-- Mirrored from 2020.edu.gov.kg/faqs by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Jul 2025 17:18:08 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8" lang="ru"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <link rel="icon" href="img/icon2.png" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="icon-192x192.png">
+  <meta name="keywords" content="Абитуриент Онлайн, поступление в ВУЗы Кыргызстана, Туры,Выбор ВУЗа,ОРТ,ЖРТ">
+  <meta name="description" content="Суроолор-Жооптор">
+  <meta name="theme-color" content="#234182"/>
+  <link rel="manifest" href="manifest.webmanifest">
+  <title>Абитуриент Онлайн | Суроолор-Жооптор</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" />
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="stylesheets/style.css" />
+
+  <link rel=" stylesheet" href="fontawesome/css/all.min.css" />
+    <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172178108-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-172178108-1');
+</script>
+
+
+</head>
+
+
+
+
+
+
+
+
+<body>
+    <button hidden class="pwa">Установить приложение On-Line Абитуриент</button>
+    <div id="menu"></div>
+    <script>
+      if (navigator.serviceWorker) {
+        //console.log("sw Рабатает УРА!!!");
+        navigator.serviceWorker.register(`./sw.js`).then((response) => {
+        //console.log("response", response);
+        })
+      } else {
+        console.log("sw not worked!!!");
+      }
+      window.process = { env: { NODE_ENV: 'production' } };
+
+      window.addEventListener('beforeinstallprompt', event => {
+          event.preventDefault();
+          var button = document.querySelector('button');
+          button.removeAttribute('hidden');
+          setTimeout(getMessage(), 20000);
+          button.addEventListener('click', () => {
+            event.prompt();
+            button.setAttribute('disabled', true);
+            button.style.visibility="hidden"
+          });
+        });
+
+   
+
+   function getMessage() {
+      Notification.requestPermission(function(result) {
+        if (result === 'granted') {
+          navigator.serviceWorker.ready.then(function(registration) {
+            registration.showNotification('Установите Абитуриент Онлайн', {
+              body: 'Вы можете установить приложение на Вашем устройстве.',
+              icon: '/icon-192x192.png',
+              vibrate: [200, 100, 200, 100, 200, 100, 200],
+              tag: 'Абитуриент Онлайн'
+            });
+          });
+        }
+      });
+   }
+</script>
+
+
+
+
+
+
+
+    <div class="overlay" id="overlay"></div>
+
+ <!-- main  -->
+    <div class="main" style="overflow: hidden;">
+        <div class="content">
+            <!--Navbar -->
+            <nav class="navbar shadow-none navbar-expand-lg">
+                <!--img src="/img/gerb.png" alt="logo" class="img-fluid animated fadeIn logo_navbar" /-->
+                <a class="nav-link sm-text p-0" href="vuz.html">
+                    <div class="logowrap  animated fadeIn">
+                        <img class="logo" height="45" src="img/logo2.png" alt="logo">
+                    </div>
+                </a>
+                <a class="nav-link sm-text mx-3 lang  animated fadeIn" onclick="language('ru')"  href="https://2020.edu.gov.kg/ru">Рус</a> 
+                <button onclick="openNav()" class="navbar-toggler" style="margin-left: auto;" type="button"
+                    data-toggle="collapse" data-target="#navbarSupportedContent-4"
+                    aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="20" height="2" fill="#EF7F1A" />
+                        <rect y="8" width="20" height="2" fill="white" />
+                        <rect y="16" width="20" height="2" fill="#EF7F1A" />
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="d-inline d-lg-none">
+                            <a class="nav-link sm-text animated fadeIn" href="vuz.html">
+                                <div class="logowrap animated fadeIn">
+                                    <img class="logo" height="40" src="img/logo2.png" alt="logo">
+                                </div>
+                            </a>
+                            <button onclick="closeNav()" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+                                class="close float-right  animated fadeIn">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="#234182"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 18.1818L18.1818 0L20 1.81818L1.81818 20L0 18.1818Z" fill="#234182" />
+                                    <path d="M0 1.81818L1.81818 0L20 18.1818L18.1818 20L0 1.81818Z" fill="#234182" />
+                                </svg>
+                            </button>
+                        </li>
+                        <li class="nav-item  animated fadeIn">
+
+                            <a class="nav-link sm-text" href="vuz.html">
+                                Башкы бет
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item  animated fadeIn">
+                            <a class="nav-link sm-text" href="universities.html">ЖОЖдор</a>
+                        </li>
+                        <li class="nav-item  animated fadeIn">
+                            <a class="nav-link sm-text" href="statistics.html"> Ачык маалыматтар</a>
+                        </li>
+                        <li class="nav-item  animated fadeIn">
+                            <a class="nav-link sm-text" href="faqs.html"> Суроолор/жооптор</a>
+                        </li>
+
+                        <li class="nav-item mx-md-2 yellow-color  animated fadeIn">
+                            <a class="nav-link sm-text" title="Кирүү" 
+                            href="personalcabinet/index.html#enrollee"> <i class="fa fa-sign-in-alt"></i>&nbsp;Кирүү </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+
+<div class="modal fade my-5"  id="LoginModal" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <div class="p-2 m-2 md-text">
+        Колдонуучулар
+            <button  data-toggle="modal" data-target="#LoginModal"
+                                class="close float-right p-0 animated fadeIn">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="#234182"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 18.1818L18.1818 0L20 1.81818L1.81818 20L0 18.1818Z" fill="#234182" />
+                                    <path d="M0 1.81818L1.81818 0L20 18.1818L18.1818 20L0 1.81818Z" fill="#234182" />
+                                </svg>
+            </button>
+      </div>
+      <div class="mb-3 mx-3 mt-1 text-center btn-group-vertical">
+           <a class="btn rounded sm-text"  href="personalcabinet/index.html#enrollee">  Абитуриент</a>
+           <a class="btn rounded sm-text"  href="authform.html">  Мектеп (директор)</a>
+        </div>
+    </div>
+  </div>
+</div>
+            <!--/.Navbar -->
+        </div>
+
+
+
+    </div>
+
+    <!-- end main -->
+
+   
+
+
+
+
+  
+
+
+
+  <!--/.Navbar -->
+  <div class="main" style="margin-top: -40px;">
+    <div class="content">
+        <div class="title mt-5">
+            <p class="secondary-text tn-text "> <a href="vuz.html" class="yellow_text underline">Башкы бет</a>
+                &nbsp;/&nbsp; <span class="secondary-text">Суроолор-Жооптор</span>
+            </p>
+            <h2 class="white-text  title_text mt-5">Суроолор-Жооптор</h2>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- end main -->
+
+<div id="content" class="content">
+    <div class="my-5 mx-3">
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col1"
+                    role="button" aria-expanded="false" aria-controls="col1">
+                    1. «Абитуриент Online» автоматташтырылган маалыматтык система эмне үчүн керек?
+                </a>
+            </p>
+            <div class="collapse" id="col1">
+                <div class="card card-body">
+                    <p>&ldquo;Абитуриент Online&rdquo; автоматташтырылган маалыматтык системасы төмөнкү максаттарда иштелип чыккан:</p><ul><li>Кыргыз Республикасынын ЖОЖдоруна кабыл алууда абитуриенттердин сынакка катышуу мүмкүнчүлүгүн электрондук түрдө арыз берүү жолу менен камсыз кылуу;</li><li>сынакка катышуу үчүн тапшырылуучу жалпы республикалык тестирлөөнүн (ЖРТ) сертификаттарынын талондорун чогултуу, эсепке алуу процесстерин автоматташтыруу, ошондой эле абитуриенттердин рейтингдик тизмесин түзүү аркылуу борборлоштурулган эсепке алуу системасын түзүү;</li><li>региондордогу абитуриенттерге ЖОЖго тапшыруу үчүн сынакка ЖОЖ жайгашкан жерге барбастан, катышууга мүмкүнчүлүк берүү.</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col2"
+                    role="button" aria-expanded="false" aria-controls="col2">
+                    2. ЖОЖго тапшыруу үчүн кандай документтер керек?
+                </a>
+            </p>
+            <div class="collapse" id="col2">
+                <div class="card card-body">
+                    <p>ЖОЖго тапшыруу үчүн төмөнкү документтер керек:</p><ul><li>паспорт же туулгандыгы тууралуу күбөлүк;</li><li>аттестат же орто кесиптик билими жөнүндө диплом;</li><li>ЖРТнын сертификаты.</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col4"
+                    role="button" aria-expanded="false" aria-controls="col4">
+                    3. ЖОЖдорго тапшырууга сынакка кимдер катыша алат?
+                </a>
+            </p>
+            <div class="collapse" id="col4">
+                <div class="card card-body">
+                    <p>ЖОЖдорго сынакка негизги тест боюнча белгиленген босого баллдан жогору алган абитуриенттер катыша алышат.</p><p>Тиешелүү предметтик тесттердин жыйынтыктары боюнча босого баллдан жогору балл алган абитуриенттер негизги жана кошумча предметтик тесттердин баллынын суммасы боюнча сынакка катышышат жана кабыл алууга артыкчылыктуу укукту колдонушат. Өзгөчөлүк медициналык адистиктери үчүн, аларга тапшыруу үчүн негизги тест (босого баллдан жогору) жана химия, биология боюнча предметтик тесттер (ар бир предмет боюнча босого баллдан жогору) милдеттүү болуп саналат.</p>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col5"
+                    role="button" aria-expanded="false" aria-controls="col5">
+                    4. Бул окуу жылы ЖОЖдорго тапшыруу үчүн кандай босого баллдар белгиленген?
+                </a>
+            </p>
+            <div class="collapse" id="col5">
+                <div class="card card-body">
+                    110 балл
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col6"
+                    role="button" aria-expanded="false" aria-controls="col6">
+                    5. ЖОЖдорго гранттык негизде окууга кабыл алууда жеңилдиктерге кимдер ээ?
+                </a>
+            </p>
+            <div class="collapse" id="col6">
+                <div class="card card-body">
+                    <p>ЖОЖдорго гранттык орундардын өзүнчө квоталарынын алкагында гранттык негизде окууга абитуриенттердин төмөнкү категориялары кабыл алынат:</p><ul><li>I, II топтогу майыптар,</li><li>бала кезинен майыптар,</li><li>майып-балдар,</li><li>жетим балдар жана ата-энесинин камкордугусуз калган балдар,</li><li>2010-жылдын апрель, май жана июнь окуяларында курман болгон адамдардын балдары,</li><li>кайрылман статусуна ээ болгон адамдар.</li></ul><p>Сынак учурдагы жылдын жалпы республикалык тестирлөөсүнүн жыйынтыктары боюнча өткөрүлөт. Сынакка министрлик тарабынан белгиленген босого баллга барабар же андан жогору балл алган абитуриенттер катышат (2022-жылы &ndash; 110 балл). ЖОЖдун кабыл алуу комиссиясына документтерди берүүдө жеңилдикке ээ болууга талапкер абитуриент тастыктоочу документтерин бериши керек.</p><p>Гранттык негизде окууга сынактан тышкары учурдагы жылдын эл аралык жана республикалык олимпиадаларында жеңүүчү жана байгеге ээ болгондор, олимпиаданын предмети профилдик болуп саналган адистиктер боюнча, ошондой эле учурдагы жылдын &laquo;XXI кылымдын интеллектуалдары&raquo; республикалык сынактын жеңүүчүлөрү жана байгеге ээ болгондор, алардын жалпы республикалык тестирлөөгө катышуу шартында, сынактын номинациясы дал келген техникалык профилдеги адистиктерге жана даярдоо багыттарына.</p>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col7"
+                    role="button" aria-expanded="false" aria-controls="col7">
+                    6. ЖОЖдорго контракттык негизде окууга кабыл алууда жеңилдиктерди кимдер колдоно алат?
+                </a>
+            </p>
+            <div class="collapse" id="col7">
+                <div class="card card-body">
+                    <p>Оң баага ылайык болгон балл болгон учурда сынактан тышкары контракттык орундарга төмөнкүлөр кабыл алынат:</p><ul><li>тоголок жетим балдар, ата-энесинин камкордугусуз калган балдар (учурдагы жылдын 1-октябрына карата 18 жашка чыккан);</li><li>медициналык-социалдык экспертизанын корутундусу боюнча тандап алган даярдоо багыты жана адистик боюнча ЖОЖдо билим алууга тыюу салынбаган ден соолугунун мүмкүнчүлүктөрү чектелген адамдар;</li><li>эл аралык жана республикалык олимпиадалардын жеңүүчүлөрү (учурдагы жылы 1-3-орундарды ээлеген) олимпиаданын предмети профилдик болуп саналган, тандалган ЖОЖдо даярдоо багытына жана адистигикке.</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col8"
+                    role="button" aria-expanded="false" aria-controls="col8">
+                    7. ЖОЖго кабыл алууда артыкчылыктуу укуктарды кимдер колдонот?
+                </a>
+            </p>
+            <div class="collapse" id="col8">
+                <div class="card card-body">
+                    <p><strong>Башка бирдей шарттарда</strong> кабыл алууда артыкчылыктуу укукка төмөнкү абитуриенттер ээ:</p><ul><li>&laquo;Кыргыз Республикасынын спорт чебери&raquo; же &laquo;Кыргыз Республикасынын эл аралык класстагы спорт чебери&raquo; спорттук наамга ээ болгон абитуриенттер;</li><li>мөөнөттүү аскердик кызматты өтөгөн абитуриенттер;</li><li>мамлекеттик тилди билүү деңгээли жөнүндө &ldquo;Кыргызтест&rdquo; системасын эске алуу менен мамлекеттик тил боюнча ыйгарым укуктуу мамлекеттик органдын мамлекеттик сертификатына ээ болгон абитуриенттер.</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col9"
+                    role="button" aria-expanded="false" aria-controls="col9">
+                    8. ЖРТнын сертификаты канча жыл жарактуу?
+                </a>
+            </p>
+            <div class="collapse" id="col9">
+                <div class="card card-body">
+                    <p>ЖРТнын сертификаты учурдагы жылы гана жарактуу.</p><p><strong>Өзгөчөлүк</strong>: мөөнөттүү аскер кызматын өтөгөн абитуриенттин ЖРТ сертификаты 3 жыл бою жарактуу, башкача айтканда, быйылкы жылы абитуриенттердин аталган категориясы сынакка катышуу үчүн 2022, 2023-жылдын сертификатын колдоно алат.</p>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col10"
+                    role="button" aria-expanded="false" aria-controls="col10">
+                    9. Кабыл алууда жеңилдикке ээ абитуриенттер сынакка кантип катышышат?
+                </a>
+            </p>
+            <div class="collapse" id="col10">
+                <div class="card card-body">
+                    <p>Сынакка катышуу үчүн АИСте катталуу учурунда жеңилдикке ээ болуу укугу бар же кабыл алууда артыкчылыктуу укукка ээ абитуриенттер тастыктоочу документтерди тиркеши керек.</p>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col11"
+                    role="button" aria-expanded="false" aria-controls="col11">
+                    10. ЖРТнын артыкчылыктуу сертификатына ээ болгон абитуриенттер ЖОЖдорго кантип кабыл алынат?
+                </a>
+            </p>
+            <div class="collapse" id="col11">
+                <div class="card card-body">
+                    <p>2024-жылдагы жалпы республикалык тестирлөөнүн жыйынтыгы боюнча негизги тест боюнча жогору балл алган 50 абитуриент өз тандоо менен Кыргыз Республикасындагы гранттык орундар бөлүнгөн мамлекеттик жогорку окуу жайынын каалаган адистигине же даярдоо багытына сынаксыз кабыл алынууга укуктуу. Кабыл алуу министрлик тарабынан биринчи тур башталганга чейин ишке ашырылат.</p><p>Кабыл алуу жөнүндө арыз берүүнүн эрежелери артыкчылыгы менен сертификаттын арткы бетинде көрсөтүлгөн.</p>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col12"
+                    role="button" aria-expanded="false" aria-controls="col12">
+                    11. Кайсы учурларда абитуриент сынакка катышуу үчүн өтүнмө берүүгө укугу жок?
+                </a>
+            </p>
+            <div class="collapse" id="col12">
+                <div class="card card-body">
+                    <p>Негизги тест боюнча босого баллдан төмөн балл алган абитуриенттер сынакка катыша албайт.</p><p>Медициналык адистиктерге карата сынакка негизги тест боюнча босого баллдан төмөн балл алган же милдеттүү предметтик тесттин бирөөнөн төмөн балл алган абитуриенттер катыша албайт.</p>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col13"
+                    role="button" aria-expanded="false" aria-controls="col13">
+                    12. Кайсы ЖОЖдорго ЖРТнын жыйынтыгы милдеттүү эмес?
+                </a>
+            </p>
+            <div class="collapse" id="col13">
+                <div class="card card-body">
+                    <p>Кыргыз улуттук консерваториясынын, КР Улуттук көркөм-сүрөт академиясынын, Кыргыз мамлекеттик маданият жана искусство университетинин жана Кыргыз мамлекеттик дене тарбия жана спорт академиясынынын адистиктерине кабыл алууда ЖРТнын жыйынтыгы милдеттүү эмес, сынак ЖОЖдордун өздөрүнүн кирүүчү сынактарынын жыйынтыктары боюнча өткөрүлөт.</p><p>Мындан тышкары, &ldquo;Көркөм билим берүү&rdquo;, &ldquo;Көркөм сүрөт искусствосу&rdquo; жана &ldquo;Дене тарбия&rdquo; багыттарына тапшыруу үчүн ЖРТнын жыйынтыктары милдеттүү эмес.</p>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col14"
+                    role="button" aria-expanded="false" aria-controls="col14">
+                    13. Абитуриенттердин категориялары эмне үчүн керек?
+                </a>
+            </p>
+            <div class="collapse" id="col14">
+                <div class="card card-body">
+                    <p>Гранттарга ээ болууга талапкер абитуриенттер төмөнкүдөй категорияларга бөлүнөт:</p><ul><li>Бишкек шаарындагы орто кесиптик окуу жайларынын бүтүрүүчүлөрү &ndash; абитуриенттери;</li><li>областтык борборлордогу жана кичи шаарлардагы орто кесиптик окуу жайларынын бүтүрүүчүлөрү &ndash; абитуриенттер;</li><li>айылдагы мектептердин бүтүрүүчүлөрү &ndash; абитуриенттер;</li><li>Кыргыз Республикасынын бийик тоолуу зоналарында жайгашкан орто окуу жайларынын бүтүрүүчүлөрү &ndash; абитуриенттер.</li></ul><p>Гранттык орундарга сынак ар бир категориянын алкагында өзүнчө өткөрүлөт, б.а. айылдагы мектептердин бүтүрүүчүлөрү сынакта Бишкек шаарынын мектептеринин бүтүрүүчүлөрү менен атаандашышпайт ж.б. Бул ченем жашаган жерине карабастан бардык абитуриенттерге жогорку билим алууга бирдей мүмкүнчүлүк берүү максатында киргизилген.</p>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col15"
+                    role="button" aria-expanded="false" aria-controls="col15">
+                    14. ЖОЖдо окууну каалоону тастыктоо үчүн кандай документтерди бериш керек?
+                </a>
+            </p>
+            <div class="collapse" id="col15">
+                <div class="card card-body">
+                    <p>Тастыктоо үчүн Сиз АИСке электрондук түрдө төмөндөгү документтерди тиркешиңиз керек: <ul><li>паспорт же туулгандыгы тууралуу күбөлүк;</li><li> орто жалпы билими жөнүндө аттестат же орто кесиптик билими жөнүндө диплом;</li> <li>ЖРТнын сертификатынын алдыңкы бети.</li></ul></p>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col16"
+                    role="button" aria-expanded="false" aria-controls="col16">
+                    15. Сынакты өткөрүү процедурасы бузулган учурда кантип арыз берүү керек?
+                </a>
+            </p>
+            <div class="collapse" id="col16">
+                <div class="card card-body">
+                    <p>Кабыл алуу процедурасы бузулган учурда Сиз АИСтеги жеке кабинетиңиз аркылуу арыз бере аласыз:</p>
+<ul><li> Кошумча функцияларды тандаңыз</li><li> КР ББжИМине билдирме формасын толтуруңуз</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col17"
+                    role="button" aria-expanded="false" aria-controls="col17">
+                    16. Мен 1-тур башталганга чейин сынакка катышуу үчүн каттала аламбы?
+                </a>
+            </p>
+            <div class="collapse" id="col17">
+                <div class="card card-body">
+                    <p>Ооба, системада 1-тур башталганга чейин катталуу керек.</p>Окуу жайдагы багыттарга турлардын расписаниесине жараша катыша аласыз.
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col18"
+                    role="button" aria-expanded="false" aria-controls="col18">
+                    17. Ар бир турда мен канча ЖОЖду жана адистикти тандай алам?
+                </a>
+            </p>
+            <div class="collapse" id="col18">
+                <div class="card card-body">
+                    <p>Сынактын ар бир турунда гранттык же контракттык негизде окууга сынакка катышуу үчүн бирден гана өтүнмө бере аласыз. Өтүнмөлөрдү бир ЖОЖго же эки башка ЖОЖго тапшырууга болот.</p>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col19"
+                    role="button" aria-expanded="false" aria-controls="col19">
+                    18. Эгерде мен башка өлкөнүн жараны болсом гранттык негизде окууга тапшыруу үчүн сынакка катыша аламбы?
+                </a>
+            </p>
+            <div class="collapse" id="col19">
+                <div class="card card-body">
+                    <p>Гранттык негизде окууга сынакка Казакстан Республикасынын, Россия Федерациясынын, Беларусь Республикасынын жана Тажикстан Республикасынын жарандары ЖРТга катышкан жана босогодон жогору балл алган шартта катышууга укуктуу.</p>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col20"
+                    role="button" aria-expanded="false" aria-controls="col20">
+                    19. Эгерде мен сыр сөздү жоготуп алсам, эмне кылуу керек?
+                </a>
+            </p>
+            <div class="collapse" id="col20">
+                <div class="card card-body">
+                    <p>Сиз сыр сөздү өзгөртүү формасын толтурасыз.  Сиз электрондук почта аркылуу билдирүү аласыз.</p><a href="https://2020.edu.gov.kg/vuz/changepassword">https://2020.edu.gov.kg/vuz/changepassword</a>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col21"
+                    role="button" aria-expanded="false" aria-controls="col21">
+                    20. Эгерде мен сынактан өтүп, 1-турда аталган ЖОЖдо окууну каалай тургандыгымды билдирип, бирок кийин 2-турда башка ЖОЖго тапшырууну кааласам эмне кылуу керек?
+                </a>
+            </p>
+            <div class="collapse" id="col21">
+                <div class="card card-body">
+                    Жеке бөлмөңуздөн, докементтерди кайтаруу процедурасын тур бүткөндөн кийин толтурасыз. <br>Бул процедураны Сиз кийинки тур баштала электе өтүүңүз зарыл.
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col22"
+                    role="button" aria-expanded="false" aria-controls="col22">
+                    21. ЖОЖго гранттык негизде окууга кабыл алынган студенттин милдеттери кандай?
+                </a>
+            </p>
+            <div class="collapse" id="col22">
+                <div class="card card-body">
+                    <p>Гранттык орунга кабыл алынган (гранттын ээси) ар бир студент ЖОЖ менен келишимге кол коет, анда студенттин укуктары жана милдеттери көрсөтүлөт.</p><p>Келишим, окуу жылдын башында окуу жайда түзүлөт.</p><p>Педагогикалык жана медициналык адистиктердин бүтүрүүчүлөрү ЖОЖду аяктагандан кийин багыты боюнча 3 жыл иштеп берүүгө милдеттүү. Иштеп берүүдөн баш тарткан учурда ал бүтүрүүчү окуу жайга мамлекеттик билим берүү грантынын өлчөмүндө адисти даярдоого сарпталган чыгымдардын ордун толукташы керек.</p><p>Кандай болбосун адистик боюнча гранттык негизде билим алган студенттер төмөнкү учурларда окуу жайга мамлекеттик билим берүү грантынын өлчөмүндө адисти даярдоого сарпталган чыгымдардын ордун толукташы керек:</p><p>- жүйөлүү себепсиз же жеке каалоосу боюнча ЖОЖдон чыгарылган учурда;</p><p>- келишим боюнча окуунун наркын төлөө менен окууга өткөндө же окшош эмес адистиктерге которулууга байланыштуу ЖОЖдон чыгарылган учурда.</p><p>Мамлекеттик билим берүү грантынын өлчөмүндө окутуунун наркынын ордун толуктоодон окуунун наркын төлөө менен окуусун калыбына келтирген жана окууну аяктагандан кийин бүтүрүүчүлөрдү жеке бөлүштүрүү боюнча комиссиянын жолдомосу боюнча иштеп берүү милдетин аткарууга макул болгон адамдар бошотулат (КР ИИМ Академиясында билим алган адамдардан тышкары).</p>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col23"
+                    role="button" aria-expanded="false" aria-controls="col23">
+                    22. ЖОЖдун кабыл алуу комиссиясына документтердин түп нускасын качан беришим керек?
+                </a>
+            </p>
+            <div class="collapse" id="col23">
+                <div class="card card-body">
+                    <p>Документтердин түп нускасын Сиз окуу жылдын башында беришиңиз керек.</p>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col24"
+                    role="button" aria-expanded="false" aria-controls="col24">
+                    23. Кошумча сынактарды талап кылган адистиктерге сынак кандай өткөрүлөт?
+                </a>
+            </p>
+            <div class="collapse" id="col24">
+                <div class="card card-body">
+                    <p>ИИМ Академиясынын, КР Куралдуу күчтөрүнүн Аскер институтунун адистиктерине кирүү үчүн сынакка катышууга ЖРТдан да, аталган ЖОЖдордун кошумча сынактарынан да ийгиликтүү өткөн абитуриенттерге мүмкүнчүлүк берилет.</p><p>Кошумча чыгармачылык сынактарды өткөрүүнү талап кылган башка адистиктерге карата сынактарга (Архитектура, Шаар куруу, Архитектуралык чөйрөнүн дизайны, Костюмдун жана текстилдин искусствосу) ЖРТдан да, ошондой эле аталган ЖОЖдордун кошумча чыгармачылык сынактарынан да ийгиликтүү өткөн абитуриенттер катыша алышат.</p>АМС аркылуу багыттарга катталуу бул, сөзсүз аткарылуучу процедура.
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col25"
+                    role="button" aria-expanded="false" aria-controls="col25">
+                    24. Кошумча сынактардан каякта жана качан өтүү керек?
+                </a>
+            </p>
+            <div class="collapse" id="col25">
+                <div class="card card-body">
+                    <p>Кошумча сынактар ЖОЖдор тарабынан өз алдынча 1-тур башталганга чейин өткөрүлөт. Аларды тапшыруунун мөөнөттөрү жана шарттары жөнүндө Сиз тиешелүү ЖОЖдун кабыл алуу комиссиясына кайрылып алсаңыз болот.</p>Байланыш үчун сиз АИСтен ЖОЖдор бөлүмүнөн байланыш телефондорун таба аласыз.
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col26"
+                    role="button" aria-expanded="false" aria-controls="col26">
+                    25. Жалпы республикалык тестирлөөнүн предметтик тести кантип эске алынат?
+                </a>
+            </p>
+            <div class="collapse" id="col26">
+                <div class="card card-body">
+                    <p>Тиешелүү предметтик тесттердин жыйынтыктары боюнча босого баллдан жогору балл алган абитуриенттер негизги жана кошумча предметтик тесттердин баллынын суммасы боюнча сынакка катышышат жана кабыл алууга артыкчылыктуу укукту колдонушат.</p><p>Өзгөчөлүк медициналык адистиктери үчүн, аларга тапшыруу үчүн негизги тест (босого баллдан жогору) жана химия, биология боюнча предметтик тесттер (ар бир предмет боюнча босого баллдан жогору) милдеттүү болуп саналат.</p>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col27"
+                    role="button" aria-expanded="false" aria-controls="col27">
+                    26. Мен ЖОЖдун кабыл алуу комиссиясына келип, сынакка катышуу үчүн ошол жерде катталсам болобу?
+                </a>
+            </p>
+            <div class="collapse" id="col27">
+                <div class="card card-body">
+                    <p>Сынакка катышуу үчүн &laquo;Абитуриент Online&raquo; автоматташтырылган маалыматтык системада гана катталуу керек.</p><p>Системадан ЖОЖдун кабыл алуу комиссиясынын мүчөлөрүнүн байланыш телефондорун көрө аласыз, алар боюнча Сиз консультация алсаңыз болот.</p>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col28"
+                    role="button" aria-expanded="false" aria-controls="col28">
+                    27. Максаттуу орундарга тапшыруу үчүн кандай документтер керек?
+                </a>
+            </p>
+            <div class="collapse" id="col28">
+                <div class="card card-body">
+                    <p>Максаттуу орундарга карата сынакка катышуу үчүн конкреттүү адистик боюнча максаттуу окутууга жолдомонунун скан көчүрмөсүн өздүк кабинетиңизден  жүктөө зарыл.</p><p>Максаттуу орундарга тапшырган абитуриенттер менен аймактардагы жергиликтүү өз алдынча башкаруу органдарынын территориясында милдеттүү түрдө ишке бөлүштүрүү жөнүндө студенттин, ЖОЖдун жана жергиликтүү өз алдынча башкаруу органынын ортосунда үч тараптуу келишим түзүлөт.</p><a href=https://2020.edu.gov.kg/listdocsenrol>https://2020.edu.gov.kg/listdocsenrol</a>
+                </div>
+            </div>
+        </div>
+        <div class="question my-3">
+            <p>
+                <a class="color-yellow font-weight-bold" data-toggle="collapse" href="#col29"
+                    role="button" aria-expanded="false" aria-controls="col29">
+                    28. Мен жайкы конкурс менен окуу жайга окуп жатсам, кышкы кабыл алууга катыша аламбы?
+                </a>
+            </p>
+            <div class="collapse" id="col29">
+                <div class="card card-body">
+                    <p>Ооба, сиз университеттен чыгарылган шартта кире аласыз. Бул учурда, сиз бардык зарыл болгон документтерди, анын ичинде Университеттен чыгаруу жөнүндө буйрукту жүктөшүңүз керек</p><p>Керектүү документтер</p><ul><li>паспорт</li><li>аттестат</li><li>ЖРТ сертификаты</li><li>ЖОЖдон чыгаруу жөнүндө маалымкат (справка об отчислении из ВУЗа)</li></ul><p><a href='https://2020.edu.gov.kg/docs/Manual_expulsion_form.pdf' target="-blank">Нускама</a></p><p>Форманы толтурунуз</p><p><a href='https://2020.edu.gov.kg/winter/expulsion/form' target="-blank">https://2020.edu.gov.kg/winter/expulsion/form</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  <button onclick="topFunction()" id="myBtn" title="Вверх в меню"> Жогору</button>
+
+    <footer class="mt-3 ">
+        <div class="content  animated fadeIn">
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-12 mb-3 nowrap">
+                    <a class="mon"  href="https://edu.gov.kg/">
+                      <div>
+                        <img height="50" src="img/mon.png" alt="">
+                      </div>
+                       <div class="p-1" style="font-size:15px;max-width:300px; ">КЫРГЫЗ РЕСПУБЛИКАСЫНЫН БИЛИМ БЕРҮҮ ЖАНА ИЛИМ МИНИСТРЛИГИ
+                       </div>    
+                       </a>
+               <div class="my-2">
+                     <a class="white-text mx-2"  href="personalcabinet/index.html#mon">ББИМ</a>
+                     <a class="white-text mx-2"  href="authformsoomo.html">ББОУБ</a>
+                     <a class="white-text mx-2"  href="personalcabinet/index.html#vuz">ЖОЖ</a>
+                     <a class="white-text mx-2"  href="https://2020.edu.gov.kg/spuz">КООЖ</a>
+               </div>
+
+                </div>
+                <div class="col-lg-8 col-m-12 mb-3">
+                    <h5 class="text-uppercase sm-text text-white">ТЕХНИКАЛЫК КОЛДОО</h5>
+
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class=" col-md-4 mb-4">
+
+                            <p>e-mail</p>
+                            
+                            <p style="font-size:15px;"><i class="fa fa-envelope fa-1x mr-2 "></i> 2020.edu.gov.kg@gmail.com</p>
+
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class=" col-md-4 mb-4">
+                            <p>Телефон</p>
+
+                            <p><i class="fa fa-phone fa-1x mr-2 "></i> 110 </p>
+                     <!--   <p><i class="fa fa-phone fa-1x mr-2 "></i> +996 (000) 000 000 </p>  -->
+                        </div>
+
+
+                        <div class="col-md-4 mb-4">
+                            <p>Иштөө режими</p>
+                            <p>Дүйшөмбү - Жума &nbsp;</p>
+                            <p><i class="fa fa-clock fa-1x mr-2 "></i>09:00 - 18:00</p>
+
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                </div>
+
+
+            </div>
+            <p class="text-white tn-text text-center p-0 m-0" style="letter-spacing: 0.01em;color: #ACACAC;">© Бардык укуктар корголгон «КР
+                ББИМ»
+            </p>
+        </div>
+
+
+    </footer>
+
+
+
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  
+ <script type="text/javascript" src="fontawesome/js/all.min.js"></script>
+  <script type="text/javascript" defer src="javascripts/ready.js"></script>
+</body>
+
+
+<!-- Mirrored from 2020.edu.gov.kg/faqs by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Jul 2025 17:18:08 GMT -->
+</html>

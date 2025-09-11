@@ -1,0 +1,1029 @@
+html {
+  scroll-behavior: smooth;
+  font-family: Roboto !important;
+}
+
+body {
+  background-color: #f9fbff;
+  font-family: Roboto !important;
+}
+.Footer {
+  background: #234182;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: absolute !important;
+  width: 100% !important;
+  bottom: 0 !important;
+}
+:root {
+  /* .color-primary-0 { color: #005DA5 }
+  .color-primary-2 { color: #0084E9 }
+  .color-primary-3 { color: #004B85 }
+  .color-primary-4 { color: #003A66 } */
+  --main-bg-color: #234182;
+  --secondary-bg-color: #4286f475;
+  --header2-bg-color: #a3d3f8; /*#caf0f8; */
+  --tr-hover-bg-color: #caf0f87c;
+  --university-bg-color: #36a8ff; /*#90e0ef; */
+  --yellow-color: #ef7f1a; /*#90e0ef; */
+  --lang-color: #4267b7;
+}
+a {
+  color: var(--main-bg-color);
+}
+a:hover {
+  text-decoration-line: underline;
+}
+.secondary-text {
+  color: var(--lang-color);
+}
+.yellow_text {
+  color: var(--yellow-color);
+}
+.color-yellow {
+  color: var(--yellow-color);
+}
+.underline {
+  text-decoration-line: underline;
+}
+.brown_text {
+  color: #c8cfd5;
+}
+#search_input::placeholder {
+  opacity: 0.5;
+}
+.opacity-5 {
+  opacity: 0.5;
+}
+.border-r8 {
+  border-radius: 8px;
+}
+
+.border-r4 {
+  border-radius: 4px;
+}
+.border-none:focus {
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.border-none {
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.checksertbutton:disabled {
+  background-color: #cccccc !important;
+}
+.show-btn {
+  padding: 12px 15px;
+  width: 120px;
+}
+.bg-blue {
+  background-color: #4267b7;
+}
+.universities-flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin: 28px 0 28px 0;
+  list-style: none;
+}
+.pwa {
+  color: #ee7f1a;
+  width: 100%;
+  background: white;
+  border: none;
+  text-decoration: none;
+}
+.pwa:hover {
+  color: #ffffff;
+  width: 100%;
+  background: #ee7f1a;
+  border: none;
+  text-decoration: underline;
+}
+.universities-item {
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  width: 30%;
+  padding: 20px;
+  /* margin: 28px;  */
+  text-align: left;
+}
+.university-name {
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--main-bg-color);
+  font-weight: bold;
+}
+.yellow_text:hover {
+  color: #f9fbff;
+  text-decoration-line: underline;
+}
+
+.bg-yellow {
+  background-color: var(--yellow-color) !important;
+}
+.how-item {
+  margin: 10px;
+  width: 280px;
+  padding: 12px;
+  background: #ffffff;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+.circle-2x {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  background: #234182;
+  /* padding: 2px 8px 3px 8px; */
+  margin-right: 8px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.opacity-25 {
+  opacity: 0.25;
+}
+.opacity-5 {
+  opacity: 0.5;
+}
+.opacity-75 {
+  opacity: 0.75;
+}
+
+.mflex-item {
+  /* background: white; */
+  padding: 5px;
+  width: 280px;
+  /* height: 150px; */
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+.aim-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.card-item {
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  width: 100%;
+  padding: 20px;
+  /* margin: 28px;  */
+  text-align: left;
+}
+.rows {
+  display: flex;
+  margin: 10px 0 10px 0;
+  width: 100%;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+  width: 0;
+}
+.cell {
+  min-width: 50px;
+  padding: 10px;
+}
+.shifr {
+  width: 140px !important;
+}
+.napr {
+  width: 300px !important;
+}
+.oplata {
+  width: 100px !important;
+}
+.plan {
+  width: 90px !important;
+}
+.porog {
+  width: 200px !important;
+}
+.scrolling-wrapper {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /* white-space: nowrap; */
+  -webkit-overflow-scrolling: touch;
+}
+/* .scrolling-wrapper::-webkit-scrollbar {
+  display: none;
+} */
+
+.btn-group-vertical > a {
+  background-color: var(--main-bg-color);
+  color: white;
+}
+.btn-group-vertical > a:hover {
+  text-decoration: underline;
+  color: white;
+}
+.tn-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.sm-text {
+  font-weight: normal !important;
+  font-size: 16px;
+  line-height: 24px;
+}
+.font-20 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.md-text {
+  font-size: 24px;
+  line-height: 36px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.main {
+  padding: 16px;
+  background: #234182;
+  border-radius: 0px 0px 40px 40px;
+}
+.navbar {
+  padding: 0;
+}
+.mon {
+  color: white;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-start;
+}
+.mon:hover {
+  color: white;
+}
+.lang {
+  background: #4267b7;
+  border-radius: 4px;
+}
+.underline-link {
+  color: #4267b7;
+  text-decoration: underline;
+}
+.welcome {
+  padding: 100px 0 0 0;
+}
+.nav-link {
+  color: white;
+  margin: 0 15px;
+}
+#out:focus,
+.close:focus,
+.search_input:focus {
+  outline: none;
+  box-shadow: none;
+}
+*:focus {
+  outline: none;
+}
+#out:hover {
+  text-decoration-line: underline;
+}
+.nav-link:hover {
+  text-decoration-line: underline;
+  /* border-bottom: #fff 1px solid; */
+  color: white;
+}
+.title_text {
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 40px;
+}
+#search_input {
+  line-height: 40px;
+  border: none;
+}
+.btn:hover {
+  text-decoration-line: underline;
+}
+
+.welcome_text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 68px;
+  color: #ffffff;
+}
+.yellow-color {
+  background: var(--yellow-color);
+  border-radius: 4px;
+}
+.link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.map-vaucher {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-bottom: 20px;
+}
+.link-item {
+  margin: 25px 0px;
+  flex: none;
+  padding: 12px 32px;
+}
+.link-item > a {
+  color: #ffffff;
+}
+.link-item > a:hover {
+  color: #ffffff;
+  text-decoration-line: underline;
+}
+
+.tours {
+  margin-left: auto;
+}
+.tour-scrolling-wrapper {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  padding: 10px 0;
+}
+.tour-scrolling-wrapper::-webkit-scrollbar {
+  /* display: none; */
+}
+
+.tour-text {
+  color: #ffffff;
+}
+.tour-card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  /* width: 100%; */
+  height: 165px;
+  padding: 16px 40px 16px 16px;
+  display: inline-block;
+
+  margin-right: 22px;
+}
+.circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  background: #234182;
+  padding: 2px 8px 3px 8px;
+  margin-right: 8px;
+}
+.tour-card-text {
+  color: #fff;
+  margin: 4px 0 20px 0;
+}
+.tour-card-start {
+  color: #c8cfd5; /* #152953;*/
+  margin: 4px 0 4px 0;
+  font-size: 14px;
+}
+.tour-card-date {
+  font-weight: bold;
+  color: #fff;
+  margin: 4px 0 4px 0;
+}
+
+.tour-hr {
+  background: rgba(255, 255, 255, 0.3);
+  margin: 8px 0 8px 0;
+}
+
+/* documents */
+.document-section {
+  margin: 4% 10%;
+}
+.documents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row wrap;
+}
+.document_text {
+  font-weight: bold;
+  /* identical to box height, or 150% */
+  color: #234182;
+  margin-bottom: 20px;
+}
+
+.documents-img {
+  /* width: 30px; */
+  margin-bottom: 10px;
+}
+.documents-circle {
+  display: block;
+  width: 140px;
+  height: 140px;
+  -moz-border-radius: 70px;
+  -webkit-border-radius: 70px;
+  text-align: center;
+  background: #4267b7;
+}
+.documents-name {
+  margin-top: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  /* or 133% */
+  text-align: center;
+  color: #000000;
+}
+
+.norma {
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  width: 260px;
+  padding: 20px;
+  margin: 0 30px 30px 0;
+  height: 180px;
+}
+.norma-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 20px !important;
+  /* identical to box height, or 125% */
+
+  color: #234182;
+}
+.norma-text2 {
+  color: #000000;
+}
+
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+
+  /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  /*   background: white;*/
+  padding: 5px;
+  width: 180px;
+  /* height: 150px; */
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+footer {
+  background: #234182;
+  color: white;
+  padding: 2% 10%;
+}
+
+.site_link {
+  color: var(--main-bg-color);
+  background-color: white !important;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--main-bg-color) !important;
+}
+.big_blur_content {
+  width: 100%;
+  border: 0px;
+  background-color: white;
+  /* background-color: #005ea5 ;33b5e5; */
+  margin-top: 20px;
+  padding: 1rem;
+  text-align: center;
+  font: 1.5rem "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: var(--main-bg-color);
+}
+
+.faculty {
+  padding: 0.1rem !important;
+  font-weight: 500;
+  background-color: var(--header2-bg-color);
+  /*33b5e52e;*/
+  font-size: 15px;
+  vertical-align: middle !important;
+  border: 0px;
+}
+.faculty-user {
+  padding: 0.1rem !important;
+  font-weight: 500;
+  /* background-color: #caf0f8; */
+  /*33b5e52e;*/
+  font-size: 24px;
+  vertical-align: middle !important;
+}
+.university {
+  padding: 0.5rem !important;
+  font-weight: 700;
+  background-color: var(--university-bg-color);
+  /*33b5e5;*/
+  font-size: 16px;
+  vertical-align: middle !important;
+  border: 0px;
+}
+.text {
+  color: #ffffff;
+}
+#content {
+  min-height: 80vh;
+}
+.center_align {
+  margin: 0 auto;
+  width: 100%;
+}
+.zoom {
+  position: relative;
+}
+.zoom:hover {
+  transform: scale(
+    2
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  z-index: 1;
+}
+.zoom7:hover {
+  transform: scale(
+    6
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  z-index: 1;
+}
+.filter-link {
+  color: #000000 !important;
+  font-size: 16px;
+}
+.filter-link:hover {
+  color: #ef7f1a !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+.color-white {
+  color: white !important;
+}
+.color-blue {
+  color: var(--main-bg-color);
+}
+.blue-color {
+  color: var(--main-bg-color);
+}
+.link_border {
+  /* border: 2px solid #33b5e5; */
+  border: 2px solid var(--main-bg-color);
+  border-radius: 5px;
+}
+
+.media {
+  align-items: center;
+  justify-content: center;
+}
+
+input:invalid {
+  border: red solid 3px;
+}
+input:focus:invalid {
+  border: red solid 2px;
+}
+
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 10px;
+  /* Place the button at the bottom of the page */
+  right: 10px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: var(--secondary-bg-color);
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 16px;
+  /* Increase font size */
+}
+#myBtn:hover {
+  background-color: var(--main-bg-color);
+  /* Add a dark-grey background on hover */
+}
+table {
+  vertical-align: middle !important;
+}
+
+.header th {
+  vertical-align: middle !important;
+  text-align: center;
+  background-color: var(--main-bg-color);
+  /*33b5e5; 4BDAEC*/
+  font-weight: 500;
+  border: 0px;
+}
+.header2 th {
+  vertical-align: middle !important;
+  text-align: center;
+  background-color: var(--header2-bg-color);
+  /*33b5e5; 4BDAEC*/
+  font-weight: 500;
+  border: 0px;
+}
+
+#ReportTable td {
+  padding: 0.1rem 0.5rem !important;
+  vertical-align: middle !important;
+}
+
+tr:hover {
+  background-color: var(--tr-hover-bg-color) !important;
+}
+
+table tr td:nth-child(1),
+td:nth-child(4) {
+  text-align: center;
+}
+
+table tr td:nth-child(5) {
+  line-height: 1rem;
+  font-size: 0.85rem;
+}
+
+.logowrap {
+  vertical-align: middle;
+  display: inline-block;
+}
+.logo {
+  display: inline-block;
+
+  vertical-align: middle;
+
+  max-width: 100%;
+  border-radius: 15px 15px;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 7px;
+  cursor: pointer;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px #b9c3ce;
+  border-radius: 7px;
+  background: #b9c3ce;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f9fbff;
+  /* background: var(--main-bg-color); */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar {
+  justify-content: flex-start;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .universities-flex {
+    margin: 20px;
+  }
+  .universities-item {
+    width: 100% !important;
+    margin: 10px;
+  }
+  .mon {
+    justify-content: center;
+  }
+  .logowrap > img {
+    height: 30px;
+  }
+  .tour-text {
+    margin-top: 36px;
+  }
+  .md-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .flex-container {
+    justify-content: center;
+    align-items: stretch;
+    align-content: flex-start;
+  }
+  .flex-item {
+    width: 100%;
+  }
+
+  .document-section {
+    margin: 4%;
+  }
+  .document_text {
+    text-align: center;
+    line-height: 28px;
+    font-size: 20px;
+  }
+  .norma {
+    width: 100%;
+    margin: 15px 0 0 0;
+  }
+  .welcome_text {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .main {
+    padding: 3% 3% 28px 3%;
+    /* border-radius: 0px 0px 15px 15px; */
+  }
+  .link-item {
+    margin: 20px 0px;
+    padding: 12px 20px;
+  }
+  footer {
+    padding: 10% 5% 1% 5%;
+
+    text-align: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .universities-flex {
+    margin: 20px;
+  }
+  .universities-item {
+    width: 100% !important;
+    margin: 10px;
+  }
+  .main {
+    padding: 2% 8% 3% 8%;
+  }
+  .flex-container {
+    justify-content: center;
+    align-items: stretch;
+    align-content: flex-start;
+  }
+  .welcome_text {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  footer {
+    padding: 5% 5% 1% 5%;
+  }
+
+  .tours {
+    margin: auto;
+  }
+  .document-section {
+    margin: 4%;
+  }
+  .document_text {
+    text-align: center;
+    line-height: 28px;
+    font-size: 20px;
+  }
+  .norma {
+    width: 100%;
+    margin: 15px 0 0 0;
+  }
+  .md-text {
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .universities-flex {
+    justify-content: space-evenly;
+  }
+  .universities-item {
+    width: 45% !important;
+    margin: 10px;
+  }
+  .main {
+    padding: 2% 8% 3% 8%;
+  }
+  .welcome_text {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .tour-card {
+    padding: 16px 60px 16px 16px;
+  }
+  .md-text {
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+  }
+}
+@media screen and (max-width: 992px) {
+  .universities-item {
+    width: 30%;
+  }
+  #search_input {
+    width: 100% !important;
+  }
+  .search {
+    margin-bottom: 40px !important;
+  }
+
+  .overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    opacity: 1;
+  }
+  li.yellow-color {
+    background-color: #ffffff;
+    color: #ef7f1a;
+    margin: 20px 16px;
+  }
+  .yellow-color > .nav-link {
+    color: #ef7f1a;
+  }
+  .navbar-collapse.collapsing .navbar-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    transition: all 0.2s ease;
+  }
+
+  .navbar-collapse.show .navbar-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    flex-direction: column;
+    height: auto;
+    width: 300px;
+    transition: all 0.5s ease;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #ef7f1a;
+    /* color: #234182; */
+    z-index: 10;
+  }
+
+  button.close {
+    padding: 16px;
+    color: #234182;
+    opacity: 1 !important;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .universities-item {
+    width: 30% !important;
+    margin: 15px;
+  }
+
+  .search {
+    max-width: 50%;
+  }
+  #search_input {
+    width: 70% !important;
+  }
+  #university-mobile {
+    display: none;
+  }
+
+  .main {
+    padding: 16px;
+  }
+
+  .tours {
+    margin-left: auto;
+  }
+  .flex-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+  .document_text {
+    text-align: left;
+    line-height: 36px;
+    font-size: 24px;
+  }
+  .norma {
+    width: 43%;
+    margin-right: 30px;
+    margin-top: 30px;
+  }
+  .tour-card {
+    padding: 16px;
+  }
+  .welcome_text {
+    font-size: 48px;
+    line-height: 68px;
+  }
+  footer {
+    padding: 16px 5% 16px 5%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .universities-flex {
+    justify-content: space-around;
+    margin-left: 0;
+    /*  margin-block-start: 0px;
+
+    padding-inline-start: 0px;
+ 
+  padding-left:0;
+  */
+  }
+  .universities-item {
+    margin-left: 0;
+  }
+
+  .content {
+    max-width: 1220px;
+    margin: auto;
+  }
+  .tours-container {
+    /* margin-top: 0;
+    display: flex;
+    justify-content: flex-end; */
+  }
+  .tours {
+    margin-top: 0;
+
+    margin-left: auto;
+    margin-right: 0;
+    /* margin-left: 5px; */
+  }
+  .tour-card {
+    padding: 16px 50px 16px 16px;
+  }
+}

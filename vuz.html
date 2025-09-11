@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<!-- Mirrored from 2020.edu.gov.kg/vuz by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Jul 2025 17:18:08 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8" lang="ru"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <link rel="icon" href="img/icon2.png" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="icon-192x192.png">
+  <meta name="keywords" content="Абитуриент Онлайн, поступление в ВУЗы Кыргызстана, Туры,Выбор ВУЗа,ОРТ,ЖРТ">
+  <meta name="description" content="Главная">
+  <meta name="theme-color" content="#234182"/>
+  <link rel="manifest" href="manifest.webmanifest">
+  <title>Абитуриент Онлайн | Главная</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" />
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="stylesheets/style.css" />
+
+  <link rel=" stylesheet" href="fontawesome/css/all.min.css" />
+    <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172178108-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-172178108-1');
+</script>
+
+
+</head>
+
+
+
+
+
+
+
+
+<body>
+    <button hidden class="pwa">Установить приложение On-Line Абитуриент</button>
+    <div id="menu"></div>
+    <script>
+      if (navigator.serviceWorker) {
+        //console.log("sw Рабатает УРА!!!");
+        navigator.serviceWorker.register(`./sw.js`).then((response) => {
+        //console.log("response", response);
+        })
+      } else {
+        console.log("sw not worked!!!");
+      }
+      window.process = { env: { NODE_ENV: 'production' } };
+
+      window.addEventListener('beforeinstallprompt', event => {
+          event.preventDefault();
+          var button = document.querySelector('button');
+          button.removeAttribute('hidden');
+          setTimeout(getMessage(), 20000);
+          button.addEventListener('click', () => {
+            event.prompt();
+            button.setAttribute('disabled', true);
+            button.style.visibility="hidden"
+          });
+        });
+
+   
+
+   function getMessage() {
+      Notification.requestPermission(function(result) {
+        if (result === 'granted') {
+          navigator.serviceWorker.ready.then(function(registration) {
+            registration.showNotification('Установите Абитуриент Онлайн', {
+              body: 'Вы можете установить приложение на Вашем устройстве.',
+              icon: '/icon-192x192.png',
+              vibrate: [200, 100, 200, 100, 200, 100, 200],
+              tag: 'Абитуриент Онлайн'
+            });
+          });
+        }
+      });
+   }
+</script>
+
+
+
+
+
+
+
+    <div class="overlay" id="overlay"></div>
+
+ <!-- main  -->
+    <div class="main" style="overflow: hidden;">
+        <div class="content">
+            <!--Navbar -->
+            <nav class="navbar shadow-none navbar-expand-lg">
+                <!--img src="/img/gerb.png" alt="logo" class="img-fluid animated fadeIn logo_navbar" /-->
+                <a class="nav-link sm-text p-0" href="vuz.html">
+                    <div class="logowrap  animated fadeIn">
+                        <img class="logo" height="45" src="img/logo2.png" alt="logo">
+                    </div>
+                </a>
+                <a class="nav-link sm-text mx-3 lang  animated fadeIn"  onclick="language('kg')" href="https://2020.edu.gov.kg/kg">Кырг</a>
+                <button onclick="openNav()" class="navbar-toggler" style="margin-left: auto;" type="button"
+                    data-toggle="collapse" data-target="#navbarSupportedContent-4"
+                    aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="20" height="2" fill="#EF7F1A" />
+                        <rect y="8" width="20" height="2" fill="white" />
+                        <rect y="16" width="20" height="2" fill="#EF7F1A" />
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="d-inline d-lg-none">
+                            <a class="nav-link sm-text animated fadeIn" href="vuz.html">
+                                <div class="logowrap animated fadeIn">
+                                    <img class="logo" height="40" src="img/logo2.png" alt="logo">
+                                </div>
+                            </a>
+                            <button onclick="closeNav()" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+                                class="close float-right  animated fadeIn">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="#234182"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 18.1818L18.1818 0L20 1.81818L1.81818 20L0 18.1818Z" fill="#234182" />
+                                    <path d="M0 1.81818L1.81818 0L20 18.1818L18.1818 20L0 1.81818Z" fill="#234182" />
+                                </svg>
+                            </button>
+                        </li>
+                        <li class="nav-item  animated fadeIn">
+
+                            <a class="nav-link sm-text" href="vuz.html">
+                                Главная
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item  animated fadeIn">
+                            <a class="nav-link sm-text" href="universities.html">Вузы</a>
+                        </li>
+                        <li class="nav-item  animated fadeIn">
+                            <a class="nav-link sm-text" href="statistics.html"> Открытые данные</a>
+                        </li>
+                        <li class="nav-item  animated fadeIn">
+                            <a class="nav-link sm-text" href="faqs.html"> Вопросы/ответы</a>
+                        </li>
+
+                        <li class="nav-item mx-md-2 yellow-color  animated fadeIn">
+                            <a class="nav-link sm-text" title="Войти" 
+                            href="personalcabinet/index.html#enrollee"> <i class="fa fa-sign-in-alt"></i>&nbsp;Войти </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+
+<div class="modal fade my-5"  id="LoginModal" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <div class="p-2 m-2 md-text">
+        Пользователи
+            <button  data-toggle="modal" data-target="#LoginModal"
+                                class="close float-right p-0 animated fadeIn">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="#234182"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 18.1818L18.1818 0L20 1.81818L1.81818 20L0 18.1818Z" fill="#234182" />
+                                    <path d="M0 1.81818L1.81818 0L20 18.1818L18.1818 20L0 1.81818Z" fill="#234182" />
+                                </svg>
+            </button>
+      </div>
+      <div class="mb-3 mx-3 mt-1 text-center btn-group-vertical">
+           <a class="btn rounded sm-text"  href="personalcabinet/index.html#enrollee">  Абитуриент</a>
+           <a class="btn rounded sm-text"  href="authform.html">  Школа (директор)</a>
+        </div>
+    </div>
+  </div>
+</div>
+            <!--/.Navbar -->
+            <div class="welcome">
+
+                <div class="row">
+                    <div class="col-lg-6  animated fadeIn">
+                        <div class="welcome_text">
+                           Добро пожаловать, абитуриент -  2025! 
+                        </div>
+                        <div class="link" style="align-items: start;">
+                            <div class="link-item yellow-color  sm-text">
+                                <a href="personalcabinet/index.html#enrollee">Вход</a>
+                            </div>
+                            <div class="link-item sm-text">
+                                <a href="https://2020.edu.gov.kg/auth"> Регистрация</a>
+                            </div>
+                            <div class="link-item sm-text pl-0">
+                                <a href="universities.html"> Все вузы</a>
+                            </div>
+                        </div>
+                        <div class="map-vaucher">
+                             <div class="sm-text">
+                                    <a href="https://2020.edu.gov.kg/vuz/vaucher/main" class="color-white" style="border:rgb(255, 255, 255) 1px solid; border-radius: 4px; padding: 10px 22.5px;">
+                                        Ваучер
+                                    </a>
+                            </div>
+                            <div class="sm-text"  style="margin-left: 25px" >
+                                    <a href="https://2020.edu.gov.kg/map/universities" class="color-white" style="border:rgb(255, 255, 255) 1px solid; border-radius: 4px; padding: 10px;"> 
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 256 256">
+                                        <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
+                                        	<path d="M 45 90 c -1.415 0 -2.725 -0.748 -3.444 -1.966 l -4.385 -7.417 C 28.167 65.396 19.664 51.02 16.759 45.189 c -2.112 -4.331 -3.175 -8.955 -3.175 -13.773 C 13.584 14.093 27.677 0 45 0 c 17.323 0 31.416 14.093 31.416 31.416 c 0 4.815 -1.063 9.438 -3.157 13.741 c -0.025 0.052 -0.053 0.104 -0.08 0.155 c -2.961 5.909 -11.41 20.193 -20.353 35.309 l -4.382 7.413 C 47.725 89.252 46.415 90 45 90 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                        	<path d="M 45 45.678 c -8.474 0 -15.369 -6.894 -15.369 -15.368 S 36.526 14.941 45 14.941 c 8.474 0 15.368 6.895 15.368 15.369 S 53.474 45.678 45 45.678 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #234182; fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                                        </g>
+                                        </svg> 
+                                    Карта вузов
+                                    </a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 tours-container  animated fadeIn">
+                        <div class="tours">
+                            <p class="tour-text text-center md-text">
+            Сроки проведения туров отбора абитуриентов в ВУЗы на 2025-2026 учебный год
+             </p>
+                            <div class="tour-scrolling-wrapper">
+                                <div class="tour-card">
+                                    <div class="tour-card-text sm-text"><span class="circle sm-text">1</span>тур</div>
+                                    <p class="tour-card-start tn-text">Начало</p>
+                                    <p class="tour-card-date tn-text">14.07.2025, &nbsp; 09:00</p>
+                                    <hr class="tour-hr">
+                                    <p class="tour-card-start tn-text">Завершение</p>
+                                    <p class="tour-card-date tn-text">16.07.2025,   &nbsp;14:00</p>
+                                </div>
+                                <div class="tour-card">
+                                    <div class="tour-card-text sm-text"><span class="circle sm-text">2</span>тур</div>
+                                    <p class="tour-card-start tn-text">Начало</p>
+                                    <p class="tour-card-date tn-text">21.07.2025,  &nbsp;09:00</p>
+                                    <hr class="tour-hr">
+                                    <p class="tour-card-start tn-text">Завершение</p>
+                                    <p class="tour-card-date tn-text">23.07.2025,   &nbsp;14:00</p>
+                                </div>
+                                <div class="tour-card">
+                                    <div class="tour-card-text sm-text"><span class="circle sm-text">3</span>тур</div>
+                                    <p class="tour-card-start tn-text">Начало</p>
+                                    <p class="tour-card-date tn-text">28.07.2025,   &nbsp;09:00</p>
+                                    <hr class="tour-hr">
+                                    <p class="tour-card-start tn-text">Завершение</p>
+                                    <p class="tour-card-date tn-text">30.07.2025,   &nbsp;14:00</p>
+                                </div>
+                                <div class="tour-card">
+                                    <div class="tour-card-text sm-text"><span class="circle sm-text">4</span>тур</div>
+                                    <p class="tour-card-start tn-text">Начало</p>
+                                    <p class="tour-card-date tn-text">04.08.2025,   &nbsp;09:00</p>
+                                    <hr class="tour-hr">
+                                    <p class="tour-card-start tn-text">Завершение</p>
+                                    <p class="tour-card-date tn-text">06.08.2025,   &nbsp;14:00</p>
+                                </div>
+                                
+                               <div class="tour-card">
+                                    <div class="tour-card-text sm-text"><span class="circle sm-text">5</span>тур</div>
+                                    <p class="tour-card-start tn-text">Начало</p>
+                                    <p class="tour-card-date tn-text">11.08.2025,   &nbsp;09:00</p>
+                                    <hr class="tour-hr">
+                                    <p class="tour-card-start tn-text">Завершение</p>
+                                    <p class="tour-card-date tn-text">13.08.2025,   &nbsp;14:00</p>
+                                </div>
+                               
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!-- end main -->
+
+   
+
+
+
+
+  
+
+
+
+  <!--/.Navbar -->
+  <div class="content">
+    <ul class="d-flex flex-wrap  justify-content-center  mt-3" style="list-style-type: none;padding-inline-start:0;">
+        <li class="how-item" style="width: 100%;">
+            <div class="row">
+                <div class="col-12">
+                  <div style="display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;">   <div class="" style="
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    background: var(--orange);
+    margin-right: 8px;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 40px;
+">!</div>
+<span class="university-name" style="color: var(--orange);">Уважаемые заявители</span></div>
+                    <p class="mb-0">Мы рекомендуем завершить процесс регистрации, не дожидаясь последних минут, чтобы избежать возможные проблемы с загрузкой при регистрации в информационной системе.
+Обратите внимание, что если в последние минуты приема заявок возникнут технические трудности, ответственность за своевременную подачу заявки ложится на заявителя.</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div class="content">
+  <ul class="d-flex flex-wrap justify-content-center mt-3" style="list-style-type: none; padding-inline-start: 0;">
+    <li class="how-item" style="width: 100%;">
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex align-items-center">
+            <div style="
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              background: var(--orange);
+              color: #fff;
+              font-weight: 900;
+              font-size: 30px;
+              line-height: 40px;
+              text-align: center;
+              margin-right: 10px;
+            ">!</div>
+            <span class="university-name" style="color: var(--orange); font-weight: 600;">
+              По педагогическим специальностям бюджетная форма обучения не предусмотрена
+            </span>
+          </div>
+          <p class="mt-2" style="font-size: 16px;">
+            Доступны только <strong>ваучерная</strong> или <strong>контрактная</strong> форма обучения
+          </p>
+          <p class="" style="color: var(--orange);">Начало: 14.07.2025 09:00</p>
+          <p class="" style="color: var(--orange);">Завершение: 19.07.2025 17:00</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+
+<div class="content">
+    <ul class="d-flex flex-wrap  justify-content-center  mt-3" style="list-style-type: none;padding-inline-start:0;">
+
+        <li class="how-item">
+            <div class="row">
+                <div class="col-3">
+                    <div class="circle-2x opacity-25">1</div>
+                </div>
+                <div class="col">
+                    <p class="university-name">Регистрация</p>
+                    <p class="tn-text  mb-0">Абитуриенту необходимо пройти процесс регистрации заполнив информацию в профиле. </p>
+                </div>
+            </div>
+        </li>
+        <li class="how-item">
+            <div class="row">
+                <div class="col-3">
+                    <div class="circle-2x opacity-5">2</div>
+                </div>
+                <div class="col">
+                    <p class="university-name">Выбор вуза</p>
+                    <p class="tn-text mb-0">В списке указанных вузов определиться с направлением и специализацией.
+                    </p>
+                </div>
+            </div>
+        </li>
+        <li class="how-item">
+            <div class="row">
+                <div class="col-3">
+                    <div class="circle-2x opacity-75">3</div>
+                </div>
+                <div class="col">
+                    <p class="university-name">Подача заявки</p>
+                    <p class="tn-text  mb-0">Выбрать вуз, направление и подать электронный талон ОРТ.</p>
+                </div>
+            </div>
+        </li>
+        <li class="how-item">
+            <div class="row">
+                <div class="col-3">
+                    <div class="circle-2x">4</div>
+                </div>
+                <div class="col">
+                    <p class="university-name">Зачисление</p>
+                    <p class="tn-text  mb-0">После рекомендации вуза подтвердить свое желание обучаться по выбранной специальности.</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+
+
+
+</div>
+
+
+<div class="document-section">
+    <div class="content">
+        <div class="document_text">
+            Инструкция для абитуриента
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div style="display: flex; width: 100%; flex-wrap: wrap; justify-content: center;">
+                <div class="my-1 mx-3 text-center embed-responsive embed-responsive-16by9 border-r8"
+                    style="max-width: 350px;">
+                    <iframe width="336" height="189" src="https://www.youtube.com/embed/DkvdY0VjlRI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                 <div class="my-1 mx-3 text-center embed-responsive embed-responsive-16by9 border-r8"
+                    style="max-width: 350px;">
+                    <iframe width="336" height="189" src=https://www.youtube.com/embed/t-pS1Y0ejcY?si=INvjvQuGWPWG9QhM
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="my-1 mx-3 text-center embed-responsive embed-responsive-16by9 border-r8"
+                    style="max-width: 350px;">
+                    <iframe width="336" height="189" src=https://www.youtube.com/embed/9hWSJA7dGGM?si=_A-gbTIiAvlsD4eD
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                       
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="document-section mt-5">
+
+
+    <div class="content">
+        <div class="document_text">
+            Цели
+        </div>
+
+
+        <div class="row justify-content-center">
+            <ul class="flex-container justify-content-center">
+                <li class="mflex-item">
+
+                    <div class="documents-circle bg-yellow mx-auto">
+                        <img class="documents-img" src="https://2020.edu.gov.kg/img/Smart phone-Graduation-Pencils-Wifi-learning.svg" alt="1">
+                    </div>
+                    <div class="aim-text pt-2">
+                        Обеспечение абитуриентов возможностью подачи заявления на участие в конкурсе на зачисление в вузы КР в электронной форме.
+                    </div>
+
+                </li>
+                <li class="mflex-item">
+                    <div class="documents-circle bg-yellow mx-auto">
+                        <img class="documents-img" src="https://2020.edu.gov.kg/img/Keyboard-Serch-Graduation-Online Education-learning.svg"
+                            alt="2">
+                    </div>
+
+                    <div class="aim-text pt-2">
+                        Автоматизация учета талонов сертификата ОРТ, а также распределение и создание списков абитуриентов, рекомендованных к зачислению. </div>
+                </li>
+                <li class="mflex-item">
+                    <div class="documents-circle bg-yellow mx-auto">
+                        <img class="documents-img" src="https://2020.edu.gov.kg/img/Graduation-Headeset-Man-Online learning-Education.svg"
+                            alt="passport">
+                    </div>
+
+                    <div class="aim-text pt-2">
+                        Оптимизация работы приемной комиссии вузов для повышения качества и прозрачности зачисления абитуриентов в вузы КР.
+                    </div>
+                </li>
+                <li class="mflex-item">
+                    <div class="documents-circle bg-yellow mx-auto">
+                        <img class="documents-img" src="https://2020.edu.gov.kg/img/Microscope-Educatio online-school-Observation-Computer.svg"
+                            alt="Автоматизация процессов предоставления необходимых документов для зачисления (через СМЭВ "Тундук") ">
+                        </div>
+                        <div class=" aim-text pt-2">
+                        Автоматизация процессов предоставления необходимых документов для зачисления (через СМЭВ "Тундук")
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="document-section">
+    <div class="content">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="document_text">
+                    Документы необходимые для поступления
+                </div>
+
+                <ul class="flex-container">
+                    <li class="flex-item">
+                        <div class="documents-circle mx-auto">
+                            <svg style="margin-bottom:10px" width="50" height="60" viewBox="0 0 50 60" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M47.8391 21.2736H49.6074V23.0419H47.8391V21.2736Z" fill="white" />
+                                <path
+                                    d="M46.9549 7.94334H40.6668V2.65246C40.6668 1.18995 39.4768 0 38.0143 0H35.3794H26.7099H3.04504C1.58253 0 0.392578 1.18995 0.392578 2.65246V49.4041C0.392578 50.8666 1.58253 52.0565 3.04504 52.0565H9.33313V57.3475C9.33313 58.81 10.5231 60 11.9856 60H46.955C48.4175 60 49.6075 58.81 49.6075 57.3475V26.5784V24.8101H47.8392V26.5784V57.3475C47.8392 57.8351 47.4426 58.2317 46.955 58.2317H16.9957V52.0565H38.0143C39.4768 52.0565 40.6668 50.8666 40.6668 49.4041V9.71165H46.9549C47.4425 9.71165 47.839 10.1082 47.839 10.5958V19.3906V19.5053H49.6073V19.3906V10.5958C49.6073 9.13329 48.4175 7.94334 46.9549 7.94334ZM33.6113 1.7683V11.5459L31.0447 10.3184L28.4783 11.5459V1.7683H33.6113ZM15.2274 58.2317H11.9855C11.4979 58.2317 11.1013 57.8351 11.1013 57.3475V52.0565H15.2274V58.2317ZM38.8985 49.4041C38.8985 49.8917 38.5019 50.2882 38.0143 50.2882H8.05523V15.9007H6.28693V50.2882H3.04504C2.55746 50.2882 2.16088 49.8917 2.16088 49.4041V2.65246C2.16088 2.16488 2.55746 1.7683 3.04504 1.7683H6.28693V10.5958H8.05523V1.7683H26.71V14.3519L31.0449 12.2785L35.3797 14.3519V1.7683H38.0146C38.5022 1.7683 38.8987 2.16488 38.8987 2.65246V7.94334V49.4041H38.8985Z"
+                                    fill="white" />
+                                <path d="M6.28687 12.3641H8.05517V14.1324H6.28687V12.3641Z" fill="white" />
+                                <path
+                                    d="M23.1231 17.9545C18.0212 17.9545 13.8704 22.1053 13.8704 27.2072C13.8704 29.408 14.6441 31.4308 15.932 33.0209V33.0471H15.9526C17.6506 35.1281 20.2339 36.4599 23.1231 36.4599C28.225 36.4599 32.3758 32.3091 32.3758 27.2072C32.3758 22.1053 28.225 17.9545 23.1231 17.9545ZM21.8583 27.9779V31.2788H18.9111V27.9779H21.8583ZM18.9111 26.2096V23.2386L21.8583 23.2125V26.2096H18.9111ZM23.6266 27.9779H26.9274V31.2788H23.6266V27.9779ZM23.6266 26.2096V23.1968L26.9274 23.1674V26.2095H23.6266V26.2096ZM26.9274 21.399L23.6266 21.4284V19.7415C24.8256 19.8216 25.9479 20.1847 26.9274 20.7654V21.399ZM21.8583 21.444L18.9111 21.4702V21.0242C19.7802 20.4303 20.7803 20.0161 21.8583 19.8318V21.444ZM16.7696 23.2577L17.1428 23.2544V26.2096H15.7072C15.8506 25.1377 16.2209 24.1371 16.7696 23.2577ZM17.1428 27.9779V31.2788H16.8479C16.2168 30.3093 15.8024 29.1863 15.6782 27.9779H17.1428ZM18.9111 33.0471H21.8583V34.5825C20.7803 34.3982 19.7802 33.9839 18.9111 33.3901V33.0471ZM23.6266 33.0471H26.9274V33.649C25.9479 34.2297 24.8256 34.5927 23.6266 34.6728V33.0471ZM28.6957 31.2788V27.9779H30.568C30.4438 29.1863 30.0295 30.3093 29.3982 31.2788H28.6957ZM28.6957 26.2096V23.1518L29.4047 23.1455C29.9926 24.0516 30.3895 25.0917 30.5391 26.2096H28.6957Z"
+                                    fill="white" />
+                                <path d="M43.865 46.7706H45.6333V48.5389H43.865V46.7706Z" fill="white" />
+                                <path d="M43.865 50.3071H45.6333V52.0754H43.865V50.3071Z" fill="white" />
+                                <path d="M43.865 53.8438H45.6333V55.6121H43.865V53.8438Z" fill="white" />
+                            </svg>
+                        </div>
+                        <div class="documents-name">Паспорт или свидетельство о рождении</div>
+                    </li>
+                    <li class="flex-item">
+                        <div class="documents-circle mx-auto">
+                            <svg style="margin-bottom:10px" width="40" height="60" viewBox="0 0 40 60" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M39.692 11.7366C39.6915 11.7238 39.6911 11.7109 39.6902 11.6981C39.6865 11.6473 39.6815 11.5974 39.6714 11.548C39.6714 11.548 39.6714 11.548 39.6714 11.5475C39.6613 11.4981 39.6471 11.4491 39.6311 11.4015C39.627 11.3896 39.6229 11.3777 39.6183 11.3658C39.6014 11.3205 39.5821 11.2761 39.5602 11.233C39.5588 11.2308 39.5579 11.2285 39.5565 11.2262C39.5327 11.1813 39.5052 11.1387 39.4755 11.0971C39.4682 11.0866 39.4604 11.0765 39.4526 11.066C39.421 11.0248 39.388 10.9849 39.351 10.9479L28.7464 0.343322C28.7094 0.306243 28.6695 0.273284 28.6283 0.241699C28.6178 0.233917 28.6073 0.225677 28.5967 0.218353C28.5551 0.188598 28.513 0.161132 28.4686 0.137787C28.4654 0.135956 28.4622 0.13504 28.4594 0.133209C28.4173 0.111236 28.3734 0.092468 28.329 0.0755308C28.3166 0.0709533 28.3047 0.0668333 28.2919 0.0627135C28.2443 0.0466919 28.1962 0.0325012 28.1463 0.0224303C28.1459 0.0224303 28.1454 0.0224303 28.1454 0.0224303C28.0964 0.0128174 28.0465 0.0073242 27.9962 0.0036621C27.9833 0.00320435 27.9705 0.00228881 27.9577 0.00183105C27.9444 0.00137329 27.9312 0 27.9179 0H1.36719C0.719909 0 0.195312 0.524596 0.195312 1.17187V51.3308C0.195312 51.978 0.719909 52.5026 1.36719 52.5026H19.0103V58.828C19.0103 59.2542 19.2419 59.6469 19.615 59.8534C19.9885 60.0598 20.444 60.0475 20.8052 59.8209L25.2684 57.0208L29.7315 59.8209C29.9215 59.9399 30.138 59.9999 30.3546 59.9999C30.5496 59.9999 30.745 59.9514 30.9217 59.8539C31.2948 59.6474 31.5264 59.2546 31.5264 58.828V52.5026H38.522C39.1692 52.5026 39.6938 51.978 39.6938 51.3308V11.7764C39.6938 11.7631 39.6925 11.7499 39.692 11.7366ZM29.0898 4.0013L35.693 10.6045H29.0898V4.0013ZM18.4321 36.1958C18.3497 35.9719 18.2156 35.6062 18.2124 35.4565C18.304 35.3429 18.6216 35.142 18.8162 35.0193C19.2337 34.7556 19.707 34.4563 20.0503 33.9884C20.3968 33.5156 20.5378 32.9694 20.6623 32.4879C20.7168 32.2773 20.8047 31.9372 20.8798 31.8086C20.921 31.7999 21.0075 31.7875 21.17 31.7875C21.3005 31.7875 21.4465 31.7948 21.6012 31.8026C21.7788 31.8113 21.9619 31.8205 22.1533 31.8205C22.5753 31.8205 22.9159 31.7729 23.2249 31.6699C23.7646 31.4904 24.1963 31.143 24.5771 30.8363C24.7877 30.6669 25.1402 30.3831 25.2629 30.3657C25.397 30.3831 25.749 30.6669 25.9596 30.8363C26.3404 31.143 26.7726 31.4904 27.3123 31.6699C27.6213 31.7729 27.9614 31.8205 28.3839 31.8205C28.5748 31.8205 28.7583 31.8113 28.9355 31.8026C29.0902 31.7948 29.2362 31.7875 29.3672 31.7875C29.5297 31.7875 29.6157 31.7994 29.6574 31.8086C29.7325 31.9372 29.8203 32.2773 29.8744 32.4879C29.9989 32.9694 30.1403 33.5156 30.4869 33.9884C30.8297 34.4563 31.303 34.7552 31.721 35.0193C31.9151 35.1424 32.2328 35.3429 32.3243 35.4565C32.3211 35.6062 32.187 35.9719 32.105 36.1958C31.9306 36.6705 31.7333 37.2088 31.7333 37.8053C31.7333 38.4017 31.9306 38.94 32.1046 39.4152C32.187 39.6391 32.3211 40.0048 32.3243 40.1545C32.2328 40.268 31.9151 40.4685 31.721 40.5917C31.303 40.8553 30.8297 41.1547 30.4869 41.6225C30.1403 42.0954 29.9989 42.6415 29.8744 43.1231C29.8203 43.3332 29.732 43.6738 29.6574 43.8024C29.6157 43.8111 29.5297 43.8235 29.3672 43.8235C29.2362 43.8235 29.0902 43.8161 28.9355 43.8084C28.7583 43.7997 28.5748 43.7905 28.3839 43.7905C27.9614 43.7905 27.6213 43.8381 27.3123 43.9411C26.7726 44.1205 26.3404 44.4684 25.9596 44.7747C25.7522 44.9422 25.4061 45.2201 25.2684 45.2448C25.1306 45.2201 24.785 44.9422 24.5776 44.7747C24.1963 44.4684 23.7646 44.1205 23.2249 43.9411C22.9159 43.8381 22.5753 43.7905 22.1533 43.7905C21.9624 43.7905 21.7788 43.7997 21.6012 43.8084C21.447 43.8161 21.3009 43.8235 21.17 43.8235C21.0075 43.8235 20.9214 43.8111 20.8798 43.8024C20.8047 43.6738 20.7168 43.3337 20.6623 43.1231C20.5383 42.6415 20.3968 42.0954 20.0503 41.6225C19.7075 41.1547 19.2341 40.8553 18.8162 40.5917C18.6221 40.469 18.3044 40.268 18.2129 40.1545C18.2161 40.0053 18.3502 39.6391 18.4321 39.4152C18.6065 38.9405 18.8038 38.4022 18.8038 37.8057C18.8038 37.2088 18.6061 36.6705 18.4321 36.1958ZM29.1827 56.7095L25.8914 54.6445C25.5105 54.406 25.0262 54.406 24.6453 54.6445L21.354 56.7095V46.1635C21.4785 46.1599 21.6008 46.1553 21.7193 46.1494C21.8745 46.1411 22.021 46.1338 22.1533 46.1338C22.3611 46.1338 22.4499 46.153 22.4842 46.1645C22.6239 46.2112 22.8921 46.4272 23.1077 46.6007C23.6547 47.0411 24.3354 47.589 25.2684 47.589C26.2013 47.589 26.882 47.0411 27.429 46.6007C27.6446 46.4272 27.9128 46.2112 28.052 46.1649C28.0868 46.1535 28.1756 46.1342 28.3834 46.1342C28.5157 46.1342 28.6622 46.1416 28.8174 46.1494C28.9359 46.1553 29.0582 46.1603 29.1822 46.1635V56.7095H29.1827ZM31.5264 50.1589V45.2192C31.8748 44.7459 32.0204 44.1856 32.1435 43.7095C32.208 43.4595 32.2964 43.1176 32.377 43.0082C32.4571 42.8983 32.7551 42.7102 32.9725 42.5729C33.5493 42.2085 34.2671 41.7548 34.5522 40.897C34.8342 40.0506 34.5408 39.2509 34.305 38.6082C34.1979 38.3166 34.0766 37.9856 34.0766 37.8053C34.0766 37.6249 34.1979 37.2944 34.305 37.0028C34.5408 36.3601 34.8342 35.5599 34.5522 34.7135C34.2671 33.8561 33.5493 33.4025 32.9725 33.0381C32.7551 32.9008 32.4571 32.7122 32.377 32.6032C32.2964 32.4934 32.208 32.1514 32.1435 31.9015C31.975 31.2492 31.7654 30.4371 31.0476 29.9107C30.4763 29.4923 29.8149 29.4438 29.3667 29.4438C29.1772 29.4438 28.9941 29.4529 28.8174 29.4621C28.6622 29.4699 28.5157 29.4772 28.3839 29.4772C28.1756 29.4772 28.0868 29.458 28.0525 29.4465C27.9133 29.4003 27.6451 29.1842 27.4295 29.0103C26.882 28.5703 26.2013 28.0224 25.2684 28.0224C24.3359 28.0224 23.6547 28.5703 23.1077 29.0103C22.8921 29.1838 22.6239 29.4003 22.4847 29.4465C22.4504 29.458 22.3611 29.4772 22.1533 29.4772C22.0214 29.4772 21.8745 29.4699 21.7193 29.4616C21.5426 29.4529 21.36 29.4438 21.17 29.4438C20.7223 29.4438 20.0608 29.4923 19.49 29.9107C18.7718 30.4371 18.5617 31.2492 18.3932 31.9015C18.3287 32.1514 18.2403 32.4934 18.1602 32.6028C18.0796 32.7122 17.7816 32.9008 17.5642 33.0381C16.9874 33.4025 16.2701 33.8561 15.9845 34.7135C15.7025 35.5604 15.9959 36.3601 16.2317 37.0028C16.3388 37.2944 16.4601 37.6249 16.4601 37.8053C16.4601 37.9856 16.3388 38.3166 16.2317 38.6082C15.9959 39.2509 15.7025 40.0506 15.9845 40.8974C16.2701 41.7548 16.9879 42.2085 17.5642 42.5729C17.7821 42.7102 18.0796 42.8988 18.1602 43.0082C18.2403 43.1176 18.3287 43.4595 18.3932 43.7095C18.5164 44.1856 18.6624 44.7463 19.0107 45.2192V50.1589H2.53906V2.34375H26.746V11.7764C26.746 12.4237 27.2706 12.9483 27.9179 12.9483H37.3501V50.1589H31.5264Z"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M7.09326 12.9482H22.1912C22.838 12.9482 23.3631 12.4236 23.3631 11.7764C23.3631 11.1291 22.838 10.6045 22.1912 10.6045H7.09326C6.44598 10.6045 5.92139 11.1291 5.92139 11.7764C5.92139 12.4236 6.44644 12.9482 7.09326 12.9482Z"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M32.9267 16.5198H7.09326C6.44598 16.5198 5.92139 17.0444 5.92139 17.6917C5.92139 18.3389 6.44598 18.8635 7.09326 18.8635H32.9267C33.574 18.8635 34.0986 18.3389 34.0986 17.6917C34.0986 17.0444 33.574 16.5198 32.9267 16.5198Z"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M28.2392 22.4351H7.09326C6.44598 22.4351 5.92139 22.9601 5.92139 23.6069C5.92139 24.2542 6.44598 24.7788 7.09326 24.7788H28.2392C28.8865 24.7788 29.4111 24.2542 29.4111 23.6069C29.4111 22.9601 28.8865 22.4351 28.2392 22.4351Z"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M32.9268 22.4351C32.2813 22.4351 31.7549 22.9615 31.7549 23.6069C31.7549 24.2524 32.2813 24.7788 32.9268 24.7788C33.5727 24.7788 34.0986 24.2524 34.0986 23.6069C34.0986 22.9615 33.5727 22.4351 32.9268 22.4351Z"
+                                    fill="white" />
+                            </svg>
+
+                        </div>
+                        <div class="documents-name">Аттестат или диплом о среднем профессиональном образовании</div>
+                    </li>
+                    <li class="flex-item">
+                        <div class="documents-circle mx-auto">
+                            <svg style="margin-bottom:10px" width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M58.7643 0H1.23577C0.688007 0 0.243896 0.44411 0.243896 0.99187V40.6667C0.243896 41.2144 0.688007 41.6586 1.23577 41.6586H19.1886L10.9561 49.8841C10.5688 50.2716 10.5689 50.8996 10.9563 51.2869C11.1431 51.4735 11.3964 51.578 11.6603 51.5773H19.0894V59.0064C19.0896 59.5541 19.5337 59.9981 20.0816 59.998C20.3445 59.998 20.5966 59.8935 20.7826 59.7076L29.9078 50.5824L30 50.5854H30.0933L39.2185 59.7106C39.6064 60.0973 40.2344 60.0963 40.6212 59.7084C40.8069 59.522 40.9111 59.2695 40.9106 59.0064V51.5773H48.3397C48.8875 51.5771 49.3315 51.133 49.3313 50.5851C49.3313 50.3222 49.2268 50.0701 49.041 49.8841L40.8114 41.6586H58.7643C59.312 41.6586 59.7561 41.2144 59.7561 40.6667V0.99187C59.7561 0.44411 59.312 0 58.7643 0ZM21.0732 56.612V50.5854C21.0732 50.0376 20.6291 49.5935 20.0813 49.5935H14.0547L20.4176 43.2307C20.4285 43.2703 20.4384 43.3061 20.4493 43.3437C20.4602 43.3814 20.4652 43.4052 20.4741 43.434C20.4929 43.4995 20.5118 43.56 20.5296 43.6096C20.6262 43.9392 20.7466 44.2613 20.8897 44.5737C20.9383 44.6967 20.9889 44.8187 21.0414 44.9228C21.1584 45.1723 21.2909 45.414 21.4382 45.6469C21.5568 45.8741 21.6941 46.0911 21.8488 46.2955C21.9992 46.5206 22.1611 46.7378 22.3339 46.9462C22.3805 47.0097 22.433 47.0692 22.433 47.0692C22.6106 47.2795 22.798 47.4789 22.9954 47.6752C23.1928 47.8716 23.3922 48.0621 23.542 48.1821C23.5991 48.2373 23.6601 48.2882 23.7245 48.3348C23.9146 48.4942 24.1134 48.6432 24.3196 48.7812C24.5372 48.943 24.7641 49.092 24.999 49.2275C25.242 49.3713 25.4949 49.5042 25.732 49.6163C25.8375 49.6693 25.9457 49.7166 26.0563 49.7582C26.3675 49.9024 26.6888 50.0241 27.0175 50.1222C27.1583 50.1718 27.2982 50.2105 27.442 50.2491L21.0732 56.612ZM32.0373 48.3338L31.9064 48.3695C31.6793 48.4211 31.4531 48.4687 31.224 48.5084C30.9711 48.5451 30.7082 48.5709 30.4374 48.5897C30.2976 48.6016 30.1528 48.6016 30 48.6016C29.8473 48.6016 29.7025 48.6016 29.5715 48.5947C29.2988 48.5759 29.0359 48.5491 28.786 48.5134C28.5519 48.4777 28.3257 48.4251 28.1244 48.3805L27.9677 48.3378C27.8685 48.311 27.7693 48.2862 27.6265 48.2386C27.3552 48.1587 27.09 48.0592 26.833 47.9411C26.7626 47.9123 26.6921 47.8855 26.6029 47.8419C26.4045 47.7427 26.1982 47.6435 26.0077 47.5294C25.8226 47.4227 25.6439 47.3054 25.4721 47.1783C25.2971 47.0609 25.1286 46.9341 24.9673 46.7984C24.9381 46.7733 24.9076 46.7498 24.876 46.728C24.7104 46.5882 24.5517 46.4384 24.392 46.2787C24.2323 46.119 24.0845 45.9623 23.9437 45.7986C23.9226 45.7666 23.8998 45.7358 23.8752 45.7064C23.7241 45.5262 23.583 45.3378 23.4527 45.142C23.3363 44.9848 23.2317 44.819 23.1402 44.6461C23.0226 44.457 22.9166 44.2608 22.8228 44.0589C22.7871 43.9875 22.7604 43.917 22.7068 43.7881C22.5911 43.5343 22.4939 43.2724 22.4162 43.0045C22.3805 42.9053 22.3557 42.8061 22.3289 42.707L22.2932 42.576C22.2416 42.3489 22.189 42.1227 22.1543 41.8936C22.1176 41.6407 22.0918 41.3779 22.073 41.1071C22.0651 40.9642 22.0651 40.8135 22.0651 40.6667C22.0651 36.2844 25.6177 32.7317 30 32.7317C34.3824 32.7317 37.935 36.2844 37.935 40.6667C37.935 40.8145 37.935 40.9642 37.928 41.0952C37.9092 41.3679 37.8824 41.6308 37.8467 41.8807C37.811 42.1148 37.7584 42.341 37.7138 42.5423L37.6711 42.699C37.6444 42.7982 37.6196 42.8974 37.572 43.0402C37.4916 43.3114 37.3922 43.5766 37.2744 43.8337C37.2456 43.9041 37.2189 43.9746 37.1752 44.0638C37.076 44.2622 36.9768 44.4685 36.8598 44.659C36.7547 44.8431 36.6384 45.0206 36.5117 45.1906C36.3945 45.3664 36.2673 45.5353 36.1308 45.6965C36.106 45.7252 36.0828 45.7553 36.0613 45.7867C35.9215 45.9524 35.7717 46.1111 35.612 46.2708C35.4523 46.4304 35.2956 46.5782 35.132 46.7191C35.0995 46.7402 35.0682 46.7633 35.0387 46.7885C34.8588 46.9385 34.6711 47.0789 34.4763 47.2091C34.3252 47.32 34.1679 47.4223 34.0052 47.5155C33.8118 47.6296 33.6084 47.7347 33.3892 47.8399C33.3178 47.8756 33.2474 47.9024 33.1185 47.9569C32.8645 48.0721 32.6027 48.1689 32.3349 48.2466C32.2357 48.2823 32.1365 48.3071 32.0373 48.3338ZM45.9453 49.5935H39.9187C39.371 49.5935 38.9269 50.0376 38.9269 50.5854V56.612L32.564 50.2491L32.6771 50.2174C32.7078 50.2095 32.7386 50.2015 32.7673 50.1926C32.8328 50.1738 32.8933 50.1549 32.9429 50.1371C33.2724 50.0401 33.5946 49.9197 33.907 49.777C34.03 49.7284 34.152 49.6778 34.2561 49.6253C34.5101 49.5042 34.764 49.3713 35.0139 49.2285C35.2266 49.1068 35.4319 48.9726 35.6289 48.8268C35.8543 48.6765 36.0715 48.5144 36.2796 48.3408C36.3226 48.3103 36.3636 48.2772 36.4025 48.2416C36.6128 48.0641 36.8122 47.8766 37.0086 47.6792C37.205 47.4818 37.3954 47.2825 37.5154 47.1327C37.5708 47.0752 37.6223 47.0139 37.6692 46.9492C37.8282 46.7592 37.9766 46.5605 38.1135 46.3541C38.2759 46.1362 38.4252 45.9091 38.5609 45.6736C38.7047 45.4306 38.8376 45.1777 38.9497 44.9407C39.0112 44.8187 39.0618 44.6967 39.0925 44.6163C39.2363 44.305 39.3577 43.9839 39.4555 43.6552C39.5051 43.5143 39.5438 43.3745 39.5825 43.2307L45.9453 49.5935ZM57.7724 39.6748H39.8691V39.6659C39.8612 39.5846 39.8433 39.5062 39.8334 39.4259C39.8037 39.1858 39.7709 38.9458 39.7243 38.7117C39.6995 38.5877 39.6638 38.4687 39.6351 38.3477C39.5894 38.1602 39.5468 37.9718 39.4912 37.7893C39.4506 37.6573 39.402 37.5314 39.3563 37.4024C39.2978 37.2348 39.2403 37.0662 39.1728 36.9065C39.1193 36.7756 39.0568 36.6486 38.9983 36.5207C38.9259 36.3659 38.8554 36.2112 38.7761 36.0614C38.7086 35.9335 38.6352 35.8115 38.5628 35.6875C38.4785 35.5437 38.3952 35.3999 38.304 35.261C38.2246 35.14 38.1403 35.0229 38.056 34.9049C37.9568 34.772 37.8636 34.6391 37.7584 34.5082C37.6533 34.3772 37.5739 34.284 37.4787 34.1749C37.3716 34.0509 37.2625 33.9299 37.1494 33.8119C37.0364 33.6938 36.951 33.6056 36.841 33.5054C36.7309 33.4052 36.6009 33.2822 36.4769 33.1751C36.3678 33.0759 36.2577 32.9876 36.1447 32.8974C36.0157 32.7982 35.8828 32.699 35.7479 32.5998C35.6319 32.5165 35.5138 32.4342 35.3938 32.3548C35.254 32.2645 35.1101 32.1793 34.9653 32.0949C34.8423 32.0235 34.7193 31.9511 34.5924 31.8847C34.4416 31.8053 34.2869 31.7339 34.1312 31.6625C34.0042 31.603 33.8772 31.5425 33.7473 31.4889C33.5836 31.4215 33.415 31.3639 33.2514 31.3054C33.1224 31.2608 32.9955 31.2122 32.8635 31.1725C32.685 31.1189 32.5005 31.0733 32.318 31.0317C32.1921 31.0019 32.0681 30.9662 31.9401 30.9414C31.7338 30.8997 31.5225 30.873 31.3113 30.8422C31.2022 30.8273 31.095 30.8055 30.9849 30.7946C30.6616 30.7629 30.3333 30.745 30.002 30.745C29.6707 30.745 29.3424 30.7629 29.0191 30.7946C28.909 30.8055 28.8018 30.8273 28.6927 30.8422C28.4815 30.87 28.2702 30.8968 28.0639 30.9414C27.9359 30.9662 27.812 31.0019 27.686 31.0317C27.5035 31.0763 27.319 31.1189 27.1405 31.1725C27.0085 31.2122 26.8816 31.2608 26.7526 31.3054C26.585 31.3639 26.4164 31.4215 26.2567 31.4889C26.1268 31.5425 25.9998 31.603 25.8728 31.6625C25.7171 31.7339 25.5624 31.8053 25.4116 31.8847C25.2847 31.9511 25.1617 32.0235 25.0387 32.0949C24.8939 32.1793 24.75 32.2645 24.6102 32.3548C24.4902 32.4342 24.3721 32.5165 24.2561 32.5998C24.1212 32.699 23.9883 32.7982 23.8593 32.8974C23.7463 32.9876 23.6362 33.0799 23.5271 33.1751C23.4031 33.2822 23.2811 33.3923 23.1631 33.5054C23.045 33.6185 22.9558 33.7038 22.8546 33.8119C22.7534 33.92 22.6324 34.0509 22.5253 34.1749C22.4261 34.284 22.3368 34.3941 22.2456 34.5082C22.1543 34.6222 22.0472 34.769 21.948 34.9049C21.8637 35.0229 21.7794 35.14 21.7 35.261C21.6088 35.3999 21.5255 35.5437 21.4412 35.6875C21.3688 35.8115 21.2954 35.9335 21.2279 36.0614C21.1486 36.2112 21.0781 36.3659 21.0057 36.5207C20.9472 36.6486 20.8847 36.7756 20.8312 36.9065C20.7637 37.0702 20.7062 37.2388 20.6477 37.4024C20.602 37.5314 20.5485 37.6573 20.5128 37.7893C20.4572 37.9718 20.4136 38.1602 20.369 38.3477C20.3402 38.4687 20.3045 38.5877 20.2797 38.7117C20.2331 38.9458 20.2003 39.1858 20.1706 39.4259C20.1607 39.5062 20.1428 39.5846 20.1349 39.6659V39.6748H2.22764V1.98374H57.7724V39.6748Z"
+                                    fill="white" />
+                                <path
+                                    d="M29.9981 34.7155C26.6996 34.729 24.0361 37.4132 24.0486 40.7119C24.0486 40.722 24.0488 40.7319 24.0489 40.7419C24.0489 40.8183 24.0489 40.8887 24.0489 40.9601C24.0638 41.1833 24.0856 41.3986 24.1114 41.583C24.1809 42.0715 24.599 42.4346 25.0923 42.4351C25.1398 42.4352 25.1872 42.432 25.2342 42.4251C25.7765 42.3479 26.1535 41.8456 26.0763 41.3033C26.0554 41.1615 26.0396 40.9949 26.0296 40.8481V40.6667C26.0296 38.4755 27.806 36.6992 29.9971 36.6992C30.5449 36.6992 30.989 36.2551 30.989 35.7073C30.9889 35.1599 30.5454 34.7161 29.9981 34.7155Z"
+                                    fill="white" />
+                                <path
+                                    d="M47.8538 9.9187H12.1464C11.5987 9.9187 11.1545 10.3628 11.1545 10.9106C11.1545 11.4583 11.5987 11.9024 12.1464 11.9024H47.8538C48.4015 11.9024 48.8456 11.4583 48.8456 10.9106C48.8456 10.3628 48.4015 9.9187 47.8538 9.9187Z"
+                                    fill="white" />
+                                <path
+                                    d="M47.8538 15.8699H12.1464C11.5987 15.8699 11.1545 16.314 11.1545 16.8617C11.1545 17.4095 11.5987 17.8536 12.1464 17.8536H47.8538C48.4015 17.8536 48.8456 17.4095 48.8456 16.8617C48.8456 16.314 48.4015 15.8699 47.8538 15.8699Z"
+                                    fill="white" />
+                                <path
+                                    d="M47.8538 21.8212H12.1464C11.5987 21.8212 11.1545 22.2653 11.1545 22.813C11.1545 23.3608 11.5987 23.8049 12.1464 23.8049H47.8538C48.4015 23.8049 48.8456 23.3608 48.8456 22.813C48.8456 22.2653 48.4015 21.8212 47.8538 21.8212Z"
+                                    fill="white" />
+                            </svg>
+
+                        </div>
+                        <div class="documents-name">Сертификат ОРТ</div>
+                    </li>
+
+
+                </ul>
+
+
+                <div class="document_text pt-5">
+                    Если вы являетесь льготником или военнослужащим
+                </div>
+
+                <ul class="flex-container">
+                    <li class="flex-item">
+
+                        <div class="documents-circle mx-auto">
+                            <svg style="margin-bottom: 10px" width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0)">
+                                    <path
+                                        d="M58.6691 10.118L30.6791 0.117979C30.2371 -0.0380243 29.7551 -0.0380243 29.3131 0.117979L1.3301 10.118C0.536978 10.4039 0.00830078 11.1564 0.00830078 11.9995C0.00830078 12.8426 0.536978 13.5951 1.3301 13.881L15.0001 18.765V25C15.0001 28.888 28.4651 29 30.0001 29C31.5351 29 45.0001 28.888 45.0001 25V18.765L48.0001 17.7V20C48.0001 21.1045 48.8955 22 50.0001 22H52.0001C53.1047 22 54.0001 21.1045 54.0001 20V17C53.9971 16.5369 53.8855 16.081 53.6741 15.669L58.6741 13.881C59.4672 13.5951 59.9959 12.8426 59.9959 11.9995C59.9959 11.1564 59.4672 10.4039 58.6741 10.118H58.6691ZM43.0001 22.8C39.1911 21.066 31.1651 21 30.0001 21C28.8351 21 20.8091 21.066 17.0001 22.8V14.088C17.6001 13.318 22.3161 12 30.0001 12C37.6841 12 42.4001 13.318 43.0001 14.088V22.8ZM30.0001 27C22.6001 27 17.9531 25.778 17.0841 25C17.9531 24.222 22.6021 23 30.0001 23C37.3981 23 42.0471 24.222 42.9161 25C42.0471 25.778 37.4001 27 30.0001 27ZM48.4691 15.405L45.0001 16.642V14C45.0001 10.112 31.5351 9.99998 30.0001 9.99998C28.4651 9.99998 15.0001 10.112 15.0001 14V16.641L2.0001 12L30.0141 1.99998L50.0001 9.14198V14.184C49.3678 14.4087 48.8288 14.8385 48.4691 15.405ZM52.0001 20H50.0001V17C50.0001 16.4477 50.4478 16 51.0001 16C51.5524 16 52.0001 16.4477 52.0001 17V20ZM52.0001 14.144V9.85698L58.0001 12L52.0001 14.144Z"
+                                        fill="white" />
+                                    <path
+                                        d="M57 31C56.94 30.9998 56.88 31.0052 56.821 31.016C47.9483 32.3954 38.9791 33.0589 30 33C21.0209 33.0589 12.0517 32.3954 3.179 31.016C3.11985 31.0059 3.06 31.0006 3 31C2.3 31 0 31.793 0 42C0 52.207 2.3 53 3 53C3.06005 52.9987 3.1199 52.9927 3.179 52.982C9.9967 51.9021 16.8784 51.2747 23.779 51.104L21.827 55.786C21.5271 56.5357 21.7094 57.3923 22.2886 57.9548C22.8679 58.5174 23.7294 58.6746 24.47 58.353L25.235 58.026L25.566 58.787C25.8787 59.5249 26.6036 60.0031 27.405 60H27.43C28.2374 59.9937 28.9612 59.5009 29.263 58.752L31 54.594L32.731 58.736C33.0301 59.4919 33.7571 59.9916 34.57 60H34.6C35.396 60.0033 36.117 59.531 36.432 58.8L36.766 58.033L37.519 58.356C38.2628 58.6844 39.1315 58.5279 39.7141 57.9608C40.2967 57.3936 40.4763 56.5294 40.168 55.777L38.254 51.187C44.4756 51.4073 50.6779 52.0084 56.826 52.987C56.8835 52.9965 56.9417 53.0009 57 53C57.7 53 60 52.207 60 42C60 31.793 57.7 31 57 31ZM33.2 34.97C33.6153 36.497 33.8571 38.0659 33.921 39.647C31.6536 38.5927 28.9943 38.8398 26.96 40.294C26.9088 38.4982 26.6787 36.7121 26.273 34.962C27.4843 34.9873 28.7267 35 30 35C31.093 35 32.154 34.988 33.2 34.97ZM31 51C28.2386 51 26 48.7614 26 46C26 43.2386 28.2386 41 31 41C33.7614 41 36 43.2386 36 46C35.9967 48.7601 33.7601 50.9967 31 51ZM3 33.5C3.76622 36.2655 4.10348 39.1322 4 42C4.10348 44.8678 3.76622 47.7345 3 50.5C2.23378 47.7345 1.89652 44.8678 2 42C1.89652 39.1322 2.23378 36.2655 3 33.5ZM5.02 50.67C5.567 49.084 6 46.43 6 42C6 37.57 5.567 34.916 5.019 33.328C11.3736 34.2056 17.7715 34.7341 24.184 34.911C24.7838 37.2247 25.0584 39.6106 25 42C25 42.145 25 42.283 24.994 42.422C23.794 44.4136 23.673 46.8743 24.672 48.974L24.628 49.08C18.0672 49.2408 11.5208 49.7723 5.02 50.672V50.67ZM27.407 58L26.677 56.32C26.4574 55.8156 25.8716 55.5832 25.366 55.8L23.683 56.544L26.028 50.922C26.9908 51.8976 28.219 52.5687 29.56 52.852L27.407 58ZM36.634 55.8C36.1284 55.5832 35.5426 55.8156 35.323 56.32L34.583 57.983L32.439 52.85C33.7811 52.5666 35.0103 51.8951 35.974 50.919L38.314 56.519L36.634 55.8ZM56.8 50.95C50.3753 49.9612 43.8969 49.3601 37.4 49.15L37.329 48.978C38.5866 46.328 38.0475 43.1739 35.981 41.092C35.9733 39.0182 35.7338 36.9517 35.267 34.931C42.4778 34.7695 49.6705 34.1409 56.8 33.049C57.264 33.837 58 36.954 58 42C58 47.046 57.259 50.162 56.8 50.95Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0">
+                                        <rect width="60" height="60" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+                        </div>
+                        <div class="documents-name"><a href="https://2020.edu.gov.kg/listdocsenrol"
+                                title="Посмотреть, перечень необходимых документов"> <span
+                                    class="underline-link  sm-text" style="font-size:14px;">Перечень льготников и необходимых документов</span></a></div>
+
+                    </li>
+                    <li class="flex-item">
+                        <div class="documents-circle mx-auto">
+                            <svg style="margin-bottom: 10px;" width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M53.6728 2.91504H14.8747C11.5076 2.91504 8.76818 5.62885 8.76818 8.95375L8.51815 43.1175H0.946514C0.409919 43.1175 0 43.5919 0 44.1285V48.8302C0 53.2317 3.52227 56.8313 7.77328 57.0286V57.0851H40.4453V57.0215C40.6882 57.0315 40.8353 57.0851 41.0023 57.0851H41.0256C45.5593 57.0585 49.214 53.3631 49.1903 48.8293V18.9474H59.0535C59.5901 18.9474 60 18.4616 60 17.9255V9.29867C60.0061 5.79254 57.1789 2.94018 53.6728 2.91504V2.91504ZM8.19838 55.1418H8.19173C4.73542 55.1418 1.94332 52.2851 1.94332 48.8293V45.0608H32.7935V48.8132C32.7859 51.0003 33.6499 53.1002 35.1942 54.6488C35.3583 54.8139 35.5301 54.8988 35.7056 55.1418H8.19838ZM47.2469 48.8283C47.2469 52.2851 44.4819 55.1418 41.0241 55.1418H41.0042C37.5294 55.1166 34.7288 52.2885 34.7368 48.8136V44.1285C34.7397 43.5843 34.3094 43.1364 33.7652 43.1175H10.4615L10.7115 8.9604C10.7115 6.70062 12.5789 4.85836 14.8747 4.85836H49.0854C47.9781 6.07293 47.2469 7.60966 47.2469 9.32477V48.8283ZM58.0567 9.31575V17.0041H49.1903V9.32287C49.1903 6.89087 51.2133 4.85836 53.6443 4.85836H53.6714C56.1086 4.88256 58.068 6.87095 58.0567 9.30864V9.31575Z"
+                                    fill="white" />
+                                <path
+                                    d="M22.8164 26.8318L27.8261 30.2568C28.153 30.4822 28.5852 30.4822 28.9121 30.2568L33.9065 26.8328C35.6416 25.649 36.923 23.1743 36.923 21.0759V14.1462C36.9335 13.7799 36.7314 13.4402 36.405 13.2737L28.7773 9.52175C28.5097 9.38891 28.1957 9.38891 27.9281 9.52175L20.3147 13.2632C19.9883 13.4297 19.7866 13.7694 19.7975 14.1357V21.0759C19.7975 23.1743 21.0819 25.649 22.8164 26.8318ZM21.7409 14.7421L28.3603 11.476L34.9797 14.7511V21.0759C34.9797 22.5395 34.0204 24.4012 32.8101 25.2263L28.3489 28.2774L23.9053 25.2268C22.695 24.4008 21.7409 22.5395 21.7409 21.0759V14.7421Z"
+                                    fill="white" />
+                                <path
+                                    d="M26.717 22.5427C26.8982 22.7277 27.1459 22.8326 27.4049 22.834H27.4073C27.6654 22.8331 27.9126 22.7296 28.0943 22.5465L31.9596 18.6798C32.3396 18.3002 32.3396 17.6844 31.96 17.3049C31.581 16.9248 30.9651 16.9248 30.5856 17.3044L27.4106 20.4789L26.1415 19.1974C25.7633 18.816 25.148 18.8131 24.7665 19.1912C24.3851 19.5694 24.3827 20.1847 24.7604 20.5662L26.717 22.5427Z"
+                                    fill="white" />
+                                <path
+                                    d="M40.4453 33.0364H17.1255C16.5889 33.0364 16.1538 33.4714 16.1538 34.008C16.1538 34.5446 16.5889 34.9797 17.1255 34.9797H40.4453C40.9819 34.9797 41.417 34.5446 41.417 34.008C41.417 33.4714 40.9819 33.0364 40.4453 33.0364Z"
+                                    fill="white" />
+                                <path
+                                    d="M40.4453 37.5303H17.1255C16.5889 37.5303 16.1538 37.9653 16.1538 38.5019C16.1538 39.0385 16.5889 39.4736 17.1255 39.4736H40.4453C40.9819 39.4736 41.417 39.0385 41.417 38.5019C41.417 37.9653 40.9819 37.5303 40.4453 37.5303Z"
+                                    fill="white" />
+                            </svg>
+
+                        </div>
+                        <div class="documents-name"><a href="https://2020.edu.gov.kg/authmessagearmy" title="Скачать"> <span
+                                    class="underline-link" style="font-size:14px;"> Заявка для участия в конкурсе абитуриентам, прошедших срочную военную службу</span></a></div>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+
+            <div class="col-md-6 ">
+                <div class="document_text">
+                    Нормативная правовая база
+                </div>
+
+
+                <ul class="flex-container" class="p-0">
+                    <li class=" norma">
+                        <a href="https://cbd.minjust.gov.kg/159275/edition/1232046/ru"
+                            title=" Скачать" target="_blank">
+                            <div class="norma-text"><i class="fas fa-file-alt "></i> &nbsp; ПОСТАНОВЛЕНИЕ</div>
+                            <div class="norma-text2 tn-text">
+                                Об утверждении нормативных правовых актов в сфере высшего и среднего профессионального образования
+                                Кыргызской Республики
+                            </div>
+                        </a>
+                    </li>
+                    <li class=" norma">
+                        <a href="https://cbd.minjust.gov.kg/159290/edition/1175542/ru"
+                            title=" Скачать" target="_blank">
+                            <div class="norma-text"><i class="fas fa-file-alt "></i> &nbsp; ПОЛОЖЕНИЕ</div>
+                            <div class="norma-text2 tn-text">
+                                о государственных образовательных грантах и бюджетных местах образовательных организаций высшего и
+                                среднего
+                                профессионального образования Кыргызской Республики
+                            </div>
+                        </a>
+                    </li>
+                
+                    <li class=" norma">
+                        <a href="https://cbd.minjust.gov.kg/159289/edition/1249929/ru"
+                            title=" Скачать" target="_blank">
+                            <div class="norma-text"><i class="fas fa-file-alt "></i> &nbsp; ПОРЯДОК</div>
+                            <div class="norma-text2 tn-text">                                 приема в высшие учебные заведения Кыргызской Республики
+                            </div>
+                        </a>
+                    </li>
+                    <li class=" norma">
+                        <a href="https://2020.edu.gov.kg/docs/Перечень_вузов,_для_поступления_в_которые_результаты_общереспубликанского.docx" title="
+                            Скачать" target="_blank">
+                            <div class="norma-text"><i class="fas fa-file-alt "></i> &nbsp; ПЕРЕЧЕНЬ</div>
+                            <div class="norma-text2 tn-text">ПЕРЕЧЕНЬ вузов, для поступления в которые результаты
+                                общереспубликанского тестирования не обязательны </div>
+                        </a>
+                    </li>
+                
+                
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+  <button onclick="topFunction()" id="myBtn" title="Вверх в меню"> Вверх</button>
+
+    <footer class="mt-3 ">
+        <div class="content  animated fadeIn">
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-12 mb-3 nowrap">
+                    <a class="mon"  href="https://edu.gov.kg/">
+                      <div>
+                        <img height="50" src="img/mon.png" alt="">
+                      </div>
+                       <div class="p-1" style="font-size:15px;max-width:300px; ">МИНИСТЕРСТВО ОБРАЗОВАНИЯ И НАУКИ КЫРГЫЗСКОЙ РЕСПУБЛИКИ
+                       </div>    
+                       </a>
+               <div class="my-2">
+                     <a class="white-text mx-2"  href="personalcabinet/index.html#mon">МОН</a>
+                     <a class="white-text mx-2"  href="authformsoomo.html">ЦООМО</a>
+                     <a class="white-text mx-2"  href="personalcabinet/index.html#vuz">ВУЗ</a>
+                     <a class="white-text mx-2"  href="https://2020.edu.gov.kg/spuz">СПУЗ</a>
+               </div>
+
+                </div>
+                <div class="col-lg-8 col-m-12 mb-3">
+                    <h5 class="text-uppercase sm-text text-white">ТЕХНИЧЕСКАЯ ПОДДЕРЖКА</h5>
+
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class=" col-md-4 mb-4">
+
+                            <p>e-mail</p>
+                            
+                            <p style="font-size:15px;"><i class="fa fa-envelope fa-1x mr-2 "></i> 2020.edu.gov.kg@gmail.com</p>
+
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class=" col-md-4 mb-4">
+                            <p>Телефон</p>
+
+                            <p><i class="fa fa-phone fa-1x mr-2 "></i> 110 </p>
+                     <!--   <p><i class="fa fa-phone fa-1x mr-2 "></i> +996 (000) 000 000 </p>  -->
+                        </div>
+
+
+                        <div class="col-md-4 mb-4">
+                            <p>Режим работы</p>
+                            <p>Понедельник - Пятница &nbsp;</p>
+                            <p><i class="fa fa-clock fa-1x mr-2 "></i>09:00 - 18:00</p>
+
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                </div>
+
+
+            </div>
+            <p class="text-white tn-text text-center p-0 m-0" style="letter-spacing: 0.01em;color: #ACACAC;">© Все права защищены «МОН
+                КР»
+            </p>
+        </div>
+
+
+    </footer>
+
+
+
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  
+ <script type="text/javascript" src="fontawesome/js/all.min.js"></script>
+  <script type="text/javascript" defer src="javascripts/ready.js"></script>
+</body>
+
+
+<!-- Mirrored from 2020.edu.gov.kg/vuz by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Jul 2025 17:18:08 GMT -->
+</html>
