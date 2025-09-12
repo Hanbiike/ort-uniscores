@@ -1,0 +1,90 @@
+{
+  "name": "73. \"Түштүк Азия Университети\" жоопкерчилиги чектелген коому",
+  "address": "город Токмок ул. Гагарина 120",
+  "rector": "Дуйшенов Д. А.",
+  "site": "info%40usa.com.html",
+  "faculties": [
+    {
+      "faculty_name": "1. Дарылоо иши",
+      "directions": [
+        {
+          "code": "560001",
+          "major": "Дарылоо иши",
+          "specialty": "Дарылоо иши",
+          "education_type": "Күндүзгү",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "70000",
+          "plan": "25",
+          "threshold": "Негизги балл-110 Кошумча .-2 сабак Биология-60 Химия-60",
+          "registered": "2",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5960731",
+              "note": null,
+              "main_score": "178",
+              "extra_score": "133",
+              "total_score": "311",
+              "category": null,
+              "date": "14.07.2025 16:15:30",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5960356",
+              "note": null,
+              "main_score": "116",
+              "extra_score": "140",
+              "total_score": "256",
+              "category": null,
+              "date": "14.07.2025 11:03:45",
+              "admitted": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_name": "2. Стоматология",
+      "directions": [
+        {
+          "code": "560004",
+          "major": "Стоматология",
+          "specialty": "Стоматолог",
+          "education_type": "Күндүзгү",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "75000",
+          "plan": "25",
+          "threshold": "Негизги балл-110 Кошумча .-2 сабак Биология-60 Химия-60",
+          "registered": "2",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5210811",
+              "note": null,
+              "main_score": "121",
+              "extra_score": "87",
+              "total_score": "208",
+              "category": null,
+              "date": "14.07.2025 15:29:50",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5232939",
+              "note": null,
+              "main_score": "119",
+              "extra_score": "65",
+              "total_score": "184",
+              "category": null,
+              "date": "14.07.2025 13:39:45",
+              "admitted": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

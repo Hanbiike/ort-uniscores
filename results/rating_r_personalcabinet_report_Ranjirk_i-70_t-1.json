@@ -8,63 +8,77 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 30 . Зарегистрированных: 6 .",
   "total_registered": null,
+  "admitted_count": 4,
+  "not_admitted_count": 2,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5200729 [Инвалид детства]",
+          "certificate": "5200729",
+          "note": "Инвалид детства",
           "main_score": "195",
           "extra_score": "203",
           "total_score": "398",
-          "category": "Вне конкурса",
-          "date": "14.07.2025 10:17:47"
+          "category": null,
+          "date": "14.07.2025 10:17:47",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5232563 [Дети, оставшиеся без попечения родителей]",
+          "certificate": "5232563",
+          "note": "Дети, оставшиеся без попечения родителей",
           "main_score": "177",
           "extra_score": "206",
           "total_score": "383",
-          "category": "Вне конкурса",
-          "date": "14.07.2025 16:00:10"
+          "category": null,
+          "date": "14.07.2025 16:00:10",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5201296 [Инвалид детства]",
+          "certificate": "5201296",
+          "note": "Инвалид детства",
           "main_score": "178",
           "extra_score": "158",
           "total_score": "336",
-          "category": "Вне конкурса",
-          "date": "14.07.2025 10:05:06"
+          "category": null,
+          "date": "14.07.2025 10:05:06",
+          "admitted": true
         },
         {
           "num": "4",
-          "certificate": "(Реком) 5360294 [Инвалид детства]",
+          "certificate": "5360294",
+          "note": "Инвалид детства",
           "main_score": "140",
           "extra_score": "136",
           "total_score": "276",
-          "category": "Вне конкурса",
-          "date": "14.07.2025 17:36:25"
+          "category": null,
+          "date": "14.07.2025 17:36:25",
+          "admitted": true
         },
         {
           "num": "5",
-          "certificate": "5213005 [Инвалид детства]",
+          "certificate": "5213005",
+          "note": "Инвалид детства",
           "main_score": "192",
           "extra_score": "199",
           "total_score": "391",
-          "category": "Бишкек",
-          "date": "15.07.2025 12:12:12"
+          "category": null,
+          "date": "15.07.2025 12:12:12",
+          "admitted": false
         },
         {
           "num": "6",
-          "certificate": "5702414 [Дети лиц, погибших в событиях]",
+          "certificate": "5702414",
+          "note": "Дети лиц, погибших в событиях",
           "main_score": "156",
           "extra_score": "232",
           "total_score": "388",
-          "category": "Малый город",
-          "date": "14.07.2025 14:20:10"
+          "category": null,
+          "date": "14.07.2025 14:20:10",
+          "admitted": false
         }
       ]
     }

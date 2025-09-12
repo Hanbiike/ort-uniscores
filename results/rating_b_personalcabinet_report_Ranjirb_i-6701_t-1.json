@@ -8,18 +8,22 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 3 . Зарегистрированных: 4 .",
   "total_registered": null,
+  "admitted_count": 3,
+  "not_admitted_count": 1,
   "tables": [
     {
       "header": "Малый город: 0.75",
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5100571 [Инвалид 1, 2 группы ]",
+          "certificate": "5100571",
+          "note": "Инвалид 1, 2 группы",
           "main_score": "112",
           "extra_score": "87",
           "total_score": "199",
-          "category": null,
-          "date": "16.07.2025 11:18:37"
+          "category": "Малый город",
+          "date": "16.07.2025 11:18:37",
+          "admitted": true
         }
       ]
     },
@@ -28,30 +32,36 @@
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5760159 [Дети, оставшиеся без попечения родителей]",
+          "certificate": "5760159",
+          "note": "Дети, оставшиеся без попечения родителей",
           "main_score": "117",
           "extra_score": "61",
           "total_score": "178",
-          "category": null,
-          "date": "15.07.2025 16:50:06"
+          "category": "Село",
+          "date": "15.07.2025 16:50:06",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5760160 [Дети, оставшиеся без попечения родителей]",
+          "certificate": "5760160",
+          "note": "Дети, оставшиеся без попечения родителей",
           "main_score": "90",
           "extra_score": "0",
           "total_score": "90",
-          "category": null,
-          "date": "15.07.2025 16:59:22"
+          "category": "Село",
+          "date": "15.07.2025 16:59:22",
+          "admitted": true
         },
         {
           "num": "3",
           "certificate": "5360522",
+          "note": null,
           "main_score": "130",
           "extra_score": "0",
           "total_score": "130",
-          "category": null,
-          "date": "14.07.2025 12:25:33"
+          "category": "Село",
+          "date": "14.07.2025 12:25:33",
+          "admitted": false
         }
       ]
     }

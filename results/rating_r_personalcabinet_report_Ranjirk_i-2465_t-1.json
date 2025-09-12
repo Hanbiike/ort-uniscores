@@ -8,6 +8,8 @@
   "confirmed": null,
   "total_places": null,
   "total_registered": null,
+  "admitted_count": 0,
+  "not_admitted_count": 2,
   "tables": [
     {
       "header": null,
@@ -15,20 +17,24 @@
         {
           "num": "1",
           "certificate": "() 5121271",
+          "note": null,
           "main_score": "135",
           "extra_score": "0",
           "total_score": "135",
-          "category": "Село",
-          "date": "14.07.2025 16:43:25"
+          "category": null,
+          "date": "14.07.2025 16:43:25",
+          "admitted": false
         },
         {
           "num": "2",
           "certificate": "() 5710419",
+          "note": null,
           "main_score": "128",
           "extra_score": "0",
           "total_score": "128",
-          "category": "Высокогорье",
-          "date": "16.07.2025 10:22:08"
+          "category": null,
+          "date": "16.07.2025 10:22:08",
+          "admitted": false
         }
       ]
     }

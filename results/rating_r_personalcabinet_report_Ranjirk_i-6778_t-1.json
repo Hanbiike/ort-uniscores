@@ -8,27 +8,33 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 5 . Зарегистрированных: 2 .",
   "total_registered": null,
+  "admitted_count": 2,
+  "not_admitted_count": 0,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5717805 [Круглый сирота]",
+          "certificate": "5717805",
+          "note": "Круглый сирота",
           "main_score": "109",
           "extra_score": "0",
           "total_score": "109",
-          "category": "Высокогорье",
-          "date": "16.07.2025 12:32:57"
+          "category": null,
+          "date": "16.07.2025 12:32:57",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5951319",
+          "certificate": "5951319",
+          "note": null,
           "main_score": "100",
           "extra_score": "0",
           "total_score": "100",
-          "category": "Село",
-          "date": "15.07.2025 16:43:15"
+          "category": null,
+          "date": "15.07.2025 16:43:15",
+          "admitted": true
         }
       ]
     }

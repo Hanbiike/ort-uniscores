@@ -106,13 +106,18 @@ def parse_faculties(report_path):
                 "plan": clean_text(cols[4]) if len(cols) > 4 else None,
                 "threshold": clean_text(cols[5]) if len(cols) > 5 else None,
                 "registered": clean_text(cols[6]) if len(cols) > 6 else None,
-                "rating_url": None
+                "rating_json": None
             }
 
-            # ссылка на рейтинг (Көрүү/Конкурс)
+            # строим имя для JSON вместо ссылки на HTML
             link = row.select_one("a[href*='personalcabinet_report']")
             if link:
-                direction["rating_url"] = link.get("href")
+                href = link.get("href")
+                base = os.path.basename(href)
+                if "Ranjirk" in base:
+                    direction["rating_json"] = f"results/rating_r_{os.path.splitext(base)[0]}.json"
+                elif "Ranjirb" in base:
+                    direction["rating_json"] = f"results/rating_b_{os.path.splitext(base)[0]}.json"
 
             directions.append(direction)
 
@@ -136,7 +141,7 @@ def main():
     with open("universities.json", "w", encoding="utf-8") as f:
         json.dump(universities, f, ensure_ascii=False, indent=2)
 
-    print("✅ universities.json готов (voucher=true/false добавлен)")
+    print("✅ universities.json готов (rating_json вместо rating_url)")
 
 if __name__ == "__main__":
     main()

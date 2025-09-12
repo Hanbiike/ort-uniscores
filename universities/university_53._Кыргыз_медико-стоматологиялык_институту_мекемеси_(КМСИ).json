@@ -1,0 +1,104 @@
+{
+  "name": "53. Кыргыз медико-стоматологиялык институту мекемеси (КМСИ)",
+  "address": "Чуйская область, Жайылский район, город Кара-Балта, ул. Кожомбердиева, 112.",
+  "rector": "Музурупханова С.М.",
+  "site": "http://kmsi.edu.kg/",
+  "faculties": [
+    {
+      "faculty_name": "1. Стоматология",
+      "directions": [
+        {
+          "code": "560004",
+          "major": "Стоматология",
+          "specialty": "Стоматология",
+          "education_type": "Күндүзгү",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "75000",
+          "plan": "400",
+          "threshold": "Негизги балл-110 Кошумча .-2 сабак Биология-60 Химия-60",
+          "registered": "7",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5500378",
+              "note": null,
+              "main_score": "169",
+              "extra_score": "144",
+              "total_score": "313",
+              "category": null,
+              "date": "15.07.2025 16:23:46",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5650270",
+              "note": null,
+              "main_score": "159",
+              "extra_score": "137",
+              "total_score": "296",
+              "category": null,
+              "date": "16.07.2025 12:47:16",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5910686",
+              "note": null,
+              "main_score": "138",
+              "extra_score": "137",
+              "total_score": "275",
+              "category": null,
+              "date": "14.07.2025 09:50:57",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5597323",
+              "note": null,
+              "main_score": "132",
+              "extra_score": "140",
+              "total_score": "272",
+              "category": null,
+              "date": "15.07.2025 22:12:22",
+              "admitted": true
+            },
+            {
+              "num": "5",
+              "certificate": "5910769",
+              "note": null,
+              "main_score": "128",
+              "extra_score": "129",
+              "total_score": "257",
+              "category": null,
+              "date": "15.07.2025 11:58:44",
+              "admitted": true
+            },
+            {
+              "num": "6",
+              "certificate": "5751498",
+              "note": null,
+              "main_score": "110",
+              "extra_score": "129",
+              "total_score": "239",
+              "category": null,
+              "date": "14.07.2025 16:49:56",
+              "admitted": true
+            },
+            {
+              "num": "7",
+              "certificate": "5917842",
+              "note": null,
+              "main_score": "113",
+              "extra_score": "126",
+              "total_score": "239",
+              "category": null,
+              "date": "15.07.2025 13:31:16",
+              "admitted": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

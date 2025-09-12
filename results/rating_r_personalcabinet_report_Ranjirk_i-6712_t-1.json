@@ -8,90 +8,110 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 20 . Зарегистрированных: 9 .",
   "total_registered": null,
+  "admitted_count": 9,
+  "not_admitted_count": 0,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5120870",
+          "certificate": "5120870",
+          "note": null,
           "main_score": "148",
           "extra_score": "83",
           "total_score": "231",
-          "category": "Высокогорье",
-          "date": "16.07.2025 13:49:26"
+          "category": null,
+          "date": "16.07.2025 13:49:26",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5951168",
+          "certificate": "5951168",
+          "note": null,
           "main_score": "137",
           "extra_score": "90",
           "total_score": "227",
-          "category": "Село",
-          "date": "14.07.2025 09:50:06"
+          "category": null,
+          "date": "14.07.2025 09:50:06",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5410089",
+          "certificate": "5410089",
+          "note": null,
           "main_score": "123",
           "extra_score": "79",
           "total_score": "202",
-          "category": "Село",
-          "date": "16.07.2025 13:06:07"
+          "category": null,
+          "date": "16.07.2025 13:06:07",
+          "admitted": true
         },
         {
           "num": "4",
-          "certificate": "(Реком) 5600341",
+          "certificate": "5600341",
+          "note": null,
           "main_score": "120",
           "extra_score": "76",
           "total_score": "196",
-          "category": "Высокогорье",
-          "date": "15.07.2025 10:25:00"
+          "category": null,
+          "date": "15.07.2025 10:25:00",
+          "admitted": true
         },
         {
           "num": "5",
-          "certificate": "(Реком) 5650444",
+          "certificate": "5650444",
+          "note": null,
           "main_score": "120",
           "extra_score": "72",
           "total_score": "192",
-          "category": "Высокогорье",
-          "date": "14.07.2025 22:12:37"
+          "category": null,
+          "date": "14.07.2025 22:12:37",
+          "admitted": true
         },
         {
           "num": "6",
-          "certificate": "(Реком) 5930376",
+          "certificate": "5930376",
+          "note": null,
           "main_score": "165",
           "extra_score": "0",
           "total_score": "165",
-          "category": "Село",
-          "date": "16.07.2025 13:26:53"
+          "category": null,
+          "date": "16.07.2025 13:26:53",
+          "admitted": true
         },
         {
           "num": "7",
-          "certificate": "(Реком) 5212992",
+          "certificate": "5212992",
+          "note": null,
           "main_score": "130",
           "extra_score": "0",
           "total_score": "130",
-          "category": "Высокогорье",
-          "date": "15.07.2025 13:36:50"
+          "category": null,
+          "date": "15.07.2025 13:36:50",
+          "admitted": true
         },
         {
           "num": "8",
-          "certificate": "(Реком) 5930375",
+          "certificate": "5930375",
+          "note": null,
           "main_score": "127",
           "extra_score": "0",
           "total_score": "127",
-          "category": "Село",
-          "date": "14.07.2025 16:26:47"
+          "category": null,
+          "date": "14.07.2025 16:26:47",
+          "admitted": true
         },
         {
           "num": "9",
-          "certificate": "(Реком) 5222299",
+          "certificate": "5222299",
+          "note": null,
           "main_score": "120",
           "extra_score": "0",
           "total_score": "120",
-          "category": "Бишкек",
-          "date": "16.07.2025 13:31:39"
+          "category": null,
+          "date": "16.07.2025 13:31:39",
+          "admitted": true
         }
       ]
     }

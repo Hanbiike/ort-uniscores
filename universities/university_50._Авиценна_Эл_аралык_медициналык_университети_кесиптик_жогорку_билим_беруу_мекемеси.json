@@ -1,0 +1,68 @@
+{
+  "name": "50. \"Авиценна\" Эл аралык медициналык университети кесиптик жогорку билим беруу мекемеси",
+  "address": "г. Бишкек, просп. Шабдан Баатыра 74",
+  "rector": "Байгазаков А. Т.",
+  "site": "https://avicenna.edu.kg/",
+  "faculties": [
+    {
+      "faculty_name": "1. Дарылоо иши (Окуу мооноту: 6 жыл)",
+      "directions": [
+        {
+          "code": "560001",
+          "major": "Дарылоо иши",
+          "specialty": "Дарылоо иши",
+          "education_type": "Күндүзгү",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "87500",
+          "plan": "50",
+          "threshold": "Негизги балл-110 Кошумча .-2 сабак Биология-60 Химия-60",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5238186",
+              "note": null,
+              "main_score": "133",
+              "extra_score": "144",
+              "total_score": "277",
+              "category": null,
+              "date": "16.07.2025 10:27:07",
+              "admitted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_name": "2. Стоматология (окуу мооноту: 5 жыл)",
+      "directions": [
+        {
+          "code": "560004",
+          "major": "Тиш доктур",
+          "specialty": "Тиш доктур",
+          "education_type": "Күндүзгү",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "87500",
+          "plan": "50",
+          "threshold": "Негизги балл-110 Кошумча .-2 сабак Биология-60 Химия-60",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5550032",
+              "note": null,
+              "main_score": "150",
+              "extra_score": "144",
+              "total_score": "294",
+              "category": null,
+              "date": "14.07.2025 14:30:24",
+              "admitted": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

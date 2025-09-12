@@ -8,81 +8,99 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 7 . Зарегистрированных: 8 .",
   "total_registered": null,
+  "admitted_count": 7,
+  "not_admitted_count": 1,
   "tables": [
     {
       "header": "Село: 7",
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5121075",
+          "certificate": "5121075",
+          "note": null,
           "main_score": "189",
           "extra_score": "113",
           "total_score": "302",
-          "category": null,
-          "date": "14.07.2025 13:53:50"
+          "category": "Село",
+          "date": "14.07.2025 13:53:50",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5111086",
+          "certificate": "5111086",
+          "note": null,
           "main_score": "157",
           "extra_score": "90",
           "total_score": "247",
-          "category": null,
-          "date": "14.07.2025 13:28:05"
+          "category": "Село",
+          "date": "14.07.2025 13:28:05",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5120981",
+          "certificate": "5120981",
+          "note": null,
           "main_score": "156",
           "extra_score": "83",
           "total_score": "239",
-          "category": null,
-          "date": "16.07.2025 11:21:31"
+          "category": "Село",
+          "date": "16.07.2025 11:21:31",
+          "admitted": true
         },
         {
           "num": "4",
-          "certificate": "(Реком) 5121352",
+          "certificate": "5121352",
+          "note": null,
           "main_score": "135",
           "extra_score": "90",
           "total_score": "225",
-          "category": null,
-          "date": "16.07.2025 10:24:47"
+          "category": "Село",
+          "date": "16.07.2025 10:24:47",
+          "admitted": true
         },
         {
           "num": "5",
-          "certificate": "(Реком) 5121080",
+          "certificate": "5121080",
+          "note": null,
           "main_score": "147",
           "extra_score": "72",
           "total_score": "219",
-          "category": null,
-          "date": "14.07.2025 10:24:45"
+          "category": "Село",
+          "date": "14.07.2025 10:24:45",
+          "admitted": true
         },
         {
           "num": "6",
-          "certificate": "(Реком) 5121077 [Целевые места для приграничных районов]",
+          "certificate": "5121077",
+          "note": "Целевые места для приграничных районов",
           "main_score": "142",
           "extra_score": "68",
           "total_score": "210",
-          "category": null,
-          "date": "14.07.2025 10:20:50"
+          "category": "Село",
+          "date": "14.07.2025 10:20:50",
+          "admitted": true
         },
         {
           "num": "7",
-          "certificate": "(Реком) 5140371",
+          "certificate": "5140371",
+          "note": null,
           "main_score": "133",
           "extra_score": "76",
           "total_score": "209",
-          "category": null,
-          "date": "14.07.2025 11:23:11"
+          "category": "Село",
+          "date": "14.07.2025 11:23:11",
+          "admitted": true
         },
         {
           "num": "8",
           "certificate": "5120991",
+          "note": null,
           "main_score": "140",
           "extra_score": "0",
           "total_score": "140",
-          "category": null,
-          "date": "16.07.2025 11:24:01"
+          "category": "Село",
+          "date": "16.07.2025 11:24:01",
+          "admitted": false
         }
       ]
     }

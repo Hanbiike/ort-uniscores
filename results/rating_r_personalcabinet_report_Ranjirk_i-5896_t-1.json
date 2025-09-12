@@ -8,72 +8,88 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 17 . Зарегистрированных: 7 .",
   "total_registered": null,
+  "admitted_count": 7,
+  "not_admitted_count": 0,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5730134",
+          "certificate": "5730134",
+          "note": null,
           "main_score": "148",
           "extra_score": "16",
           "total_score": "164",
-          "category": "Село",
-          "date": "16.07.2025 13:45:27"
+          "category": null,
+          "date": "16.07.2025 13:45:27",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5740022",
+          "certificate": "5740022",
+          "note": null,
           "main_score": "161",
           "extra_score": "15",
           "total_score": "176",
-          "category": "Село",
-          "date": "14.07.2025 12:40:43"
+          "category": null,
+          "date": "14.07.2025 12:40:43",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5120606",
+          "certificate": "5120606",
+          "note": null,
           "main_score": "140",
           "extra_score": "15",
           "total_score": "155",
-          "category": "Высокогорье",
-          "date": "15.07.2025 22:02:46"
+          "category": null,
+          "date": "15.07.2025 22:02:46",
+          "admitted": true
         },
         {
           "num": "4",
-          "certificate": "(Реком) 5740432",
+          "certificate": "5740432",
+          "note": null,
           "main_score": "119",
           "extra_score": "15",
           "total_score": "134",
-          "category": "Село",
-          "date": "15.07.2025 11:18:38"
+          "category": null,
+          "date": "15.07.2025 11:18:38",
+          "admitted": true
         },
         {
           "num": "5",
-          "certificate": "(Реком) 5731131",
+          "certificate": "5731131",
+          "note": null,
           "main_score": "144",
           "extra_score": "14",
           "total_score": "158",
-          "category": "Село",
-          "date": "16.07.2025 13:08:42"
+          "category": null,
+          "date": "16.07.2025 13:08:42",
+          "admitted": true
         },
         {
           "num": "6",
-          "certificate": "(Реком) 5700773",
+          "certificate": "5700773",
+          "note": null,
           "main_score": "131",
           "extra_score": "14",
           "total_score": "145",
-          "category": "Малый город",
-          "date": "14.07.2025 12:17:23"
+          "category": null,
+          "date": "14.07.2025 12:17:23",
+          "admitted": true
         },
         {
           "num": "7",
-          "certificate": "(Реком) 5751014",
+          "certificate": "5751014",
+          "note": null,
           "main_score": "117",
           "extra_score": "11",
           "total_score": "128",
-          "category": "Высокогорье",
-          "date": "16.07.2025 10:36:15"
+          "category": null,
+          "date": "16.07.2025 10:36:15",
+          "admitted": true
         }
       ]
     }

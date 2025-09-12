@@ -8,90 +8,110 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 50 . Зарегистрированных: 9 .",
   "total_registered": null,
+  "admitted_count": 9,
+  "not_admitted_count": 0,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5760069",
+          "certificate": "5760069",
+          "note": null,
           "main_score": "156",
           "extra_score": "87",
           "total_score": "243",
-          "category": "Село",
-          "date": "14.07.2025 12:48:08"
+          "category": null,
+          "date": "14.07.2025 12:48:08",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5121382",
+          "certificate": "5121382",
+          "note": null,
           "main_score": "129",
           "extra_score": "87",
           "total_score": "216",
-          "category": "Село",
-          "date": "15.07.2025 10:43:06"
+          "category": null,
+          "date": "15.07.2025 10:43:06",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5760630",
+          "certificate": "5760630",
+          "note": null,
           "main_score": "118",
           "extra_score": "83",
           "total_score": "201",
-          "category": "Село",
-          "date": "15.07.2025 10:53:39"
+          "category": null,
+          "date": "15.07.2025 10:53:39",
+          "admitted": true
         },
         {
           "num": "4",
-          "certificate": "(Реком) 5100432",
+          "certificate": "5100432",
+          "note": null,
           "main_score": "129",
           "extra_score": "72",
           "total_score": "201",
-          "category": "Село",
-          "date": "16.07.2025 09:29:17"
+          "category": null,
+          "date": "16.07.2025 09:29:17",
+          "admitted": true
         },
         {
           "num": "5",
-          "certificate": "(Реком) 5730127",
+          "certificate": "5730127",
+          "note": null,
           "main_score": "127",
           "extra_score": "61",
           "total_score": "188",
-          "category": "Село",
-          "date": "15.07.2025 14:09:36"
+          "category": null,
+          "date": "15.07.2025 14:09:36",
+          "admitted": true
         },
         {
           "num": "6",
-          "certificate": "(Реком) 5751035",
+          "certificate": "5751035",
+          "note": null,
           "main_score": "118",
           "extra_score": "61",
           "total_score": "179",
-          "category": "Село",
-          "date": "16.07.2025 09:35:16"
+          "category": null,
+          "date": "16.07.2025 09:35:16",
+          "admitted": true
         },
         {
           "num": "7",
-          "certificate": "(Реком) 5760093 [1 место в республиканской олимпиаде]",
+          "certificate": "5760093",
+          "note": "1 место в республиканской олимпиаде",
           "main_score": "129",
           "extra_score": "0",
           "total_score": "129",
-          "category": "Высокогорье",
-          "date": "14.07.2025 19:04:48"
+          "category": null,
+          "date": "14.07.2025 19:04:48",
+          "admitted": true
         },
         {
           "num": "8",
-          "certificate": "(Реком) 5750087",
+          "certificate": "5750087",
+          "note": null,
           "main_score": "128",
           "extra_score": "0",
           "total_score": "128",
-          "category": "Село",
-          "date": "14.07.2025 11:37:45"
+          "category": null,
+          "date": "14.07.2025 11:37:45",
+          "admitted": true
         },
         {
           "num": "9",
-          "certificate": "(Реком) 5750096",
+          "certificate": "5750096",
+          "note": null,
           "main_score": "123",
           "extra_score": "0",
           "total_score": "123",
-          "category": "Село",
-          "date": "14.07.2025 11:17:14"
+          "category": null,
+          "date": "14.07.2025 11:17:14",
+          "admitted": true
         }
       ]
     }

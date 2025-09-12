@@ -1,0 +1,144 @@
+{
+  "name": "54. Султан Мамбеткалиев атындагы Чүй университети",
+  "address": "СУЮНБАЕВА 123/3",
+  "rector": "Мамбеткалиева Чолпон Султановна",
+  "site": "chuuniversitykg%40gmail.html",
+  "faculties": [
+    {
+      "faculty_name": "1. Педагогика",
+      "directions": [
+        {
+          "code": "580700",
+          "major": "Башталгыч класска билим беруу",
+          "specialty": "Башталгыч класска билим беруу",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "40000",
+          "plan": "100",
+          "threshold": "Негизги балл-110 Доп. предмет не обязательно",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5900802",
+              "note": null,
+              "main_score": "155",
+              "extra_score": "0",
+              "total_score": "155",
+              "category": null,
+              "date": "14.07.2025 11:27:23",
+              "admitted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_name": "2. Филологиялык билим берүү",
+      "directions": [
+        {
+          "code": "550300",
+          "major": "Англис тили",
+          "specialty": "Англис тили",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "34000",
+          "plan": "80",
+          "threshold": "Негизги балл-110 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550300",
+          "major": "Кыргыз тили жана адабият",
+          "specialty": "Кыргыз тили жана адабияты",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "34000",
+          "plan": "80",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550300",
+          "major": "Орус тили жана адабият",
+          "specialty": "Орус тили жана адабияты",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "34000",
+          "plan": "80",
+          "threshold": "Негизги балл-34000 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    },
+    {
+      "faculty_name": "3. Экономика",
+      "directions": [
+        {
+          "code": "580100",
+          "major": "Банк иши",
+          "specialty": "Банк иши",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "34000",
+          "plan": "60",
+          "threshold": "Негизги балл-110 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "580100",
+          "major": "Бухгалтердик эсеп",
+          "specialty": "Бухгалтердик эсеп",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "34000",
+          "plan": "100",
+          "threshold": "Негизги балл-110 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "580100",
+          "major": "Налог и налогооблажение",
+          "specialty": "Салык жана салык салуу",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "34000",
+          "plan": "80",
+          "threshold": "Негизги балл-110 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    },
+    {
+      "faculty_name": "4. Юридика",
+      "directions": [
+        {
+          "code": "530500",
+          "major": "Юриспруденция",
+          "specialty": "Юриспруденция",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "34000",
+          "plan": "100",
+          "threshold": "Негизги балл-110 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    }
+  ]
+}

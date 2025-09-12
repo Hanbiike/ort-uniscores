@@ -8,36 +8,44 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 2 . Зарегистрированных: 3 .",
   "total_registered": null,
+  "admitted_count": 0,
+  "not_admitted_count": 3,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "5770137 [Целевые места для приграничных районов]",
+          "certificate": "5770137",
+          "note": "Целевые места для приграничных районов",
           "main_score": "144",
           "extra_score": "166",
           "total_score": "310",
-          "category": "Высокогорье",
-          "date": "16.07.2025 09:40:38"
+          "category": null,
+          "date": "16.07.2025 09:40:38",
+          "admitted": false
         },
         {
           "num": "2",
-          "certificate": "5770053 [Целевые места для приграничных районов]",
+          "certificate": "5770053",
+          "note": "Целевые места для приграничных районов",
           "main_score": "145",
           "extra_score": "133",
           "total_score": "278",
-          "category": "Высокогорье",
-          "date": "16.07.2025 13:57:58"
+          "category": null,
+          "date": "16.07.2025 13:57:58",
+          "admitted": false
         },
         {
           "num": "3",
-          "certificate": "5770129 [Целевые места для приграничных районов]",
+          "certificate": "5770129",
+          "note": "Целевые места для приграничных районов",
           "main_score": "135",
           "extra_score": "122",
           "total_score": "257",
-          "category": "Высокогорье",
-          "date": "16.07.2025 13:06:36"
+          "category": null,
+          "date": "16.07.2025 13:06:36",
+          "admitted": false
         }
       ]
     }

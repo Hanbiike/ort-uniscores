@@ -8,45 +8,55 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 25 . Зарегистрированных: 4 .",
   "total_registered": null,
+  "admitted_count": 4,
+  "not_admitted_count": 0,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5970099",
+          "certificate": "5970099",
+          "note": null,
           "main_score": "153",
           "extra_score": "72",
           "total_score": "225",
-          "category": "Малый город",
-          "date": "16.07.2025 13:01:20"
+          "category": null,
+          "date": "16.07.2025 13:01:20",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5970094",
+          "certificate": "5970094",
+          "note": null,
           "main_score": "148",
           "extra_score": "72",
           "total_score": "220",
-          "category": "Малый город",
-          "date": "16.07.2025 13:04:00"
+          "category": null,
+          "date": "16.07.2025 13:04:00",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5970108",
+          "certificate": "5970108",
+          "note": null,
           "main_score": "149",
           "extra_score": "68",
           "total_score": "217",
-          "category": "Малый город",
-          "date": "16.07.2025 12:42:00"
+          "category": null,
+          "date": "16.07.2025 12:42:00",
+          "admitted": true
         },
         {
           "num": "4",
-          "certificate": "(Реком) 5211271",
+          "certificate": "5211271",
+          "note": null,
           "main_score": "166",
           "extra_score": "0",
           "total_score": "166",
-          "category": "Бишкек",
-          "date": "16.07.2025 13:07:16"
+          "category": null,
+          "date": "16.07.2025 13:07:16",
+          "admitted": true
         }
       ]
     }

@@ -8,27 +8,33 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 10 . Зарегистрированных: 2 .",
   "total_registered": null,
+  "admitted_count": 2,
+  "not_admitted_count": 0,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5900482 [Целевые места]",
+          "certificate": "5900482",
+          "note": "Целевые места",
           "main_score": "144",
           "extra_score": "87",
           "total_score": "231",
-          "category": "Село",
-          "date": "15.07.2025 22:07:56"
+          "category": null,
+          "date": "15.07.2025 22:07:56",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5620405",
+          "certificate": "5620405",
+          "note": null,
           "main_score": "138",
           "extra_score": "68",
           "total_score": "206",
-          "category": "Высокогорье",
-          "date": "14.07.2025 16:27:49"
+          "category": null,
+          "date": "14.07.2025 16:27:49",
+          "admitted": true
         }
       ]
     }

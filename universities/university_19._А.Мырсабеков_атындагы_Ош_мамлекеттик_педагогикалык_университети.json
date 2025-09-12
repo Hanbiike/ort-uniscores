@@ -1,0 +1,2910 @@
+{
+  "name": "19. А.Мырсабеков атындагы Ош мамлекеттик педагогикалык университети",
+  "address": "г. Ош, улица Исанова 73",
+  "rector": "Зулуев Б. Б.",
+  "site": "https://oshmpu.kg/",
+  "faculties": [
+    {
+      "faculty_name": "1. Гуманитардык факультети",
+      "directions": [
+        {
+          "code": "531500",
+          "major": "Аймак таануу",
+          "specialty": "Корей тили",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "40000",
+          "plan": "20",
+          "threshold": "Негизги балл-115 Тарых-60 Англ.тили-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "531500",
+          "major": "Аймак таануу",
+          "specialty": "Япон тили",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "40000",
+          "plan": "20",
+          "threshold": "Негизги балл-115 Тарых-60 Англ.тили-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "540200",
+          "major": "Социалдык иштер",
+          "specialty": "Социалдык иштер",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37000",
+          "plan": "30",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "540200",
+          "major": "Социалдык иштер",
+          "specialty": "Социалдык иштер",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Бюджет",
+          "payment_amount": "0",
+          "plan": "12",
+          "threshold": "Негизги балл-110",
+          "registered": "18",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5100664",
+              "note": null,
+              "main_score": "158",
+              "extra_score": "0",
+              "total_score": "158",
+              "category": "Малый город",
+              "date": "16.07.2025 13:44:02",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5100754",
+              "note": null,
+              "main_score": "132",
+              "extra_score": "0",
+              "total_score": "132",
+              "category": "Малый город",
+              "date": "16.07.2025 13:04:51",
+              "admitted": false
+            },
+            {
+              "num": "1",
+              "certificate": "5100972",
+              "note": null,
+              "main_score": "138",
+              "extra_score": "0",
+              "total_score": "138",
+              "category": "Село",
+              "date": "16.07.2025 00:09:51",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5410202",
+              "note": null,
+              "main_score": "133",
+              "extra_score": "0",
+              "total_score": "133",
+              "category": "Село",
+              "date": "14.07.2025 16:37:23",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5760762",
+              "note": null,
+              "main_score": "125",
+              "extra_score": "0",
+              "total_score": "125",
+              "category": "Село",
+              "date": "16.07.2025 13:53:03",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5750607",
+              "note": null,
+              "main_score": "122",
+              "extra_score": "0",
+              "total_score": "122",
+              "category": "Село",
+              "date": "16.07.2025 03:32:48",
+              "admitted": true
+            },
+            {
+              "num": "5",
+              "certificate": "5750280",
+              "note": null,
+              "main_score": "122",
+              "extra_score": "0",
+              "total_score": "122",
+              "category": "Село",
+              "date": "16.07.2025 13:01:10",
+              "admitted": true
+            },
+            {
+              "num": "6",
+              "certificate": "5750514",
+              "note": null,
+              "main_score": "121",
+              "extra_score": "0",
+              "total_score": "121",
+              "category": "Село",
+              "date": "16.07.2025 11:37:13",
+              "admitted": true
+            },
+            {
+              "num": "7",
+              "certificate": "5751521",
+              "note": null,
+              "main_score": "120",
+              "extra_score": "0",
+              "total_score": "120",
+              "category": "Село",
+              "date": "14.07.2025 19:12:03",
+              "admitted": true
+            },
+            {
+              "num": "8",
+              "certificate": "5751204",
+              "note": null,
+              "main_score": "120",
+              "extra_score": "0",
+              "total_score": "120",
+              "category": "Село",
+              "date": "16.07.2025 13:10:06",
+              "admitted": true
+            },
+            {
+              "num": "9",
+              "certificate": "5720359",
+              "note": null,
+              "main_score": "119",
+              "extra_score": "0",
+              "total_score": "119",
+              "category": "Село",
+              "date": "14.07.2025 23:26:47",
+              "admitted": true
+            },
+            {
+              "num": "10",
+              "certificate": "5750462",
+              "note": null,
+              "main_score": "118",
+              "extra_score": "0",
+              "total_score": "118",
+              "category": "Село",
+              "date": "15.07.2025 21:54:32",
+              "admitted": false
+            },
+            {
+              "num": "11",
+              "certificate": "5750801",
+              "note": null,
+              "main_score": "115",
+              "extra_score": "0",
+              "total_score": "115",
+              "category": "Село",
+              "date": "16.07.2025 13:14:19",
+              "admitted": false
+            },
+            {
+              "num": "12",
+              "certificate": "5120471",
+              "note": null,
+              "main_score": "114",
+              "extra_score": "0",
+              "total_score": "114",
+              "category": "Село",
+              "date": "14.07.2025 10:52:19",
+              "admitted": false
+            },
+            {
+              "num": "13",
+              "certificate": "5100322",
+              "note": null,
+              "main_score": "114",
+              "extra_score": "0",
+              "total_score": "114",
+              "category": "Село",
+              "date": "14.07.2025 15:17:45",
+              "admitted": false
+            },
+            {
+              "num": "1",
+              "certificate": "5770156",
+              "note": null,
+              "main_score": "127",
+              "extra_score": "0",
+              "total_score": "127",
+              "category": "Высокогорье",
+              "date": "16.07.2025 09:44:49",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5750978",
+              "note": null,
+              "main_score": "122",
+              "extra_score": "0",
+              "total_score": "122",
+              "category": "Высокогорье",
+              "date": "15.07.2025 12:03:39",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5770025",
+              "note": null,
+              "main_score": "111",
+              "extra_score": "0",
+              "total_score": "111",
+              "category": "Высокогорье",
+              "date": "16.07.2025 12:13:14",
+              "admitted": false
+            }
+          ]
+        },
+        {
+          "code": "550400",
+          "major": "Социалдык-экономикалык билим берүү:",
+          "specialty": "Тарых",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": true,
+          "payment_form": "Ваучер",
+          "payment_amount": "0",
+          "plan": "25",
+          "threshold": "Негизги балл-130 Тарых-60 Доп. предмет не обязательно",
+          "registered": "3",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5740438",
+              "note": null,
+              "main_score": "148",
+              "extra_score": "109",
+              "total_score": "257",
+              "category": null,
+              "date": "14.07.2025 11:33:04",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5120839",
+              "note": null,
+              "main_score": "151",
+              "extra_score": "68",
+              "total_score": "219",
+              "category": null,
+              "date": "14.07.2025 09:43:53",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5750845",
+              "note": null,
+              "main_score": "131",
+              "extra_score": "72",
+              "total_score": "203",
+              "category": null,
+              "date": "14.07.2025 11:07:17",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550400",
+          "major": "Социалдык-экономикалык билим берүү:",
+          "specialty": "Тарых",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "32000",
+          "plan": "30",
+          "threshold": "Негизги балл-115 Тарых-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550400",
+          "major": "Социалдык-экономикалык билим берүү:",
+          "specialty": "Тарых",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37000",
+          "plan": "50",
+          "threshold": "Негизги балл-115 Тарых-60 Доп. предмет не обязательно",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5120478",
+              "note": null,
+              "main_score": "132",
+              "extra_score": "72",
+              "total_score": "204",
+              "category": null,
+              "date": "14.07.2025 15:26:47",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550300",
+          "major": "Филологиялык билим берүү:",
+          "specialty": "Английский язык",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": true,
+          "payment_form": "Ваучер",
+          "payment_amount": "0",
+          "plan": "40",
+          "threshold": "Негизги балл-130 Англ.тили-60 Доп. предмет не обязательно",
+          "registered": "26",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5730069",
+              "note": null,
+              "main_score": "157",
+              "extra_score": "133",
+              "total_score": "290",
+              "category": null,
+              "date": "15.07.2025 23:55:34",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5720464",
+              "note": null,
+              "main_score": "155",
+              "extra_score": "93",
+              "total_score": "248",
+              "category": null,
+              "date": "15.07.2025 12:42:44",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5100063",
+              "note": null,
+              "main_score": "158",
+              "extra_score": "83",
+              "total_score": "241",
+              "category": null,
+              "date": "16.07.2025 12:23:31",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5750437",
+              "note": null,
+              "main_score": "162",
+              "extra_score": "76",
+              "total_score": "238",
+              "category": null,
+              "date": "14.07.2025 10:10:35",
+              "admitted": true
+            },
+            {
+              "num": "5",
+              "certificate": "5740530",
+              "note": null,
+              "main_score": "147",
+              "extra_score": "88",
+              "total_score": "235",
+              "category": null,
+              "date": "16.07.2025 08:31:36",
+              "admitted": true
+            },
+            {
+              "num": "6",
+              "certificate": "5730496",
+              "note": null,
+              "main_score": "157",
+              "extra_score": "78",
+              "total_score": "235",
+              "category": null,
+              "date": "16.07.2025 13:53:26",
+              "admitted": true
+            },
+            {
+              "num": "7",
+              "certificate": "5710232",
+              "note": null,
+              "main_score": "152",
+              "extra_score": "78",
+              "total_score": "230",
+              "category": null,
+              "date": "14.07.2025 16:32:12",
+              "admitted": true
+            },
+            {
+              "num": "8",
+              "certificate": "5740508",
+              "note": null,
+              "main_score": "154",
+              "extra_score": "73",
+              "total_score": "227",
+              "category": null,
+              "date": "16.07.2025 13:13:15",
+              "admitted": true
+            },
+            {
+              "num": "9",
+              "certificate": "5120522",
+              "note": null,
+              "main_score": "163",
+              "extra_score": "63",
+              "total_score": "226",
+              "category": null,
+              "date": "16.07.2025 13:11:46",
+              "admitted": true
+            },
+            {
+              "num": "10",
+              "certificate": "5750364",
+              "note": null,
+              "main_score": "146",
+              "extra_score": "78",
+              "total_score": "224",
+              "category": null,
+              "date": "16.07.2025 13:02:53",
+              "admitted": true
+            },
+            {
+              "num": "11",
+              "certificate": "5720032",
+              "note": null,
+              "main_score": "139",
+              "extra_score": "81",
+              "total_score": "220",
+              "category": null,
+              "date": "14.07.2025 16:59:19",
+              "admitted": true
+            },
+            {
+              "num": "12",
+              "certificate": "5750704",
+              "note": null,
+              "main_score": "153",
+              "extra_score": "66",
+              "total_score": "219",
+              "category": null,
+              "date": "16.07.2025 09:04:08",
+              "admitted": true
+            },
+            {
+              "num": "13",
+              "certificate": "5720167",
+              "note": null,
+              "main_score": "146",
+              "extra_score": "71",
+              "total_score": "217",
+              "category": null,
+              "date": "15.07.2025 11:19:48",
+              "admitted": true
+            },
+            {
+              "num": "14",
+              "certificate": "5761394",
+              "note": null,
+              "main_score": "145",
+              "extra_score": "71",
+              "total_score": "216",
+              "category": null,
+              "date": "15.07.2025 10:12:09",
+              "admitted": true
+            },
+            {
+              "num": "15",
+              "certificate": "5120043",
+              "note": "Целевые места для приграничных районов",
+              "main_score": "141",
+              "extra_score": "73",
+              "total_score": "214",
+              "category": null,
+              "date": "14.07.2025 11:33:14",
+              "admitted": true
+            },
+            {
+              "num": "16",
+              "certificate": "5750201",
+              "note": null,
+              "main_score": "135",
+              "extra_score": "76",
+              "total_score": "211",
+              "category": null,
+              "date": "16.07.2025 11:50:26",
+              "admitted": true
+            },
+            {
+              "num": "17",
+              "certificate": "5750496",
+              "note": null,
+              "main_score": "137",
+              "extra_score": "71",
+              "total_score": "208",
+              "category": null,
+              "date": "14.07.2025 12:32:28",
+              "admitted": true
+            },
+            {
+              "num": "18",
+              "certificate": "5720033",
+              "note": null,
+              "main_score": "134",
+              "extra_score": "73",
+              "total_score": "207",
+              "category": null,
+              "date": "16.07.2025 10:19:17",
+              "admitted": true
+            },
+            {
+              "num": "19",
+              "certificate": "5710551",
+              "note": null,
+              "main_score": "137",
+              "extra_score": "68",
+              "total_score": "205",
+              "category": null,
+              "date": "16.07.2025 13:56:14",
+              "admitted": true
+            },
+            {
+              "num": "20",
+              "certificate": "5701437",
+              "note": null,
+              "main_score": "130",
+              "extra_score": "71",
+              "total_score": "201",
+              "category": null,
+              "date": "14.07.2025 11:45:47",
+              "admitted": true
+            },
+            {
+              "num": "21",
+              "certificate": "5751049",
+              "note": null,
+              "main_score": "134",
+              "extra_score": "63",
+              "total_score": "197",
+              "category": null,
+              "date": "15.07.2025 15:20:09",
+              "admitted": true
+            },
+            {
+              "num": "22",
+              "certificate": "5700331",
+              "note": null,
+              "main_score": "130",
+              "extra_score": "61",
+              "total_score": "191",
+              "category": null,
+              "date": "14.07.2025 11:07:08",
+              "admitted": true
+            },
+            {
+              "num": "23",
+              "certificate": "5750695",
+              "note": null,
+              "main_score": "167",
+              "extra_score": "0",
+              "total_score": "167",
+              "category": null,
+              "date": "16.07.2025 13:09:33",
+              "admitted": true
+            },
+            {
+              "num": "24",
+              "certificate": "5720350",
+              "note": null,
+              "main_score": "135",
+              "extra_score": "0",
+              "total_score": "135",
+              "category": null,
+              "date": "16.07.2025 13:44:07",
+              "admitted": true
+            },
+            {
+              "num": "25",
+              "certificate": "5750481",
+              "note": null,
+              "main_score": "134",
+              "extra_score": "0",
+              "total_score": "134",
+              "category": null,
+              "date": "14.07.2025 10:03:32",
+              "admitted": true
+            },
+            {
+              "num": "26",
+              "certificate": "5760877",
+              "note": null,
+              "main_score": "131",
+              "extra_score": "0",
+              "total_score": "131",
+              "category": null,
+              "date": "16.07.2025 11:08:05",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550300",
+          "major": "Филологиялык билим берүү:",
+          "specialty": "Английский язык",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "40000",
+          "plan": "70",
+          "threshold": "Негизги балл-115 Англ.тили-60 Доп. предмет не обязательно",
+          "registered": "24",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5701950",
+              "note": null,
+              "main_score": "187",
+              "extra_score": "125",
+              "total_score": "312",
+              "category": null,
+              "date": "16.07.2025 13:43:26",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5750494",
+              "note": null,
+              "main_score": "150",
+              "extra_score": "108",
+              "total_score": "258",
+              "category": null,
+              "date": "14.07.2025 11:32:07",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5720402",
+              "note": null,
+              "main_score": "126",
+              "extra_score": "125",
+              "total_score": "251",
+              "category": null,
+              "date": "14.07.2025 12:18:57",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5110437",
+              "note": null,
+              "main_score": "146",
+              "extra_score": "91",
+              "total_score": "237",
+              "category": null,
+              "date": "16.07.2025 13:55:49",
+              "admitted": true
+            },
+            {
+              "num": "5",
+              "certificate": "5370524",
+              "note": null,
+              "main_score": "123",
+              "extra_score": "110",
+              "total_score": "233",
+              "category": null,
+              "date": "14.07.2025 14:31:18",
+              "admitted": true
+            },
+            {
+              "num": "6",
+              "certificate": "5731747",
+              "note": null,
+              "main_score": "129",
+              "extra_score": "101",
+              "total_score": "230",
+              "category": null,
+              "date": "14.07.2025 10:13:59",
+              "admitted": true
+            },
+            {
+              "num": "7",
+              "certificate": "5740506",
+              "note": null,
+              "main_score": "143",
+              "extra_score": "76",
+              "total_score": "219",
+              "category": null,
+              "date": "14.07.2025 17:39:01",
+              "admitted": true
+            },
+            {
+              "num": "8",
+              "certificate": "5740161",
+              "note": null,
+              "main_score": "126",
+              "extra_score": "88",
+              "total_score": "214",
+              "category": null,
+              "date": "16.07.2025 11:48:58",
+              "admitted": true
+            },
+            {
+              "num": "9",
+              "certificate": "5750495",
+              "note": null,
+              "main_score": "132",
+              "extra_score": "81",
+              "total_score": "213",
+              "category": null,
+              "date": "14.07.2025 11:39:45",
+              "admitted": true
+            },
+            {
+              "num": "10",
+              "certificate": "5740011",
+              "note": null,
+              "main_score": "142",
+              "extra_score": "68",
+              "total_score": "210",
+              "category": null,
+              "date": "14.07.2025 10:27:31",
+              "admitted": true
+            },
+            {
+              "num": "11",
+              "certificate": "5120469",
+              "note": null,
+              "main_score": "123",
+              "extra_score": "83",
+              "total_score": "206",
+              "category": null,
+              "date": "14.07.2025 14:31:06",
+              "admitted": true
+            },
+            {
+              "num": "12",
+              "certificate": "5730117",
+              "note": null,
+              "main_score": "119",
+              "extra_score": "86",
+              "total_score": "205",
+              "category": null,
+              "date": "14.07.2025 13:46:45",
+              "admitted": true
+            },
+            {
+              "num": "13",
+              "certificate": "5710482",
+              "note": null,
+              "main_score": "117",
+              "extra_score": "78",
+              "total_score": "195",
+              "category": null,
+              "date": "15.07.2025 12:48:28",
+              "admitted": true
+            },
+            {
+              "num": "14",
+              "certificate": "5100966",
+              "note": null,
+              "main_score": "124",
+              "extra_score": "71",
+              "total_score": "195",
+              "category": null,
+              "date": "16.07.2025 12:37:55",
+              "admitted": true
+            },
+            {
+              "num": "15",
+              "certificate": "5140382",
+              "note": null,
+              "main_score": "116",
+              "extra_score": "78",
+              "total_score": "194",
+              "category": null,
+              "date": "16.07.2025 12:42:58",
+              "admitted": true
+            },
+            {
+              "num": "16",
+              "certificate": "5750489",
+              "note": null,
+              "main_score": "124",
+              "extra_score": "68",
+              "total_score": "192",
+              "category": null,
+              "date": "14.07.2025 11:34:00",
+              "admitted": true
+            },
+            {
+              "num": "17",
+              "certificate": "5760583",
+              "note": null,
+              "main_score": "128",
+              "extra_score": "63",
+              "total_score": "191",
+              "category": null,
+              "date": "16.07.2025 12:07:58",
+              "admitted": true
+            },
+            {
+              "num": "18",
+              "certificate": "5760029",
+              "note": null,
+              "main_score": "116",
+              "extra_score": "66",
+              "total_score": "182",
+              "category": null,
+              "date": "15.07.2025 14:57:13",
+              "admitted": true
+            },
+            {
+              "num": "19",
+              "certificate": "5751306",
+              "note": null,
+              "main_score": "119",
+              "extra_score": "63",
+              "total_score": "182",
+              "category": null,
+              "date": "16.07.2025 11:13:51",
+              "admitted": true
+            },
+            {
+              "num": "20",
+              "certificate": "5120052",
+              "note": null,
+              "main_score": "128",
+              "extra_score": "0",
+              "total_score": "128",
+              "category": null,
+              "date": "14.07.2025 20:46:46",
+              "admitted": true
+            },
+            {
+              "num": "21",
+              "certificate": "5710290",
+              "note": null,
+              "main_score": "116",
+              "extra_score": "0",
+              "total_score": "116",
+              "category": null,
+              "date": "14.07.2025 15:36:08",
+              "admitted": true
+            },
+            {
+              "num": "22",
+              "certificate": "5120755",
+              "note": null,
+              "main_score": "116",
+              "extra_score": "0",
+              "total_score": "116",
+              "category": null,
+              "date": "15.07.2025 15:21:07",
+              "admitted": true
+            },
+            {
+              "num": "23",
+              "certificate": "5320246",
+              "note": null,
+              "main_score": "115",
+              "extra_score": "0",
+              "total_score": "115",
+              "category": null,
+              "date": "15.07.2025 16:23:34",
+              "admitted": true
+            },
+            {
+              "num": "24",
+              "certificate": "5750801",
+              "note": null,
+              "main_score": "115",
+              "extra_score": "0",
+              "total_score": "115",
+              "category": null,
+              "date": "16.07.2025 13:16:08",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550300",
+          "major": "Филологиялык билим берүү:",
+          "specialty": "Англис тили",
+          "education_type": "Кечки",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "40000",
+          "plan": "30",
+          "threshold": "Негизги балл-115 Англ.тили-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    },
+    {
+      "faculty_name": "2. Дене тарбия факультети",
+      "directions": [
+        {
+          "code": "532000",
+          "major": "Дене тарбия жана спорт",
+          "specialty": "(ЖРТ милдеттүү эмес)",
+          "education_type": "ЖРТ милдеттүү эмес, Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Бюджет",
+          "payment_amount": "0",
+          "plan": "5",
+          "threshold": "Негизги балл-0",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "532000",
+          "major": "Дене тарбия жана спорт",
+          "specialty": "(ЖРТ милдеттүү эмес)",
+          "education_type": "ЖРТ милдеттүү эмес, Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "32000",
+          "plan": "300",
+          "threshold": "Негизги балл-0",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "532000",
+          "major": "Дене тарбия жана спорт",
+          "specialty": "(ЖРТ милдеттүү эмес)",
+          "education_type": "ЖРТ милдеттүү эмес, Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37000",
+          "plan": "50",
+          "threshold": "Негизги балл-0",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    },
+    {
+      "faculty_name": "3. Жалал-Абад облусунун Аксы районундагы 2002-жылдын 17-18-мартындагы окуяларда, 2010-жылдын апрель-июнь окуяларында каза болгондордун балдарына жана кайрылман статусуна ээ болгондорго квота",
+      "directions": [
+        {
+          "code": "",
+          "major": "Жалал-Абад облусунун Аксы районундагы 2002-жылдын 17-18-мартындагы окуялардын, 2010-жылдын апрель-июнь окуяларынын натыйжасында каза болгон адамдардын балдарына жана кайрылман статусуна ээ болгондорго квота*",
+          "specialty": ".",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Бюджет",
+          "payment_amount": "0",
+          "plan": "2",
+          "threshold": "Негизги балл-110 Биология-60 Тарых-60 Химия-60 Физика-60 Англ.тили-60 Математика-60 Кырг.тили-60 Орус тили-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    },
+    {
+      "faculty_name": "4. Жеңилдик берилген абитуриенттердин квотасы",
+      "directions": [
+        {
+          "code": "",
+          "major": "Жеңилдик берилген абитуриенттердин квотасы",
+          "specialty": "I жана II топтогу майыптарды, бала кезинен майыптарды, ден соолугунун мүмкүнчүлүгү чектелген балдарды, тоголок жетим балдарды жана ата-эненин көзөмөлсүз калган балдарды кабыл алуу үчүн",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Бюджет",
+          "payment_amount": "0",
+          "plan": "25",
+          "threshold": "Негизги балл-90 Биология-60 Тарых-60 Химия-60 Физика-60 Англ.тили-60 Математика-60 Кырг.тили-60 Орус тили-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    },
+    {
+      "faculty_name": "5. Кыргыз-Россия факультети",
+      "directions": [
+        {
+          "code": "550300",
+          "major": "Филологиялык билим берүү",
+          "specialty": "Кыргыз тили жана адабияты",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": true,
+          "payment_form": "Ваучер",
+          "payment_amount": "0",
+          "plan": "25",
+          "threshold": "Негизги балл-130 Кырг.тили-60 Доп. предмет не обязательно",
+          "registered": "10",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5730601",
+              "note": null,
+              "main_score": "151",
+              "extra_score": "98",
+              "total_score": "249",
+              "category": null,
+              "date": "14.07.2025 10:50:00",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5750520",
+              "note": null,
+              "main_score": "149",
+              "extra_score": "98",
+              "total_score": "247",
+              "category": null,
+              "date": "14.07.2025 10:03:43",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5761035",
+              "note": null,
+              "main_score": "146",
+              "extra_score": "98",
+              "total_score": "244",
+              "category": null,
+              "date": "14.07.2025 09:58:12",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5760812",
+              "note": null,
+              "main_score": "145",
+              "extra_score": "98",
+              "total_score": "243",
+              "category": null,
+              "date": "15.07.2025 13:32:21",
+              "admitted": true
+            },
+            {
+              "num": "5",
+              "certificate": "5751203",
+              "note": null,
+              "main_score": "133",
+              "extra_score": "105",
+              "total_score": "238",
+              "category": null,
+              "date": "16.07.2025 13:22:25",
+              "admitted": true
+            },
+            {
+              "num": "6",
+              "certificate": "5750467",
+              "note": null,
+              "main_score": "142",
+              "extra_score": "90",
+              "total_score": "232",
+              "category": null,
+              "date": "16.07.2025 10:57:59",
+              "admitted": true
+            },
+            {
+              "num": "7",
+              "certificate": "5760085",
+              "note": null,
+              "main_score": "144",
+              "extra_score": "83",
+              "total_score": "227",
+              "category": null,
+              "date": "14.07.2025 10:17:51",
+              "admitted": true
+            },
+            {
+              "num": "8",
+              "certificate": "5110400",
+              "note": null,
+              "main_score": "133",
+              "extra_score": "83",
+              "total_score": "216",
+              "category": null,
+              "date": "14.07.2025 11:18:55",
+              "admitted": true
+            },
+            {
+              "num": "9",
+              "certificate": "5740531",
+              "note": null,
+              "main_score": "132",
+              "extra_score": "79",
+              "total_score": "211",
+              "category": null,
+              "date": "14.07.2025 13:00:42",
+              "admitted": true
+            },
+            {
+              "num": "10",
+              "certificate": "5120105",
+              "note": null,
+              "main_score": "134",
+              "extra_score": "72",
+              "total_score": "206",
+              "category": null,
+              "date": "14.07.2025 09:44:09",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550300",
+          "major": "Филологиялык билим берүү",
+          "specialty": "Кыргыз тили жана адабияты",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37000",
+          "plan": "50",
+          "threshold": "Негизги балл-115 Кырг.тили-60 Доп. предмет не обязательно",
+          "registered": "9",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5760069",
+              "note": null,
+              "main_score": "156",
+              "extra_score": "87",
+              "total_score": "243",
+              "category": null,
+              "date": "14.07.2025 12:48:08",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5121382",
+              "note": null,
+              "main_score": "129",
+              "extra_score": "87",
+              "total_score": "216",
+              "category": null,
+              "date": "15.07.2025 10:43:06",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5760630",
+              "note": null,
+              "main_score": "118",
+              "extra_score": "83",
+              "total_score": "201",
+              "category": null,
+              "date": "15.07.2025 10:53:39",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5100432",
+              "note": null,
+              "main_score": "129",
+              "extra_score": "72",
+              "total_score": "201",
+              "category": null,
+              "date": "16.07.2025 09:29:17",
+              "admitted": true
+            },
+            {
+              "num": "5",
+              "certificate": "5730127",
+              "note": null,
+              "main_score": "127",
+              "extra_score": "61",
+              "total_score": "188",
+              "category": null,
+              "date": "15.07.2025 14:09:36",
+              "admitted": true
+            },
+            {
+              "num": "6",
+              "certificate": "5751035",
+              "note": null,
+              "main_score": "118",
+              "extra_score": "61",
+              "total_score": "179",
+              "category": null,
+              "date": "16.07.2025 09:35:16",
+              "admitted": true
+            },
+            {
+              "num": "7",
+              "certificate": "5760093",
+              "note": "1 место в республиканской олимпиаде",
+              "main_score": "129",
+              "extra_score": "0",
+              "total_score": "129",
+              "category": null,
+              "date": "14.07.2025 19:04:48",
+              "admitted": true
+            },
+            {
+              "num": "8",
+              "certificate": "5750087",
+              "note": null,
+              "main_score": "128",
+              "extra_score": "0",
+              "total_score": "128",
+              "category": null,
+              "date": "14.07.2025 11:37:45",
+              "admitted": true
+            },
+            {
+              "num": "9",
+              "certificate": "5750096",
+              "note": null,
+              "main_score": "123",
+              "extra_score": "0",
+              "total_score": "123",
+              "category": null,
+              "date": "14.07.2025 11:17:14",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550300",
+          "major": "Филологиялык билим берүү",
+          "specialty": "Кыргыз тили жана адабияты",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "32000",
+          "plan": "40",
+          "threshold": "Негизги балл-115 Кырг.тили-60 Доп. предмет не обязательно",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5750413",
+              "note": null,
+              "main_score": "145",
+              "extra_score": "72",
+              "total_score": "217",
+              "category": null,
+              "date": "16.07.2025 10:50:37",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550300",
+          "major": "Филологиялык билим берүү",
+          "specialty": "Орус тили жана адабияты",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": true,
+          "payment_form": "Ваучер",
+          "payment_amount": "0",
+          "plan": "25",
+          "threshold": "Негизги балл-130 Орус тили-60 Доп. предмет не обязательно",
+          "registered": "7",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5100316",
+              "note": null,
+              "main_score": "173",
+              "extra_score": "98",
+              "total_score": "271",
+              "category": null,
+              "date": "14.07.2025 09:59:38",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5121433",
+              "note": null,
+              "main_score": "162",
+              "extra_score": "76",
+              "total_score": "238",
+              "category": null,
+              "date": "14.07.2025 10:12:44",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5380109",
+              "note": null,
+              "main_score": "149",
+              "extra_score": "83",
+              "total_score": "232",
+              "category": null,
+              "date": "16.07.2025 12:11:24",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5760463",
+              "note": null,
+              "main_score": "137",
+              "extra_score": "90",
+              "total_score": "227",
+              "category": null,
+              "date": "14.07.2025 11:28:07",
+              "admitted": true
+            },
+            {
+              "num": "5",
+              "certificate": "5737809",
+              "note": null,
+              "main_score": "132",
+              "extra_score": "61",
+              "total_score": "193",
+              "category": null,
+              "date": "16.07.2025 10:22:46",
+              "admitted": true
+            },
+            {
+              "num": "6",
+              "certificate": "5100078",
+              "note": null,
+              "main_score": "146",
+              "extra_score": "0",
+              "total_score": "146",
+              "category": null,
+              "date": "16.07.2025 11:59:59",
+              "admitted": true
+            },
+            {
+              "num": "7",
+              "certificate": "5120887",
+              "note": null,
+              "main_score": "140",
+              "extra_score": "0",
+              "total_score": "140",
+              "category": null,
+              "date": "15.07.2025 10:48:50",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550300",
+          "major": "Филологиялык билим берүү",
+          "specialty": "Орус тили жана адабияты",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37000",
+          "plan": "50",
+          "threshold": "Негизги балл-115 Орус тили-60 Доп. предмет не обязательно",
+          "registered": "8",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5120781",
+              "note": null,
+              "main_score": "131",
+              "extra_score": "90",
+              "total_score": "221",
+              "category": null,
+              "date": "14.07.2025 17:31:44",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5710580",
+              "note": null,
+              "main_score": "124",
+              "extra_score": "72",
+              "total_score": "196",
+              "category": null,
+              "date": "15.07.2025 13:32:06",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5710484",
+              "note": null,
+              "main_score": "127",
+              "extra_score": "68",
+              "total_score": "195",
+              "category": null,
+              "date": "16.07.2025 10:08:05",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5730458",
+              "note": null,
+              "main_score": "127",
+              "extra_score": "61",
+              "total_score": "188",
+              "category": null,
+              "date": "14.07.2025 11:56:38",
+              "admitted": true
+            },
+            {
+              "num": "5",
+              "certificate": "5750117",
+              "note": null,
+              "main_score": "125",
+              "extra_score": "61",
+              "total_score": "186",
+              "category": null,
+              "date": "16.07.2025 13:09:06",
+              "admitted": true
+            },
+            {
+              "num": "6",
+              "certificate": "5120058",
+              "note": null,
+              "main_score": "162",
+              "extra_score": "0",
+              "total_score": "162",
+              "category": null,
+              "date": "16.07.2025 12:46:41",
+              "admitted": true
+            },
+            {
+              "num": "7",
+              "certificate": "5340179",
+              "note": null,
+              "main_score": "130",
+              "extra_score": "0",
+              "total_score": "130",
+              "category": null,
+              "date": "14.07.2025 10:38:28",
+              "admitted": true
+            },
+            {
+              "num": "8",
+              "certificate": "5750280",
+              "note": null,
+              "main_score": "122",
+              "extra_score": "0",
+              "total_score": "122",
+              "category": null,
+              "date": "16.07.2025 13:07:41",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550300",
+          "major": "Филологиялык билим берүү",
+          "specialty": "Орус тили жана адабияты",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "32000",
+          "plan": "160",
+          "threshold": "Негизги балл-115 Орус тили-60 Доп. предмет не обязательно",
+          "registered": "2",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5390213",
+              "note": null,
+              "main_score": "143",
+              "extra_score": "79",
+              "total_score": "222",
+              "category": null,
+              "date": "14.07.2025 12:05:59",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5738047",
+              "note": null,
+              "main_score": "130",
+              "extra_score": "76",
+              "total_score": "206",
+              "category": null,
+              "date": "16.07.2025 13:12:02",
+              "admitted": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_name": "6. Математика жана компьютердик технологиялар факультети",
+      "directions": [
+        {
+          "code": "510200",
+          "major": "Колдонмо математика жана информатика",
+          "specialty": "Колдонмо математика жана информатика",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Бюджет",
+          "payment_amount": "0",
+          "plan": "15",
+          "threshold": "Негизги балл-110 Математика-60 Доп. предмет не обязательно",
+          "registered": "22",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5100125",
+              "note": null,
+              "main_score": "199",
+              "extra_score": "79",
+              "total_score": "278",
+              "category": "Село",
+              "date": "15.07.2025 12:41:14",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5750874",
+              "note": null,
+              "main_score": "173",
+              "extra_score": "65",
+              "total_score": "238",
+              "category": "Село",
+              "date": "15.07.2025 22:25:43",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5120521",
+              "note": null,
+              "main_score": "154",
+              "extra_score": "79",
+              "total_score": "233",
+              "category": "Село",
+              "date": "16.07.2025 13:51:12",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5120038",
+              "note": null,
+              "main_score": "140",
+              "extra_score": "61",
+              "total_score": "201",
+              "category": "Село",
+              "date": "16.07.2025 10:29:08",
+              "admitted": true
+            },
+            {
+              "num": "5",
+              "certificate": "5120058",
+              "note": null,
+              "main_score": "162",
+              "extra_score": "0",
+              "total_score": "162",
+              "category": "Село",
+              "date": "16.07.2025 12:50:54",
+              "admitted": true
+            },
+            {
+              "num": "6",
+              "certificate": "5110543",
+              "note": null,
+              "main_score": "146",
+              "extra_score": "0",
+              "total_score": "146",
+              "category": "Село",
+              "date": "14.07.2025 11:36:21",
+              "admitted": true
+            },
+            {
+              "num": "7",
+              "certificate": "5750820",
+              "note": null,
+              "main_score": "140",
+              "extra_score": "0",
+              "total_score": "140",
+              "category": "Село",
+              "date": "14.07.2025 13:57:37",
+              "admitted": true
+            },
+            {
+              "num": "8",
+              "certificate": "5120033",
+              "note": null,
+              "main_score": "139",
+              "extra_score": "0",
+              "total_score": "139",
+              "category": "Село",
+              "date": "16.07.2025 13:46:43",
+              "admitted": true
+            },
+            {
+              "num": "9",
+              "certificate": "5730348",
+              "note": null,
+              "main_score": "136",
+              "extra_score": "0",
+              "total_score": "136",
+              "category": "Село",
+              "date": "15.07.2025 20:05:19",
+              "admitted": true
+            },
+            {
+              "num": "10",
+              "certificate": "5750036",
+              "note": null,
+              "main_score": "133",
+              "extra_score": "0",
+              "total_score": "133",
+              "category": "Село",
+              "date": "16.07.2025 11:08:19",
+              "admitted": true
+            },
+            {
+              "num": "11",
+              "certificate": "5120894",
+              "note": null,
+              "main_score": "126",
+              "extra_score": "0",
+              "total_score": "126",
+              "category": "Село",
+              "date": "15.07.2025 15:18:01",
+              "admitted": true
+            },
+            {
+              "num": "12",
+              "certificate": "5120097",
+              "note": null,
+              "main_score": "125",
+              "extra_score": "0",
+              "total_score": "125",
+              "category": "Село",
+              "date": "16.07.2025 12:36:12",
+              "admitted": true
+            },
+            {
+              "num": "13",
+              "certificate": "5320411",
+              "note": null,
+              "main_score": "124",
+              "extra_score": "0",
+              "total_score": "124",
+              "category": "Село",
+              "date": "15.07.2025 13:20:02",
+              "admitted": true
+            },
+            {
+              "num": "14",
+              "certificate": "5750568",
+              "note": null,
+              "main_score": "122",
+              "extra_score": "0",
+              "total_score": "122",
+              "category": "Село",
+              "date": "15.07.2025 21:50:09",
+              "admitted": true
+            },
+            {
+              "num": "15",
+              "certificate": "5360465",
+              "note": null,
+              "main_score": "117",
+              "extra_score": "0",
+              "total_score": "117",
+              "category": "Село",
+              "date": "14.07.2025 11:37:21",
+              "admitted": false
+            },
+            {
+              "num": "16",
+              "certificate": "5120569",
+              "note": null,
+              "main_score": "117",
+              "extra_score": "0",
+              "total_score": "117",
+              "category": "Село",
+              "date": "14.07.2025 12:04:19",
+              "admitted": false
+            },
+            {
+              "num": "17",
+              "certificate": "5760840",
+              "note": null,
+              "main_score": "117",
+              "extra_score": "0",
+              "total_score": "117",
+              "category": "Село",
+              "date": "15.07.2025 14:39:41",
+              "admitted": false
+            },
+            {
+              "num": "18",
+              "certificate": "5760688",
+              "note": null,
+              "main_score": "113",
+              "extra_score": "0",
+              "total_score": "113",
+              "category": "Село",
+              "date": "15.07.2025 15:20:11",
+              "admitted": false
+            },
+            {
+              "num": "19",
+              "certificate": "5750491",
+              "note": null,
+              "main_score": "112",
+              "extra_score": "0",
+              "total_score": "112",
+              "category": "Село",
+              "date": "16.07.2025 11:37:51",
+              "admitted": false
+            },
+            {
+              "num": "20",
+              "certificate": "5120484",
+              "note": null,
+              "main_score": "111",
+              "extra_score": "0",
+              "total_score": "111",
+              "category": "Село",
+              "date": "14.07.2025 11:48:37",
+              "admitted": false
+            },
+            {
+              "num": "1",
+              "certificate": "5710406",
+              "note": null,
+              "main_score": "126",
+              "extra_score": "0",
+              "total_score": "126",
+              "category": "Высокогорье",
+              "date": "16.07.2025 09:40:54",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5120949",
+              "note": null,
+              "main_score": "119",
+              "extra_score": "0",
+              "total_score": "119",
+              "category": "Высокогорье",
+              "date": "14.07.2025 12:14:54",
+              "admitted": false
+            }
+          ]
+        },
+        {
+          "code": "510200",
+          "major": "Колдонмо математика жана информатика",
+          "specialty": "Колдонмо математика жана информатика",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37000",
+          "plan": "30",
+          "threshold": "Негизги балл-110 Физика-60 Математика-60 Доп. предмет не обязательно",
+          "registered": "4",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5730348",
+              "note": null,
+              "main_score": "136",
+              "extra_score": "0",
+              "total_score": "136",
+              "category": null,
+              "date": "15.07.2025 20:06:17",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5760688",
+              "note": null,
+              "main_score": "113",
+              "extra_score": "0",
+              "total_score": "113",
+              "category": null,
+              "date": "16.07.2025 13:52:27",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5770025",
+              "note": null,
+              "main_score": "111",
+              "extra_score": "0",
+              "total_score": "111",
+              "category": null,
+              "date": "16.07.2025 12:21:26",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5730281",
+              "note": null,
+              "main_score": "110",
+              "extra_score": "0",
+              "total_score": "110",
+              "category": null,
+              "date": "16.07.2025 13:44:20",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "510200",
+          "major": "Колдонмо математика жана информатика",
+          "specialty": "Колдонмо математика жана информатика",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "32000",
+          "plan": "40",
+          "threshold": "Негизги балл-110 Физика-60 Математика-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550200",
+          "major": "Физикалык-математикалык билим берүү",
+          "specialty": "Информатика",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": true,
+          "payment_form": "Ваучер",
+          "payment_amount": "0",
+          "plan": "25",
+          "threshold": "Негизги балл-130 Физика-60 Математика-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550200",
+          "major": "Физикалык-математикалык билим берүү",
+          "specialty": "Информатика",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "32000",
+          "plan": "30",
+          "threshold": "Негизги балл-115 Физика-60 Математика-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550200",
+          "major": "Физикалык-математикалык билим берүү",
+          "specialty": "Информатика",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37000",
+          "plan": "50",
+          "threshold": "Негизги балл-115 Физика-60 Математика-60 Доп. предмет не обязательно",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5701701",
+              "note": null,
+              "main_score": "124",
+              "extra_score": "79",
+              "total_score": "203",
+              "category": null,
+              "date": "14.07.2025 14:18:41",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550200",
+          "major": "Физикалык-математикалык билим берүү",
+          "specialty": "Математика",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": true,
+          "payment_form": "Ваучер",
+          "payment_amount": "0",
+          "plan": "25",
+          "threshold": "Негизги балл-130 Физика-60 Математика-60 Доп. предмет не обязательно",
+          "registered": "5",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5750470",
+              "note": null,
+              "main_score": "168",
+              "extra_score": "94",
+              "total_score": "262",
+              "category": null,
+              "date": "15.07.2025 21:42:40",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5770259",
+              "note": null,
+              "main_score": "151",
+              "extra_score": "102",
+              "total_score": "253",
+              "category": null,
+              "date": "14.07.2025 10:13:25",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5720238",
+              "note": null,
+              "main_score": "165",
+              "extra_score": "83",
+              "total_score": "248",
+              "category": null,
+              "date": "14.07.2025 15:15:43",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5740349",
+              "note": null,
+              "main_score": "132",
+              "extra_score": "72",
+              "total_score": "204",
+              "category": null,
+              "date": "14.07.2025 09:54:19",
+              "admitted": true
+            },
+            {
+              "num": "5",
+              "certificate": "5300788",
+              "note": null,
+              "main_score": "135",
+              "extra_score": "0",
+              "total_score": "135",
+              "category": null,
+              "date": "14.07.2025 10:10:55",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550200",
+          "major": "Физикалык-математикалык билим берүү",
+          "specialty": "Математика",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37000",
+          "plan": "50",
+          "threshold": "Негизги балл-115 Физика-60 Математика-60 Доп. предмет не обязательно",
+          "registered": "3",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5120694",
+              "note": null,
+              "main_score": "126",
+              "extra_score": "72",
+              "total_score": "198",
+              "category": null,
+              "date": "15.07.2025 11:09:57",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5750779",
+              "note": null,
+              "main_score": "118",
+              "extra_score": "68",
+              "total_score": "186",
+              "category": null,
+              "date": "14.07.2025 11:08:13",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5120759",
+              "note": null,
+              "main_score": "127",
+              "extra_score": "0",
+              "total_score": "127",
+              "category": null,
+              "date": "15.07.2025 12:24:30",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550200",
+          "major": "Физикалык-математикалык билим берүү",
+          "specialty": "Математика",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "32000",
+          "plan": "30",
+          "threshold": "Негизги балл-115 Физика-60 Математика-60 Доп. предмет не обязательно",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5701579",
+              "note": null,
+              "main_score": "117",
+              "extra_score": "0",
+              "total_score": "117",
+              "category": null,
+              "date": "14.07.2025 15:50:02",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550200",
+          "major": "Физикалык-математикалык билим берүү",
+          "specialty": "Физика",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": true,
+          "payment_form": "Ваучер",
+          "payment_amount": "0",
+          "plan": "10",
+          "threshold": "Негизги балл-130 Физика-60 Математика-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550200",
+          "major": "Физикалык-математикалык билим берүү",
+          "specialty": "Физика",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37000",
+          "plan": "20",
+          "threshold": "Негизги балл-115 Физика-60 Математика-60 Доп. предмет не обязательно",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5120046",
+              "note": null,
+              "main_score": "124",
+              "extra_score": "0",
+              "total_score": "124",
+              "category": null,
+              "date": "16.07.2025 10:54:30",
+              "admitted": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_name": "7. Музыкалык-педагогикалык факультети",
+      "directions": [
+        {
+          "code": "550600",
+          "major": "Көркөм билим берүү",
+          "specialty": "Музыка (ЖРТ милдеттүү эмес)",
+          "education_type": "ЖРТ милдеттүү эмес, Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37000",
+          "plan": "70",
+          "threshold": "Негизги балл-0",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550600",
+          "major": "Көркөм билим берүү",
+          "specialty": "Музыка (ЖРТ милдеттүү эмес)",
+          "education_type": "ЖРТ милдеттүү эмес, Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "32000",
+          "plan": "90",
+          "threshold": "Негизги балл-0",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550600",
+          "major": "Көркөм билим берүү",
+          "specialty": "Музыка (ЖРТ милдеттүү эмес)",
+          "education_type": "ЖРТ милдеттүү эмес, Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Бюджет",
+          "payment_amount": "0",
+          "plan": "16",
+          "threshold": "Негизги балл-0",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550700",
+          "major": "Педагогика",
+          "specialty": "Башталгыч билим берүүнүн педагогикасы жана усулу",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": true,
+          "payment_form": "Ваучер",
+          "payment_amount": "0",
+          "plan": "25",
+          "threshold": "Негизги балл-130 Кырг.тили-60 Орус тили-60 Доп. предмет не обязательно",
+          "registered": "12",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5751161",
+              "note": null,
+              "main_score": "140",
+              "extra_score": "109",
+              "total_score": "249",
+              "category": null,
+              "date": "14.07.2025 13:36:54",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5750441",
+              "note": null,
+              "main_score": "150",
+              "extra_score": "76",
+              "total_score": "226",
+              "category": null,
+              "date": "14.07.2025 18:49:56",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5750478",
+              "note": null,
+              "main_score": "141",
+              "extra_score": "79",
+              "total_score": "220",
+              "category": null,
+              "date": "14.07.2025 10:02:59",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5710312",
+              "note": null,
+              "main_score": "139",
+              "extra_score": "65",
+              "total_score": "204",
+              "category": null,
+              "date": "14.07.2025 09:48:53",
+              "admitted": true
+            },
+            {
+              "num": "5",
+              "certificate": "5751055",
+              "note": null,
+              "main_score": "135",
+              "extra_score": "65",
+              "total_score": "200",
+              "category": null,
+              "date": "14.07.2025 10:24:11",
+              "admitted": true
+            },
+            {
+              "num": "6",
+              "certificate": "5750910",
+              "note": null,
+              "main_score": "167",
+              "extra_score": "0",
+              "total_score": "167",
+              "category": null,
+              "date": "14.07.2025 10:35:19",
+              "admitted": true
+            },
+            {
+              "num": "7",
+              "certificate": "5751100",
+              "note": null,
+              "main_score": "161",
+              "extra_score": "0",
+              "total_score": "161",
+              "category": null,
+              "date": "16.07.2025 11:45:12",
+              "admitted": true
+            },
+            {
+              "num": "8",
+              "certificate": "5730162",
+              "note": null,
+              "main_score": "151",
+              "extra_score": "0",
+              "total_score": "151",
+              "category": null,
+              "date": "15.07.2025 17:38:28",
+              "admitted": true
+            },
+            {
+              "num": "9",
+              "certificate": "5300325",
+              "note": null,
+              "main_score": "145",
+              "extra_score": "0",
+              "total_score": "145",
+              "category": null,
+              "date": "16.07.2025 10:15:44",
+              "admitted": true
+            },
+            {
+              "num": "10",
+              "certificate": "5720031",
+              "note": null,
+              "main_score": "135",
+              "extra_score": "0",
+              "total_score": "135",
+              "category": null,
+              "date": "14.07.2025 09:43:21",
+              "admitted": true
+            },
+            {
+              "num": "11",
+              "certificate": "5750075",
+              "note": null,
+              "main_score": "132",
+              "extra_score": "0",
+              "total_score": "132",
+              "category": null,
+              "date": "16.07.2025 12:53:49",
+              "admitted": true
+            },
+            {
+              "num": "12",
+              "certificate": "5340179",
+              "note": null,
+              "main_score": "130",
+              "extra_score": "0",
+              "total_score": "130",
+              "category": null,
+              "date": "14.07.2025 15:09:22",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550700",
+          "major": "Педагогика",
+          "specialty": "Башталгыч билим берүүнүн педагогикасы жана усулу",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37000",
+          "plan": "50",
+          "threshold": "Негизги балл-115 Кырг.тили-60 Орус тили-60 Доп. предмет не обязательно",
+          "registered": "9",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5100988",
+              "note": null,
+              "main_score": "139",
+              "extra_score": "76",
+              "total_score": "215",
+              "category": null,
+              "date": "15.07.2025 12:59:23",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5100318",
+              "note": null,
+              "main_score": "123",
+              "extra_score": "79",
+              "total_score": "202",
+              "category": null,
+              "date": "16.07.2025 09:21:21",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5750607",
+              "note": null,
+              "main_score": "122",
+              "extra_score": "79",
+              "total_score": "201",
+              "category": null,
+              "date": "15.07.2025 07:49:10",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5760806",
+              "note": null,
+              "main_score": "124",
+              "extra_score": "72",
+              "total_score": "196",
+              "category": null,
+              "date": "14.07.2025 12:09:18",
+              "admitted": true
+            },
+            {
+              "num": "5",
+              "certificate": "5730144",
+              "note": null,
+              "main_score": "118",
+              "extra_score": "68",
+              "total_score": "186",
+              "category": null,
+              "date": "15.07.2025 08:59:54",
+              "admitted": true
+            },
+            {
+              "num": "6",
+              "certificate": "5100811",
+              "note": null,
+              "main_score": "138",
+              "extra_score": "0",
+              "total_score": "138",
+              "category": null,
+              "date": "15.07.2025 11:20:15",
+              "admitted": true
+            },
+            {
+              "num": "7",
+              "certificate": "5710424",
+              "note": null,
+              "main_score": "128",
+              "extra_score": "0",
+              "total_score": "128",
+              "category": null,
+              "date": "15.07.2025 16:35:47",
+              "admitted": true
+            },
+            {
+              "num": "8",
+              "certificate": "5700844",
+              "note": null,
+              "main_score": "121",
+              "extra_score": "0",
+              "total_score": "121",
+              "category": null,
+              "date": "14.07.2025 13:51:16",
+              "admitted": true
+            },
+            {
+              "num": "9",
+              "certificate": "5770063",
+              "note": null,
+              "main_score": "120",
+              "extra_score": "0",
+              "total_score": "120",
+              "category": null,
+              "date": "14.07.2025 13:59:10",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550700",
+          "major": "Педагогика",
+          "specialty": "Башталгыч билим берүүнүн педагогикасы жана усулу",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "32000",
+          "plan": "300",
+          "threshold": "Негизги балл-115 Кырг.тили-60 Орус тили-60 Доп. предмет не обязательно",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5710096",
+              "note": null,
+              "main_score": "140",
+              "extra_score": "0",
+              "total_score": "140",
+              "category": null,
+              "date": "14.07.2025 15:00:51",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550700",
+          "major": "Педагогика",
+          "specialty": "Мектепке чейинки билим берүүнүн педагогикасы жана усулу",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": true,
+          "payment_form": "Ваучер",
+          "payment_amount": "0",
+          "plan": "25",
+          "threshold": "Негизги балл-130 Кырг.тили-60 Орус тили-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550700",
+          "major": "Педагогика",
+          "specialty": "Мектепке чейинки билим берүүнүн педагогикасы жана усулу",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37000",
+          "plan": "50",
+          "threshold": "Негизги балл-115 Кырг.тили-60 Орус тили-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550700",
+          "major": "Педагогика",
+          "specialty": "Мектепке чейинки билим берүүнүн педагогикасы жана усулу",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "32000",
+          "plan": "100",
+          "threshold": "Негизги балл-115 Кырг.тили-60 Орус тили-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "530300",
+          "major": "Психология",
+          "specialty": "Психология",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Бюджет",
+          "payment_amount": "0",
+          "plan": "11",
+          "threshold": "Негизги балл-110",
+          "registered": "9",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5751140",
+              "note": null,
+              "main_score": "174",
+              "extra_score": "0",
+              "total_score": "174",
+              "category": "Село",
+              "date": "16.07.2025 13:57:57",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5701691",
+              "note": null,
+              "main_score": "160",
+              "extra_score": "0",
+              "total_score": "160",
+              "category": "Село",
+              "date": "16.07.2025 12:39:28",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5751147",
+              "note": null,
+              "main_score": "142",
+              "extra_score": "0",
+              "total_score": "142",
+              "category": "Село",
+              "date": "14.07.2025 12:27:38",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5320279",
+              "note": null,
+              "main_score": "131",
+              "extra_score": "0",
+              "total_score": "131",
+              "category": "Село",
+              "date": "16.07.2025 10:05:47",
+              "admitted": true
+            },
+            {
+              "num": "5",
+              "certificate": "5340353",
+              "note": null,
+              "main_score": "128",
+              "extra_score": "0",
+              "total_score": "128",
+              "category": "Село",
+              "date": "14.07.2025 13:33:25",
+              "admitted": true
+            },
+            {
+              "num": "6",
+              "certificate": "5760806",
+              "note": null,
+              "main_score": "124",
+              "extra_score": "0",
+              "total_score": "124",
+              "category": "Село",
+              "date": "14.07.2025 12:35:54",
+              "admitted": true
+            },
+            {
+              "num": "7",
+              "certificate": "5121371",
+              "note": null,
+              "main_score": "123",
+              "extra_score": "0",
+              "total_score": "123",
+              "category": "Село",
+              "date": "16.07.2025 12:58:19",
+              "admitted": true
+            },
+            {
+              "num": "8",
+              "certificate": "5750794",
+              "note": null,
+              "main_score": "116",
+              "extra_score": "0",
+              "total_score": "116",
+              "category": "Село",
+              "date": "14.07.2025 10:05:37",
+              "admitted": true
+            },
+            {
+              "num": "1",
+              "certificate": "5770033",
+              "note": null,
+              "main_score": "152",
+              "extra_score": "0",
+              "total_score": "152",
+              "category": "Высокогорье",
+              "date": "16.07.2025 12:22:58",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "530300",
+          "major": "Психология",
+          "specialty": "Психология",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37000",
+          "plan": "30",
+          "threshold": "Негизги балл-110",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5340353",
+              "note": null,
+              "main_score": "128",
+              "extra_score": "0",
+              "total_score": "128",
+              "category": null,
+              "date": "14.07.2025 14:17:25",
+              "admitted": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_name": "8. Ош МПУ (Максаттуу орундар) (Максаттуу орундар үчүн конкурска жергиликтүү өзүн-өзү башкаруу органдарынын (айыл өкмөттөрү, мэриялар) же жергиликтүү мамлекеттик администрациясынын (аким) жолдомосу бар абитуриенттер гана катыша алышат)",
+      "directions": [
+        {
+          "code": "",
+          "major": "Максаттуу орун",
+          "specialty": "Көркөм билим берүү",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Бюджет",
+          "payment_amount": "0",
+          "plan": "2",
+          "threshold": "Негизги балл-0",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "",
+          "major": "Максаттуу орун",
+          "specialty": "Психология",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Бюджет",
+          "payment_amount": "0",
+          "plan": "2",
+          "threshold": "Негизги балл-110",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5340504",
+              "note": null,
+              "main_score": "137",
+              "extra_score": "0",
+              "total_score": "137",
+              "category": "Село",
+              "date": "14.07.2025 10:23:55",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "",
+          "major": "Чек ара райондору үчүн максаттуу орундар",
+          "specialty": "Көркөм билим берүү",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Бюджет",
+          "payment_amount": "0",
+          "plan": "2",
+          "threshold": "Негизги балл-0",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "",
+          "major": "Чек ара райондору үчүн максаттуу орундар",
+          "specialty": "Психология",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Бюджет",
+          "payment_amount": "0",
+          "plan": "2",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    },
+    {
+      "faculty_name": "9. Табият таануу жана география факультети",
+      "directions": [
+        {
+          "code": "550100",
+          "major": "Табигый-илимий билим берүү",
+          "specialty": "Биология",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": true,
+          "payment_form": "Ваучер",
+          "payment_amount": "0",
+          "plan": "25",
+          "threshold": "Негизги балл-130 Биология-60 Доп. предмет не обязательно",
+          "registered": "3",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5100928",
+              "note": null,
+              "main_score": "142",
+              "extra_score": "76",
+              "total_score": "218",
+              "category": null,
+              "date": "14.07.2025 12:28:30",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5751559",
+              "note": null,
+              "main_score": "133",
+              "extra_score": "68",
+              "total_score": "201",
+              "category": null,
+              "date": "16.07.2025 10:59:36",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5710577",
+              "note": null,
+              "main_score": "144",
+              "extra_score": "0",
+              "total_score": "144",
+              "category": null,
+              "date": "14.07.2025 11:16:21",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550100",
+          "major": "Табигый-илимий билим берүү",
+          "specialty": "Биология",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "32000",
+          "plan": "40",
+          "threshold": "Негизги балл-115 Биология-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550100",
+          "major": "Табигый-илимий билим берүү",
+          "specialty": "Биология",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37000",
+          "plan": "50",
+          "threshold": "Негизги балл-115 Биология-60 Доп. предмет не обязательно",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5710088",
+              "note": null,
+              "main_score": "123",
+              "extra_score": "0",
+              "total_score": "123",
+              "category": null,
+              "date": "14.07.2025 22:10:47",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550100",
+          "major": "Табигый-илимий билим берүү",
+          "specialty": "География",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": true,
+          "payment_form": "Ваучер",
+          "payment_amount": "0",
+          "plan": "25",
+          "threshold": "Негизги балл-130",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5120577",
+              "note": null,
+              "main_score": "136",
+              "extra_score": "0",
+              "total_score": "136",
+              "category": null,
+              "date": "14.07.2025 21:57:24",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550100",
+          "major": "Табигый-илимий билим берүү",
+          "specialty": "География",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "32000",
+          "plan": "20",
+          "threshold": "Негизги балл-115",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550100",
+          "major": "Табигый-илимий билим берүү",
+          "specialty": "География",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37000",
+          "plan": "50",
+          "threshold": "Негизги балл-115",
+          "registered": "2",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "() 5121271",
+              "note": null,
+              "main_score": "135",
+              "extra_score": "0",
+              "total_score": "135",
+              "category": null,
+              "date": "14.07.2025 16:43:25",
+              "admitted": false
+            },
+            {
+              "num": "2",
+              "certificate": "() 5710419",
+              "note": null,
+              "main_score": "128",
+              "extra_score": "0",
+              "total_score": "128",
+              "category": null,
+              "date": "16.07.2025 10:22:08",
+              "admitted": false
+            }
+          ]
+        },
+        {
+          "code": "550100",
+          "major": "Табигый-илимий билим берүү",
+          "specialty": "Химия",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": true,
+          "payment_form": "Ваучер",
+          "payment_amount": "0",
+          "plan": "25",
+          "threshold": "Негизги балл-130 Химия-60 Доп. предмет не обязательно",
+          "registered": "2",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5110117",
+              "note": null,
+              "main_score": "195",
+              "extra_score": "83",
+              "total_score": "278",
+              "category": null,
+              "date": "14.07.2025 12:44:09",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5720518",
+              "note": null,
+              "main_score": "144",
+              "extra_score": "65",
+              "total_score": "209",
+              "category": null,
+              "date": "14.07.2025 13:27:22",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550100",
+          "major": "Табигый-илимий билим берүү",
+          "specialty": "Химия",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37000",
+          "plan": "50",
+          "threshold": "Негизги балл-115 Химия-60 Доп. предмет не обязательно",
+          "registered": "4",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5751520",
+              "note": null,
+              "main_score": "129",
+              "extra_score": "94",
+              "total_score": "223",
+              "category": null,
+              "date": "16.07.2025 10:50:43",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5720330",
+              "note": null,
+              "main_score": "134",
+              "extra_score": "68",
+              "total_score": "202",
+              "category": null,
+              "date": "14.07.2025 10:05:40",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5761024",
+              "note": null,
+              "main_score": "125",
+              "extra_score": "61",
+              "total_score": "186",
+              "category": null,
+              "date": "16.07.2025 13:30:30",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5760482",
+              "note": null,
+              "main_score": "117",
+              "extra_score": "0",
+              "total_score": "117",
+              "category": null,
+              "date": "15.07.2025 10:39:37",
+              "admitted": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -8,63 +8,77 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 10 . Зарегистрированных: 6 .",
   "total_registered": null,
+  "admitted_count": 6,
+  "not_admitted_count": 0,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5100297",
+          "certificate": "5100297",
+          "note": null,
           "main_score": "216",
           "extra_score": "116",
           "total_score": "332",
-          "category": "Село",
-          "date": "16.07.2025 09:16:09"
+          "category": null,
+          "date": "16.07.2025 09:16:09",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5221876",
+          "certificate": "5221876",
+          "note": null,
           "main_score": "168",
           "extra_score": "94",
           "total_score": "262",
-          "category": "Бишкек",
-          "date": "16.07.2025 12:30:45"
+          "category": null,
+          "date": "16.07.2025 12:30:45",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5230937",
+          "certificate": "5230937",
+          "note": null,
           "main_score": "157",
           "extra_score": "79",
           "total_score": "236",
-          "category": "Бишкек",
-          "date": "16.07.2025 12:01:18"
+          "category": null,
+          "date": "16.07.2025 12:01:18",
+          "admitted": true
         },
         {
           "num": "4",
-          "certificate": "(Реком) 5212266",
+          "certificate": "5212266",
+          "note": null,
           "main_score": "164",
           "extra_score": "0",
           "total_score": "164",
-          "category": "Бишкек",
-          "date": "14.07.2025 09:44:19"
+          "category": null,
+          "date": "14.07.2025 09:44:19",
+          "admitted": true
         },
         {
           "num": "5",
-          "certificate": "(Реком) 5200029",
+          "certificate": "5200029",
+          "note": null,
           "main_score": "156",
           "extra_score": "0",
           "total_score": "156",
-          "category": "Бишкек",
-          "date": "14.07.2025 12:25:34"
+          "category": null,
+          "date": "14.07.2025 12:25:34",
+          "admitted": true
         },
         {
           "num": "6",
-          "certificate": "(Реком) 5930153",
+          "certificate": "5930153",
+          "note": null,
           "main_score": "137",
           "extra_score": "0",
           "total_score": "137",
-          "category": "Село",
-          "date": "14.07.2025 09:54:15"
+          "category": null,
+          "date": "14.07.2025 09:54:15",
+          "admitted": true
         }
       ]
     }

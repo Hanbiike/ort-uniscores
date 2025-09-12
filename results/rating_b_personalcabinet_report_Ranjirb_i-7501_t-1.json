@@ -8,6 +8,8 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 2 . Зарегистрированных: 5 .",
   "total_registered": null,
+  "admitted_count": 0,
+  "not_admitted_count": 5,
   "tables": [
     {
       "header": "Бишкек: 0.4",
@@ -15,11 +17,13 @@
         {
           "num": "1",
           "certificate": "5203093",
+          "note": null,
           "main_score": "111",
           "extra_score": "0",
           "total_score": "111",
-          "category": null,
-          "date": "14.07.2025 14:05:28"
+          "category": "Бишкек",
+          "date": "14.07.2025 14:05:28",
+          "admitted": false
         }
       ]
     },
@@ -29,20 +33,24 @@
         {
           "num": "1",
           "certificate": "5940242",
+          "note": null,
           "main_score": "161",
           "extra_score": "83",
           "total_score": "244",
-          "category": null,
-          "date": "14.07.2025 22:08:03"
+          "category": "Малый город",
+          "date": "14.07.2025 22:08:03",
+          "admitted": false
         },
         {
           "num": "2",
           "certificate": "5390066",
+          "note": null,
           "main_score": "160",
           "extra_score": "79",
           "total_score": "239",
-          "category": null,
-          "date": "14.07.2025 13:32:38"
+          "category": "Малый город",
+          "date": "14.07.2025 13:32:38",
+          "admitted": false
         }
       ]
     },
@@ -52,11 +60,13 @@
         {
           "num": "1",
           "certificate": "5810421",
+          "note": null,
           "main_score": "145",
           "extra_score": "0",
           "total_score": "145",
-          "category": null,
-          "date": "14.07.2025 14:54:41"
+          "category": "Село",
+          "date": "14.07.2025 14:54:41",
+          "admitted": false
         }
       ]
     },
@@ -66,11 +76,13 @@
         {
           "num": "1",
           "certificate": "5550532",
+          "note": null,
           "main_score": "139",
           "extra_score": "0",
           "total_score": "139",
-          "category": null,
-          "date": "15.07.2025 10:02:46"
+          "category": "Высокогорье",
+          "date": "15.07.2025 10:02:46",
+          "admitted": false
         }
       ]
     }

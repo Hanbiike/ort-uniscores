@@ -1,0 +1,246 @@
+{
+  "name": "67. Кыргыз Эл Аралык Университет НРЗ",
+  "address": "Чуйская область, с. Новопавловка, ул. Фрунзе 176 а",
+  "rector": "Жээмбаева Н.С.",
+  "site": "http://www.kiunrz.com/",
+  "faculties": [
+    {
+      "faculty_name": "1. Башкаруу жана бизнес институту",
+      "directions": [
+        {
+          "code": "580700",
+          "major": "Бизнес башкаруу",
+          "specialty": "",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "30000",
+          "plan": "12",
+          "threshold": "Негизги балл-110",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5970137",
+              "note": null,
+              "main_score": "111",
+              "extra_score": "0",
+              "total_score": "111",
+              "category": null,
+              "date": "15.07.2025 21:14:34",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "---",
+          "major": "Саламаттыкты сактоодогу менеджмент",
+          "specialty": "",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "40000",
+          "plan": "12",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    },
+    {
+      "faculty_name": "2. Архитектура жана курулуш институту",
+      "directions": [
+        {
+          "code": "750500",
+          "major": "",
+          "specialty": "",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "50000",
+          "plan": "12",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "750100",
+          "major": "Архитектура",
+          "specialty": "",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "70000",
+          "plan": "12",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    },
+    {
+      "faculty_name": "3. Инженердик - техникалык институту",
+      "directions": [
+        {
+          "code": "710100",
+          "major": "Информатика жана компьютердик инженерия",
+          "specialty": "Компьютердик инженерия",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "40000",
+          "plan": "12",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "630400",
+          "major": "Нефти, газ иштери",
+          "specialty": "",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "50000",
+          "plan": "12",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "670700",
+          "major": "Учуучу аппараттарды жана кыймылдаткычтарды техникалык эксплуатациялоо",
+          "specialty": "Инженер",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "90000",
+          "plan": "12",
+          "threshold": "Негизги балл-110 Физика-60",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    },
+    {
+      "faculty_name": "4. Медицина институту",
+      "directions": [
+        {
+          "code": "560001",
+          "major": "Дарылоо иши",
+          "specialty": "Дарылоо иши",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Бюджет",
+          "payment_amount": "0",
+          "plan": "12",
+          "threshold": "Негизги балл-120 Биология-60 Химия-60 Доп. предмет не обязательно",
+          "registered": "8",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5448162",
+              "note": null,
+              "main_score": "162",
+              "extra_score": "87",
+              "total_score": "249",
+              "category": "Бишкек",
+              "date": "16.07.2025 11:22:35",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5221061",
+              "note": null,
+              "main_score": "168",
+              "extra_score": "61",
+              "total_score": "229",
+              "category": "Бишкек",
+              "date": "16.07.2025 09:18:16",
+              "admitted": false
+            },
+            {
+              "num": "1",
+              "certificate": "5510982",
+              "note": null,
+              "main_score": "141",
+              "extra_score": "76",
+              "total_score": "217",
+              "category": "Малый город",
+              "date": "15.07.2025 13:33:30",
+              "admitted": false
+            },
+            {
+              "num": "2",
+              "certificate": "5371206",
+              "note": null,
+              "main_score": "165",
+              "extra_score": "0",
+              "total_score": "165",
+              "category": "Малый город",
+              "date": "14.07.2025 22:02:12",
+              "admitted": false
+            },
+            {
+              "num": "1",
+              "certificate": "5720342",
+              "note": null,
+              "main_score": "180",
+              "extra_score": "90",
+              "total_score": "270",
+              "category": "Село",
+              "date": "16.07.2025 08:49:57",
+              "admitted": false
+            },
+            {
+              "num": "2",
+              "certificate": "5970475",
+              "note": null,
+              "main_score": "162",
+              "extra_score": "68",
+              "total_score": "230",
+              "category": "Село",
+              "date": "15.07.2025 21:45:52",
+              "admitted": false
+            },
+            {
+              "num": "3",
+              "certificate": "5410075",
+              "note": null,
+              "main_score": "138",
+              "extra_score": "72",
+              "total_score": "210",
+              "category": "Село",
+              "date": "16.07.2025 12:35:57",
+              "admitted": false
+            },
+            {
+              "num": "1",
+              "certificate": "5630617",
+              "note": null,
+              "main_score": "121",
+              "extra_score": "68",
+              "total_score": "189",
+              "category": "Высокогорье",
+              "date": "16.07.2025 13:37:41",
+              "admitted": false
+            }
+          ]
+        },
+        {
+          "code": "560001",
+          "major": "Дарылоо иши",
+          "specialty": "Дарылоо иши",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "70000",
+          "plan": "12",
+          "threshold": "Негизги балл-110 Биология-60 Химия-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    }
+  ]
+}

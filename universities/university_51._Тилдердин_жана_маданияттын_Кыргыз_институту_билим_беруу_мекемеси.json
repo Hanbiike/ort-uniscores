@@ -1,0 +1,131 @@
+{
+  "name": "51. Тилдердин жана маданияттын Кыргыз институту билим беруу мекемеси",
+  "address": "Чуйская обл, Сокулукский р-н, г.Шопоков. ул. Фрунзе, 20",
+  "rector": "Ли Ен Гвон",
+  "site": "http://kiuc.kg/",
+  "faculties": [
+    {
+      "faculty_name": "1. Тилдердин жана маданияттын Кыргыз институту",
+      "directions": [
+        {
+          "code": "531100",
+          "major": "Лингвистика (котормо жана котормо иши)",
+          "specialty": "Лингвистика (котормо жана котормо иши)",
+          "education_type": "котормо жана котормо иши, котормо жана котормо иши, Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "50000",
+          "plan": "65",
+          "threshold": "Негизги балл-110",
+          "registered": "3",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5930116",
+              "note": null,
+              "main_score": "144",
+              "extra_score": "0",
+              "total_score": "144",
+              "category": null,
+              "date": "14.07.2025 12:17:28",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5930088",
+              "note": null,
+              "main_score": "129",
+              "extra_score": "0",
+              "total_score": "129",
+              "category": null,
+              "date": "14.07.2025 12:19:47",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5950448",
+              "note": null,
+              "main_score": "125",
+              "extra_score": "0",
+              "total_score": "125",
+              "category": null,
+              "date": "14.07.2025 10:55:24",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "600300",
+          "major": "Мейманкана иши",
+          "specialty": "Мейманкана иши",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "50000",
+          "plan": "100",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "600200",
+          "major": "Туризм",
+          "specialty": "",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "50000",
+          "plan": "82",
+          "threshold": "Негизги балл-110",
+          "registered": "4",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5910138",
+              "note": null,
+              "main_score": "163",
+              "extra_score": "0",
+              "total_score": "163",
+              "category": null,
+              "date": "14.07.2025 13:29:26",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5950608",
+              "note": null,
+              "main_score": "154",
+              "extra_score": "0",
+              "total_score": "154",
+              "category": null,
+              "date": "14.07.2025 18:03:46",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5950616",
+              "note": null,
+              "main_score": "139",
+              "extra_score": "0",
+              "total_score": "139",
+              "category": null,
+              "date": "14.07.2025 15:18:51",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5911004",
+              "note": null,
+              "main_score": "130",
+              "extra_score": "0",
+              "total_score": "130",
+              "category": null,
+              "date": "14.07.2025 10:12:15",
+              "admitted": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

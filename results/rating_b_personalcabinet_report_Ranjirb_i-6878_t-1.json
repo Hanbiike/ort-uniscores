@@ -8,639 +8,781 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 10 . Зарегистрированных: 234 .",
   "total_registered": null,
+  "admitted_count": 10,
+  "not_admitted_count": 224,
   "tables": [
     {
       "header": "Бишкек: 2.99",
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5220573",
+          "certificate": "5220573",
+          "note": null,
           "main_score": "217",
           "extra_score": "140",
           "total_score": "357",
-          "category": null,
-          "date": "16.07.2025 12:12:55"
+          "category": "Бишкек",
+          "date": "16.07.2025 12:12:55",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5211864",
+          "certificate": "5211864",
+          "note": null,
           "main_score": "214",
           "extra_score": "128",
           "total_score": "342",
-          "category": null,
-          "date": "16.07.2025 00:09:45"
+          "category": "Бишкек",
+          "date": "16.07.2025 00:09:45",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5200257",
+          "certificate": "5200257",
+          "note": null,
           "main_score": "195",
           "extra_score": "145",
           "total_score": "340",
-          "category": null,
-          "date": "15.07.2025 19:38:28"
+          "category": "Бишкек",
+          "date": "15.07.2025 19:38:28",
+          "admitted": true
         },
         {
           "num": "4",
           "certificate": "5232146",
+          "note": null,
           "main_score": "194",
           "extra_score": "143",
           "total_score": "337",
-          "category": null,
-          "date": "15.07.2025 09:05:53"
+          "category": "Бишкек",
+          "date": "15.07.2025 09:05:53",
+          "admitted": false
         },
         {
           "num": "5",
           "certificate": "5221752",
+          "note": null,
           "main_score": "192",
           "extra_score": "143",
           "total_score": "335",
-          "category": null,
-          "date": "16.07.2025 12:24:54"
+          "category": "Бишкек",
+          "date": "16.07.2025 12:24:54",
+          "admitted": false
         },
         {
           "num": "6",
           "certificate": "5211456",
+          "note": null,
           "main_score": "185",
           "extra_score": "143",
           "total_score": "328",
-          "category": null,
-          "date": "14.07.2025 13:39:00"
+          "category": "Бишкек",
+          "date": "14.07.2025 13:39:00",
+          "admitted": false
         },
         {
           "num": "7",
           "certificate": "5231059",
+          "note": null,
           "main_score": "185",
           "extra_score": "138",
           "total_score": "323",
-          "category": null,
-          "date": "14.07.2025 11:20:37"
+          "category": "Бишкек",
+          "date": "14.07.2025 11:20:37",
+          "admitted": false
         },
         {
           "num": "8",
           "certificate": "5212302",
+          "note": null,
           "main_score": "190",
           "extra_score": "130",
           "total_score": "320",
-          "category": null,
-          "date": "14.07.2025 14:28:48"
+          "category": "Бишкек",
+          "date": "14.07.2025 14:28:48",
+          "admitted": false
         },
         {
           "num": "9",
           "certificate": "5210754",
+          "note": null,
           "main_score": "180",
           "extra_score": "138",
           "total_score": "318",
-          "category": null,
-          "date": "15.07.2025 00:30:52"
+          "category": "Бишкек",
+          "date": "15.07.2025 00:30:52",
+          "admitted": false
         },
         {
           "num": "10",
           "certificate": "5230906",
+          "note": null,
           "main_score": "171",
           "extra_score": "143",
           "total_score": "314",
-          "category": null,
-          "date": "14.07.2025 15:53:06"
+          "category": "Бишкек",
+          "date": "14.07.2025 15:53:06",
+          "admitted": false
         },
         {
           "num": "11",
           "certificate": "5203260",
+          "note": null,
           "main_score": "169",
           "extra_score": "138",
           "total_score": "307",
-          "category": null,
-          "date": "14.07.2025 10:24:52"
+          "category": "Бишкек",
+          "date": "14.07.2025 10:24:52",
+          "admitted": false
         },
         {
           "num": "12",
           "certificate": "5220607",
+          "note": null,
           "main_score": "174",
           "extra_score": "133",
           "total_score": "307",
-          "category": null,
-          "date": "14.07.2025 10:45:09"
+          "category": "Бишкек",
+          "date": "14.07.2025 10:45:09",
+          "admitted": false
         },
         {
           "num": "13",
           "certificate": "5201601",
+          "note": null,
           "main_score": "177",
           "extra_score": "130",
           "total_score": "307",
-          "category": null,
-          "date": "15.07.2025 02:22:12"
+          "category": "Бишкек",
+          "date": "15.07.2025 02:22:12",
+          "admitted": false
         },
         {
           "num": "14",
           "certificate": "5220687",
+          "note": null,
           "main_score": "167",
           "extra_score": "138",
           "total_score": "305",
-          "category": null,
-          "date": "14.07.2025 11:58:59"
+          "category": "Бишкек",
+          "date": "14.07.2025 11:58:59",
+          "admitted": false
         },
         {
           "num": "15",
           "certificate": "5200077",
+          "note": null,
           "main_score": "166",
           "extra_score": "138",
           "total_score": "304",
-          "category": null,
-          "date": "14.07.2025 11:08:26"
+          "category": "Бишкек",
+          "date": "14.07.2025 11:08:26",
+          "admitted": false
         },
         {
           "num": "16",
           "certificate": "5222588",
+          "note": null,
           "main_score": "169",
           "extra_score": "135",
           "total_score": "304",
-          "category": null,
-          "date": "14.07.2025 09:44:26"
+          "category": "Бишкек",
+          "date": "14.07.2025 09:44:26",
+          "admitted": false
         },
         {
           "num": "17",
           "certificate": "5232690",
+          "note": null,
           "main_score": "176",
           "extra_score": "128",
           "total_score": "304",
-          "category": null,
-          "date": "14.07.2025 15:02:02"
+          "category": "Бишкек",
+          "date": "14.07.2025 15:02:02",
+          "admitted": false
         },
         {
           "num": "18",
           "certificate": "5222918",
+          "note": null,
           "main_score": "193",
           "extra_score": "110",
           "total_score": "303",
-          "category": null,
-          "date": "14.07.2025 14:45:08"
+          "category": "Бишкек",
+          "date": "14.07.2025 14:45:08",
+          "admitted": false
         },
         {
           "num": "19",
           "certificate": "5200530",
+          "note": null,
           "main_score": "162",
           "extra_score": "138",
           "total_score": "300",
-          "category": null,
-          "date": "16.07.2025 13:46:13"
+          "category": "Бишкек",
+          "date": "16.07.2025 13:46:13",
+          "admitted": false
         },
         {
           "num": "20",
           "certificate": "5202585",
+          "note": null,
           "main_score": "183",
           "extra_score": "115",
           "total_score": "298",
-          "category": null,
-          "date": "16.07.2025 12:44:56"
+          "category": "Бишкек",
+          "date": "16.07.2025 12:44:56",
+          "admitted": false
         },
         {
           "num": "21",
           "certificate": "5201471",
+          "note": null,
           "main_score": "182",
           "extra_score": "115",
           "total_score": "297",
-          "category": null,
-          "date": "15.07.2025 18:19:42"
+          "category": "Бишкек",
+          "date": "15.07.2025 18:19:42",
+          "admitted": false
         },
         {
           "num": "22",
           "certificate": "5200076",
+          "note": null,
           "main_score": "173",
           "extra_score": "123",
           "total_score": "296",
-          "category": null,
-          "date": "14.07.2025 10:04:50"
+          "category": "Бишкек",
+          "date": "14.07.2025 10:04:50",
+          "admitted": false
         },
         {
           "num": "23",
           "certificate": "5128041",
+          "note": null,
           "main_score": "162",
           "extra_score": "133",
           "total_score": "295",
-          "category": null,
-          "date": "14.07.2025 10:58:28"
+          "category": "Бишкек",
+          "date": "14.07.2025 10:58:28",
+          "admitted": false
         },
         {
           "num": "24",
           "certificate": "5232536",
+          "note": null,
           "main_score": "185",
           "extra_score": "110",
           "total_score": "295",
-          "category": null,
-          "date": "14.07.2025 10:23:01"
+          "category": "Бишкек",
+          "date": "14.07.2025 10:23:01",
+          "admitted": false
         },
         {
           "num": "25",
           "certificate": "5222340",
+          "note": null,
           "main_score": "156",
           "extra_score": "138",
           "total_score": "294",
-          "category": null,
-          "date": "14.07.2025 12:02:52"
+          "category": "Бишкек",
+          "date": "14.07.2025 12:02:52",
+          "admitted": false
         },
         {
           "num": "26",
           "certificate": "5232249",
+          "note": null,
           "main_score": "160",
           "extra_score": "130",
           "total_score": "290",
-          "category": null,
-          "date": "16.07.2025 13:12:27"
+          "category": "Бишкек",
+          "date": "16.07.2025 13:12:27",
+          "admitted": false
         },
         {
           "num": "27",
           "certificate": "5201555",
+          "note": null,
           "main_score": "160",
           "extra_score": "128",
           "total_score": "288",
-          "category": null,
-          "date": "14.07.2025 12:43:49"
+          "category": "Бишкек",
+          "date": "14.07.2025 12:43:49",
+          "admitted": false
         },
         {
           "num": "28",
           "certificate": "5210125",
+          "note": null,
           "main_score": "182",
           "extra_score": "105",
           "total_score": "287",
-          "category": null,
-          "date": "15.07.2025 10:29:53"
+          "category": "Бишкек",
+          "date": "15.07.2025 10:29:53",
+          "admitted": false
         },
         {
           "num": "29",
           "certificate": "5206894",
+          "note": null,
           "main_score": "144",
           "extra_score": "140",
           "total_score": "284",
-          "category": null,
-          "date": "14.07.2025 12:29:15"
+          "category": "Бишкек",
+          "date": "14.07.2025 12:29:15",
+          "admitted": false
         },
         {
           "num": "30",
           "certificate": "5230374",
+          "note": null,
           "main_score": "166",
           "extra_score": "118",
           "total_score": "284",
-          "category": null,
-          "date": "14.07.2025 12:33:48"
+          "category": "Бишкек",
+          "date": "14.07.2025 12:33:48",
+          "admitted": false
         },
         {
           "num": "31",
           "certificate": "5200063",
+          "note": null,
           "main_score": "171",
           "extra_score": "113",
           "total_score": "284",
-          "category": null,
-          "date": "16.07.2025 13:43:40"
+          "category": "Бишкек",
+          "date": "16.07.2025 13:43:40",
+          "admitted": false
         },
         {
           "num": "32",
           "certificate": "5232988",
+          "note": null,
           "main_score": "163",
           "extra_score": "120",
           "total_score": "283",
-          "category": null,
-          "date": "14.07.2025 09:44:31"
+          "category": "Бишкек",
+          "date": "14.07.2025 09:44:31",
+          "admitted": false
         },
         {
           "num": "33",
           "certificate": "5210249",
+          "note": null,
           "main_score": "175",
           "extra_score": "108",
           "total_score": "283",
-          "category": null,
-          "date": "14.07.2025 10:54:51"
+          "category": "Бишкек",
+          "date": "14.07.2025 10:54:51",
+          "admitted": false
         },
         {
           "num": "34",
           "certificate": "5202908",
+          "note": null,
           "main_score": "177",
           "extra_score": "105",
           "total_score": "282",
-          "category": null,
-          "date": "14.07.2025 09:45:43"
+          "category": "Бишкек",
+          "date": "14.07.2025 09:45:43",
+          "admitted": false
         },
         {
           "num": "35",
           "certificate": "5210715",
+          "note": null,
           "main_score": "160",
           "extra_score": "110",
           "total_score": "270",
-          "category": null,
-          "date": "14.07.2025 18:50:35"
+          "category": "Бишкек",
+          "date": "14.07.2025 18:50:35",
+          "admitted": false
         },
         {
           "num": "36",
           "certificate": "5222332",
+          "note": null,
           "main_score": "145",
           "extra_score": "123",
           "total_score": "268",
-          "category": null,
-          "date": "14.07.2025 11:05:10"
+          "category": "Бишкек",
+          "date": "14.07.2025 11:05:10",
+          "admitted": false
         },
         {
           "num": "37",
           "certificate": "5211708",
+          "note": null,
           "main_score": "141",
           "extra_score": "125",
           "total_score": "266",
-          "category": null,
-          "date": "14.07.2025 19:14:18"
+          "category": "Бишкек",
+          "date": "14.07.2025 19:14:18",
+          "admitted": false
         },
         {
           "num": "38",
           "certificate": "5207660",
+          "note": null,
           "main_score": "153",
           "extra_score": "113",
           "total_score": "266",
-          "category": null,
-          "date": "14.07.2025 09:46:58"
+          "category": "Бишкек",
+          "date": "14.07.2025 09:46:58",
+          "admitted": false
         },
         {
           "num": "39",
           "certificate": "5200487",
+          "note": null,
           "main_score": "154",
           "extra_score": "110",
           "total_score": "264",
-          "category": null,
-          "date": "14.07.2025 09:53:18"
+          "category": "Бишкек",
+          "date": "14.07.2025 09:53:18",
+          "admitted": false
         },
         {
           "num": "40",
           "certificate": "5207417",
+          "note": null,
           "main_score": "165",
           "extra_score": "96",
           "total_score": "261",
-          "category": null,
-          "date": "14.07.2025 09:57:06"
+          "category": "Бишкек",
+          "date": "14.07.2025 09:57:06",
+          "admitted": false
         },
         {
           "num": "41",
           "certificate": "5121495",
+          "note": null,
           "main_score": "150",
           "extra_score": "110",
           "total_score": "260",
-          "category": null,
-          "date": "14.07.2025 13:17:27"
+          "category": "Бишкек",
+          "date": "14.07.2025 13:17:27",
+          "admitted": false
         },
         {
           "num": "42",
           "certificate": "5220843",
+          "note": null,
           "main_score": "145",
           "extra_score": "113",
           "total_score": "258",
-          "category": null,
-          "date": "15.07.2025 22:40:26"
+          "category": "Бишкек",
+          "date": "15.07.2025 22:40:26",
+          "admitted": false
         },
         {
           "num": "43",
           "certificate": "5231501",
+          "note": null,
           "main_score": "140",
           "extra_score": "115",
           "total_score": "255",
-          "category": null,
-          "date": "15.07.2025 19:31:54"
+          "category": "Бишкек",
+          "date": "15.07.2025 19:31:54",
+          "admitted": false
         },
         {
           "num": "44",
           "certificate": "5201924",
+          "note": null,
           "main_score": "156",
           "extra_score": "98",
           "total_score": "254",
-          "category": null,
-          "date": "15.07.2025 23:39:33"
+          "category": "Бишкек",
+          "date": "15.07.2025 23:39:33",
+          "admitted": false
         },
         {
           "num": "45",
           "certificate": "5201093",
+          "note": null,
           "main_score": "163",
           "extra_score": "91",
           "total_score": "254",
-          "category": null,
-          "date": "15.07.2025 21:00:25"
+          "category": "Бишкек",
+          "date": "15.07.2025 21:00:25",
+          "admitted": false
         },
         {
           "num": "46",
           "certificate": "5231105",
+          "note": null,
           "main_score": "143",
           "extra_score": "110",
           "total_score": "253",
-          "category": null,
-          "date": "14.07.2025 10:21:17"
+          "category": "Бишкек",
+          "date": "14.07.2025 10:21:17",
+          "admitted": false
         },
         {
           "num": "47",
           "certificate": "5231165",
+          "note": null,
           "main_score": "152",
           "extra_score": "101",
           "total_score": "253",
-          "category": null,
-          "date": "15.07.2025 03:15:04"
+          "category": "Бишкек",
+          "date": "15.07.2025 03:15:04",
+          "admitted": false
         },
         {
           "num": "48",
           "certificate": "5202313",
+          "note": null,
           "main_score": "134",
           "extra_score": "118",
           "total_score": "252",
-          "category": null,
-          "date": "15.07.2025 21:39:36"
+          "category": "Бишкек",
+          "date": "15.07.2025 21:39:36",
+          "admitted": false
         },
         {
           "num": "49",
           "certificate": "5222034",
+          "note": null,
           "main_score": "146",
           "extra_score": "105",
           "total_score": "251",
-          "category": null,
-          "date": "14.07.2025 18:53:03"
+          "category": "Бишкек",
+          "date": "14.07.2025 18:53:03",
+          "admitted": false
         },
         {
           "num": "50",
           "certificate": "5222335",
+          "note": null,
           "main_score": "145",
           "extra_score": "98",
           "total_score": "243",
-          "category": null,
-          "date": "14.07.2025 14:21:59"
+          "category": "Бишкек",
+          "date": "14.07.2025 14:21:59",
+          "admitted": false
         },
         {
           "num": "51",
           "certificate": "5231710",
+          "note": null,
           "main_score": "142",
           "extra_score": "98",
           "total_score": "240",
-          "category": null,
-          "date": "15.07.2025 20:53:43"
+          "category": "Бишкек",
+          "date": "15.07.2025 20:53:43",
+          "admitted": false
         },
         {
           "num": "52",
           "certificate": "5202019",
+          "note": null,
           "main_score": "126",
           "extra_score": "113",
           "total_score": "239",
-          "category": null,
-          "date": "15.07.2025 11:09:21"
+          "category": "Бишкек",
+          "date": "15.07.2025 11:09:21",
+          "admitted": false
         },
         {
           "num": "53",
           "certificate": "5230560",
+          "note": null,
           "main_score": "155",
           "extra_score": "81",
           "total_score": "236",
-          "category": null,
-          "date": "16.07.2025 01:31:28"
+          "category": "Бишкек",
+          "date": "16.07.2025 01:31:28",
+          "admitted": false
         },
         {
           "num": "54",
           "certificate": "5230103",
+          "note": null,
           "main_score": "152",
           "extra_score": "83",
           "total_score": "235",
-          "category": null,
-          "date": "14.07.2025 15:12:21"
+          "category": "Бишкек",
+          "date": "14.07.2025 15:12:21",
+          "admitted": false
         },
         {
           "num": "55",
           "certificate": "5202979",
+          "note": null,
           "main_score": "129",
           "extra_score": "101",
           "total_score": "230",
-          "category": null,
-          "date": "14.07.2025 10:11:22"
+          "category": "Бишкек",
+          "date": "14.07.2025 10:11:22",
+          "admitted": false
         },
         {
           "num": "56",
           "certificate": "5201308",
+          "note": null,
           "main_score": "145",
           "extra_score": "76",
           "total_score": "221",
-          "category": null,
-          "date": "16.07.2025 09:54:50"
+          "category": "Бишкек",
+          "date": "16.07.2025 09:54:50",
+          "admitted": false
         },
         {
           "num": "57",
           "certificate": "5201298",
+          "note": null,
           "main_score": "137",
           "extra_score": "83",
           "total_score": "220",
-          "category": null,
-          "date": "14.07.2025 15:36:35"
+          "category": "Бишкек",
+          "date": "14.07.2025 15:36:35",
+          "admitted": false
         },
         {
           "num": "58",
           "certificate": "5222416",
+          "note": null,
           "main_score": "133",
           "extra_score": "83",
           "total_score": "216",
-          "category": null,
-          "date": "15.07.2025 21:38:49"
+          "category": "Бишкек",
+          "date": "15.07.2025 21:38:49",
+          "admitted": false
         },
         {
           "num": "59",
           "certificate": "5210403",
+          "note": null,
           "main_score": "122",
           "extra_score": "91",
           "total_score": "213",
-          "category": null,
-          "date": "14.07.2025 09:42:22"
+          "category": "Бишкек",
+          "date": "14.07.2025 09:42:22",
+          "admitted": false
         },
         {
           "num": "60",
           "certificate": "5210223",
+          "note": null,
           "main_score": "138",
           "extra_score": "73",
           "total_score": "211",
-          "category": null,
-          "date": "14.07.2025 12:34:09"
+          "category": "Бишкек",
+          "date": "14.07.2025 12:34:09",
+          "admitted": false
         },
         {
           "num": "61",
           "certificate": "5222767",
+          "note": null,
           "main_score": "133",
           "extra_score": "76",
           "total_score": "209",
-          "category": null,
-          "date": "14.07.2025 10:04:36"
+          "category": "Бишкек",
+          "date": "14.07.2025 10:04:36",
+          "admitted": false
         },
         {
           "num": "62",
           "certificate": "5222646",
+          "note": null,
           "main_score": "126",
           "extra_score": "78",
           "total_score": "204",
-          "category": null,
-          "date": "16.07.2025 11:41:06"
+          "category": "Бишкек",
+          "date": "16.07.2025 11:41:06",
+          "admitted": false
         },
         {
           "num": "63",
           "certificate": "5211840",
+          "note": null,
           "main_score": "119",
           "extra_score": "83",
           "total_score": "202",
-          "category": null,
-          "date": "14.07.2025 09:49:01"
+          "category": "Бишкек",
+          "date": "14.07.2025 09:49:01",
+          "admitted": false
         },
         {
           "num": "64",
           "certificate": "5212681",
+          "note": null,
           "main_score": "121",
           "extra_score": "78",
           "total_score": "199",
-          "category": null,
-          "date": "15.07.2025 01:25:23"
+          "category": "Бишкек",
+          "date": "15.07.2025 01:25:23",
+          "admitted": false
         },
         {
           "num": "65",
           "certificate": "5230158",
+          "note": null,
           "main_score": "125",
           "extra_score": "73",
           "total_score": "198",
-          "category": null,
-          "date": "14.07.2025 09:44:46"
+          "category": "Бишкек",
+          "date": "14.07.2025 09:44:46",
+          "admitted": false
         },
         {
           "num": "66",
           "certificate": "5202333",
+          "note": null,
           "main_score": "114",
           "extra_score": "81",
           "total_score": "195",
-          "category": null,
-          "date": "15.07.2025 15:02:05"
+          "category": "Бишкек",
+          "date": "15.07.2025 15:02:05",
+          "admitted": false
         },
         {
           "num": "67",
           "certificate": "5202436",
+          "note": null,
           "main_score": "126",
           "extra_score": "68",
           "total_score": "194",
-          "category": null,
-          "date": "15.07.2025 18:34:18"
+          "category": "Бишкек",
+          "date": "15.07.2025 18:34:18",
+          "admitted": false
         },
         {
           "num": "68",
           "certificate": "5231319",
+          "note": null,
           "main_score": "114",
           "extra_score": "78",
           "total_score": "192",
-          "category": null,
-          "date": "14.07.2025 10:52:13"
+          "category": "Бишкек",
+          "date": "14.07.2025 10:52:13",
+          "admitted": false
         },
         {
           "num": "69",
           "certificate": "5202828",
+          "note": null,
           "main_score": "113",
           "extra_score": "78",
           "total_score": "191",
-          "category": null,
-          "date": "15.07.2025 13:04:08"
+          "category": "Бишкек",
+          "date": "15.07.2025 13:04:08",
+          "admitted": false
         },
         {
           "num": "70",
           "certificate": "5230653",
+          "note": null,
           "main_score": "115",
           "extra_score": "76",
           "total_score": "191",
-          "category": null,
-          "date": "14.07.2025 15:51:25"
+          "category": "Бишкек",
+          "date": "14.07.2025 15:51:25",
+          "admitted": false
         }
       ]
     },
@@ -649,561 +791,685 @@
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5701861",
+          "certificate": "5701861",
+          "note": null,
           "main_score": "224",
           "extra_score": "140",
           "total_score": "364",
-          "category": null,
-          "date": "16.07.2025 13:58:36"
+          "category": "Малый город",
+          "date": "16.07.2025 13:58:36",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5700659",
+          "certificate": "5700659",
+          "note": null,
           "main_score": "204",
           "extra_score": "145",
           "total_score": "349",
-          "category": null,
-          "date": "16.07.2025 13:41:13"
+          "category": "Малый город",
+          "date": "16.07.2025 13:41:13",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5920229",
+          "certificate": "5920229",
+          "note": null,
           "main_score": "208",
           "extra_score": "140",
           "total_score": "348",
-          "category": null,
-          "date": "14.07.2025 13:17:38"
+          "category": "Малый город",
+          "date": "14.07.2025 13:17:38",
+          "admitted": true
         },
         {
           "num": "4",
           "certificate": "5510295",
+          "note": null,
           "main_score": "195",
           "extra_score": "145",
           "total_score": "340",
-          "category": null,
-          "date": "16.07.2025 10:26:27"
+          "category": "Малый город",
+          "date": "16.07.2025 10:26:27",
+          "admitted": false
         },
         {
           "num": "5",
           "certificate": "5140115",
+          "note": null,
           "main_score": "195",
           "extra_score": "143",
           "total_score": "338",
-          "category": null,
-          "date": "15.07.2025 21:36:13"
+          "category": "Малый город",
+          "date": "15.07.2025 21:36:13",
+          "admitted": false
         },
         {
           "num": "6",
           "certificate": "5701839",
+          "note": null,
           "main_score": "200",
           "extra_score": "133",
           "total_score": "333",
-          "category": null,
-          "date": "15.07.2025 21:41:03"
+          "category": "Малый город",
+          "date": "15.07.2025 21:41:03",
+          "admitted": false
         },
         {
           "num": "7",
           "certificate": "5840157",
+          "note": null,
           "main_score": "190",
           "extra_score": "138",
           "total_score": "328",
-          "category": null,
-          "date": "15.07.2025 18:31:39"
+          "category": "Малый город",
+          "date": "15.07.2025 18:31:39",
+          "admitted": false
         },
         {
           "num": "8",
           "certificate": "5340222",
+          "note": null,
           "main_score": "190",
           "extra_score": "138",
           "total_score": "328",
-          "category": null,
-          "date": "15.07.2025 18:48:03"
+          "category": "Малый город",
+          "date": "15.07.2025 18:48:03",
+          "admitted": false
         },
         {
           "num": "9",
           "certificate": "5370863",
+          "note": null,
           "main_score": "195",
           "extra_score": "133",
           "total_score": "328",
-          "category": null,
-          "date": "15.07.2025 18:50:18"
+          "category": "Малый город",
+          "date": "15.07.2025 18:50:18",
+          "admitted": false
         },
         {
           "num": "10",
           "certificate": "5910293",
+          "note": null,
           "main_score": "185",
           "extra_score": "130",
           "total_score": "315",
-          "category": null,
-          "date": "14.07.2025 19:45:22"
+          "category": "Малый город",
+          "date": "14.07.2025 19:45:22",
+          "admitted": false
         },
         {
           "num": "11",
           "certificate": "5701842",
+          "note": null,
           "main_score": "195",
           "extra_score": "120",
           "total_score": "315",
-          "category": null,
-          "date": "15.07.2025 22:18:00"
+          "category": "Малый город",
+          "date": "15.07.2025 22:18:00",
+          "admitted": false
         },
         {
           "num": "12",
           "certificate": "5510206",
+          "note": null,
           "main_score": "169",
           "extra_score": "145",
           "total_score": "314",
-          "category": null,
-          "date": "15.07.2025 12:52:33"
+          "category": "Малый город",
+          "date": "15.07.2025 12:52:33",
+          "admitted": false
         },
         {
           "num": "13",
           "certificate": "5510357",
+          "note": null,
           "main_score": "197",
           "extra_score": "115",
           "total_score": "312",
-          "category": null,
-          "date": "15.07.2025 18:09:06"
+          "category": "Малый город",
+          "date": "15.07.2025 18:09:06",
+          "admitted": false
         },
         {
           "num": "14",
           "certificate": "5978044",
+          "note": null,
           "main_score": "193",
           "extra_score": "113",
           "total_score": "306",
-          "category": null,
-          "date": "14.07.2025 20:39:40"
+          "category": "Малый город",
+          "date": "14.07.2025 20:39:40",
+          "admitted": false
         },
         {
           "num": "15",
           "certificate": "5700203",
+          "note": null,
           "main_score": "173",
           "extra_score": "130",
           "total_score": "303",
-          "category": null,
-          "date": "14.07.2025 13:48:02"
+          "category": "Малый город",
+          "date": "14.07.2025 13:48:02",
+          "admitted": false
         },
         {
           "num": "16",
           "certificate": "5910051",
+          "note": null,
           "main_score": "181",
           "extra_score": "120",
           "total_score": "301",
-          "category": null,
-          "date": "14.07.2025 12:46:17"
+          "category": "Малый город",
+          "date": "14.07.2025 12:46:17",
+          "admitted": false
         },
         {
           "num": "17",
           "certificate": "5420033",
+          "note": null,
           "main_score": "189",
           "extra_score": "110",
           "total_score": "299",
-          "category": null,
-          "date": "14.07.2025 12:11:16"
+          "category": "Малый город",
+          "date": "14.07.2025 12:11:16",
+          "admitted": false
         },
         {
           "num": "18",
           "certificate": "5370889",
+          "note": null,
           "main_score": "180",
           "extra_score": "115",
           "total_score": "295",
-          "category": null,
-          "date": "14.07.2025 09:44:05"
+          "category": "Малый город",
+          "date": "14.07.2025 09:44:05",
+          "admitted": false
         },
         {
           "num": "19",
           "certificate": "5228177",
+          "note": null,
           "main_score": "153",
           "extra_score": "140",
           "total_score": "293",
-          "category": null,
-          "date": "14.07.2025 20:15:29"
+          "category": "Малый город",
+          "date": "14.07.2025 20:15:29",
+          "admitted": false
         },
         {
           "num": "20",
           "certificate": "5390185",
+          "note": null,
           "main_score": "163",
           "extra_score": "130",
           "total_score": "293",
-          "category": null,
-          "date": "15.07.2025 00:06:39"
+          "category": "Малый город",
+          "date": "15.07.2025 00:06:39",
+          "admitted": false
         },
         {
           "num": "21",
           "certificate": "5340215",
+          "note": null,
           "main_score": "199",
           "extra_score": "91",
           "total_score": "290",
-          "category": null,
-          "date": "15.07.2025 17:14:51"
+          "category": "Малый город",
+          "date": "15.07.2025 17:14:51",
+          "admitted": false
         },
         {
           "num": "22",
           "certificate": "5951070",
+          "note": null,
           "main_score": "148",
           "extra_score": "138",
           "total_score": "286",
-          "category": null,
-          "date": "15.07.2025 14:11:20"
+          "category": "Малый город",
+          "date": "15.07.2025 14:11:20",
+          "admitted": false
         },
         {
           "num": "23",
           "certificate": "5702613",
+          "note": null,
           "main_score": "161",
           "extra_score": "125",
           "total_score": "286",
-          "category": null,
-          "date": "14.07.2025 12:03:00"
+          "category": "Малый город",
+          "date": "14.07.2025 12:03:00",
+          "admitted": false
         },
         {
           "num": "24",
           "certificate": "5970139",
+          "note": null,
           "main_score": "170",
           "extra_score": "115",
           "total_score": "285",
-          "category": null,
-          "date": "16.07.2025 10:05:30"
+          "category": "Малый город",
+          "date": "16.07.2025 10:05:30",
+          "admitted": false
         },
         {
           "num": "25",
           "certificate": "5120749",
+          "note": null,
           "main_score": "164",
           "extra_score": "120",
           "total_score": "284",
-          "category": null,
-          "date": "15.07.2025 21:27:08"
+          "category": "Малый город",
+          "date": "15.07.2025 21:27:08",
+          "admitted": false
         },
         {
           "num": "26",
-          "certificate": "5840095 [Целевые места]",
+          "certificate": "5840095",
+          "note": "Целевые места",
           "main_score": "173",
           "extra_score": "110",
           "total_score": "283",
-          "category": null,
-          "date": "16.07.2025 00:34:06"
+          "category": "Малый город",
+          "date": "16.07.2025 00:34:06",
+          "admitted": false
         },
         {
           "num": "27",
           "certificate": "5300832",
+          "note": null,
           "main_score": "185",
           "extra_score": "98",
           "total_score": "283",
-          "category": null,
-          "date": "14.07.2025 10:14:55"
+          "category": "Малый город",
+          "date": "14.07.2025 10:14:55",
+          "admitted": false
         },
         {
           "num": "28",
           "certificate": "5110041",
+          "note": null,
           "main_score": "171",
           "extra_score": "105",
           "total_score": "276",
-          "category": null,
-          "date": "16.07.2025 13:58:44"
+          "category": "Малый город",
+          "date": "16.07.2025 13:58:44",
+          "admitted": false
         },
         {
           "num": "29",
           "certificate": "5540063",
+          "note": null,
           "main_score": "156",
           "extra_score": "118",
           "total_score": "274",
-          "category": null,
-          "date": "14.07.2025 09:46:38"
+          "category": "Малый город",
+          "date": "14.07.2025 09:46:38",
+          "admitted": false
         },
         {
           "num": "30",
           "certificate": "5310163",
+          "note": null,
           "main_score": "175",
           "extra_score": "98",
           "total_score": "273",
-          "category": null,
-          "date": "16.07.2025 12:04:51"
+          "category": "Малый город",
+          "date": "16.07.2025 12:04:51",
+          "admitted": false
         },
         {
           "num": "31",
           "certificate": "5701974",
+          "note": null,
           "main_score": "163",
           "extra_score": "105",
           "total_score": "268",
-          "category": null,
-          "date": "14.07.2025 11:00:31"
+          "category": "Малый город",
+          "date": "14.07.2025 11:00:31",
+          "admitted": false
         },
         {
           "num": "32",
           "certificate": "5370683",
+          "note": null,
           "main_score": "138",
           "extra_score": "128",
           "total_score": "266",
-          "category": null,
-          "date": "16.07.2025 10:30:36"
+          "category": "Малый город",
+          "date": "16.07.2025 10:30:36",
+          "admitted": false
         },
         {
           "num": "33",
           "certificate": "5700621",
+          "note": null,
           "main_score": "130",
           "extra_score": "135",
           "total_score": "265",
-          "category": null,
-          "date": "14.07.2025 20:55:25"
+          "category": "Малый город",
+          "date": "14.07.2025 20:55:25",
+          "admitted": false
         },
         {
           "num": "34",
           "certificate": "5380377",
+          "note": null,
           "main_score": "135",
           "extra_score": "128",
           "total_score": "263",
-          "category": null,
-          "date": "14.07.2025 10:16:24"
+          "category": "Малый город",
+          "date": "14.07.2025 10:16:24",
+          "admitted": false
         },
         {
           "num": "35",
           "certificate": "5701844",
+          "note": null,
           "main_score": "138",
           "extra_score": "125",
           "total_score": "263",
-          "category": null,
-          "date": "15.07.2025 22:46:45"
+          "category": "Малый город",
+          "date": "15.07.2025 22:46:45",
+          "admitted": false
         },
         {
           "num": "36",
           "certificate": "5701816",
+          "note": null,
           "main_score": "136",
           "extra_score": "125",
           "total_score": "261",
-          "category": null,
-          "date": "15.07.2025 22:11:09"
+          "category": "Малый город",
+          "date": "15.07.2025 22:11:09",
+          "admitted": false
         },
         {
           "num": "37",
           "certificate": "5840488",
+          "note": null,
           "main_score": "155",
           "extra_score": "103",
           "total_score": "258",
-          "category": null,
-          "date": "15.07.2025 13:51:32"
+          "category": "Малый город",
+          "date": "15.07.2025 13:51:32",
+          "admitted": false
         },
         {
           "num": "38",
           "certificate": "5380460",
+          "note": null,
           "main_score": "166",
           "extra_score": "91",
           "total_score": "257",
-          "category": null,
-          "date": "14.07.2025 15:57:30"
+          "category": "Малый город",
+          "date": "14.07.2025 15:57:30",
+          "admitted": false
         },
         {
           "num": "39",
           "certificate": "5910058",
+          "note": null,
           "main_score": "158",
           "extra_score": "96",
           "total_score": "254",
-          "category": null,
-          "date": "14.07.2025 10:04:23"
+          "category": "Малый город",
+          "date": "14.07.2025 10:04:23",
+          "admitted": false
         },
         {
           "num": "40",
           "certificate": "5840513",
+          "note": null,
           "main_score": "143",
           "extra_score": "110",
           "total_score": "253",
-          "category": null,
-          "date": "14.07.2025 15:48:08"
+          "category": "Малый город",
+          "date": "14.07.2025 15:48:08",
+          "admitted": false
         },
         {
           "num": "41",
           "certificate": "5700945",
+          "note": null,
           "main_score": "150",
           "extra_score": "96",
           "total_score": "246",
-          "category": null,
-          "date": "16.07.2025 10:32:29"
+          "category": "Малый город",
+          "date": "16.07.2025 10:32:29",
+          "admitted": false
         },
         {
           "num": "42",
           "certificate": "5380415",
+          "note": null,
           "main_score": "135",
           "extra_score": "110",
           "total_score": "245",
-          "category": null,
-          "date": "15.07.2025 21:01:53"
+          "category": "Малый город",
+          "date": "15.07.2025 21:01:53",
+          "admitted": false
         },
         {
           "num": "43",
           "certificate": "5380373",
+          "note": null,
           "main_score": "158",
           "extra_score": "86",
           "total_score": "244",
-          "category": null,
-          "date": "14.07.2025 15:49:43"
+          "category": "Малый город",
+          "date": "14.07.2025 15:49:43",
+          "admitted": false
         },
         {
           "num": "44",
           "certificate": "5370741",
+          "note": null,
           "main_score": "149",
           "extra_score": "93",
           "total_score": "242",
-          "category": null,
-          "date": "14.07.2025 09:55:07"
+          "category": "Малый город",
+          "date": "14.07.2025 09:55:07",
+          "admitted": false
         },
         {
           "num": "45",
-          "certificate": "5390121 [1, 2 и 3 место конкурса \"Интеллектуалы XXI века\"]",
+          "certificate": "5390121",
+          "note": "1, 2 и 3 место конкурса \"Интеллектуалы XXI века\"",
           "main_score": "137",
           "extra_score": "103",
           "total_score": "240",
-          "category": null,
-          "date": "14.07.2025 10:31:57"
+          "category": "Малый город",
+          "date": "14.07.2025 10:31:57",
+          "admitted": false
         },
         {
           "num": "46",
           "certificate": "5701831",
+          "note": null,
           "main_score": "146",
           "extra_score": "91",
           "total_score": "237",
-          "category": null,
-          "date": "15.07.2025 23:39:31"
+          "category": "Малый город",
+          "date": "15.07.2025 23:39:31",
+          "admitted": false
         },
         {
           "num": "47",
           "certificate": "5370220",
+          "note": null,
           "main_score": "170",
           "extra_score": "66",
           "total_score": "236",
-          "category": null,
-          "date": "14.07.2025 10:00:03"
+          "category": "Малый город",
+          "date": "14.07.2025 10:00:03",
+          "admitted": false
         },
         {
           "num": "48",
           "certificate": "5100587",
+          "note": null,
           "main_score": "154",
           "extra_score": "81",
           "total_score": "235",
-          "category": null,
-          "date": "14.07.2025 10:14:58"
+          "category": "Малый город",
+          "date": "14.07.2025 10:14:58",
+          "admitted": false
         },
         {
           "num": "49",
           "certificate": "5510781",
+          "note": null,
           "main_score": "136",
           "extra_score": "98",
           "total_score": "234",
-          "category": null,
-          "date": "14.07.2025 12:53:28"
+          "category": "Малый город",
+          "date": "14.07.2025 12:53:28",
+          "admitted": false
         },
         {
           "num": "50",
           "certificate": "5510296",
+          "note": null,
           "main_score": "127",
           "extra_score": "101",
           "total_score": "228",
-          "category": null,
-          "date": "15.07.2025 22:33:19"
+          "category": "Малый город",
+          "date": "15.07.2025 22:33:19",
+          "admitted": false
         },
         {
           "num": "51",
           "certificate": "5100919",
+          "note": null,
           "main_score": "153",
           "extra_score": "71",
           "total_score": "224",
-          "category": null,
-          "date": "14.07.2025 10:13:44"
+          "category": "Малый город",
+          "date": "14.07.2025 10:13:44",
+          "admitted": false
         },
         {
           "num": "52",
           "certificate": "5140134",
+          "note": null,
           "main_score": "140",
           "extra_score": "81",
           "total_score": "221",
-          "category": null,
-          "date": "14.07.2025 20:04:50"
+          "category": "Малый город",
+          "date": "14.07.2025 20:04:50",
+          "admitted": false
         },
         {
           "num": "53",
           "certificate": "5100567",
+          "note": null,
           "main_score": "124",
           "extra_score": "96",
           "total_score": "220",
-          "category": null,
-          "date": "15.07.2025 16:40:20"
+          "category": "Малый город",
+          "date": "15.07.2025 16:40:20",
+          "admitted": false
         },
         {
           "num": "54",
           "certificate": "5340539",
+          "note": null,
           "main_score": "142",
           "extra_score": "68",
           "total_score": "210",
-          "category": null,
-          "date": "14.07.2025 09:42:06"
+          "category": "Малый город",
+          "date": "14.07.2025 09:42:06",
+          "admitted": false
         },
         {
           "num": "55",
           "certificate": "5390143",
+          "note": null,
           "main_score": "133",
           "extra_score": "73",
           "total_score": "206",
-          "category": null,
-          "date": "14.07.2025 10:18:35"
+          "category": "Малый город",
+          "date": "14.07.2025 10:18:35",
+          "admitted": false
         },
         {
           "num": "56",
           "certificate": "5371150",
+          "note": null,
           "main_score": "120",
           "extra_score": "83",
           "total_score": "203",
-          "category": null,
-          "date": "14.07.2025 10:57:58"
+          "category": "Малый город",
+          "date": "14.07.2025 10:57:58",
+          "admitted": false
         },
         {
           "num": "57",
           "certificate": "5380445",
+          "note": null,
           "main_score": "130",
           "extra_score": "71",
           "total_score": "201",
-          "category": null,
-          "date": "14.07.2025 13:59:19"
+          "category": "Малый город",
+          "date": "14.07.2025 13:59:19",
+          "admitted": false
         },
         {
           "num": "58",
           "certificate": "5960645",
+          "note": null,
           "main_score": "118",
           "extra_score": "81",
           "total_score": "199",
-          "category": null,
-          "date": "14.07.2025 10:22:22"
+          "category": "Малый город",
+          "date": "14.07.2025 10:22:22",
+          "admitted": false
         },
         {
           "num": "59",
           "certificate": "5960677",
+          "note": null,
           "main_score": "118",
           "extra_score": "81",
           "total_score": "199",
-          "category": null,
-          "date": "14.07.2025 17:32:42"
+          "category": "Малый город",
+          "date": "14.07.2025 17:32:42",
+          "admitted": false
         },
         {
           "num": "60",
           "certificate": "5510623",
+          "note": null,
           "main_score": "121",
           "extra_score": "71",
           "total_score": "192",
-          "category": null,
-          "date": "15.07.2025 12:08:51"
+          "category": "Малый город",
+          "date": "15.07.2025 12:08:51",
+          "admitted": false
         },
         {
           "num": "61",
           "certificate": "5340592",
+          "note": null,
           "main_score": "111",
           "extra_score": "68",
           "total_score": "179",
-          "category": null,
-          "date": "14.07.2025 11:40:52"
+          "category": "Малый город",
+          "date": "14.07.2025 11:40:52",
+          "admitted": false
         },
         {
           "num": "62",
           "certificate": "5702353",
+          "note": null,
           "main_score": "110",
           "extra_score": "68",
           "total_score": "178",
-          "category": null,
-          "date": "14.07.2025 11:37:29"
+          "category": "Малый город",
+          "date": "14.07.2025 11:37:29",
+          "admitted": false
         }
       ]
     },
@@ -1212,732 +1478,894 @@
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5751059",
+          "certificate": "5751059",
+          "note": null,
           "main_score": "219",
           "extra_score": "145",
           "total_score": "364",
-          "category": null,
-          "date": "14.07.2025 10:41:22"
+          "category": "Село",
+          "date": "14.07.2025 10:41:22",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5950658",
+          "certificate": "5950658",
+          "note": null,
           "main_score": "217",
           "extra_score": "143",
           "total_score": "360",
-          "category": null,
-          "date": "14.07.2025 15:35:58"
+          "category": "Село",
+          "date": "14.07.2025 15:35:58",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5750402",
+          "certificate": "5750402",
+          "note": null,
           "main_score": "210",
           "extra_score": "145",
           "total_score": "355",
-          "category": null,
-          "date": "16.07.2025 12:30:58"
+          "category": "Село",
+          "date": "16.07.2025 12:30:58",
+          "admitted": true
         },
         {
           "num": "4",
           "certificate": "5380192",
+          "note": null,
           "main_score": "193",
           "extra_score": "143",
           "total_score": "336",
-          "category": null,
-          "date": "16.07.2025 08:41:25"
+          "category": "Село",
+          "date": "16.07.2025 08:41:25",
+          "admitted": false
         },
         {
           "num": "5",
           "certificate": "5950196",
+          "note": null,
           "main_score": "206",
           "extra_score": "128",
           "total_score": "334",
-          "category": null,
-          "date": "14.07.2025 11:01:05"
+          "category": "Село",
+          "date": "14.07.2025 11:01:05",
+          "admitted": false
         },
         {
           "num": "6",
           "certificate": "5530904",
+          "note": null,
           "main_score": "195",
           "extra_score": "138",
           "total_score": "333",
-          "category": null,
-          "date": "16.07.2025 11:26:44"
+          "category": "Село",
+          "date": "16.07.2025 11:26:44",
+          "admitted": false
         },
         {
           "num": "7",
           "certificate": "5120233",
+          "note": null,
           "main_score": "196",
           "extra_score": "130",
           "total_score": "326",
-          "category": null,
-          "date": "16.07.2025 13:04:30"
+          "category": "Село",
+          "date": "16.07.2025 13:04:30",
+          "admitted": false
         },
         {
           "num": "8",
           "certificate": "5950347",
+          "note": null,
           "main_score": "211",
           "extra_score": "115",
           "total_score": "326",
-          "category": null,
-          "date": "15.07.2025 23:21:51"
+          "category": "Село",
+          "date": "15.07.2025 23:21:51",
+          "admitted": false
         },
         {
           "num": "9",
           "certificate": "5701690",
+          "note": null,
           "main_score": "195",
           "extra_score": "123",
           "total_score": "318",
-          "category": null,
-          "date": "15.07.2025 10:37:22"
+          "category": "Село",
+          "date": "15.07.2025 10:37:22",
+          "admitted": false
         },
         {
           "num": "10",
           "certificate": "5560548",
+          "note": null,
           "main_score": "182",
           "extra_score": "133",
           "total_score": "315",
-          "category": null,
-          "date": "14.07.2025 13:30:47"
+          "category": "Село",
+          "date": "14.07.2025 13:30:47",
+          "admitted": false
         },
         {
           "num": "11",
           "certificate": "5730832",
+          "note": null,
           "main_score": "189",
           "extra_score": "125",
           "total_score": "314",
-          "category": null,
-          "date": "14.07.2025 10:59:44"
+          "category": "Село",
+          "date": "14.07.2025 10:59:44",
+          "admitted": false
         },
         {
           "num": "12",
           "certificate": "5930587",
+          "note": null,
           "main_score": "175",
           "extra_score": "138",
           "total_score": "313",
-          "category": null,
-          "date": "14.07.2025 10:56:39"
+          "category": "Село",
+          "date": "14.07.2025 10:56:39",
+          "admitted": false
         },
         {
           "num": "13",
           "certificate": "5530688",
+          "note": null,
           "main_score": "170",
           "extra_score": "140",
           "total_score": "310",
-          "category": null,
-          "date": "14.07.2025 15:16:46"
+          "category": "Село",
+          "date": "14.07.2025 15:16:46",
+          "admitted": false
         },
         {
           "num": "14",
           "certificate": "5800232",
+          "note": null,
           "main_score": "195",
           "extra_score": "115",
           "total_score": "310",
-          "category": null,
-          "date": "16.07.2025 13:53:43"
+          "category": "Село",
+          "date": "16.07.2025 13:53:43",
+          "admitted": false
         },
         {
           "num": "15",
           "certificate": "5730784",
+          "note": null,
           "main_score": "193",
           "extra_score": "115",
           "total_score": "308",
-          "category": null,
-          "date": "14.07.2025 09:50:34"
+          "category": "Село",
+          "date": "14.07.2025 09:50:34",
+          "admitted": false
         },
         {
           "num": "16",
           "certificate": "5971014",
+          "note": null,
           "main_score": "162",
           "extra_score": "145",
           "total_score": "307",
-          "category": null,
-          "date": "15.07.2025 16:14:49"
+          "category": "Село",
+          "date": "15.07.2025 16:14:49",
+          "admitted": false
         },
         {
           "num": "17",
           "certificate": "5751005",
+          "note": null,
           "main_score": "162",
           "extra_score": "140",
           "total_score": "302",
-          "category": null,
-          "date": "14.07.2025 15:58:17"
+          "category": "Село",
+          "date": "14.07.2025 15:58:17",
+          "admitted": false
         },
         {
           "num": "18",
           "certificate": "5218306",
+          "note": null,
           "main_score": "180",
           "extra_score": "120",
           "total_score": "300",
-          "category": null,
-          "date": "15.07.2025 18:43:25"
+          "category": "Село",
+          "date": "15.07.2025 18:43:25",
+          "admitted": false
         },
         {
           "num": "19",
           "certificate": "5330093",
+          "note": null,
           "main_score": "164",
           "extra_score": "128",
           "total_score": "292",
-          "category": null,
-          "date": "14.07.2025 22:51:33"
+          "category": "Село",
+          "date": "14.07.2025 22:51:33",
+          "admitted": false
         },
         {
           "num": "20",
           "certificate": "5730177",
+          "note": null,
           "main_score": "196",
           "extra_score": "93",
           "total_score": "289",
-          "category": null,
-          "date": "14.07.2025 09:40:36"
+          "category": "Село",
+          "date": "14.07.2025 09:40:36",
+          "admitted": false
         },
         {
           "num": "21",
           "certificate": "5950307",
+          "note": null,
           "main_score": "153",
           "extra_score": "133",
           "total_score": "286",
-          "category": null,
-          "date": "14.07.2025 11:41:07"
+          "category": "Село",
+          "date": "14.07.2025 11:41:07",
+          "admitted": false
         },
         {
           "num": "22",
           "certificate": "5500568",
+          "note": null,
           "main_score": "152",
           "extra_score": "130",
           "total_score": "282",
-          "category": null,
-          "date": "15.07.2025 20:36:05"
+          "category": "Село",
+          "date": "15.07.2025 20:36:05",
+          "admitted": false
         },
         {
           "num": "23",
           "certificate": "5720395",
+          "note": null,
           "main_score": "172",
           "extra_score": "110",
           "total_score": "282",
-          "category": null,
-          "date": "16.07.2025 11:23:26"
+          "category": "Село",
+          "date": "16.07.2025 11:23:26",
+          "admitted": false
         },
         {
           "num": "24",
           "certificate": "5731391",
+          "note": null,
           "main_score": "171",
           "extra_score": "105",
           "total_score": "276",
-          "category": null,
-          "date": "14.07.2025 10:11:52"
+          "category": "Село",
+          "date": "14.07.2025 10:11:52",
+          "admitted": false
         },
         {
           "num": "25",
           "certificate": "5120346",
+          "note": null,
           "main_score": "157",
           "extra_score": "118",
           "total_score": "275",
-          "category": null,
-          "date": "14.07.2025 10:58:50"
+          "category": "Село",
+          "date": "14.07.2025 10:58:50",
+          "admitted": false
         },
         {
           "num": "26",
           "certificate": "5121279",
+          "note": null,
           "main_score": "145",
           "extra_score": "128",
           "total_score": "273",
-          "category": null,
-          "date": "14.07.2025 10:25:00"
+          "category": "Село",
+          "date": "14.07.2025 10:25:00",
+          "admitted": false
         },
         {
           "num": "27",
           "certificate": "5970884",
+          "note": null,
           "main_score": "157",
           "extra_score": "113",
           "total_score": "270",
-          "category": null,
-          "date": "14.07.2025 11:55:25"
+          "category": "Село",
+          "date": "14.07.2025 11:55:25",
+          "admitted": false
         },
         {
           "num": "28",
           "certificate": "5530699",
+          "note": null,
           "main_score": "156",
           "extra_score": "113",
           "total_score": "269",
-          "category": null,
-          "date": "14.07.2025 12:28:21"
+          "category": "Село",
+          "date": "14.07.2025 12:28:21",
+          "admitted": false
         },
         {
           "num": "29",
           "certificate": "5520471",
+          "note": null,
           "main_score": "138",
           "extra_score": "128",
           "total_score": "266",
-          "category": null,
-          "date": "14.07.2025 14:18:16"
+          "category": "Село",
+          "date": "14.07.2025 14:18:16",
+          "admitted": false
         },
         {
           "num": "30",
           "certificate": "5100164",
+          "note": null,
           "main_score": "164",
           "extra_score": "101",
           "total_score": "265",
-          "category": null,
-          "date": "15.07.2025 13:51:38"
+          "category": "Село",
+          "date": "15.07.2025 13:51:38",
+          "admitted": false
         },
         {
           "num": "31",
           "certificate": "5380507",
+          "note": null,
           "main_score": "164",
           "extra_score": "101",
           "total_score": "265",
-          "category": null,
-          "date": "15.07.2025 17:15:38"
+          "category": "Село",
+          "date": "15.07.2025 17:15:38",
+          "admitted": false
         },
         {
           "num": "32",
           "certificate": "5970513",
+          "note": null,
           "main_score": "167",
           "extra_score": "98",
           "total_score": "265",
-          "category": null,
-          "date": "14.07.2025 10:03:17"
+          "category": "Село",
+          "date": "14.07.2025 10:03:17",
+          "admitted": false
         },
         {
           "num": "33",
           "certificate": "5730582",
+          "note": null,
           "main_score": "189",
           "extra_score": "76",
           "total_score": "265",
-          "category": null,
-          "date": "14.07.2025 12:41:38"
+          "category": "Село",
+          "date": "14.07.2025 12:41:38",
+          "admitted": false
         },
         {
           "num": "34",
           "certificate": "5970868",
+          "note": null,
           "main_score": "144",
           "extra_score": "118",
           "total_score": "262",
-          "category": null,
-          "date": "14.07.2025 09:49:18"
+          "category": "Село",
+          "date": "14.07.2025 09:49:18",
+          "admitted": false
         },
         {
           "num": "35",
           "certificate": "5560640",
+          "note": null,
           "main_score": "147",
           "extra_score": "115",
           "total_score": "262",
-          "category": null,
-          "date": "16.07.2025 00:03:41"
+          "category": "Село",
+          "date": "16.07.2025 00:03:41",
+          "admitted": false
         },
         {
           "num": "36",
-          "certificate": "5930264 [Инвалид детства]",
+          "certificate": "5930264",
+          "note": "Инвалид детства",
           "main_score": "154",
           "extra_score": "108",
           "total_score": "262",
-          "category": null,
-          "date": "14.07.2025 17:32:47"
+          "category": "Село",
+          "date": "14.07.2025 17:32:47",
+          "admitted": false
         },
         {
           "num": "37",
           "certificate": "5800304",
+          "note": null,
           "main_score": "174",
           "extra_score": "88",
           "total_score": "262",
-          "category": null,
-          "date": "14.07.2025 10:37:28"
+          "category": "Село",
+          "date": "14.07.2025 10:37:28",
+          "admitted": false
         },
         {
           "num": "38",
           "certificate": "5330059",
+          "note": null,
           "main_score": "165",
           "extra_score": "96",
           "total_score": "261",
-          "category": null,
-          "date": "15.07.2025 12:46:52"
+          "category": "Село",
+          "date": "15.07.2025 12:46:52",
+          "admitted": false
         },
         {
           "num": "39",
           "certificate": "5110861",
+          "note": null,
           "main_score": "187",
           "extra_score": "73",
           "total_score": "260",
-          "category": null,
-          "date": "14.07.2025 14:16:54"
+          "category": "Село",
+          "date": "14.07.2025 14:16:54",
+          "admitted": false
         },
         {
           "num": "40",
           "certificate": "5720561",
+          "note": null,
           "main_score": "168",
           "extra_score": "91",
           "total_score": "259",
-          "category": null,
-          "date": "14.07.2025 11:07:26"
+          "category": "Село",
+          "date": "14.07.2025 11:07:26",
+          "admitted": false
         },
         {
           "num": "41",
           "certificate": "5330400",
+          "note": null,
           "main_score": "144",
           "extra_score": "113",
           "total_score": "257",
-          "category": null,
-          "date": "15.07.2025 13:34:43"
+          "category": "Село",
+          "date": "15.07.2025 13:34:43",
+          "admitted": false
         },
         {
           "num": "42",
           "certificate": "5530540",
+          "note": null,
           "main_score": "161",
           "extra_score": "96",
           "total_score": "257",
-          "category": null,
-          "date": "14.07.2025 19:04:51"
+          "category": "Село",
+          "date": "14.07.2025 19:04:51",
+          "admitted": false
         },
         {
           "num": "43",
           "certificate": "5760013",
+          "note": null,
           "main_score": "156",
           "extra_score": "98",
           "total_score": "254",
-          "category": null,
-          "date": "14.07.2025 12:54:56"
+          "category": "Село",
+          "date": "14.07.2025 12:54:56",
+          "admitted": false
         },
         {
           "num": "44",
           "certificate": "5100334",
+          "note": null,
           "main_score": "165",
           "extra_score": "83",
           "total_score": "248",
-          "category": null,
-          "date": "14.07.2025 19:27:47"
+          "category": "Село",
+          "date": "14.07.2025 19:27:47",
+          "admitted": false
         },
         {
           "num": "45",
           "certificate": "5730355",
+          "note": null,
           "main_score": "146",
           "extra_score": "101",
           "total_score": "247",
-          "category": null,
-          "date": "14.07.2025 21:18:26"
+          "category": "Село",
+          "date": "14.07.2025 21:18:26",
+          "admitted": false
         },
         {
           "num": "46",
           "certificate": "5380290",
+          "note": null,
           "main_score": "151",
           "extra_score": "91",
           "total_score": "242",
-          "category": null,
-          "date": "14.07.2025 14:20:00"
+          "category": "Село",
+          "date": "14.07.2025 14:20:00",
+          "admitted": false
         },
         {
           "num": "47",
           "certificate": "5340346",
+          "note": null,
           "main_score": "138",
           "extra_score": "101",
           "total_score": "239",
-          "category": null,
-          "date": "15.07.2025 15:26:41"
+          "category": "Село",
+          "date": "15.07.2025 15:26:41",
+          "admitted": false
         },
         {
           "num": "48",
           "certificate": "5300875",
+          "note": null,
           "main_score": "161",
           "extra_score": "78",
           "total_score": "239",
-          "category": null,
-          "date": "14.07.2025 09:45:42"
+          "category": "Село",
+          "date": "14.07.2025 09:45:42",
+          "admitted": false
         },
         {
           "num": "49",
           "certificate": "5233300",
+          "note": null,
           "main_score": "172",
           "extra_score": "66",
           "total_score": "238",
-          "category": null,
-          "date": "14.07.2025 11:51:11"
+          "category": "Село",
+          "date": "14.07.2025 11:51:11",
+          "admitted": false
         },
         {
           "num": "50",
           "certificate": "5111013",
+          "note": null,
           "main_score": "160",
           "extra_score": "73",
           "total_score": "233",
-          "category": null,
-          "date": "16.07.2025 11:40:51"
+          "category": "Село",
+          "date": "16.07.2025 11:40:51",
+          "admitted": false
         },
         {
           "num": "51",
           "certificate": "5731067",
+          "note": null,
           "main_score": "140",
           "extra_score": "91",
           "total_score": "231",
-          "category": null,
-          "date": "16.07.2025 00:59:45"
+          "category": "Село",
+          "date": "16.07.2025 00:59:45",
+          "admitted": false
         },
         {
           "num": "52",
           "certificate": "5597317",
+          "note": null,
           "main_score": "148",
           "extra_score": "83",
           "total_score": "231",
-          "category": null,
-          "date": "15.07.2025 14:40:17"
+          "category": "Село",
+          "date": "15.07.2025 14:40:17",
+          "admitted": false
         },
         {
           "num": "53",
           "certificate": "5520775",
+          "note": null,
           "main_score": "153",
           "extra_score": "76",
           "total_score": "229",
-          "category": null,
-          "date": "14.07.2025 10:23:42"
+          "category": "Село",
+          "date": "14.07.2025 10:23:42",
+          "admitted": false
         },
         {
           "num": "54",
           "certificate": "5530488",
+          "note": null,
           "main_score": "132",
           "extra_score": "96",
           "total_score": "228",
-          "category": null,
-          "date": "14.07.2025 14:21:26"
+          "category": "Село",
+          "date": "14.07.2025 14:21:26",
+          "admitted": false
         },
         {
           "num": "55",
           "certificate": "5500092",
+          "note": null,
           "main_score": "133",
           "extra_score": "93",
           "total_score": "226",
-          "category": null,
-          "date": "15.07.2025 10:51:21"
+          "category": "Село",
+          "date": "15.07.2025 10:51:21",
+          "admitted": false
         },
         {
           "num": "56",
           "certificate": "5330345",
+          "note": null,
           "main_score": "138",
           "extra_score": "88",
           "total_score": "226",
-          "category": null,
-          "date": "15.07.2025 16:43:40"
+          "category": "Село",
+          "date": "15.07.2025 16:43:40",
+          "admitted": false
         },
         {
           "num": "57",
           "certificate": "5530485",
+          "note": null,
           "main_score": "132",
           "extra_score": "93",
           "total_score": "225",
-          "category": null,
-          "date": "15.07.2025 11:30:46"
+          "category": "Село",
+          "date": "15.07.2025 11:30:46",
+          "admitted": false
         },
         {
           "num": "58",
           "certificate": "5970417",
+          "note": null,
           "main_score": "140",
           "extra_score": "83",
           "total_score": "223",
-          "category": null,
-          "date": "14.07.2025 13:30:04"
+          "category": "Село",
+          "date": "14.07.2025 13:30:04",
+          "admitted": false
         },
         {
           "num": "59",
           "certificate": "5760889",
+          "note": null,
           "main_score": "157",
           "extra_score": "66",
           "total_score": "223",
-          "category": null,
-          "date": "14.07.2025 09:56:20"
+          "category": "Село",
+          "date": "14.07.2025 09:56:20",
+          "admitted": false
         },
         {
           "num": "60",
           "certificate": "5970436",
+          "note": null,
           "main_score": "140",
           "extra_score": "81",
           "total_score": "221",
-          "category": null,
-          "date": "14.07.2025 12:00:25"
+          "category": "Село",
+          "date": "14.07.2025 12:00:25",
+          "admitted": false
         },
         {
           "num": "61",
           "certificate": "5110442",
+          "note": null,
           "main_score": "144",
           "extra_score": "76",
           "total_score": "220",
-          "category": null,
-          "date": "14.07.2025 12:12:31"
+          "category": "Село",
+          "date": "14.07.2025 12:12:31",
+          "admitted": false
         },
         {
           "num": "62",
           "certificate": "5360042",
+          "note": null,
           "main_score": "147",
           "extra_score": "73",
           "total_score": "220",
-          "category": null,
-          "date": "14.07.2025 09:49:02"
+          "category": "Село",
+          "date": "14.07.2025 09:49:02",
+          "admitted": false
         },
         {
           "num": "63",
           "certificate": "5940126",
+          "note": null,
           "main_score": "147",
           "extra_score": "73",
           "total_score": "220",
-          "category": null,
-          "date": "16.07.2025 10:51:04"
+          "category": "Село",
+          "date": "16.07.2025 10:51:04",
+          "admitted": false
         },
         {
           "num": "64",
           "certificate": "5820212",
+          "note": null,
           "main_score": "139",
           "extra_score": "78",
           "total_score": "217",
-          "category": null,
-          "date": "14.07.2025 12:58:37"
+          "category": "Село",
+          "date": "14.07.2025 12:58:37",
+          "admitted": false
         },
         {
           "num": "65",
           "certificate": "5740470",
+          "note": null,
           "main_score": "140",
           "extra_score": "76",
           "total_score": "216",
-          "category": null,
-          "date": "14.07.2025 14:22:48"
+          "category": "Село",
+          "date": "14.07.2025 14:22:48",
+          "admitted": false
         },
         {
           "num": "66",
           "certificate": "5810165",
+          "note": null,
           "main_score": "148",
           "extra_score": "68",
           "total_score": "216",
-          "category": null,
-          "date": "14.07.2025 10:09:47"
+          "category": "Село",
+          "date": "14.07.2025 10:09:47",
+          "admitted": false
         },
         {
           "num": "67",
           "certificate": "5940080",
+          "note": null,
           "main_score": "122",
           "extra_score": "93",
           "total_score": "215",
-          "category": null,
-          "date": "14.07.2025 13:10:46"
+          "category": "Село",
+          "date": "14.07.2025 13:10:46",
+          "admitted": false
         },
         {
           "num": "68",
           "certificate": "5970674",
+          "note": null,
           "main_score": "116",
           "extra_score": "91",
           "total_score": "207",
-          "category": null,
-          "date": "15.07.2025 14:53:03"
+          "category": "Село",
+          "date": "15.07.2025 14:53:03",
+          "admitted": false
         },
         {
           "num": "69",
           "certificate": "5380098",
+          "note": null,
           "main_score": "126",
           "extra_score": "81",
           "total_score": "207",
-          "category": null,
-          "date": "14.07.2025 13:30:49"
+          "category": "Село",
+          "date": "14.07.2025 13:30:49",
+          "admitted": false
         },
         {
           "num": "70",
           "certificate": "5900595",
+          "note": null,
           "main_score": "128",
           "extra_score": "78",
           "total_score": "206",
-          "category": null,
-          "date": "16.07.2025 09:47:15"
+          "category": "Село",
+          "date": "16.07.2025 09:47:15",
+          "admitted": false
         },
         {
           "num": "71",
           "certificate": "5120315",
+          "note": null,
           "main_score": "129",
           "extra_score": "76",
           "total_score": "205",
-          "category": null,
-          "date": "14.07.2025 09:55:37"
+          "category": "Село",
+          "date": "14.07.2025 09:55:37",
+          "admitted": false
         },
         {
           "num": "72",
           "certificate": "5400005",
+          "note": null,
           "main_score": "125",
           "extra_score": "78",
           "total_score": "203",
-          "category": null,
-          "date": "14.07.2025 11:59:48"
+          "category": "Село",
+          "date": "14.07.2025 11:59:48",
+          "admitted": false
         },
         {
           "num": "73",
           "certificate": "5950204",
+          "note": null,
           "main_score": "135",
           "extra_score": "68",
           "total_score": "203",
-          "category": null,
-          "date": "15.07.2025 14:49:00"
+          "category": "Село",
+          "date": "15.07.2025 14:49:00",
+          "admitted": false
         },
         {
           "num": "74",
           "certificate": "5950189",
+          "note": null,
           "main_score": "133",
           "extra_score": "66",
           "total_score": "199",
-          "category": null,
-          "date": "14.07.2025 09:49:07"
+          "category": "Село",
+          "date": "14.07.2025 09:49:07",
+          "admitted": false
         },
         {
           "num": "75",
           "certificate": "5910712",
+          "note": null,
           "main_score": "111",
           "extra_score": "83",
           "total_score": "194",
-          "category": null,
-          "date": "15.07.2025 19:04:34"
+          "category": "Село",
+          "date": "15.07.2025 19:04:34",
+          "admitted": false
         },
         {
           "num": "76",
           "certificate": "5760061",
+          "note": null,
           "main_score": "131",
           "extra_score": "63",
           "total_score": "194",
-          "category": null,
-          "date": "14.07.2025 09:56:38"
+          "category": "Село",
+          "date": "14.07.2025 09:56:38",
+          "admitted": false
         },
         {
           "num": "77",
           "certificate": "5731818",
+          "note": null,
           "main_score": "115",
           "extra_score": "78",
           "total_score": "193",
-          "category": null,
-          "date": "15.07.2025 09:56:32"
+          "category": "Село",
+          "date": "15.07.2025 09:56:32",
+          "admitted": false
         },
         {
           "num": "78",
           "certificate": "5900096",
+          "note": null,
           "main_score": "110",
           "extra_score": "81",
           "total_score": "191",
-          "category": null,
-          "date": "16.07.2025 09:43:04"
+          "category": "Село",
+          "date": "16.07.2025 09:43:04",
+          "admitted": false
         },
         {
           "num": "79",
           "certificate": "5760011",
+          "note": null,
           "main_score": "125",
           "extra_score": "61",
           "total_score": "186",
-          "category": null,
-          "date": "14.07.2025 18:42:03"
+          "category": "Село",
+          "date": "14.07.2025 18:42:03",
+          "admitted": false
         },
         {
           "num": "80",
           "certificate": "5320252",
+          "note": null,
           "main_score": "121",
           "extra_score": "61",
           "total_score": "182",
-          "category": null,
-          "date": "14.07.2025 09:50:58"
+          "category": "Село",
+          "date": "14.07.2025 09:50:58",
+          "admitted": false
         },
         {
           "num": "81",
           "certificate": "5121222",
+          "note": null,
           "main_score": "114",
           "extra_score": "61",
           "total_score": "175",
-          "category": null,
-          "date": "15.07.2025 11:50:41"
+          "category": "Село",
+          "date": "15.07.2025 11:50:41",
+          "admitted": false
         }
       ]
     },
@@ -1946,192 +2374,234 @@
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5630254",
+          "certificate": "5630254",
+          "note": null,
           "main_score": "201",
           "extra_score": "138",
           "total_score": "339",
-          "category": null,
-          "date": "14.07.2025 23:09:05"
+          "category": "Высокогорье",
+          "date": "14.07.2025 23:09:05",
+          "admitted": true
         },
         {
           "num": "2",
           "certificate": "5710134",
+          "note": null,
           "main_score": "186",
           "extra_score": "145",
           "total_score": "331",
-          "category": null,
-          "date": "14.07.2025 14:22:23"
+          "category": "Высокогорье",
+          "date": "14.07.2025 14:22:23",
+          "admitted": false
         },
         {
           "num": "3",
           "certificate": "5120875",
+          "note": null,
           "main_score": "192",
           "extra_score": "125",
           "total_score": "317",
-          "category": null,
-          "date": "15.07.2025 23:37:05"
+          "category": "Высокогорье",
+          "date": "15.07.2025 23:37:05",
+          "admitted": false
         },
         {
           "num": "4",
           "certificate": "5702547",
+          "note": null,
           "main_score": "162",
           "extra_score": "138",
           "total_score": "300",
-          "category": null,
-          "date": "16.07.2025 12:47:14"
+          "category": "Высокогорье",
+          "date": "16.07.2025 12:47:14",
+          "admitted": false
         },
         {
           "num": "5",
           "certificate": "5120945",
+          "note": null,
           "main_score": "155",
           "extra_score": "133",
           "total_score": "288",
-          "category": null,
-          "date": "14.07.2025 19:38:56"
+          "category": "Высокогорье",
+          "date": "14.07.2025 19:38:56",
+          "admitted": false
         },
         {
           "num": "6",
           "certificate": "5500040",
+          "note": null,
           "main_score": "189",
           "extra_score": "98",
           "total_score": "287",
-          "category": null,
-          "date": "14.07.2025 10:11:21"
+          "category": "Высокогорье",
+          "date": "14.07.2025 10:11:21",
+          "admitted": false
         },
         {
           "num": "7",
           "certificate": "5640213",
+          "note": null,
           "main_score": "155",
           "extra_score": "125",
           "total_score": "280",
-          "category": null,
-          "date": "14.07.2025 12:52:30"
+          "category": "Высокогорье",
+          "date": "14.07.2025 12:52:30",
+          "admitted": false
         },
         {
           "num": "8",
           "certificate": "5630755",
+          "note": null,
           "main_score": "177",
           "extra_score": "96",
           "total_score": "273",
-          "category": null,
-          "date": "16.07.2025 10:24:55"
+          "category": "Высокогорье",
+          "date": "16.07.2025 10:24:55",
+          "admitted": false
         },
         {
           "num": "9",
           "certificate": "5620181",
+          "note": null,
           "main_score": "161",
           "extra_score": "105",
           "total_score": "266",
-          "category": null,
-          "date": "14.07.2025 12:02:20"
+          "category": "Высокогорье",
+          "date": "14.07.2025 12:02:20",
+          "admitted": false
         },
         {
           "num": "10",
           "certificate": "5630557",
+          "note": null,
           "main_score": "182",
           "extra_score": "83",
           "total_score": "265",
-          "category": null,
-          "date": "14.07.2025 16:41:59"
+          "category": "Высокогорье",
+          "date": "14.07.2025 16:41:59",
+          "admitted": false
         },
         {
           "num": "11",
           "certificate": "5550486",
+          "note": null,
           "main_score": "166",
           "extra_score": "91",
           "total_score": "257",
-          "category": null,
-          "date": "14.07.2025 10:01:26"
+          "category": "Высокогорье",
+          "date": "14.07.2025 10:01:26",
+          "admitted": false
         },
         {
           "num": "12",
           "certificate": "5610486",
+          "note": null,
           "main_score": "156",
           "extra_score": "93",
           "total_score": "249",
-          "category": null,
-          "date": "14.07.2025 13:39:09"
+          "category": "Высокогорье",
+          "date": "14.07.2025 13:39:09",
+          "admitted": false
         },
         {
           "num": "13",
           "certificate": "5620432",
+          "note": null,
           "main_score": "153",
           "extra_score": "93",
           "total_score": "246",
-          "category": null,
-          "date": "14.07.2025 15:00:33"
+          "category": "Высокогорье",
+          "date": "14.07.2025 15:00:33",
+          "admitted": false
         },
         {
           "num": "14",
           "certificate": "5620030",
+          "note": null,
           "main_score": "159",
           "extra_score": "66",
           "total_score": "225",
-          "category": null,
-          "date": "14.07.2025 13:11:24"
+          "category": "Высокогорье",
+          "date": "14.07.2025 13:11:24",
+          "admitted": false
         },
         {
           "num": "15",
           "certificate": "5630648",
+          "note": null,
           "main_score": "146",
           "extra_score": "78",
           "total_score": "224",
-          "category": null,
-          "date": "15.07.2025 01:11:50"
+          "category": "Высокогорье",
+          "date": "15.07.2025 01:11:50",
+          "admitted": false
         },
         {
           "num": "16",
           "certificate": "5400113",
+          "note": null,
           "main_score": "156",
           "extra_score": "63",
           "total_score": "219",
-          "category": null,
-          "date": "14.07.2025 10:34:57"
+          "category": "Высокогорье",
+          "date": "14.07.2025 10:34:57",
+          "admitted": false
         },
         {
           "num": "17",
           "certificate": "5630263",
+          "note": null,
           "main_score": "139",
           "extra_score": "73",
           "total_score": "212",
-          "category": null,
-          "date": "15.07.2025 22:54:20"
+          "category": "Высокогорье",
+          "date": "15.07.2025 22:54:20",
+          "admitted": false
         },
         {
           "num": "18",
           "certificate": "5400124",
+          "note": null,
           "main_score": "138",
           "extra_score": "71",
           "total_score": "209",
-          "category": null,
-          "date": "14.07.2025 09:42:45"
+          "category": "Высокогорье",
+          "date": "14.07.2025 09:42:45",
+          "admitted": false
         },
         {
           "num": "19",
           "certificate": "5740453",
+          "note": null,
           "main_score": "126",
           "extra_score": "81",
           "total_score": "207",
-          "category": null,
-          "date": "14.07.2025 10:30:22"
+          "category": "Высокогорье",
+          "date": "14.07.2025 10:30:22",
+          "admitted": false
         },
         {
           "num": "20",
           "certificate": "5610442",
+          "note": null,
           "main_score": "136",
           "extra_score": "63",
           "total_score": "199",
-          "category": null,
-          "date": "14.07.2025 10:15:06"
+          "category": "Высокогорье",
+          "date": "14.07.2025 10:15:06",
+          "admitted": false
         },
         {
           "num": "21",
           "certificate": "5620122",
+          "note": null,
           "main_score": "127",
           "extra_score": "71",
           "total_score": "198",
-          "category": null,
-          "date": "14.07.2025 13:23:26"
+          "category": "Высокогорье",
+          "date": "14.07.2025 13:23:26",
+          "admitted": false
         }
       ]
     }

@@ -1,0 +1,225 @@
+{
+  "name": "60. Заманбап Эл аралык Университет",
+  "address": "г. Жалал-Абад ул. Пушкина 152",
+  "rector": "Дарбанов М. Е.",
+  "site": "https://jasmu.kg/",
+  "faculties": [
+    {
+      "faculty_name": "1. Информатика",
+      "directions": [
+        {
+          "code": "710300",
+          "major": "Колдонмо информатика",
+          "specialty": "Экономикадагы колдонмо информатика",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37500",
+          "plan": "30",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "710300",
+          "major": "Колдонмо информатика",
+          "specialty": "Экономикадагы колдонмо информатика",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "35000",
+          "plan": "70",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "510200",
+          "major": "Колдонмо математика жана информатика",
+          "specialty": "Колдонмо математика жана информатика",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "35500",
+          "plan": "30",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    },
+    {
+      "faculty_name": "2. Педагогика",
+      "directions": [
+        {
+          "code": "550700",
+          "major": "Педагогика",
+          "specialty": "Баштагыч билим берүү",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "35000",
+          "plan": "95",
+          "threshold": "Негизги балл-115",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550700",
+          "major": "Педагогика",
+          "specialty": "Башталгыч билим берүү",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37500",
+          "plan": "50",
+          "threshold": "Негизги балл-115",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5360675",
+              "note": null,
+              "main_score": "157",
+              "extra_score": "0",
+              "total_score": "157",
+              "category": null,
+              "date": "15.07.2025 21:06:34",
+              "admitted": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_name": "3. Филология",
+      "directions": [
+        {
+          "code": "550300",
+          "major": "Филологиялык билим берүү",
+          "specialty": "Орус тили жана адабияты",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "33000",
+          "plan": "30",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550300",
+          "major": "Филологиялык билим берүү",
+          "specialty": "Англис тили жана адабияты",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37500",
+          "plan": "40",
+          "threshold": "Негизги балл-110",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5360703",
+              "note": null,
+              "main_score": "122",
+              "extra_score": "0",
+              "total_score": "122",
+              "category": null,
+              "date": "14.07.2025 09:44:50",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550300",
+          "major": "Филологиялык билим берүү",
+          "specialty": "Кыргыз тили жана адабияты",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "32500",
+          "plan": "60",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550300",
+          "major": "Филологиялык билим берүү",
+          "specialty": "Кыргыз тили жана адабияты",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "33000",
+          "plan": "30",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550300",
+          "major": "Филологиялык билим берүү",
+          "specialty": "Орус тили жана адабияты",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "32500",
+          "plan": "60",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    },
+    {
+      "faculty_name": "4. Экономика",
+      "directions": [
+        {
+          "code": "580100",
+          "major": "Экономика",
+          "specialty": "Финансы жана кредит",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37500",
+          "plan": "60",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    },
+    {
+      "faculty_name": "5. Юриспруденция",
+      "directions": [
+        {
+          "code": "530500",
+          "major": "Юриспруденция",
+          "specialty": "Юриспруденция",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "37500",
+          "plan": "60",
+          "threshold": "Негизги балл-110",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5370011",
+              "note": null,
+              "main_score": "136",
+              "extra_score": "0",
+              "total_score": "136",
+              "category": null,
+              "date": "14.07.2025 15:35:43",
+              "admitted": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

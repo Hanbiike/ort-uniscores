@@ -8,72 +8,88 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 10 . Зарегистрированных: 7 .",
   "total_registered": null,
+  "admitted_count": 4,
+  "not_admitted_count": 3,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5120625 [Целевые места для приграничных районов]",
+          "certificate": "5120625",
+          "note": "Целевые места для приграничных районов",
           "main_score": "148",
           "extra_score": "155",
           "total_score": "303",
-          "category": "Село",
-          "date": "16.07.2025 13:54:16"
+          "category": null,
+          "date": "16.07.2025 13:54:16",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5110116 [Целевые места для приграничных районов]",
+          "certificate": "5110116",
+          "note": "Целевые места для приграничных районов",
           "main_score": "168",
           "extra_score": "129",
           "total_score": "297",
-          "category": "Село",
-          "date": "16.07.2025 12:49:47"
+          "category": null,
+          "date": "16.07.2025 12:49:47",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5110930 [Целевые места для приграничных районов]",
+          "certificate": "5110930",
+          "note": "Целевые места для приграничных районов",
           "main_score": "149",
           "extra_score": "136",
           "total_score": "285",
-          "category": "Село",
-          "date": "16.07.2025 13:09:39"
+          "category": null,
+          "date": "16.07.2025 13:09:39",
+          "admitted": true
         },
         {
           "num": "4",
-          "certificate": "(Реком) 5120636 [Целевые места для приграничных районов]",
+          "certificate": "5120636",
+          "note": "Целевые места для приграничных районов",
           "main_score": "135",
           "extra_score": "137",
           "total_score": "272",
-          "category": "Село",
-          "date": "16.07.2025 13:51:57"
+          "category": null,
+          "date": "16.07.2025 13:51:57",
+          "admitted": true
         },
         {
           "num": "5",
           "certificate": "5500622",
+          "note": null,
           "main_score": "123",
           "extra_score": "163",
           "total_score": "286",
-          "category": "Село",
-          "date": "15.07.2025 23:00:31"
+          "category": null,
+          "date": "15.07.2025 23:00:31",
+          "admitted": false
         },
         {
           "num": "6",
-          "certificate": "5110272 [Инвалид 1, 2 группы ]",
+          "certificate": "5110272",
+          "note": "Инвалид 1, 2 группы",
           "main_score": "145",
           "extra_score": "137",
           "total_score": "282",
-          "category": "Село",
-          "date": "16.07.2025 13:51:24"
+          "category": null,
+          "date": "16.07.2025 13:51:24",
+          "admitted": false
         },
         {
           "num": "7",
-          "certificate": "5210834 [Целевые места для приграничных районов]",
+          "certificate": "5210834",
+          "note": "Целевые места для приграничных районов",
           "main_score": "124",
           "extra_score": "155",
           "total_score": "279",
-          "category": "Бишкек",
-          "date": "16.07.2025 13:38:51"
+          "category": null,
+          "date": "16.07.2025 13:38:51",
+          "admitted": false
         }
       ]
     }

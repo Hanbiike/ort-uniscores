@@ -8,36 +8,44 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 15 . Зарегистрированных: 3 .",
   "total_registered": null,
+  "admitted_count": 3,
+  "not_admitted_count": 0,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5960290",
+          "certificate": "5960290",
+          "note": null,
           "main_score": "146",
           "extra_score": "0",
           "total_score": "146",
-          "category": "Малый город",
-          "date": "16.07.2025 13:52:17"
+          "category": null,
+          "date": "16.07.2025 13:52:17",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5620433",
+          "certificate": "5620433",
+          "note": null,
           "main_score": "123",
           "extra_score": "0",
           "total_score": "123",
-          "category": "Высокогорье",
-          "date": "15.07.2025 10:13:36"
+          "category": null,
+          "date": "15.07.2025 10:13:36",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5540109",
+          "certificate": "5540109",
+          "note": null,
           "main_score": "120",
           "extra_score": "0",
           "total_score": "120",
-          "category": "Малый город",
-          "date": "16.07.2025 08:17:30"
+          "category": null,
+          "date": "16.07.2025 08:17:30",
+          "admitted": true
         }
       ]
     }

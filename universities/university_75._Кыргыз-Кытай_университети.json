@@ -1,0 +1,587 @@
+{
+  "name": "75. Кыргыз-Кытай университети",
+  "address": "пр. Манаса 22а",
+  "rector": "ЧЖАН СЮНЬЧЖИ",
+  "site": "kcu.edu.html",
+  "faculties": [
+    {
+      "faculty_name": "1. Башкаруу жана экономикалык программалар",
+      "directions": [
+        {
+          "code": "580200",
+          "major": "Башкаруу",
+          "specialty": "Башкаруу",
+          "education_type": "Күндүзгү, 3 года в Кыргызстане и 1 год в Китае",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "80000",
+          "plan": "50",
+          "threshold": "Негизги балл-110",
+          "registered": "17",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5211769",
+              "note": null,
+              "main_score": "184",
+              "extra_score": "0",
+              "total_score": "184",
+              "category": null,
+              "date": "16.07.2025 01:30:14",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5222232",
+              "note": null,
+              "main_score": "171",
+              "extra_score": "0",
+              "total_score": "171",
+              "category": null,
+              "date": "16.07.2025 13:55:12",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5380568",
+              "note": null,
+              "main_score": "170",
+              "extra_score": "0",
+              "total_score": "170",
+              "category": null,
+              "date": "14.07.2025 16:13:25",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5237936",
+              "note": null,
+              "main_score": "161",
+              "extra_score": "0",
+              "total_score": "161",
+              "category": null,
+              "date": "14.07.2025 10:23:15",
+              "admitted": true
+            },
+            {
+              "num": "5",
+              "certificate": "5701908",
+              "note": null,
+              "main_score": "155",
+              "extra_score": "0",
+              "total_score": "155",
+              "category": null,
+              "date": "14.07.2025 09:50:04",
+              "admitted": true
+            },
+            {
+              "num": "6",
+              "certificate": "5220699",
+              "note": null,
+              "main_score": "154",
+              "extra_score": "0",
+              "total_score": "154",
+              "category": null,
+              "date": "14.07.2025 11:58:59",
+              "admitted": true
+            },
+            {
+              "num": "7",
+              "certificate": "5340165",
+              "note": null,
+              "main_score": "144",
+              "extra_score": "0",
+              "total_score": "144",
+              "category": null,
+              "date": "15.07.2025 14:28:12",
+              "admitted": true
+            },
+            {
+              "num": "8",
+              "certificate": "5830501",
+              "note": null,
+              "main_score": "134",
+              "extra_score": "0",
+              "total_score": "134",
+              "category": null,
+              "date": "15.07.2025 11:23:27",
+              "admitted": true
+            },
+            {
+              "num": "9",
+              "certificate": "5211802",
+              "note": null,
+              "main_score": "134",
+              "extra_score": "0",
+              "total_score": "134",
+              "category": null,
+              "date": "16.07.2025 01:36:05",
+              "admitted": true
+            },
+            {
+              "num": "10",
+              "certificate": "5840322",
+              "note": null,
+              "main_score": "132",
+              "extra_score": "0",
+              "total_score": "132",
+              "category": null,
+              "date": "14.07.2025 10:22:04",
+              "admitted": true
+            },
+            {
+              "num": "11",
+              "certificate": "5210173",
+              "note": null,
+              "main_score": "128",
+              "extra_score": "0",
+              "total_score": "128",
+              "category": null,
+              "date": "14.07.2025 10:59:55",
+              "admitted": true
+            },
+            {
+              "num": "12",
+              "certificate": "5231683",
+              "note": null,
+              "main_score": "128",
+              "extra_score": "0",
+              "total_score": "128",
+              "category": null,
+              "date": "14.07.2025 20:09:28",
+              "admitted": true
+            },
+            {
+              "num": "13",
+              "certificate": "5710322",
+              "note": null,
+              "main_score": "125",
+              "extra_score": "0",
+              "total_score": "125",
+              "category": null,
+              "date": "16.07.2025 10:33:51",
+              "admitted": true
+            },
+            {
+              "num": "14",
+              "certificate": "5950770",
+              "note": null,
+              "main_score": "125",
+              "extra_score": "0",
+              "total_score": "125",
+              "category": null,
+              "date": "16.07.2025 12:04:31",
+              "admitted": true
+            },
+            {
+              "num": "15",
+              "certificate": "5238534",
+              "note": null,
+              "main_score": "121",
+              "extra_score": "0",
+              "total_score": "121",
+              "category": null,
+              "date": "14.07.2025 10:16:29",
+              "admitted": true
+            },
+            {
+              "num": "16",
+              "certificate": "5640528",
+              "note": null,
+              "main_score": "121",
+              "extra_score": "0",
+              "total_score": "121",
+              "category": null,
+              "date": "14.07.2025 11:51:34",
+              "admitted": true
+            },
+            {
+              "num": "17",
+              "certificate": "5231643",
+              "note": null,
+              "main_score": "120",
+              "extra_score": "0",
+              "total_score": "120",
+              "category": null,
+              "date": "15.07.2025 11:50:38",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "580100",
+          "major": "Экономика",
+          "specialty": "Экономика",
+          "education_type": "Күндүзгү, 3 года в Кыргызстане и 1 год в Китае",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "80000",
+          "plan": "50",
+          "threshold": "Негизги балл-110",
+          "registered": "16",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5110594",
+              "note": null,
+              "main_score": "204",
+              "extra_score": "0",
+              "total_score": "204",
+              "category": null,
+              "date": "14.07.2025 12:18:53",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5510583",
+              "note": null,
+              "main_score": "195",
+              "extra_score": "0",
+              "total_score": "195",
+              "category": null,
+              "date": "14.07.2025 10:38:59",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5220879",
+              "note": null,
+              "main_score": "170",
+              "extra_score": "0",
+              "total_score": "170",
+              "category": null,
+              "date": "14.07.2025 10:05:19",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5221359",
+              "note": null,
+              "main_score": "159",
+              "extra_score": "0",
+              "total_score": "159",
+              "category": null,
+              "date": "14.07.2025 10:28:39",
+              "admitted": true
+            },
+            {
+              "num": "5",
+              "certificate": "5230877",
+              "note": null,
+              "main_score": "159",
+              "extra_score": "0",
+              "total_score": "159",
+              "category": null,
+              "date": "15.07.2025 10:46:17",
+              "admitted": true
+            },
+            {
+              "num": "6",
+              "certificate": "5221318",
+              "note": null,
+              "main_score": "152",
+              "extra_score": "0",
+              "total_score": "152",
+              "category": null,
+              "date": "14.07.2025 13:37:04",
+              "admitted": true
+            },
+            {
+              "num": "7",
+              "certificate": "5100635",
+              "note": null,
+              "main_score": "151",
+              "extra_score": "0",
+              "total_score": "151",
+              "category": null,
+              "date": "16.07.2025 13:07:29",
+              "admitted": true
+            },
+            {
+              "num": "8",
+              "certificate": "5560315",
+              "note": null,
+              "main_score": "147",
+              "extra_score": "0",
+              "total_score": "147",
+              "category": null,
+              "date": "14.07.2025 17:15:57",
+              "admitted": true
+            },
+            {
+              "num": "9",
+              "certificate": "5530665",
+              "note": null,
+              "main_score": "140",
+              "extra_score": "0",
+              "total_score": "140",
+              "category": null,
+              "date": "14.07.2025 11:42:04",
+              "admitted": true
+            },
+            {
+              "num": "10",
+              "certificate": "5231509",
+              "note": null,
+              "main_score": "139",
+              "extra_score": "0",
+              "total_score": "139",
+              "category": null,
+              "date": "14.07.2025 13:16:32",
+              "admitted": true
+            },
+            {
+              "num": "11",
+              "certificate": "5760417",
+              "note": null,
+              "main_score": "134",
+              "extra_score": "0",
+              "total_score": "134",
+              "category": null,
+              "date": "14.07.2025 10:34:24",
+              "admitted": true
+            },
+            {
+              "num": "12",
+              "certificate": "5221299",
+              "note": null,
+              "main_score": "132",
+              "extra_score": "0",
+              "total_score": "132",
+              "category": null,
+              "date": "14.07.2025 10:44:38",
+              "admitted": true
+            },
+            {
+              "num": "13",
+              "certificate": "5233344",
+              "note": null,
+              "main_score": "125",
+              "extra_score": "0",
+              "total_score": "125",
+              "category": null,
+              "date": "14.07.2025 12:30:09",
+              "admitted": true
+            },
+            {
+              "num": "14",
+              "certificate": "5203196",
+              "note": null,
+              "main_score": "122",
+              "extra_score": "0",
+              "total_score": "122",
+              "category": null,
+              "date": "14.07.2025 13:11:57",
+              "admitted": true
+            },
+            {
+              "num": "15",
+              "certificate": "5221311",
+              "note": null,
+              "main_score": "118",
+              "extra_score": "0",
+              "total_score": "118",
+              "category": null,
+              "date": "16.07.2025 00:57:09",
+              "admitted": true
+            },
+            {
+              "num": "16",
+              "certificate": "5202535",
+              "note": null,
+              "main_score": "117",
+              "extra_score": "0",
+              "total_score": "117",
+              "category": null,
+              "date": "14.07.2025 11:35:25",
+              "admitted": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_name": "2. Маалыматтык тутумдар жана технологиялар",
+      "directions": [
+        {
+          "code": "580500",
+          "major": "Бизнес информатика",
+          "specialty": "Бизнес информатика",
+          "education_type": "Күндүзгү, 3 года В Кыргызстане и 1 год в Китай",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "80000",
+          "plan": "25",
+          "threshold": "Негизги балл-110",
+          "registered": "11",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5400010",
+              "note": null,
+              "main_score": "177",
+              "extra_score": "0",
+              "total_score": "177",
+              "category": null,
+              "date": "14.07.2025 15:08:10",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5221721",
+              "note": null,
+              "main_score": "173",
+              "extra_score": "0",
+              "total_score": "173",
+              "category": null,
+              "date": "14.07.2025 15:01:12",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5221017",
+              "note": null,
+              "main_score": "168",
+              "extra_score": "0",
+              "total_score": "168",
+              "category": null,
+              "date": "15.07.2025 16:55:42",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5760805",
+              "note": null,
+              "main_score": "142",
+              "extra_score": "0",
+              "total_score": "142",
+              "category": null,
+              "date": "16.07.2025 11:10:49",
+              "admitted": true
+            },
+            {
+              "num": "5",
+              "certificate": "5640487",
+              "note": null,
+              "main_score": "140",
+              "extra_score": "0",
+              "total_score": "140",
+              "category": null,
+              "date": "16.07.2025 12:32:01",
+              "admitted": true
+            },
+            {
+              "num": "6",
+              "certificate": "5900012",
+              "note": null,
+              "main_score": "137",
+              "extra_score": "0",
+              "total_score": "137",
+              "category": null,
+              "date": "14.07.2025 09:41:13",
+              "admitted": true
+            },
+            {
+              "num": "7",
+              "certificate": "5530214",
+              "note": null,
+              "main_score": "131",
+              "extra_score": "0",
+              "total_score": "131",
+              "category": null,
+              "date": "16.07.2025 11:37:43",
+              "admitted": true
+            },
+            {
+              "num": "8",
+              "certificate": "5301124",
+              "note": null,
+              "main_score": "129",
+              "extra_score": "0",
+              "total_score": "129",
+              "category": null,
+              "date": "15.07.2025 16:52:43",
+              "admitted": true
+            },
+            {
+              "num": "9",
+              "certificate": "5220354",
+              "note": null,
+              "main_score": "119",
+              "extra_score": "0",
+              "total_score": "119",
+              "category": null,
+              "date": "14.07.2025 12:40:55",
+              "admitted": true
+            },
+            {
+              "num": "10",
+              "certificate": "5222506",
+              "note": null,
+              "main_score": "119",
+              "extra_score": "0",
+              "total_score": "119",
+              "category": null,
+              "date": "14.07.2025 19:43:56",
+              "admitted": true
+            },
+            {
+              "num": "11",
+              "certificate": "5950141",
+              "note": null,
+              "main_score": "118",
+              "extra_score": "0",
+              "total_score": "118",
+              "category": null,
+              "date": "14.07.2025 20:11:57",
+              "admitted": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_name": "3. Педагогика",
+      "directions": [
+        {
+          "code": "550700",
+          "major": "Педагогика",
+          "specialty": "Общая и Начальная педагогика",
+          "education_type": "Күндүзгү, 3 года в Кыргызстане и 1 год в Китае",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "80000",
+          "plan": "50",
+          "threshold": "Негизги балл-130",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5980156",
+              "note": null,
+              "main_score": "138",
+              "extra_score": "0",
+              "total_score": "138",
+              "category": null,
+              "date": "14.07.2025 09:52:59",
+              "admitted": false
+            }
+          ]
+        },
+        {
+          "code": "550700",
+          "major": "Педагогика",
+          "specialty": "Педагогика и Психология",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "80000",
+          "plan": "25",
+          "threshold": "Негизги балл-0",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    }
+  ]
+}

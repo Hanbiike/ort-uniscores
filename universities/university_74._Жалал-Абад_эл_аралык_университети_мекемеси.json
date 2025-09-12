@@ -1,0 +1,126 @@
+{
+  "name": "74. \"Жалал-Абад эл аралык университети\" мекемеси",
+  "address": "г. Жалал-Абад улица Курманбека 24",
+  "rector": "Нарбаев М. Р.",
+  "site": "#",
+  "faculties": [
+    {
+      "faculty_name": "1. «Информатика жана эсептөө техникасы» багыты боюнча билим берүү программасы",
+      "directions": [
+        {
+          "code": "710100",
+          "major": "Информатика жана эсептөө техникасы",
+          "specialty": "Информатика жана эсептөө техникасы",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "40000",
+          "plan": "25",
+          "threshold": "Негизги балл-110",
+          "registered": "3",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5320036",
+              "note": null,
+              "main_score": "172",
+              "extra_score": "0",
+              "total_score": "172",
+              "category": null,
+              "date": "15.07.2025 09:33:49",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5330374",
+              "note": null,
+              "main_score": "126",
+              "extra_score": "0",
+              "total_score": "126",
+              "category": null,
+              "date": "16.07.2025 12:23:54",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5360260",
+              "note": null,
+              "main_score": "125",
+              "extra_score": "0",
+              "total_score": "125",
+              "category": null,
+              "date": "15.07.2025 00:18:34",
+              "admitted": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_name": "2. «Менеджмент» багыты боюнча билим берүү программасы",
+      "directions": [
+        {
+          "code": "580200",
+          "major": "Менеджмент",
+          "specialty": "Менеджмент",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "40000",
+          "plan": "25",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    },
+    {
+      "faculty_name": "3. «Экономика» багыты боюнча билим берүү программасы",
+      "directions": [
+        {
+          "code": "580100",
+          "major": "Экономика",
+          "specialty": "Экономика",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "40000",
+          "plan": "25",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    },
+    {
+      "faculty_name": "4. Медицина факультети",
+      "directions": [
+        {
+          "code": "560001",
+          "major": "Дарылоо иши 6 жыл",
+          "specialty": "Дарылоо иши 6жыл",
+          "education_type": "Күндүзгү",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "55000",
+          "plan": "50",
+          "threshold": "Негизги балл-110 Кошумча .-2 сабак Биология-60 Химия-60",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5320076",
+              "note": null,
+              "main_score": "122",
+              "extra_score": "122",
+              "total_score": "244",
+              "category": null,
+              "date": "14.07.2025 11:24:15",
+              "admitted": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

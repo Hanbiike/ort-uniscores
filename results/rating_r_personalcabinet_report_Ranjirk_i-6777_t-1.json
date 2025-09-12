@@ -8,90 +8,110 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 25 . Зарегистрированных: 9 .",
   "total_registered": null,
+  "admitted_count": 9,
+  "not_admitted_count": 0,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5750258",
+          "certificate": "5750258",
+          "note": null,
           "main_score": "161",
           "extra_score": "177",
           "total_score": "338",
-          "category": "Село",
-          "date": "14.07.2025 19:49:56"
+          "category": null,
+          "date": "14.07.2025 19:49:56",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5702155",
+          "certificate": "5702155",
+          "note": null,
           "main_score": "151",
           "extra_score": "155",
           "total_score": "306",
-          "category": "Малый город",
-          "date": "14.07.2025 10:55:28"
+          "category": null,
+          "date": "14.07.2025 10:55:28",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5731359",
+          "certificate": "5731359",
+          "note": null,
           "main_score": "158",
           "extra_score": "144",
           "total_score": "302",
-          "category": "Село",
-          "date": "14.07.2025 10:12:30"
+          "category": null,
+          "date": "14.07.2025 10:12:30",
+          "admitted": true
         },
         {
           "num": "4",
-          "certificate": "(Реком) 5340099",
+          "certificate": "5340099",
+          "note": null,
           "main_score": "148",
           "extra_score": "141",
           "total_score": "289",
-          "category": "Малый город",
-          "date": "14.07.2025 13:29:28"
+          "category": null,
+          "date": "14.07.2025 13:29:28",
+          "admitted": true
         },
         {
           "num": "5",
-          "certificate": "(Реком) 5110216",
+          "certificate": "5110216",
+          "note": null,
           "main_score": "150",
           "extra_score": "133",
           "total_score": "283",
-          "category": "Село",
-          "date": "14.07.2025 20:25:19"
+          "category": null,
+          "date": "14.07.2025 20:25:19",
+          "admitted": true
         },
         {
           "num": "6",
-          "certificate": "(Реком) 5701914",
+          "certificate": "5701914",
+          "note": null,
           "main_score": "139",
           "extra_score": "137",
           "total_score": "276",
-          "category": "Малый город",
-          "date": "14.07.2025 12:24:03"
+          "category": null,
+          "date": "14.07.2025 12:24:03",
+          "admitted": true
         },
         {
           "num": "7",
-          "certificate": "(Реком) 5220149",
+          "certificate": "5220149",
+          "note": null,
           "main_score": "147",
           "extra_score": "126",
           "total_score": "273",
-          "category": "Бишкек",
-          "date": "16.07.2025 11:06:35"
+          "category": null,
+          "date": "16.07.2025 11:06:35",
+          "admitted": true
         },
         {
           "num": "8",
-          "certificate": "(Реком) 5731486",
+          "certificate": "5731486",
+          "note": null,
           "main_score": "111",
           "extra_score": "144",
           "total_score": "255",
-          "category": "Село",
-          "date": "14.07.2025 12:40:04"
+          "category": null,
+          "date": "14.07.2025 12:40:04",
+          "admitted": true
         },
         {
           "num": "9",
-          "certificate": "(Реком) 5371204",
+          "certificate": "5371204",
+          "note": null,
           "main_score": "127",
           "extra_score": "122",
           "total_score": "249",
-          "category": "Малый город",
-          "date": "16.07.2025 00:04:53"
+          "category": null,
+          "date": "16.07.2025 00:04:53",
+          "admitted": true
         }
       ]
     }

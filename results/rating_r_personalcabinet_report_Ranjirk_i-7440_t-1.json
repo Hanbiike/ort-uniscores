@@ -8,45 +8,55 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 5 . Зарегистрированных: 4 .",
   "total_registered": null,
+  "admitted_count": 3,
+  "not_admitted_count": 1,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5750540 [Целевые места]",
+          "certificate": "5750540",
+          "note": "Целевые места",
           "main_score": "156",
           "extra_score": "141",
           "total_score": "297",
-          "category": "Село",
-          "date": "16.07.2025 13:28:37"
+          "category": null,
+          "date": "16.07.2025 13:28:37",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5720333 [Целевые места]",
+          "certificate": "5720333",
+          "note": "Целевые места",
           "main_score": "158",
           "extra_score": "137",
           "total_score": "295",
-          "category": "Село",
-          "date": "16.07.2025 13:46:50"
+          "category": null,
+          "date": "16.07.2025 13:46:50",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5770090 [Целевые места]",
+          "certificate": "5770090",
+          "note": "Целевые места",
           "main_score": "130",
           "extra_score": "137",
           "total_score": "267",
-          "category": "Высокогорье",
-          "date": "16.07.2025 13:55:51"
+          "category": null,
+          "date": "16.07.2025 13:55:51",
+          "admitted": true
         },
         {
           "num": "4",
-          "certificate": "5720453 [Целевые места]",
+          "certificate": "5720453",
+          "note": "Целевые места",
           "main_score": "124",
           "extra_score": "166",
           "total_score": "290",
-          "category": "Село",
-          "date": "16.07.2025 11:39:37"
+          "category": null,
+          "date": "16.07.2025 11:39:37",
+          "admitted": false
         }
       ]
     }

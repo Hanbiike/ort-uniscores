@@ -8,18 +8,22 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 10 . Зарегистрированных: 1 .",
   "total_registered": null,
+  "admitted_count": 1,
+  "not_admitted_count": 0,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5900059 [Круглый сирота]",
+          "certificate": "5900059",
+          "note": "Круглый сирота",
           "main_score": "99",
           "extra_score": "0",
           "total_score": "99",
-          "category": "Вне конкурса",
-          "date": "16.07.2025 09:59:24"
+          "category": null,
+          "date": "16.07.2025 09:59:24",
+          "admitted": true
         }
       ]
     }

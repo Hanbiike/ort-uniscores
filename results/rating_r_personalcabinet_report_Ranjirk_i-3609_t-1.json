@@ -8,6 +8,8 @@
   "confirmed": null,
   "total_places": null,
   "total_registered": null,
+  "admitted_count": 0,
+  "not_admitted_count": 1,
   "tables": [
     {
       "header": null,
@@ -15,11 +17,13 @@
         {
           "num": "1",
           "certificate": "5820133",
+          "note": null,
           "main_score": "145",
           "extra_score": "105",
           "total_score": "250",
-          "category": "Село",
-          "date": "14.07.2025 19:09:22"
+          "category": null,
+          "date": "14.07.2025 19:09:22",
+          "admitted": false
         }
       ]
     }

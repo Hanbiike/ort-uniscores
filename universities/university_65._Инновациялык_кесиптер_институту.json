@@ -1,0 +1,548 @@
+{
+  "name": "65. Инновациялык кесиптер институту",
+  "address": "г. Бишкек, ул. Исакеева 34/1",
+  "rector": "Орозалиев М.Д.",
+  "site": "https://iip.kg/",
+  "faculties": [
+    {
+      "faculty_name": "1. Инжиниринг жана инновациялар борбору",
+      "directions": [
+        {
+          "code": "570400",
+          "major": "Дизайн",
+          "specialty": "Графикалык дизайн",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "58000",
+          "plan": "60",
+          "threshold": "Негизги балл-0",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "570400",
+          "major": "Дизайн",
+          "specialty": "Интерьер дизайны",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "58000",
+          "plan": "60",
+          "threshold": "Негизги балл-0",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "570400",
+          "major": "Дизайн",
+          "specialty": "Кийим дизайны",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "58000",
+          "plan": "60",
+          "threshold": "Негизги балл-0",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "620200",
+          "major": "Жерге жайгаштыруу жана кадастрлар",
+          "specialty": "Жерге мониторинг жүргүзүү жана баалоо",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "54000",
+          "plan": "30",
+          "threshold": "Негизги балл-100",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5520327",
+              "note": null,
+              "main_score": "103",
+              "extra_score": "0",
+              "total_score": "103",
+              "category": null,
+              "date": "16.07.2025 13:29:06",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "620200",
+          "major": "Жерге жайгаштыруу жана кадастрлар",
+          "specialty": "Кадастрдык баалоо жана мониторингдөө",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "54000",
+          "plan": "30",
+          "threshold": "Негизги балл-100",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "620200",
+          "major": "Жерге жайгаштыруу жана кадастрлар",
+          "specialty": "Кыймылсыз мүлктүн кадастры",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "54000",
+          "plan": "30",
+          "threshold": "Негизги балл-100",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5540216",
+              "note": null,
+              "main_score": "108",
+              "extra_score": "0",
+              "total_score": "108",
+              "category": null,
+              "date": "15.07.2025 09:37:01",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "700700",
+          "major": "Инноватика",
+          "specialty": "Инноватика",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "54000",
+          "plan": "30",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "690300",
+          "major": "Инфокоммуникациялык технологиялар жана байланыш системалары",
+          "specialty": "Инфокоммуникациялык технологиялар жана байланыш системалары",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "54000",
+          "plan": "30",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "710100",
+          "major": "Информатика жана эсептөө техникасы",
+          "specialty": "Эсептөө жана автоматташтырылган системаларды программа менен камсыздоо",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "54000",
+          "plan": "25",
+          "threshold": "Негизги балл-110",
+          "registered": "2",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5650002",
+              "note": null,
+              "main_score": "149",
+              "extra_score": "0",
+              "total_score": "149",
+              "category": null,
+              "date": "15.07.2025 19:40:01",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5212911",
+              "note": null,
+              "main_score": "120",
+              "extra_score": "0",
+              "total_score": "120",
+              "category": null,
+              "date": "15.07.2025 14:59:25",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "750500",
+          "major": "Курулуш",
+          "specialty": "Жылуулук газ менен камсыздоо жана желдетүү",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "54000",
+          "plan": "30",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "750500",
+          "major": "Курулуш",
+          "specialty": "Маалыматтык-курулуш инжиниринги",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "54000",
+          "plan": "30",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "750500",
+          "major": "Курулуш",
+          "specialty": "Өнөр жайлык жана жарандык курулуш",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "54000",
+          "plan": "30",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "580200",
+          "major": "Менеджмент",
+          "specialty": "Маалыматты башкаруу",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "54000",
+          "plan": "60",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "580200",
+          "major": "Менеджмент",
+          "specialty": "Антикризистик башкаруу",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "54000",
+          "plan": "60",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "580200",
+          "major": "Менеджмент",
+          "specialty": "Уюмдун менеджменти",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "54000",
+          "plan": "60",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "580200",
+          "major": "Менеджмент",
+          "specialty": "Электрондук коммерциядагы маалыматтык менеджмент",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "54000",
+          "plan": "60",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "760300",
+          "major": "Техносфералык коопсуздук",
+          "specialty": "Техносфералык коопсуздук",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "54000",
+          "plan": "30",
+          "threshold": "Негизги балл-0",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "760300",
+          "major": "Техносфералык коопсуздук",
+          "specialty": "Өрт коопсуздугу",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "54000",
+          "plan": "30",
+          "threshold": "Негизги балл-0",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "580100",
+          "major": "Экономика",
+          "specialty": "Банк иши",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "54000",
+          "plan": "60",
+          "threshold": "Негизги балл-110",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5920439",
+              "note": null,
+              "main_score": "115",
+              "extra_score": "0",
+              "total_score": "115",
+              "category": null,
+              "date": "16.07.2025 11:11:03",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "580100",
+          "major": "Экономика",
+          "specialty": "Менчикти баалоо жана башкаруу",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "54000",
+          "plan": "60",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "760001",
+          "major": "Өрт коопсуздугу",
+          "specialty": "Өрт коопсуздугу",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "54000",
+          "plan": "40",
+          "threshold": "Негизги балл-110",
+          "registered": "5",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5650427",
+              "note": null,
+              "main_score": "130",
+              "extra_score": "0",
+              "total_score": "130",
+              "category": null,
+              "date": "15.07.2025 11:29:02",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5110980",
+              "note": null,
+              "main_score": "124",
+              "extra_score": "0",
+              "total_score": "124",
+              "category": null,
+              "date": "14.07.2025 14:21:17",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5630078",
+              "note": null,
+              "main_score": "119",
+              "extra_score": "0",
+              "total_score": "119",
+              "category": null,
+              "date": "16.07.2025 13:49:53",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5211613",
+              "note": null,
+              "main_score": "117",
+              "extra_score": "0",
+              "total_score": "117",
+              "category": null,
+              "date": "15.07.2025 13:43:28",
+              "admitted": true
+            },
+            {
+              "num": "5",
+              "certificate": "5930259",
+              "note": null,
+              "main_score": "114",
+              "extra_score": "0",
+              "total_score": "114",
+              "category": null,
+              "date": "16.07.2025 11:46:54",
+              "admitted": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_name": "2. Үзгүлтүксүз билим берүү борбору",
+      "directions": [
+        {
+          "code": "620200",
+          "major": "Жерге жайгаштыруу жана кадастрлар",
+          "specialty": "Жерге мониторинг жүргүзүү жана баалоо",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "48600",
+          "plan": "30",
+          "threshold": "Негизги балл-100",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "620200",
+          "major": "Жерге жайгаштыруу жана кадастрлар",
+          "specialty": "Кадастрдык баалоо жана мониторинг жүргүзүү",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "48600",
+          "plan": "30",
+          "threshold": "Негизги балл-100",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "620200",
+          "major": "Жерге жайгаштыруу жана кадастрлар",
+          "specialty": "Кыймылсыз мүлк кадастры",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "48600",
+          "plan": "30",
+          "threshold": "Негизги балл-100",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5230041",
+              "note": null,
+              "main_score": "151",
+              "extra_score": "0",
+              "total_score": "151",
+              "category": null,
+              "date": "16.07.2025 10:22:31",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "700700",
+          "major": "Инноватика",
+          "specialty": "Инноватика",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "58600",
+          "plan": "30",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "750500",
+          "major": "Курулуш",
+          "specialty": "Жылуулук газ менен камсыздоо жана желдетүү",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "48600",
+          "plan": "30",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "750500",
+          "major": "Курулуш",
+          "specialty": "Маалыматтык курулуш инжиниринги",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "48600",
+          "plan": "30",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "750500",
+          "major": "Курулуш",
+          "specialty": "Өнөр жай жана жарандык курулуш",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "48600",
+          "plan": "30",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "760300",
+          "major": "Техносфералык коопсуздук",
+          "specialty": "Техносфералык коопсуздук",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "58600",
+          "plan": "30",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "690500",
+          "major": "Транспорттук радиожабдууларды техникалык жактан колдонуу жана тейлөө",
+          "specialty": "Транспорттук радиожабдууларды техникалык жактан колдонуу жана тейлөө (электр унаасында)",
+          "education_type": "электр унаасында, Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "47700",
+          "plan": "30",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "760001",
+          "major": "Өрт коопсуздугу",
+          "specialty": "Өрт коопсуздугу",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "48600",
+          "plan": "40",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    }
+  ]
+}

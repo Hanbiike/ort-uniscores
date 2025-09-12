@@ -8,135 +8,165 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 50 . Зарегистрированных: 14 .",
   "total_registered": null,
+  "admitted_count": 14,
+  "not_admitted_count": 0,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5140354",
+          "certificate": "5140354",
+          "note": null,
           "main_score": "150",
           "extra_score": "105",
           "total_score": "255",
-          "category": "Село",
-          "date": "16.07.2025 13:21:13"
+          "category": null,
+          "date": "16.07.2025 13:21:13",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5400105",
+          "certificate": "5400105",
+          "note": null,
           "main_score": "149",
           "extra_score": "102",
           "total_score": "251",
-          "category": "Высокогорье",
-          "date": "16.07.2025 10:03:00"
+          "category": null,
+          "date": "16.07.2025 10:03:00",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5380617",
+          "certificate": "5380617",
+          "note": null,
           "main_score": "144",
           "extra_score": "102",
           "total_score": "246",
-          "category": "Село",
-          "date": "15.07.2025 23:02:43"
+          "category": null,
+          "date": "15.07.2025 23:02:43",
+          "admitted": true
         },
         {
           "num": "4",
-          "certificate": "(Реком) 5800170",
+          "certificate": "5800170",
+          "note": null,
           "main_score": "150",
           "extra_score": "87",
           "total_score": "237",
-          "category": "Село",
-          "date": "15.07.2025 12:56:34"
+          "category": null,
+          "date": "15.07.2025 12:56:34",
+          "admitted": true
         },
         {
           "num": "5",
-          "certificate": "(Реком) 5750917",
+          "certificate": "5750917",
+          "note": null,
           "main_score": "137",
           "extra_score": "87",
           "total_score": "224",
-          "category": "Село",
-          "date": "16.07.2025 13:32:39"
+          "category": null,
+          "date": "16.07.2025 13:32:39",
+          "admitted": true
         },
         {
           "num": "6",
-          "certificate": "(Реком) 5222305",
+          "certificate": "5222305",
+          "note": null,
           "main_score": "140",
           "extra_score": "83",
           "total_score": "223",
-          "category": "Бишкек",
-          "date": "14.07.2025 10:10:05"
+          "category": null,
+          "date": "14.07.2025 10:10:05",
+          "admitted": true
         },
         {
           "num": "7",
-          "certificate": "(Реком) 5620410",
+          "certificate": "5620410",
+          "note": null,
           "main_score": "146",
           "extra_score": "76",
           "total_score": "222",
-          "category": "Высокогорье",
-          "date": "14.07.2025 10:57:24"
+          "category": null,
+          "date": "14.07.2025 10:57:24",
+          "admitted": true
         },
         {
           "num": "8",
-          "certificate": "(Реком) 5340379",
+          "certificate": "5340379",
+          "note": null,
           "main_score": "141",
           "extra_score": "79",
           "total_score": "220",
-          "category": "Село",
-          "date": "16.07.2025 10:29:36"
+          "category": null,
+          "date": "16.07.2025 10:29:36",
+          "admitted": true
         },
         {
           "num": "9",
-          "certificate": "(Реком) 5300199 [Целевые места для приграничных районов]",
+          "certificate": "5300199",
+          "note": "Целевые места для приграничных районов",
           "main_score": "146",
           "extra_score": "72",
           "total_score": "218",
-          "category": "Малый город",
-          "date": "15.07.2025 20:33:06"
+          "category": null,
+          "date": "15.07.2025 20:33:06",
+          "admitted": true
         },
         {
           "num": "10",
-          "certificate": "(Реком) 5980002",
+          "certificate": "5980002",
+          "note": null,
           "main_score": "165",
           "extra_score": "0",
           "total_score": "165",
-          "category": "Село",
-          "date": "16.07.2025 10:42:58"
+          "category": null,
+          "date": "16.07.2025 10:42:58",
+          "admitted": true
         },
         {
           "num": "11",
-          "certificate": "(Реком) 5960021",
+          "certificate": "5960021",
+          "note": null,
           "main_score": "158",
           "extra_score": "0",
           "total_score": "158",
-          "category": "Малый город",
-          "date": "14.07.2025 16:27:36"
+          "category": null,
+          "date": "14.07.2025 16:27:36",
+          "admitted": true
         },
         {
           "num": "12",
-          "certificate": "(Реком) 5597475",
+          "certificate": "5597475",
+          "note": null,
           "main_score": "153",
           "extra_score": "0",
           "total_score": "153",
-          "category": "Бишкек",
-          "date": "15.07.2025 12:21:49"
+          "category": null,
+          "date": "15.07.2025 12:21:49",
+          "admitted": true
         },
         {
           "num": "13",
-          "certificate": "(Реком) 5550401",
+          "certificate": "5550401",
+          "note": null,
           "main_score": "138",
           "extra_score": "0",
           "total_score": "138",
-          "category": "Высокогорье",
-          "date": "14.07.2025 13:35:00"
+          "category": null,
+          "date": "14.07.2025 13:35:00",
+          "admitted": true
         },
         {
           "num": "14",
-          "certificate": "(Реком) 5380523",
+          "certificate": "5380523",
+          "note": null,
           "main_score": "136",
           "extra_score": "0",
           "total_score": "136",
-          "category": "Село",
-          "date": "14.07.2025 12:03:14"
+          "category": null,
+          "date": "14.07.2025 12:03:14",
+          "admitted": true
         }
       ]
     }

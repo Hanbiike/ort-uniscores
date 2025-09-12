@@ -8,36 +8,44 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 25 . Зарегистрированных: 3 .",
   "total_registered": null,
+  "admitted_count": 3,
+  "not_admitted_count": 0,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5220298",
+          "certificate": "5220298",
+          "note": null,
           "main_score": "204",
           "extra_score": "0",
           "total_score": "204",
-          "category": "Бишкек",
-          "date": "14.07.2025 10:08:36"
+          "category": null,
+          "date": "14.07.2025 10:08:36",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5520721",
+          "certificate": "5520721",
+          "note": null,
           "main_score": "136",
           "extra_score": "0",
           "total_score": "136",
-          "category": "Село",
-          "date": "16.07.2025 13:28:04"
+          "category": null,
+          "date": "16.07.2025 13:28:04",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5221394",
+          "certificate": "5221394",
+          "note": null,
           "main_score": "124",
           "extra_score": "0",
           "total_score": "124",
-          "category": "Бишкек",
-          "date": "14.07.2025 12:45:13"
+          "category": null,
+          "date": "14.07.2025 12:45:13",
+          "admitted": true
         }
       ]
     }

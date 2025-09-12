@@ -8,54 +8,66 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 9 . Зарегистрированных: 5 .",
   "total_registered": null,
+  "admitted_count": 4,
+  "not_admitted_count": 1,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5232583 [Дети, оставшиеся без попечения родителей]",
+          "certificate": "5232583",
+          "note": "Дети, оставшиеся без попечения родителей",
           "main_score": "128",
           "extra_score": "118",
           "total_score": "246",
-          "category": "Бишкек",
-          "date": "15.07.2025 10:26:30"
+          "category": null,
+          "date": "15.07.2025 10:26:30",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5731575 [Инвалид детства]",
+          "certificate": "5731575",
+          "note": "Инвалид детства",
           "main_score": "127",
           "extra_score": "79",
           "total_score": "206",
-          "category": "Село",
-          "date": "15.07.2025 16:45:44"
+          "category": null,
+          "date": "15.07.2025 16:45:44",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5760161 [Круглый сирота]",
+          "certificate": "5760161",
+          "note": "Круглый сирота",
           "main_score": "140",
           "extra_score": "61",
           "total_score": "201",
-          "category": "Село",
-          "date": "14.07.2025 10:49:07"
+          "category": null,
+          "date": "14.07.2025 10:49:07",
+          "admitted": true
         },
         {
           "num": "4",
-          "certificate": "(Реком) 5701395 [Инвалид детства]",
+          "certificate": "5701395",
+          "note": "Инвалид детства",
           "main_score": "97",
           "extra_score": "0",
           "total_score": "97",
-          "category": "Малый город",
-          "date": "14.07.2025 16:30:51"
+          "category": null,
+          "date": "14.07.2025 16:30:51",
+          "admitted": true
         },
         {
           "num": "5",
           "certificate": "5738164",
+          "note": null,
           "main_score": "102",
           "extra_score": "88",
           "total_score": "190",
-          "category": "Село",
-          "date": "15.07.2025 15:29:46"
+          "category": null,
+          "date": "15.07.2025 15:29:46",
+          "admitted": false
         }
       ]
     }

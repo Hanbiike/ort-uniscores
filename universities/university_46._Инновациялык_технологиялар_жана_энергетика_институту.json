@@ -1,0 +1,340 @@
+{
+  "name": "46. Инновациялык технологиялар жана энергетика институту",
+  "address": "Жалал-Абад областы, Таш-Көмүр шаары, Студенттер к. № 5",
+  "rector": "Барпыбаев Т. Р.",
+  "site": "http://abbi.kg/",
+  "faculties": [
+    {
+      "faculty_name": "1. Педагогика жана гуманитардык дисциплиналар",
+      "directions": [
+        {
+          "code": "550600",
+          "major": "Көркөм билим берүү",
+          "specialty": "Көркөм билим берүү",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "27500",
+          "plan": "25",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550600",
+          "major": "Көркөм билим берүү",
+          "specialty": "Көркөм билим берүү",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "29500",
+          "plan": "25",
+          "threshold": "Негизги балл-110",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550700",
+          "major": "Педагогика",
+          "specialty": "Педагогика жана башталгыч билим берүүнүн усулу",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "27500",
+          "plan": "60",
+          "threshold": "Негизги балл-115 Математика-60 Кырг.тили-60 Доп. предмет не обязательно",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5308104",
+              "note": null,
+              "main_score": "140",
+              "extra_score": "0",
+              "total_score": "140",
+              "category": null,
+              "date": "15.07.2025 21:31:11",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550700",
+          "major": "Педагогика",
+          "specialty": "Педагогика жана башталгыч билим берүүнүн усулу",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "29500",
+          "plan": "25",
+          "threshold": "Негизги балл-115 Математика-60 Кырг.тили-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550100",
+          "major": "Табигый илимий билим берүү",
+          "specialty": "Биология (кошумча география) мугалими",
+          "education_type": "кошумча география, Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "29500",
+          "plan": "25",
+          "threshold": "Негизги балл-115 Биология-60 Химия-60 Доп. предмет не обязательно",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5300318",
+              "note": null,
+              "main_score": "118",
+              "extra_score": "0",
+              "total_score": "118",
+              "category": null,
+              "date": "16.07.2025 13:09:03",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550100",
+          "major": "Табигый илимий билим берүү",
+          "specialty": "Табигый билим берүү",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "27500",
+          "plan": "40",
+          "threshold": "Негизги балл-115 Биология-60 Химия-60 Доп. предмет не обязательно",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5310214",
+              "note": null,
+              "main_score": "127",
+              "extra_score": "0",
+              "total_score": "127",
+              "category": null,
+              "date": "16.07.2025 10:55:58",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "550300",
+          "major": "Филологиялык билим берүү",
+          "specialty": "Орус тили жана адабияты",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "29500",
+          "plan": "25",
+          "threshold": "Негизги балл-115 Орус тили-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "550300",
+          "major": "Филологиялык билим берүү",
+          "specialty": "Орус тили жана адабияты",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "29500",
+          "plan": "25",
+          "threshold": "Негизги балл-115 Орус тили-60 Доп. предмет не обязательно",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5300052",
+              "note": null,
+              "main_score": "132",
+              "extra_score": "87",
+              "total_score": "219",
+              "category": null,
+              "date": "15.07.2025 22:11:09",
+              "admitted": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_name": "2. Экономика жана информатика",
+      "directions": [
+        {
+          "code": "580700",
+          "major": "Бизнести башкаруу",
+          "specialty": "Бизнести башаруу",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "27500",
+          "plan": "25",
+          "threshold": "Негизги балл-110",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5317805",
+              "note": null,
+              "main_score": "122",
+              "extra_score": "0",
+              "total_score": "122",
+              "category": null,
+              "date": "16.07.2025 09:39:58",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "580700",
+          "major": "Бизнести башкаруу",
+          "specialty": "Бизнести башкаруу",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "29500",
+          "plan": "25",
+          "threshold": "Негизги балл-110 Математика-60 Доп. предмет не обязательно",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5340022",
+              "note": null,
+              "main_score": "132",
+              "extra_score": "61",
+              "total_score": "193",
+              "category": null,
+              "date": "15.07.2025 00:35:33",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "710200",
+          "major": "Маалыматтык системалар жана технологиялар",
+          "specialty": "Маалыматтык системалар жана технологиялар",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "27500",
+          "plan": "25",
+          "threshold": "Негизги балл-110 Физика-60 Математика-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "710200",
+          "major": "Маалыматтык системалар жана технологиялар",
+          "specialty": "Маалыматтык системалар жана технологиялар",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "29500",
+          "plan": "25",
+          "threshold": "Негизги балл-110 Физика-60 Математика-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "580100",
+          "major": "Экономика",
+          "specialty": "Экономика",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "29500",
+          "plan": "25",
+          "threshold": "Негизги балл-110 Математика-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    },
+    {
+      "faculty_name": "3. Электроэнергетика",
+      "directions": [
+        {
+          "code": "740600",
+          "major": "Полиграфия жана таңгактоо технологиясы",
+          "specialty": "",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "27500",
+          "plan": "25",
+          "threshold": "Негизги балл-110 Физика-60 Математика-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "740600",
+          "major": "Полиграфия жана таңгактоо технологиясы",
+          "specialty": "Полиграфия жана таңгактоо технологиясы",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "29500",
+          "plan": "25",
+          "threshold": "Негизги балл-110 Физика-60 Математика-60 Доп. предмет не обязательно",
+          "registered": "0",
+          "students": []
+        },
+        {
+          "code": "640200",
+          "major": "Электроэнергетика жана электротехника",
+          "specialty": "Электроэнергетика жана электротехника",
+          "education_type": "Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "27500",
+          "plan": "25",
+          "threshold": "Негизги балл-110 Физика-60 Математика-60 Доп. предмет не обязательно",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5310046",
+              "note": null,
+              "main_score": "119",
+              "extra_score": "0",
+              "total_score": "119",
+              "category": null,
+              "date": "16.07.2025 09:52:47",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "640200",
+          "major": "Электроэнергетика жана электротехника",
+          "specialty": "Электроэнергетика жана электротехника",
+          "education_type": "Сырттан окуу",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "27500",
+          "plan": "50",
+          "threshold": "Негизги балл-110 Физика-60 Математика-60 Доп. предмет не обязательно",
+          "registered": "1",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5300983",
+              "note": null,
+              "main_score": "121",
+              "extra_score": "0",
+              "total_score": "121",
+              "category": null,
+              "date": "16.07.2025 12:59:04",
+              "admitted": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

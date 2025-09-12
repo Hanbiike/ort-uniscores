@@ -8,27 +8,33 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 24 . Зарегистрированных: 9 .",
   "total_registered": null,
+  "admitted_count": 9,
+  "not_admitted_count": 0,
   "tables": [
     {
       "header": "Бишкек: 5.33",
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5211235",
+          "certificate": "5211235",
+          "note": null,
           "main_score": "147",
           "extra_score": "68",
           "total_score": "215",
-          "category": null,
-          "date": "15.07.2025 01:34:17"
+          "category": "Бишкек",
+          "date": "15.07.2025 01:34:17",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5210558",
+          "certificate": "5210558",
+          "note": null,
           "main_score": "168",
           "extra_score": "0",
           "total_score": "168",
-          "category": null,
-          "date": "16.07.2025 12:02:32"
+          "category": "Бишкек",
+          "date": "16.07.2025 12:02:32",
+          "admitted": true
         }
       ]
     },
@@ -37,48 +43,58 @@
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5360719",
+          "certificate": "5360719",
+          "note": null,
           "main_score": "154",
           "extra_score": "65",
           "total_score": "219",
-          "category": null,
-          "date": "16.07.2025 11:38:32"
+          "category": "Село",
+          "date": "16.07.2025 11:38:32",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5110014",
+          "certificate": "5110014",
+          "note": null,
           "main_score": "119",
           "extra_score": "65",
           "total_score": "184",
-          "category": null,
-          "date": "16.07.2025 12:43:17"
+          "category": "Село",
+          "date": "16.07.2025 12:43:17",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5520166",
+          "certificate": "5520166",
+          "note": null,
           "main_score": "158",
           "extra_score": "0",
           "total_score": "158",
-          "category": null,
-          "date": "15.07.2025 20:09:32"
+          "category": "Село",
+          "date": "15.07.2025 20:09:32",
+          "admitted": true
         },
         {
           "num": "4",
-          "certificate": "(Реком) 5110634",
+          "certificate": "5110634",
+          "note": null,
           "main_score": "117",
           "extra_score": "0",
           "total_score": "117",
-          "category": null,
-          "date": "16.07.2025 09:56:26"
+          "category": "Село",
+          "date": "16.07.2025 09:56:26",
+          "admitted": true
         },
         {
           "num": "5",
-          "certificate": "(Реком) 5970438",
+          "certificate": "5970438",
+          "note": null,
           "main_score": "116",
           "extra_score": "0",
           "total_score": "116",
-          "category": null,
-          "date": "16.07.2025 12:39:23"
+          "category": "Село",
+          "date": "16.07.2025 12:39:23",
+          "admitted": true
         }
       ]
     },
@@ -87,21 +103,25 @@
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5610325",
+          "certificate": "5610325",
+          "note": null,
           "main_score": "125",
           "extra_score": "0",
           "total_score": "125",
-          "category": null,
-          "date": "14.07.2025 13:22:43"
+          "category": "Высокогорье",
+          "date": "14.07.2025 13:22:43",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5650124",
+          "certificate": "5650124",
+          "note": null,
           "main_score": "121",
           "extra_score": "0",
           "total_score": "121",
-          "category": null,
-          "date": "16.07.2025 13:56:19"
+          "category": "Высокогорье",
+          "date": "16.07.2025 13:56:19",
+          "admitted": true
         }
       ]
     }

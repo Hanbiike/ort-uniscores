@@ -8,27 +8,33 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 1 . Зарегистрированных: 2 .",
   "total_registered": null,
+  "admitted_count": 1,
+  "not_admitted_count": 1,
   "tables": [
     {
       "header": "Село: 1",
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5360613 [Целевые места]",
+          "certificate": "5360613",
+          "note": "Целевые места",
           "main_score": "122",
           "extra_score": "0",
           "total_score": "122",
-          "category": null,
-          "date": "16.07.2025 13:25:03"
+          "category": "Село",
+          "date": "16.07.2025 13:25:03",
+          "admitted": true
         },
         {
           "num": "2",
           "certificate": "5330450",
+          "note": null,
           "main_score": "112",
           "extra_score": "0",
           "total_score": "112",
-          "category": null,
-          "date": "16.07.2025 11:31:21"
+          "category": "Село",
+          "date": "16.07.2025 11:31:21",
+          "admitted": false
         }
       ]
     }

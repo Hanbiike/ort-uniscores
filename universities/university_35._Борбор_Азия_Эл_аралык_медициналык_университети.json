@@ -1,0 +1,205 @@
+{
+  "name": "35. Борбор Азия Эл аралык медициналык университети",
+  "address": "Жалал-Абад шаары, Т.Байзаков проспекти 174",
+  "rector": "Нарымбетов Талантбек Канатбекович",
+  "site": "http://new.nimsi.kg/",
+  "faculties": [
+    {
+      "faculty_name": "1. Дарылоо иши",
+      "directions": [
+        {
+          "code": "680200",
+          "major": "Биотехникалык системалар жана технологиялар (бакалавр)",
+          "specialty": "Биотехникалык системалар жана технологиялар",
+          "education_type": "бакалавр, Күндүзгү бакалавр",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "45000",
+          "plan": "20",
+          "threshold": "Негизги балл-110",
+          "registered": "8",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5370651",
+              "note": null,
+              "main_score": "156",
+              "extra_score": "0",
+              "total_score": "156",
+              "category": null,
+              "date": "14.07.2025 11:12:50",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5300499",
+              "note": null,
+              "main_score": "154",
+              "extra_score": "0",
+              "total_score": "154",
+              "category": null,
+              "date": "14.07.2025 11:38:48",
+              "admitted": true
+            },
+            {
+              "num": "3",
+              "certificate": "5360107",
+              "note": null,
+              "main_score": "150",
+              "extra_score": "0",
+              "total_score": "150",
+              "category": null,
+              "date": "15.07.2025 12:19:38",
+              "admitted": true
+            },
+            {
+              "num": "4",
+              "certificate": "5360393",
+              "note": null,
+              "main_score": "142",
+              "extra_score": "0",
+              "total_score": "142",
+              "category": null,
+              "date": "14.07.2025 14:29:36",
+              "admitted": true
+            },
+            {
+              "num": "5",
+              "certificate": "5320299",
+              "note": null,
+              "main_score": "130",
+              "extra_score": "0",
+              "total_score": "130",
+              "category": null,
+              "date": "14.07.2025 13:45:46",
+              "admitted": true
+            },
+            {
+              "num": "6",
+              "certificate": "5360105",
+              "note": null,
+              "main_score": "130",
+              "extra_score": "0",
+              "total_score": "130",
+              "category": null,
+              "date": "14.07.2025 22:02:00",
+              "admitted": true
+            },
+            {
+              "num": "7",
+              "certificate": "5370375",
+              "note": null,
+              "main_score": "124",
+              "extra_score": "0",
+              "total_score": "124",
+              "category": null,
+              "date": "14.07.2025 13:33:45",
+              "admitted": true
+            },
+            {
+              "num": "8",
+              "certificate": "5340262",
+              "note": null,
+              "main_score": "122",
+              "extra_score": "0",
+              "total_score": "122",
+              "category": null,
+              "date": "14.07.2025 15:36:45",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "560001",
+          "major": "Дарылоо иши 6 жыл",
+          "specialty": "Лечебное дело",
+          "education_type": "Күндүзгү",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "79000",
+          "plan": "150",
+          "threshold": "Негизги балл-110 Кошумча .-2 сабак Биология-60 Химия-60",
+          "registered": "2",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5340407",
+              "note": null,
+              "main_score": "153",
+              "extra_score": "148",
+              "total_score": "301",
+              "category": null,
+              "date": "15.07.2025 13:44:28",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5330363",
+              "note": null,
+              "main_score": "157",
+              "extra_score": "130",
+              "total_score": "287",
+              "category": null,
+              "date": "14.07.2025 14:02:17",
+              "admitted": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "faculty_name": "2. Фармация",
+      "directions": [
+        {
+          "code": "560005",
+          "major": "Фармация (адис)",
+          "specialty": "Фармация (адис)",
+          "education_type": "адис, адис, Күндүзгү",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "53000",
+          "plan": "20",
+          "threshold": "Негизги балл-110 Кошумча .-2 сабак Биология-60 Химия-60",
+          "registered": "2",
+          "students": [
+            {
+              "num": "1",
+              "certificate": "5370805",
+              "note": null,
+              "main_score": "140",
+              "extra_score": "133",
+              "total_score": "273",
+              "category": null,
+              "date": "14.07.2025 14:36:52",
+              "admitted": true
+            },
+            {
+              "num": "2",
+              "certificate": "5370476",
+              "note": null,
+              "main_score": "115",
+              "extra_score": "144",
+              "total_score": "259",
+              "category": null,
+              "date": "14.07.2025 13:49:01",
+              "admitted": true
+            }
+          ]
+        },
+        {
+          "code": "560005",
+          "major": "Фармация (адис)",
+          "specialty": "Фармация",
+          "education_type": "адис, Кечки",
+          "voucher": false,
+          "payment_form": "Контракт",
+          "payment_amount": "55000",
+          "plan": "150",
+          "threshold": "Негизги балл-110 Кошумча .-0 сабак Биология-60 Химия-60",
+          "registered": "0",
+          "students": []
+        }
+      ]
+    }
+  ]
+}

@@ -8,333 +8,407 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 25 . Зарегистрированных: 36 .",
   "total_registered": null,
+  "admitted_count": 36,
+  "not_admitted_count": 0,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5530844",
+          "certificate": "5530844",
+          "note": null,
           "main_score": "189",
           "extra_score": "0",
           "total_score": "189",
-          "category": "Село",
-          "date": "15.07.2025 11:01:41"
+          "category": null,
+          "date": "15.07.2025 11:01:41",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "(Реком) 5560273",
+          "certificate": "5560273",
+          "note": null,
           "main_score": "189",
           "extra_score": "0",
           "total_score": "189",
-          "category": "Село",
-          "date": "16.07.2025 13:13:53"
+          "category": null,
+          "date": "16.07.2025 13:13:53",
+          "admitted": true
         },
         {
           "num": "3",
-          "certificate": "(Реком) 5320476",
+          "certificate": "5320476",
+          "note": null,
           "main_score": "161",
           "extra_score": "0",
           "total_score": "161",
-          "category": "Село",
-          "date": "16.07.2025 13:47:37"
+          "category": null,
+          "date": "16.07.2025 13:47:37",
+          "admitted": true
         },
         {
           "num": "4",
-          "certificate": "(Реком) 5100257",
+          "certificate": "5100257",
+          "note": null,
           "main_score": "158",
           "extra_score": "0",
           "total_score": "158",
-          "category": "Село",
-          "date": "16.07.2025 13:00:46"
+          "category": null,
+          "date": "16.07.2025 13:00:46",
+          "admitted": true
         },
         {
           "num": "5",
-          "certificate": "(Реком) 5232068",
+          "certificate": "5232068",
+          "note": null,
           "main_score": "157",
           "extra_score": "0",
           "total_score": "157",
-          "category": "Бишкек",
-          "date": "14.07.2025 10:56:05"
+          "category": null,
+          "date": "14.07.2025 10:56:05",
+          "admitted": true
         },
         {
           "num": "6",
-          "certificate": "(Реком) 5300286",
+          "certificate": "5300286",
+          "note": null,
           "main_score": "157",
           "extra_score": "0",
           "total_score": "157",
-          "category": "Село",
-          "date": "15.07.2025 10:07:09"
+          "category": null,
+          "date": "15.07.2025 10:07:09",
+          "admitted": true
         },
         {
           "num": "7",
-          "certificate": "(Реком) 5550452",
+          "certificate": "5550452",
+          "note": null,
           "main_score": "156",
           "extra_score": "0",
           "total_score": "156",
-          "category": "Высокогорье",
-          "date": "14.07.2025 09:57:45"
+          "category": null,
+          "date": "14.07.2025 09:57:45",
+          "admitted": true
         },
         {
           "num": "8",
-          "certificate": "(Реком) 5910013",
+          "certificate": "5910013",
+          "note": null,
           "main_score": "155",
           "extra_score": "0",
           "total_score": "155",
-          "category": "Малый город",
-          "date": "14.07.2025 09:59:14"
+          "category": null,
+          "date": "14.07.2025 09:59:14",
+          "admitted": true
         },
         {
           "num": "9",
-          "certificate": "(Реком) 5520713",
+          "certificate": "5520713",
+          "note": null,
           "main_score": "155",
           "extra_score": "0",
           "total_score": "155",
-          "category": "Село",
-          "date": "16.07.2025 13:32:30"
+          "category": null,
+          "date": "16.07.2025 13:32:30",
+          "admitted": true
         },
         {
           "num": "10",
-          "certificate": "(Реком) 5201918",
+          "certificate": "5201918",
+          "note": null,
           "main_score": "151",
           "extra_score": "0",
           "total_score": "151",
-          "category": "Бишкек",
-          "date": "14.07.2025 09:59:54"
+          "category": null,
+          "date": "14.07.2025 09:59:54",
+          "admitted": true
         },
         {
           "num": "11",
-          "certificate": "(Реком) 5201652",
+          "certificate": "5201652",
+          "note": null,
           "main_score": "150",
           "extra_score": "0",
           "total_score": "150",
-          "category": "Бишкек",
-          "date": "14.07.2025 09:41:47"
+          "category": null,
+          "date": "14.07.2025 09:41:47",
+          "admitted": true
         },
         {
           "num": "12",
-          "certificate": "(Реком) 5120568",
+          "certificate": "5120568",
+          "note": null,
           "main_score": "148",
           "extra_score": "0",
           "total_score": "148",
-          "category": "Село",
-          "date": "14.07.2025 14:17:01"
+          "category": null,
+          "date": "14.07.2025 14:17:01",
+          "admitted": true
         },
         {
           "num": "13",
-          "certificate": "(Реком) 5212071",
+          "certificate": "5212071",
+          "note": null,
           "main_score": "147",
           "extra_score": "0",
           "total_score": "147",
-          "category": "Бишкек",
-          "date": "14.07.2025 10:03:24"
+          "category": null,
+          "date": "14.07.2025 10:03:24",
+          "admitted": true
         },
         {
           "num": "14",
-          "certificate": "(Реком) 5140302",
+          "certificate": "5140302",
+          "note": null,
           "main_score": "147",
           "extra_score": "0",
           "total_score": "147",
-          "category": "Малый город",
-          "date": "16.07.2025 13:40:23"
+          "category": null,
+          "date": "16.07.2025 13:40:23",
+          "admitted": true
         },
         {
           "num": "15",
-          "certificate": "(Реком) 5600416",
+          "certificate": "5600416",
+          "note": null,
           "main_score": "146",
           "extra_score": "0",
           "total_score": "146",
-          "category": "Высокогорье",
-          "date": "14.07.2025 09:50:54"
+          "category": null,
+          "date": "14.07.2025 09:50:54",
+          "admitted": true
         },
         {
           "num": "16",
-          "certificate": "(Реком) 5760028",
+          "certificate": "5760028",
+          "note": null,
           "main_score": "144",
           "extra_score": "0",
           "total_score": "144",
-          "category": "Село",
-          "date": "15.07.2025 23:48:46"
+          "category": null,
+          "date": "15.07.2025 23:48:46",
+          "admitted": true
         },
         {
           "num": "17",
-          "certificate": "(Реком) 5540373",
+          "certificate": "5540373",
+          "note": null,
           "main_score": "141",
           "extra_score": "0",
           "total_score": "141",
-          "category": "Малый город",
-          "date": "15.07.2025 10:47:15"
+          "category": null,
+          "date": "15.07.2025 10:47:15",
+          "admitted": true
         },
         {
           "num": "18",
-          "certificate": "(Реком) 5630450",
+          "certificate": "5630450",
+          "note": null,
           "main_score": "138",
           "extra_score": "0",
           "total_score": "138",
-          "category": "Высокогорье",
-          "date": "16.07.2025 12:30:43"
+          "category": null,
+          "date": "16.07.2025 12:30:43",
+          "admitted": true
         },
         {
           "num": "19",
-          "certificate": "(Реком) 5951150",
+          "certificate": "5951150",
+          "note": null,
           "main_score": "137",
           "extra_score": "0",
           "total_score": "137",
-          "category": "Село",
-          "date": "16.07.2025 12:08:48"
+          "category": null,
+          "date": "16.07.2025 12:08:48",
+          "admitted": true
         },
         {
           "num": "20",
-          "certificate": "(Реком) 5221491",
+          "certificate": "5221491",
+          "note": null,
           "main_score": "135",
           "extra_score": "0",
           "total_score": "135",
-          "category": "Бишкек",
-          "date": "14.07.2025 10:09:04"
+          "category": null,
+          "date": "14.07.2025 10:09:04",
+          "admitted": true
         },
         {
           "num": "21",
-          "certificate": "(Реком) 5500232",
+          "certificate": "5500232",
+          "note": null,
           "main_score": "132",
           "extra_score": "0",
           "total_score": "132",
-          "category": "Высокогорье",
-          "date": "14.07.2025 10:06:44"
+          "category": null,
+          "date": "14.07.2025 10:06:44",
+          "admitted": true
         },
         {
           "num": "22",
-          "certificate": "(Реком) 5380632",
+          "certificate": "5380632",
+          "note": null,
           "main_score": "132",
           "extra_score": "0",
           "total_score": "132",
-          "category": "Село",
-          "date": "16.07.2025 11:49:57"
+          "category": null,
+          "date": "16.07.2025 11:49:57",
+          "admitted": true
         },
         {
           "num": "23",
-          "certificate": "(Реком) 5600086",
+          "certificate": "5600086",
+          "note": null,
           "main_score": "131",
           "extra_score": "0",
           "total_score": "131",
-          "category": "Высокогорье",
-          "date": "14.07.2025 13:38:15"
+          "category": null,
+          "date": "14.07.2025 13:38:15",
+          "admitted": true
         },
         {
           "num": "24",
-          "certificate": "(Реком) 5510732",
+          "certificate": "5510732",
+          "note": null,
           "main_score": "131",
           "extra_score": "0",
           "total_score": "131",
-          "category": "Малый город",
-          "date": "16.07.2025 13:15:18"
+          "category": null,
+          "date": "16.07.2025 13:15:18",
+          "admitted": true
         },
         {
           "num": "25",
-          "certificate": "(Реком) 5630677",
+          "certificate": "5630677",
+          "note": null,
           "main_score": "130",
           "extra_score": "0",
           "total_score": "130",
-          "category": "Высокогорье",
-          "date": "14.07.2025 10:19:32"
+          "category": null,
+          "date": "14.07.2025 10:19:32",
+          "admitted": true
         },
         {
           "num": "26",
-          "certificate": "(Реком) 5222573",
+          "certificate": "5222573",
+          "note": null,
           "main_score": "130",
           "extra_score": "0",
           "total_score": "130",
-          "category": "Бишкек",
-          "date": "14.07.2025 14:13:56"
+          "category": null,
+          "date": "14.07.2025 14:13:56",
+          "admitted": true
         },
         {
           "num": "27",
-          "certificate": "(Реком) 5620451",
+          "certificate": "5620451",
+          "note": null,
           "main_score": "128",
           "extra_score": "0",
           "total_score": "128",
-          "category": "Село",
-          "date": "15.07.2025 13:23:40"
+          "category": null,
+          "date": "15.07.2025 13:23:40",
+          "admitted": true
         },
         {
           "num": "28",
-          "certificate": "(Реком) 5550183",
+          "certificate": "5550183",
+          "note": null,
           "main_score": "127",
           "extra_score": "0",
           "total_score": "127",
-          "category": "Высокогорье",
-          "date": "14.07.2025 19:08:41"
+          "category": null,
+          "date": "14.07.2025 19:08:41",
+          "admitted": true
         },
         {
           "num": "29",
-          "certificate": "(Реком) 5380598",
+          "certificate": "5380598",
+          "note": null,
           "main_score": "124",
           "extra_score": "0",
           "total_score": "124",
-          "category": "Село",
-          "date": "14.07.2025 15:29:42"
+          "category": null,
+          "date": "14.07.2025 15:29:42",
+          "admitted": true
         },
         {
           "num": "30",
-          "certificate": "(Реком) 5950369",
+          "certificate": "5950369",
+          "note": null,
           "main_score": "122",
           "extra_score": "0",
           "total_score": "122",
-          "category": "Село",
-          "date": "14.07.2025 10:51:37"
+          "category": null,
+          "date": "14.07.2025 10:51:37",
+          "admitted": true
         },
         {
           "num": "31",
-          "certificate": "(Реком) 5650081",
+          "certificate": "5650081",
+          "note": null,
           "main_score": "122",
           "extra_score": "0",
           "total_score": "122",
-          "category": "Высокогорье",
-          "date": "14.07.2025 23:39:51"
+          "category": null,
+          "date": "14.07.2025 23:39:51",
+          "admitted": true
         },
         {
           "num": "32",
-          "certificate": "(Реком) 5390157",
+          "certificate": "5390157",
+          "note": null,
           "main_score": "119",
           "extra_score": "0",
           "total_score": "119",
-          "category": "Малый город",
-          "date": "14.07.2025 22:55:55"
+          "category": null,
+          "date": "14.07.2025 22:55:55",
+          "admitted": true
         },
         {
           "num": "33",
-          "certificate": "(Реком) 5530404",
+          "certificate": "5530404",
+          "note": null,
           "main_score": "116",
           "extra_score": "0",
           "total_score": "116",
-          "category": "Село",
-          "date": "14.07.2025 12:55:48"
+          "category": null,
+          "date": "14.07.2025 12:55:48",
+          "admitted": true
         },
         {
           "num": "34",
-          "certificate": "(Реком) 5100009",
+          "certificate": "5100009",
+          "note": null,
           "main_score": "114",
           "extra_score": "0",
           "total_score": "114",
-          "category": "Село",
-          "date": "15.07.2025 12:40:42"
+          "category": null,
+          "date": "15.07.2025 12:40:42",
+          "admitted": true
         },
         {
           "num": "35",
-          "certificate": "(Реком) 5610246",
+          "certificate": "5610246",
+          "note": null,
           "main_score": "111",
           "extra_score": "0",
           "total_score": "111",
-          "category": "Высокогорье",
-          "date": "14.07.2025 09:47:48"
+          "category": null,
+          "date": "14.07.2025 09:47:48",
+          "admitted": true
         },
         {
           "num": "36",
-          "certificate": "(Реком) 5222410",
+          "certificate": "5222410",
+          "note": null,
           "main_score": "110",
           "extra_score": "0",
           "total_score": "110",
-          "category": "Бишкек",
-          "date": "14.07.2025 12:12:30"
+          "category": null,
+          "date": "14.07.2025 12:12:30",
+          "admitted": true
         }
       ]
     }

@@ -8,27 +8,33 @@
   "confirmed": null,
   "total_places": "1-тур. Итого вакантных мест: 20 . Зарегистрированных: 2 .",
   "total_registered": null,
+  "admitted_count": 1,
+  "not_admitted_count": 1,
   "tables": [
     {
       "header": null,
       "records": [
         {
           "num": "1",
-          "certificate": "(Реком) 5120514 [Инвалид детства]",
+          "certificate": "5120514",
+          "note": "Инвалид детства",
           "main_score": "97",
           "extra_score": "79",
           "total_score": "176",
-          "category": "Село",
-          "date": "15.07.2025 12:26:46"
+          "category": null,
+          "date": "15.07.2025 12:26:46",
+          "admitted": true
         },
         {
           "num": "2",
-          "certificate": "5121070 [Целевые места для приграничных районов]",
+          "certificate": "5121070",
+          "note": "Целевые места для приграничных районов",
           "main_score": "92",
           "extra_score": "61",
           "total_score": "153",
-          "category": "Село",
-          "date": "16.07.2025 11:23:37"
+          "category": null,
+          "date": "16.07.2025 11:23:37",
+          "admitted": false
         }
       ]
     }

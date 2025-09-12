@@ -15,6 +15,31 @@ def clean_text(tag):
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 
+def parse_certificate(text):
+    """
+    Очищает сертификат:
+    - убирает (Реком)
+    - отделяет комментарий в [] в note
+    """
+    admitted = False
+    note = None
+
+    if not text:
+        return None, admitted, note
+
+    # проверяем "Реком"
+    if "(Реком" in text:
+        admitted = True
+        text = text.replace("(Реком)", "").strip()
+
+    # комментарий в []
+    match = re.search(r"\[(.*)\]", text)
+    if match:
+        note = match.group(1).strip()
+        text = re.sub(r"\[.*\]", "", text).strip()
+
+    return text, admitted, note
+
 def parse_rating(html_file):
     with open(html_file, "r", encoding="utf-8") as f:
         soup = BeautifulSoup(f, "html.parser")
@@ -29,6 +54,8 @@ def parse_rating(html_file):
         "confirmed": None,
         "total_places": None,
         "total_registered": None,
+        "admitted_count": 0,
+        "not_admitted_count": 0,
         "tables": []
     }
 
@@ -65,27 +92,42 @@ def parse_rating(html_file):
     # Таблицы
     for table in soup.select("table.table"):
         header = clean_text(table.select_one("div.cityColir"))
+
+        # категория = часть до двоеточия
+        category_value = None
+        if header:
+            category_value = header.split(":")[0].strip()
+
         records = []
         for tr in table.select("tbody tr"):
             cols = [clean_text(td) for td in tr.find_all(["td", "th"])]
             if not cols or len(cols) < 2:
                 continue
 
+            cert_text, admitted, note = parse_certificate(cols[1])
+
             record = {
                 "num": cols[0],
-                "certificate": cols[1],
+                "certificate": cert_text,
+                "note": note,
                 "main_score": cols[2] if len(cols) > 2 else None,
                 "extra_score": cols[3] if len(cols) > 3 else None,
                 "total_score": cols[4] if len(cols) > 4 else None,
-                "category": None,
-                "date": None
+                "category": category_value,
+                "date": None,
+                "admitted": admitted
             }
 
             if len(cols) == 6:
                 record["date"] = cols[5]
             elif len(cols) >= 7:
-                record["category"] = cols[5]
                 record["date"] = cols[6]
+
+            # считаем статистику
+            if admitted:
+                data["admitted_count"] += 1
+            else:
+                data["not_admitted_count"] += 1
 
             records.append(record)
 
@@ -102,6 +144,7 @@ def main():
             full_path = os.path.join(INPUT_DIR, file)
             parsed = parse_rating(full_path)
 
+            # имя json
             if "Ranjirk" in file:
                 out_name = f"rating_r_{os.path.splitext(file)[0]}.json"
             elif "Ranjirb" in file:
