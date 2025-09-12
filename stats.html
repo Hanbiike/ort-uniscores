@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Статистика по университетам</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+<div class="max-w-4xl mx-auto p-4">
+  <h1 class="text-2xl font-bold mb-4">Статистика по университетам</h1>
+  <input id="search" type="text" placeholder="Поиск университета" class="w-full p-2 border mb-4" />
+  <div id="list"></div>
+</div>
+<script>
+async function load(){
+  const data = await fetch('stats.json').then(r=>r.json());
+  const list = document.getElementById('list');
+  function render(filter=''){
+    list.innerHTML='';
+    Object.entries(data).filter(([name])=>name.toLowerCase().includes(filter.toLowerCase())).forEach(([name, uni])=>{
+      const card=document.createElement('div');
+      card.className='bg-white rounded shadow p-4 mb-4 cursor-pointer';
+      const title=document.createElement('h2');
+      title.className='text-xl font-semibold';
+      title.textContent=name;
+      card.appendChild(title);
+      const types=['контракт','бюджет','ваучер'];
+      types.forEach(t=>{
+        if(uni.stats && uni.stats[t]){
+          const st=uni.stats[t];
+          const div=document.createElement('div');
+          div.innerHTML=`<span class=\"font-medium\">${t}</span>: мин ${st.green.min ?? '-'} / ср ${st.green.avg ?? '-'} / макс ${st.green.max ?? '-'} (квота ${st.quota})`;
+          card.appendChild(div);
+        }
+      });
+      card.addEventListener('click',()=>toggleDirections(card, uni.directions));
+      list.appendChild(card);
+    });
+  }
+  document.getElementById('search').addEventListener('input',e=>render(e.target.value));
+  render();
+}
+
+function toggleDirections(card, directions){
+  let existing=card.querySelector('.directions');
+  if(existing){ existing.remove(); return; }
+  const div=document.createElement('div');
+  div.className='directions mt-4';
+  const input=document.createElement('input');
+  input.type='text';
+  input.placeholder='Поиск по направлениям';
+  input.className='w-full p-2 border mb-2';
+  div.appendChild(input);
+  const container=document.createElement('div');
+  div.appendChild(container);
+  function renderDir(filter=''){
+    container.innerHTML='';
+    Object.entries(directions).filter(([n])=>n.toLowerCase().includes(filter.toLowerCase())).forEach(([name, dir])=>{
+      const d=document.createElement('div');
+      d.className='border p-2 mb-2 rounded';
+      const h=document.createElement('h3');
+      h.className='font-semibold';
+      h.textContent=name;
+      d.appendChild(h);
+      ['контракт','бюджет','ваучер'].forEach(t=>{
+        if(dir[t]){
+          const st=dir[t].stats.green;
+          const p=document.createElement('div');
+          p.innerHTML=`<span class=\"font-medium\">${t}</span>: мин ${st.min ?? '-'} / ср ${st.avg ?? '-'} / макс ${st.max ?? '-'} (квота ${dir[t].quota})`;
+          d.appendChild(p);
+        }
+      });
+      container.appendChild(d);
+    });
+  }
+  input.addEventListener('input',e=>renderDir(e.target.value));
+  renderDir();
+  card.appendChild(div);
+}
+
+load();
+</script>
+</body>
+</html>
