@@ -1,0 +1,961 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ORT-Report</title>
+    <link rel="stylesheet" href="https://2020.edu.gov.kg/personalcabinet/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-172178108-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-172178108-1');
+</script>
+<style>
+    .headerColor {
+        color: rgb(47, 47, 94)
+    }
+
+    .coloredRow {
+        background-color: rgb(190, 255, 205) !important;
+    }
+
+    .cityColir {
+        color: lightcoral;
+        font-weight: bold
+    }
+
+    .coloredRowText {
+        color: rgb(0, 137, 26);
+        font-weight: bold
+    }
+
+    .print {
+    }
+</style>
+
+<style media="print">
+    .coloredRow {
+        background-color: rgb(144, 230, 164) !important;
+        font-weight: bold
+    }
+</style>
+
+<body>
+
+    <div class="container-fluid print">
+        <div>
+            <div class="text-right">
+                <b>&#x423;&#x442;&#x432;&#x435;&#x440;&#x436;&#x434;&#x430;&#x44E;</b><br />
+                <span>&#x420;&#x435;&#x43A;&#x442;&#x43E;&#x440; &#x41A;&#x420;&#x421;&#x423;</span><br />
+                <span>&#x412;&#x43E;&#x43B;&#x43A;&#x43E;&#x432; &#x421;.&#x42E;.</span><br />
+                <span>_______________________</span><br />
+                <span>"______"________________</span><br />
+            </div>
+            <p class="text-center text-secondary" style="font-size: 24px ">
+                <b>&#x420;&#x430;&#x43D;&#x436;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x439; &#x43F;&#x43E; &#x43A;&#x430;&#x442;&#x435;&#x433;&#x43E;&#x440;&#x438;&#x44F;&#x43C; &#x441;&#x43F;&#x438;&#x441;&#x43E;&#x43A; &#x430;&#x431;&#x438;&#x442;&#x443;&#x440;&#x438;&#x435;&#x43D;&#x442;&#x43E;&#x432;, &#x443;&#x447;&#x430;&#x441;&#x442;&#x432;&#x443;&#x44E;&#x449;&#x438;&#x445; &#x432; &#x43A;&#x43E;&#x43D;&#x43A;&#x443;&#x440;&#x441;&#x435; (&#x41A;&#x43E;&#x43D;&#x442;&#x440;&#x430;&#x43A;&#x442;.1 - &#x442;&#x443;&#x440;).</b>
+            </p>
+
+            <p class="text-center headerColor m-0" style="font-size: 22px">
+                <b>&#x41F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x43D;&#x430;&#x44F; &#x438;&#x43D;&#x436;&#x435;&#x43D;&#x435;&#x440;&#x438;&#x44F; [&#x41F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x43D;&#x430;&#x44F; &#x438;&#x43D;&#x436;&#x435;&#x43D;&#x435;&#x440;&#x438;&#x44F;] ( &#x41E;&#x447;&#x43D;&#x430;&#x44F; &#x431;&#x430;&#x43A;&#x430;&#x43B;&#x430;&#x432;&#x440;)(&#x415;&#x422;&#x424;)</b>
+            </p>
+            <p class="text-center headerColor m-0" style="font-size: 18px">
+                &#x41F;&#x43B;&#x430;&#x43D; &#x43D;&#x430;&#x431;&#x43E;&#x440;&#x430; &#x430;&#x431;&#x438;&#x442;&#x443;&#x440;&#x438;&#x435;&#x43D;&#x442;&#x43E;&#x432; &#x43F;&#x43E; &#x441;&#x43F;&#x435;&#x446;&#x438;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x441;&#x442;&#x438;: 100 .
+            </p>
+            <p class="text-center headerColor m-0" style="font-size: 18px">
+                <b>1-&#x442;&#x443;&#x440;. &#x418;&#x442;&#x43E;&#x433;&#x43E; &#x432;&#x430;&#x43A;&#x430;&#x43D;&#x442;&#x43D;&#x44B;&#x445; &#x43C;&#x435;&#x441;&#x442;: 100 . &#x417;&#x430;&#x440;&#x435;&#x433;&#x438;&#x441;&#x442;&#x440;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x445;: 96 .</b>
+            </p>
+        </div>
+
+
+
+
+        <table class="table table-sm table-bordered text-center">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col">№</th>
+                    <th scope="col">&#x41D;&#x43E;&#x43C;&#x435;&#x440; &#x441;&#x435;&#x440;&#x442;&#x438;&#x444;&#x438;&#x43A;&#x430;&#x442;&#x430;</th>
+                    <th scope="col">&#x41E;&#x441;&#x43D;. &#x431;&#x430;&#x43B;&#x43B;</th>
+                    <th scope="col">&#x414;&#x43E;&#x43F;.&#x431;&#x430;&#x43B;&#x43B;</th>
+                    <th scope="col">&#x421;&#x443;&#x43C;&#x43C;&#x430; &#x431;&#x430;&#x43B;&#x43B;&#x43E;&#x432;</th>
+                    <th scope="col">&#x41A;&#x430;&#x442;&#x435;&#x433;&#x43E;&#x440;&#x438;&#x44F; &#x43C;&#x435;&#x441;&#x442;&#x43D;&#x43E;&#x441;&#x442;&#x438;</th>
+                    <th scope="col">&#x414;&#x430;&#x442;&#x430;</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">1</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5200671</td>
+                        <td>212</td>
+                        <td>134</td>
+                        <td>346</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 21:20:14</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">2</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5760808</td>
+                        <td>187</td>
+                        <td>142</td>
+                        <td>329</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>14.07.2025 11:11:12</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">3</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5232597</td>
+                        <td>186</td>
+                        <td>131</td>
+                        <td>317</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 21:18:42</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">4</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5620261</td>
+                        <td>197</td>
+                        <td>113</td>
+                        <td>310</td>
+                        <td>&#x412;&#x44B;&#x441;&#x43E;&#x43A;&#x43E;&#x433;&#x43E;&#x440;&#x44C;&#x435;</td>
+                        <td>14.07.2025 14:39:04</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">5</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5231744</td>
+                        <td>195</td>
+                        <td>109</td>
+                        <td>304</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>16.07.2025 13:33:14</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">6</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5700221</td>
+                        <td>185</td>
+                        <td>116</td>
+                        <td>301</td>
+                        <td>&#x41C;&#x430;&#x43B;&#x44B;&#x439; &#x433;&#x43E;&#x440;&#x43E;&#x434;</td>
+                        <td>14.07.2025 14:25:37</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">7</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5930327</td>
+                        <td>170</td>
+                        <td>124</td>
+                        <td>294</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>14.07.2025 11:09:47</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">8</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5701443</td>
+                        <td>189</td>
+                        <td>102</td>
+                        <td>291</td>
+                        <td>&#x41C;&#x430;&#x43B;&#x44B;&#x439; &#x433;&#x43E;&#x440;&#x43E;&#x434;</td>
+                        <td>16.07.2025 09:44:02</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">9</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5920418</td>
+                        <td>188</td>
+                        <td>98</td>
+                        <td>286</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>16.07.2025 13:29:13</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">10</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5230804</td>
+                        <td>181</td>
+                        <td>102</td>
+                        <td>283</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 11:19:49</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">11</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5201211</td>
+                        <td>182</td>
+                        <td>94</td>
+                        <td>276</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>16.07.2025 02:54:28</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">12</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5930576</td>
+                        <td>189</td>
+                        <td>87</td>
+                        <td>276</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>16.07.2025 13:49:32</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">13</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5840489</td>
+                        <td>178</td>
+                        <td>90</td>
+                        <td>268</td>
+                        <td>&#x41C;&#x430;&#x43B;&#x44B;&#x439; &#x433;&#x43E;&#x440;&#x43E;&#x434;</td>
+                        <td>14.07.2025 12:05:38</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">14</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5970130</td>
+                        <td>176</td>
+                        <td>87</td>
+                        <td>263</td>
+                        <td>&#x41C;&#x430;&#x43B;&#x44B;&#x439; &#x433;&#x43E;&#x440;&#x43E;&#x434;</td>
+                        <td>14.07.2025 10:04:56</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">15</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5207524 [&#x421;&#x442;&#x430;&#x442;&#x443;&#x441; &quot;&#x41A;&#x430;&#x439;&#x440;&#x44B;&#x43B;&#x43C;&#x430;&#x43D;&quot;] </td>
+                        <td>175</td>
+                        <td>87</td>
+                        <td>262</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>15.07.2025 15:46:46</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">16</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5610586</td>
+                        <td>186</td>
+                        <td>72</td>
+                        <td>258</td>
+                        <td>&#x412;&#x44B;&#x441;&#x43E;&#x43A;&#x43E;&#x433;&#x43E;&#x440;&#x44C;&#x435;</td>
+                        <td>16.07.2025 13:41:49</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">17</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5221462</td>
+                        <td>163</td>
+                        <td>94</td>
+                        <td>257</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>16.07.2025 10:43:24</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">18</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5760260</td>
+                        <td>174</td>
+                        <td>79</td>
+                        <td>253</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>16.07.2025 13:45:52</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">19</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5233371</td>
+                        <td>169</td>
+                        <td>83</td>
+                        <td>252</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>16.07.2025 13:23:33</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">20</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5231109</td>
+                        <td>180</td>
+                        <td>72</td>
+                        <td>252</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 22:03:50</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">21</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5211185</td>
+                        <td>170</td>
+                        <td>79</td>
+                        <td>249</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>15.07.2025 12:27:00</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">22</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5910615</td>
+                        <td>171</td>
+                        <td>76</td>
+                        <td>247</td>
+                        <td>&#x412;&#x44B;&#x441;&#x43E;&#x43A;&#x43E;&#x433;&#x43E;&#x440;&#x44C;&#x435;</td>
+                        <td>14.07.2025 10:55:36</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">23</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5980122</td>
+                        <td>138</td>
+                        <td>105</td>
+                        <td>243</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>14.07.2025 18:07:52</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">24</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5220871</td>
+                        <td>160</td>
+                        <td>83</td>
+                        <td>243</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 16:03:07</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">25</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5200500</td>
+                        <td>163</td>
+                        <td>79</td>
+                        <td>242</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 12:37:35</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">26</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5110176</td>
+                        <td>154</td>
+                        <td>87</td>
+                        <td>241</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>14.07.2025 09:42:21</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">27</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5221933</td>
+                        <td>176</td>
+                        <td>65</td>
+                        <td>241</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 19:35:03</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">28</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5121062</td>
+                        <td>160</td>
+                        <td>79</td>
+                        <td>239</td>
+                        <td>&#x412;&#x44B;&#x441;&#x43E;&#x43A;&#x43E;&#x433;&#x43E;&#x440;&#x44C;&#x435;</td>
+                        <td>16.07.2025 13:55:47</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">29</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5701028</td>
+                        <td>132</td>
+                        <td>105</td>
+                        <td>237</td>
+                        <td>&#x41C;&#x430;&#x43B;&#x44B;&#x439; &#x433;&#x43E;&#x440;&#x43E;&#x434;</td>
+                        <td>15.07.2025 11:55:15</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">30</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5232954</td>
+                        <td>157</td>
+                        <td>76</td>
+                        <td>233</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 11:12:57</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">31</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5201317</td>
+                        <td>156</td>
+                        <td>76</td>
+                        <td>232</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 15:56:20</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">32</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5410167</td>
+                        <td>161</td>
+                        <td>68</td>
+                        <td>229</td>
+                        <td>&#x412;&#x44B;&#x441;&#x43E;&#x43A;&#x43E;&#x433;&#x43E;&#x440;&#x44C;&#x435;</td>
+                        <td>14.07.2025 16:39:22</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">33</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5213007</td>
+                        <td>161</td>
+                        <td>68</td>
+                        <td>229</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>15.07.2025 13:38:41</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">34</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5530453</td>
+                        <td>145</td>
+                        <td>83</td>
+                        <td>228</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>16.07.2025 13:59:31</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">35</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5610008</td>
+                        <td>165</td>
+                        <td>61</td>
+                        <td>226</td>
+                        <td>&#x412;&#x44B;&#x441;&#x43E;&#x43A;&#x43E;&#x433;&#x43E;&#x440;&#x44C;&#x435;</td>
+                        <td>14.07.2025 17:53:41</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">36</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5550471</td>
+                        <td>153</td>
+                        <td>72</td>
+                        <td>225</td>
+                        <td>&#x412;&#x44B;&#x441;&#x43E;&#x43A;&#x43E;&#x433;&#x43E;&#x440;&#x44C;&#x435;</td>
+                        <td>15.07.2025 21:45:41</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">37</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5207677</td>
+                        <td>164</td>
+                        <td>61</td>
+                        <td>225</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 14:36:06</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">38</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5231100</td>
+                        <td>141</td>
+                        <td>83</td>
+                        <td>224</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 09:55:37</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">39</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5720455</td>
+                        <td>159</td>
+                        <td>65</td>
+                        <td>224</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>16.07.2025 09:53:38</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">40</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5910479</td>
+                        <td>132</td>
+                        <td>79</td>
+                        <td>211</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>14.07.2025 09:48:36</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">41</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5761378</td>
+                        <td>146</td>
+                        <td>61</td>
+                        <td>207</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>15.07.2025 00:13:30</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">42</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5207716</td>
+                        <td>141</td>
+                        <td>65</td>
+                        <td>206</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 14:36:03</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">43</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5760739</td>
+                        <td>133</td>
+                        <td>72</td>
+                        <td>205</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>16.07.2025 07:08:43</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">44</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5317806</td>
+                        <td>132</td>
+                        <td>72</td>
+                        <td>204</td>
+                        <td>&#x41C;&#x430;&#x43B;&#x44B;&#x439; &#x433;&#x43E;&#x440;&#x43E;&#x434;</td>
+                        <td>14.07.2025 10:07:46</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">45</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5238188</td>
+                        <td>116</td>
+                        <td>68</td>
+                        <td>184</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 13:22:18</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">46</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5510782</td>
+                        <td>113</td>
+                        <td>68</td>
+                        <td>181</td>
+                        <td>&#x41C;&#x430;&#x43B;&#x44B;&#x439; &#x433;&#x43E;&#x440;&#x43E;&#x434;</td>
+                        <td>14.07.2025 10:59:10</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">47</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5930413</td>
+                        <td>196</td>
+                        <td>0</td>
+                        <td>196</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>14.07.2025 10:51:29</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">48</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5207759</td>
+                        <td>186</td>
+                        <td>0</td>
+                        <td>186</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>15.07.2025 23:39:12</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">49</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5211449</td>
+                        <td>179</td>
+                        <td>0</td>
+                        <td>179</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 10:15:55</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">50</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5211889</td>
+                        <td>179</td>
+                        <td>0</td>
+                        <td>179</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 14:56:46</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">51</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5560059</td>
+                        <td>172</td>
+                        <td>0</td>
+                        <td>172</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>15.07.2025 12:00:00</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">52</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5222615</td>
+                        <td>171</td>
+                        <td>0</td>
+                        <td>171</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>15.07.2025 20:26:05</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">53</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5200722</td>
+                        <td>170</td>
+                        <td>0</td>
+                        <td>170</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 13:43:53</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">54</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5220041</td>
+                        <td>168</td>
+                        <td>0</td>
+                        <td>168</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>16.07.2025 10:23:33</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">55</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5230426</td>
+                        <td>167</td>
+                        <td>0</td>
+                        <td>167</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 15:49:03</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">56</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5232140</td>
+                        <td>164</td>
+                        <td>0</td>
+                        <td>164</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 11:03:37</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">57</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5340319</td>
+                        <td>163</td>
+                        <td>0</td>
+                        <td>163</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>16.07.2025 13:50:17</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">58</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5212235</td>
+                        <td>162</td>
+                        <td>0</td>
+                        <td>162</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 23:55:51</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">59</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5330490</td>
+                        <td>162</td>
+                        <td>0</td>
+                        <td>162</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>16.07.2025 12:33:26</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">60</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5210715</td>
+                        <td>160</td>
+                        <td>0</td>
+                        <td>160</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>15.07.2025 01:04:15</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">61</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5596070</td>
+                        <td>154</td>
+                        <td>0</td>
+                        <td>154</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 10:30:09</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">62</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5100622</td>
+                        <td>152</td>
+                        <td>0</td>
+                        <td>152</td>
+                        <td>&#x41C;&#x430;&#x43B;&#x44B;&#x439; &#x433;&#x43E;&#x440;&#x43E;&#x434;</td>
+                        <td>14.07.2025 10:45:27</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">63</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5210234</td>
+                        <td>152</td>
+                        <td>0</td>
+                        <td>152</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 11:27:43</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">64</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5206890</td>
+                        <td>150</td>
+                        <td>0</td>
+                        <td>150</td>
+                        <td>&#x41C;&#x430;&#x43B;&#x44B;&#x439; &#x433;&#x43E;&#x440;&#x43E;&#x434;</td>
+                        <td>14.07.2025 11:13:59</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">65</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5731394</td>
+                        <td>149</td>
+                        <td>0</td>
+                        <td>149</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>14.07.2025 19:33:26</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">66</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5207280</td>
+                        <td>144</td>
+                        <td>0</td>
+                        <td>144</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 09:44:55</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">67</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5207008</td>
+                        <td>143</td>
+                        <td>0</td>
+                        <td>143</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 11:06:18</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">68</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5221715</td>
+                        <td>143</td>
+                        <td>0</td>
+                        <td>143</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>15.07.2025 13:45:13</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">69</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5210110</td>
+                        <td>141</td>
+                        <td>0</td>
+                        <td>141</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 09:55:26</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">70</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5970189</td>
+                        <td>139</td>
+                        <td>0</td>
+                        <td>139</td>
+                        <td>&#x41C;&#x430;&#x43B;&#x44B;&#x439; &#x433;&#x43E;&#x440;&#x43E;&#x434;</td>
+                        <td>14.07.2025 14:21:57</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">71</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5597223</td>
+                        <td>139</td>
+                        <td>0</td>
+                        <td>139</td>
+                        <td>&#x41C;&#x430;&#x43B;&#x44B;&#x439; &#x433;&#x43E;&#x440;&#x43E;&#x434;</td>
+                        <td>14.07.2025 21:30:07</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">72</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5630399</td>
+                        <td>139</td>
+                        <td>0</td>
+                        <td>139</td>
+                        <td>&#x412;&#x44B;&#x441;&#x43E;&#x43A;&#x43E;&#x433;&#x43E;&#x440;&#x44C;&#x435;</td>
+                        <td>15.07.2025 21:44:26</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">73</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5230235</td>
+                        <td>137</td>
+                        <td>0</td>
+                        <td>137</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 09:45:24</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">74</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5970528</td>
+                        <td>137</td>
+                        <td>0</td>
+                        <td>137</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>14.07.2025 11:56:47</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">75</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5970143</td>
+                        <td>136</td>
+                        <td>0</td>
+                        <td>136</td>
+                        <td>&#x41C;&#x430;&#x43B;&#x44B;&#x439; &#x433;&#x43E;&#x440;&#x43E;&#x434;</td>
+                        <td>14.07.2025 21:50:52</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">76</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5720185</td>
+                        <td>136</td>
+                        <td>0</td>
+                        <td>136</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>16.07.2025 13:47:38</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">77</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5448170</td>
+                        <td>135</td>
+                        <td>0</td>
+                        <td>135</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>15.07.2025 14:25:31</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">78</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5201287</td>
+                        <td>134</td>
+                        <td>0</td>
+                        <td>134</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 09:44:50</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">79</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5371159</td>
+                        <td>133</td>
+                        <td>0</td>
+                        <td>133</td>
+                        <td>&#x41C;&#x430;&#x43B;&#x44B;&#x439; &#x433;&#x43E;&#x440;&#x43E;&#x434;</td>
+                        <td>16.07.2025 12:28:40</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">80</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5232928</td>
+                        <td>132</td>
+                        <td>0</td>
+                        <td>132</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 12:12:04</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">81</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5207481</td>
+                        <td>131</td>
+                        <td>0</td>
+                        <td>131</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 13:52:07</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">82</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5930137</td>
+                        <td>131</td>
+                        <td>0</td>
+                        <td>131</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>15.07.2025 15:04:47</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">83</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5233170</td>
+                        <td>131</td>
+                        <td>0</td>
+                        <td>131</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>15.07.2025 22:45:58</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">84</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5201021</td>
+                        <td>130</td>
+                        <td>0</td>
+                        <td>130</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>16.07.2025 10:02:14</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">85</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5230144</td>
+                        <td>129</td>
+                        <td>0</td>
+                        <td>129</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 17:20:27</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">86</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5230107</td>
+                        <td>129</td>
+                        <td>0</td>
+                        <td>129</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>16.07.2025 11:00:43</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">87</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5340272</td>
+                        <td>127</td>
+                        <td>0</td>
+                        <td>127</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>14.07.2025 10:12:02</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">88</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5900473</td>
+                        <td>127</td>
+                        <td>0</td>
+                        <td>127</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>14.07.2025 11:16:12</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">89</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5310124 [&#x426;&#x435;&#x43B;&#x435;&#x432;&#x44B;&#x435; &#x43C;&#x435;&#x441;&#x442;&#x430;] </td>
+                        <td>124</td>
+                        <td>0</td>
+                        <td>124</td>
+                        <td>&#x41C;&#x430;&#x43B;&#x44B;&#x439; &#x433;&#x43E;&#x440;&#x43E;&#x434;</td>
+                        <td>14.07.2025 17:39:17</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">90</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5230241</td>
+                        <td>122</td>
+                        <td>0</td>
+                        <td>122</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 09:44:54</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">91</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5910006</td>
+                        <td>122</td>
+                        <td>0</td>
+                        <td>122</td>
+                        <td>&#x41C;&#x430;&#x43B;&#x44B;&#x439; &#x433;&#x43E;&#x440;&#x43E;&#x434;</td>
+                        <td>14.07.2025 13:31:52</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">92</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5598061</td>
+                        <td>121</td>
+                        <td>0</td>
+                        <td>121</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>15.07.2025 22:00:44</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">93</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5950580</td>
+                        <td>120</td>
+                        <td>0</td>
+                        <td>120</td>
+                        <td>&#x421;&#x435;&#x43B;&#x43E;</td>
+                        <td>14.07.2025 22:05:18</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">94</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5140054</td>
+                        <td>119</td>
+                        <td>0</td>
+                        <td>119</td>
+                        <td>&#x41C;&#x430;&#x43B;&#x44B;&#x439; &#x433;&#x43E;&#x440;&#x43E;&#x434;</td>
+                        <td>14.07.2025 09:53:59</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">95</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5220555</td>
+                        <td>117</td>
+                        <td>0</td>
+                        <td>117</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 10:59:17</td>
+                    </tr>
+                    <tr class="coloredRowText coloredRow">
+                        <th scope="row">96</th>
+                        <td>(&#x420;&#x435;&#x43A;&#x43E;&#x43C;) 5232965</td>
+                        <td>116</td>
+                        <td>0</td>
+                        <td>116</td>
+                        <td>&#x411;&#x438;&#x448;&#x43A;&#x435;&#x43A;</td>
+                        <td>14.07.2025 17:05:50</td>
+                    </tr>
+        </table>
+    </div>
+
+    <script src="https://2020.edu.gov.kg/personalcabinet/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://2020.edu.gov.kg/personalcabinet/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
