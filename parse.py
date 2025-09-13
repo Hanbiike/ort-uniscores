@@ -12,12 +12,45 @@ def clean_text(tag):
     text = re.sub(r"\s+", " ", text)  # убираем лишние пробелы
     return text.strip()
 
+def parse_threshold(text: str):
+    """Парсит строку threshold в структурированные данные"""
+    if not text:
+        return None
+
+    result = {
+        "main_score": None,
+        "extra_required": None,
+        "extra_count": 0,
+        "subjects": {}
+    }
+
+    # Основной балл
+    main_match = re.search(r"Негизги балл-(\d+)", text)
+    if main_match:
+        result["main_score"] = int(main_match.group(1))
+
+    # Доп. предмет обязателен / нет
+    if "Доп. предмет не обязательно" in text:
+        result["extra_required"] = False
+    elif "Кошумча" in text:
+        result["extra_required"] = True
+
+    # Количество обязательных предметов
+    count_match = re.search(r"Кошумча\s*.-(\d+)\s*сабак", text)
+    if count_match:
+        result["extra_count"] = int(count_match.group(1))
+
+    # Предметы с баллами
+    for subj, score in re.findall(r"([А-Яа-яЁёA-Za-z.\s]+)-(\d+)", text):
+        subj = subj.strip()
+        score = int(score)
+        if not subj.startswith("Негизги") and not subj.startswith("Кошумча"):
+            result["subjects"][subj] = score
+
+    return result
+
 def parse_specialty(full_text: str):
-    """
-    Делит строку вида:
-    "Математика [Математика] ( Күндүзгү бакалавр) (Ваучер)"
-    на major, specialty, education_type + voucher
-    """
+    """Делит строку specialty на major, specialty, education_type, voucher"""
     if not full_text:
         return None, None, None, False
 
@@ -95,6 +128,9 @@ def parse_faculties(report_path):
             specialty_text = clean_text(cols[1]) if len(cols) > 1 else None
             major, specialty, education_type, voucher = parse_specialty(specialty_text)
 
+            threshold_text = clean_text(cols[5]) if len(cols) > 5 else None
+            threshold_parsed = parse_threshold(threshold_text)
+
             direction = {
                 "code": clean_text(cols[0]) if len(cols) > 0 else None,
                 "major": major,
@@ -104,7 +140,7 @@ def parse_faculties(report_path):
                 "payment_form": clean_text(cols[2]) if len(cols) > 2 else None,
                 "payment_amount": clean_text(cols[3]) if len(cols) > 3 else None,
                 "plan": clean_text(cols[4]) if len(cols) > 4 else None,
-                "threshold": clean_text(cols[5]) if len(cols) > 5 else None,
+                "threshold": threshold_parsed,
                 "registered": clean_text(cols[6]) if len(cols) > 6 else None,
                 "rating_json": None
             }
@@ -141,7 +177,7 @@ def main():
     with open("universities.json", "w", encoding="utf-8") as f:
         json.dump(universities, f, ensure_ascii=False, indent=2)
 
-    print("✅ universities.json готов (rating_json вместо rating_url)")
+    print("✅ universities.json готов (threshold структурирован)")
 
 if __name__ == "__main__":
     main()

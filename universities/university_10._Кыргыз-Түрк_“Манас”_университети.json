@@ -16,7 +16,19 @@
           "payment_form": "Бюджет",
           "payment_amount": "0",
           "plan": "1",
-          "threshold": "Негизги балл-110 Биология-60 Тарых-60 Химия-60 Физика-60 Англ.тили-60 Математика-60 Доп. предмет не обязательно",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": false,
+            "extra_count": 0,
+            "subjects": {
+              "Биология": 60,
+              "Тарых": 60,
+              "Химия": 60,
+              "Физика": 60,
+              "Англ.тили": 60,
+              "Математика": 60
+            }
+          },
           "registered": "1",
           "students": [
             {
@@ -26,7 +38,7 @@
               "main_score": "126",
               "extra_score": "79",
               "total_score": "205",
-              "category": null,
+              "category": "Высокогорье",
               "date": "14.07.2025 18:39:05",
               "admitted": false
             }
@@ -46,7 +58,12 @@
           "payment_form": "Бюджет",
           "payment_amount": "0",
           "plan": "5",
-          "threshold": "Негизги балл-100",
+          "threshold": {
+            "main_score": 100,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "31",
           "students": [
             {
@@ -401,7 +418,12 @@
           "payment_form": "Бюджет",
           "payment_amount": "0",
           "plan": "5",
-          "threshold": "Негизги балл-100",
+          "threshold": {
+            "main_score": 100,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "31",
           "students": [
             {
@@ -761,7 +783,12 @@
           "payment_form": "Бюджет",
           "payment_amount": "0",
           "plan": "20",
-          "threshold": "Негизги балл-100",
+          "threshold": {
+            "main_score": 100,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "120",
           "students": [
             {
@@ -2100,7 +2127,14 @@
           "payment_form": "Бюджет",
           "payment_amount": "0",
           "plan": "10",
-          "threshold": "Негизги балл-110 Кошумча .-1 сабак Англ.тили-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": true,
+            "extra_count": 1,
+            "subjects": {
+              "сабак Англ.тили": 60
+            }
+          },
           "registered": "234",
           "students": [
             {
@@ -4693,7 +4727,12 @@
           "payment_form": "Бюджет",
           "payment_amount": "0",
           "plan": "9",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "73",
           "students": [
             {
@@ -5510,7 +5549,15 @@
           "payment_form": "Бюджет",
           "payment_amount": "0",
           "plan": "10",
-          "threshold": "Негизги балл-110 Кошумча .-1 сабак Биология-60 Химия-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": true,
+            "extra_count": 1,
+            "subjects": {
+              "сабак Биология": 60,
+              "Химия": 60
+            }
+          },
           "registered": "29",
           "students": [
             {
@@ -5843,7 +5890,15 @@
           "payment_form": "Бюджет",
           "payment_amount": "0",
           "plan": "5",
-          "threshold": "Негизги балл-110 Кошумча .-1 сабак Физика-60 Математика-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": true,
+            "extra_count": 1,
+            "subjects": {
+              "сабак Физика": 60,
+              "Математика": 60
+            }
+          },
           "registered": "90",
           "students": [
             {
@@ -6847,7 +6902,15 @@
           "payment_form": "Бюджет",
           "payment_amount": "0",
           "plan": "15",
-          "threshold": "Негизги балл-110 Кошумча .-1 сабак Биология-60 Химия-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": true,
+            "extra_count": 1,
+            "subjects": {
+              "сабак Биология": 60,
+              "Химия": 60
+            }
+          },
           "registered": "42",
           "students": [
             {
@@ -7328,7 +7391,21 @@
           "payment_form": "Бюджет",
           "payment_amount": "0",
           "plan": "25",
-          "threshold": "Негизги балл-90 Биология-60 Тарых-60 Химия-60 Физика-60 Англ.тили-60 Математика-60 Кырг.тили-60 Орус тили-60 Доп. предмет не обязательно",
+          "threshold": {
+            "main_score": 90,
+            "extra_required": false,
+            "extra_count": 0,
+            "subjects": {
+              "Биология": 60,
+              "Тарых": 60,
+              "Химия": 60,
+              "Физика": 60,
+              "Англ.тили": 60,
+              "Математика": 60,
+              "Кырг.тили": 60,
+              "Орус тили": 60
+            }
+          },
           "registered": "12",
           "students": [
             {
@@ -7338,7 +7415,7 @@
               "main_score": "189",
               "extra_score": "138",
               "total_score": "327",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 12:41:45",
               "admitted": true
             },
@@ -7349,7 +7426,7 @@
               "main_score": "196",
               "extra_score": "105",
               "total_score": "301",
-              "category": null,
+              "category": "Высокогорье",
               "date": "16.07.2025 10:20:15",
               "admitted": true
             },
@@ -7360,7 +7437,7 @@
               "main_score": "183",
               "extra_score": "93",
               "total_score": "276",
-              "category": null,
+              "category": "Бишкек",
               "date": "16.07.2025 11:42:25",
               "admitted": true
             },
@@ -7371,7 +7448,7 @@
               "main_score": "142",
               "extra_score": "124",
               "total_score": "266",
-              "category": null,
+              "category": "Высокогорье",
               "date": "16.07.2025 10:24:09",
               "admitted": true
             },
@@ -7382,7 +7459,7 @@
               "main_score": "155",
               "extra_score": "94",
               "total_score": "249",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 23:40:11",
               "admitted": true
             },
@@ -7393,7 +7470,7 @@
               "main_score": "140",
               "extra_score": "98",
               "total_score": "238",
-              "category": null,
+              "category": "Село",
               "date": "15.07.2025 16:30:28",
               "admitted": true
             },
@@ -7404,7 +7481,7 @@
               "main_score": "100",
               "extra_score": "130",
               "total_score": "230",
-              "category": null,
+              "category": "Село",
               "date": "16.07.2025 12:41:29",
               "admitted": true
             },
@@ -7415,7 +7492,7 @@
               "main_score": "110",
               "extra_score": "73",
               "total_score": "183",
-              "category": null,
+              "category": "Село",
               "date": "15.07.2025 16:27:50",
               "admitted": true
             },
@@ -7426,7 +7503,7 @@
               "main_score": "160",
               "extra_score": "0",
               "total_score": "160",
-              "category": null,
+              "category": "Бишкек",
               "date": "15.07.2025 12:06:59",
               "admitted": true
             },
@@ -7437,7 +7514,7 @@
               "main_score": "198",
               "extra_score": "133",
               "total_score": "331",
-              "category": null,
+              "category": "Бишкек",
               "date": "15.07.2025 22:55:07",
               "admitted": false
             },
@@ -7448,7 +7525,7 @@
               "main_score": "151",
               "extra_score": "68",
               "total_score": "219",
-              "category": null,
+              "category": "Высокогорье",
               "date": "16.07.2025 09:07:08",
               "admitted": false
             },
@@ -7459,7 +7536,7 @@
               "main_score": "141",
               "extra_score": "0",
               "total_score": "141",
-              "category": null,
+              "category": "Село",
               "date": "15.07.2025 20:19:01",
               "admitted": false
             }
@@ -7479,7 +7556,15 @@
           "payment_form": "Бюджет",
           "payment_amount": "0",
           "plan": "7",
-          "threshold": "Негизги балл-110 Кошумча .-1 сабак Биология-60 Химия-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": true,
+            "extra_count": 1,
+            "subjects": {
+              "сабак Биология": 60,
+              "Химия": 60
+            }
+          },
           "registered": "33",
           "students": [
             {
@@ -7856,7 +7941,15 @@
           "payment_form": "Бюджет",
           "payment_amount": "0",
           "plan": "5",
-          "threshold": "Негизги балл-110 Кошумча .-1 сабак Физика-60 Математика-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": true,
+            "extra_count": 1,
+            "subjects": {
+              "сабак Физика": 60,
+              "Математика": 60
+            }
+          },
           "registered": "53",
           "students": [
             {
@@ -8453,7 +8546,15 @@
           "payment_form": "Бюджет",
           "payment_amount": "0",
           "plan": "5",
-          "threshold": "Негизги балл-110 Кошумча .-1 сабак Физика-60 Математика-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": true,
+            "extra_count": 1,
+            "subjects": {
+              "сабак Физика": 60,
+              "Математика": 60
+            }
+          },
           "registered": "30",
           "students": [
             {
@@ -8802,7 +8903,15 @@
           "payment_form": "Бюджет",
           "payment_amount": "0",
           "plan": "5",
-          "threshold": "Негизги балл-110 Кошумча .-1 сабак Тарых-60 Англ.тили-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": true,
+            "extra_count": 1,
+            "subjects": {
+              "сабак Тарых": 60,
+              "Англ.тили": 60
+            }
+          },
           "registered": "95",
           "students": [
             {
@@ -9861,7 +9970,15 @@
           "payment_form": "Бюджет",
           "payment_amount": "0",
           "plan": "5",
-          "threshold": "Негизги балл-110 Кошумча .-1 сабак Тарых-60 Англ.тили-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": true,
+            "extra_count": 1,
+            "subjects": {
+              "сабак Тарых": 60,
+              "Англ.тили": 60
+            }
+          },
           "registered": "47",
           "students": [
             {
@@ -10392,7 +10509,15 @@
           "payment_form": "Бюджет",
           "payment_amount": "0",
           "plan": "5",
-          "threshold": "Негизги балл-110 Кошумча .-1 сабак Тарых-60 Англ.тили-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": true,
+            "extra_count": 1,
+            "subjects": {
+              "сабак Тарых": 60,
+              "Англ.тили": 60
+            }
+          },
           "registered": "224",
           "students": [
             {

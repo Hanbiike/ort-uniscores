@@ -16,7 +16,21 @@
           "payment_form": "Контракт",
           "payment_amount": "35000",
           "plan": "90",
-          "threshold": "Негизги балл-110 Биология-60 Тарых-60 Химия-60 Физика-60 Англ.тили-60 Математика-60 Кырг.тили-60 Орус тили-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {
+              "Биология": 60,
+              "Тарых": 60,
+              "Химия": 60,
+              "Физика": 60,
+              "Англ.тили": 60,
+              "Математика": 60,
+              "Кырг.тили": 60,
+              "Орус тили": 60
+            }
+          },
           "registered": "2",
           "students": [
             {
@@ -26,7 +40,7 @@
               "main_score": "177",
               "extra_score": "135",
               "total_score": "312",
-              "category": null,
+              "category": "Бишкек",
               "date": "15.07.2025 20:11:41",
               "admitted": true
             },
@@ -37,7 +51,7 @@
               "main_score": "127",
               "extra_score": "72",
               "total_score": "199",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 04:45:01",
               "admitted": true
             }
@@ -52,7 +66,21 @@
           "payment_form": "Контракт",
           "payment_amount": "35000",
           "plan": "60",
-          "threshold": "Негизги балл-110 Биология-60 Тарых-60 Химия-60 Физика-60 Англ.тили-60 Математика-60 Кырг.тили-60 Орус тили-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {
+              "Биология": 60,
+              "Тарых": 60,
+              "Химия": 60,
+              "Физика": 60,
+              "Англ.тили": 60,
+              "Математика": 60,
+              "Кырг.тили": 60,
+              "Орус тили": 60
+            }
+          },
           "registered": "2",
           "students": [
             {
@@ -62,7 +90,7 @@
               "main_score": "130",
               "extra_score": "79",
               "total_score": "209",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 14:31:20",
               "admitted": true
             },
@@ -73,7 +101,7 @@
               "main_score": "122",
               "extra_score": "83",
               "total_score": "205",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 17:18:13",
               "admitted": true
             }
@@ -88,7 +116,21 @@
           "payment_form": "Контракт",
           "payment_amount": "35000",
           "plan": "90",
-          "threshold": "Негизги балл-110 Биология-60 Тарых-60 Химия-60 Физика-60 Англ.тили-60 Математика-60 Кырг.тили-60 Орус тили-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {
+              "Биология": 60,
+              "Тарых": 60,
+              "Химия": 60,
+              "Физика": 60,
+              "Англ.тили": 60,
+              "Математика": 60,
+              "Кырг.тили": 60,
+              "Орус тили": 60
+            }
+          },
           "registered": "0",
           "students": []
         },
@@ -101,7 +143,21 @@
           "payment_form": "Контракт",
           "payment_amount": "35000",
           "plan": "60",
-          "threshold": "Негизги балл-110 Биология-60 Тарых-60 Химия-60 Физика-60 Англ.тили-60 Математика-60 Кырг.тили-60 Орус тили-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {
+              "Биология": 60,
+              "Тарых": 60,
+              "Химия": 60,
+              "Физика": 60,
+              "Англ.тили": 60,
+              "Математика": 60,
+              "Кырг.тили": 60,
+              "Орус тили": 60
+            }
+          },
           "registered": "1",
           "students": [
             {
@@ -111,7 +167,7 @@
               "main_score": "173",
               "extra_score": "0",
               "total_score": "173",
-              "category": null,
+              "category": "Бишкек",
               "date": "16.07.2025 13:48:39",
               "admitted": true
             }
@@ -126,7 +182,21 @@
           "payment_form": "Контракт",
           "payment_amount": "35000",
           "plan": "100",
-          "threshold": "Негизги балл-115 Биология-60 Тарых-60 Химия-60 Физика-60 Англ.тили-60 Математика-60 Кырг.тили-60 Орус тили-60",
+          "threshold": {
+            "main_score": 115,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {
+              "Биология": 60,
+              "Тарых": 60,
+              "Химия": 60,
+              "Физика": 60,
+              "Англ.тили": 60,
+              "Математика": 60,
+              "Кырг.тили": 60,
+              "Орус тили": 60
+            }
+          },
           "registered": "3",
           "students": [
             {
@@ -136,7 +206,7 @@
               "main_score": "151",
               "extra_score": "68",
               "total_score": "219",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 19:53:12",
               "admitted": true
             },
@@ -147,7 +217,7 @@
               "main_score": "125",
               "extra_score": "72",
               "total_score": "197",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 12:41:46",
               "admitted": true
             },
@@ -158,7 +228,7 @@
               "main_score": "135",
               "extra_score": "61",
               "total_score": "196",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 20:58:31",
               "admitted": true
             }
@@ -173,7 +243,21 @@
           "payment_form": "Контракт",
           "payment_amount": "40000",
           "plan": "60",
-          "threshold": "Негизги балл-110 Биология-60 Тарых-60 Химия-60 Физика-60 Англ.тили-60 Математика-60 Кырг.тили-60 Орус тили-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {
+              "Биология": 60,
+              "Тарых": 60,
+              "Химия": 60,
+              "Физика": 60,
+              "Англ.тили": 60,
+              "Математика": 60,
+              "Кырг.тили": 60,
+              "Орус тили": 60
+            }
+          },
           "registered": "3",
           "students": [
             {
@@ -183,7 +267,7 @@
               "main_score": "156",
               "extra_score": "101",
               "total_score": "257",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 22:42:37",
               "admitted": true
             },
@@ -194,7 +278,7 @@
               "main_score": "122",
               "extra_score": "98",
               "total_score": "220",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 10:53:55",
               "admitted": true
             },
@@ -205,7 +289,7 @@
               "main_score": "133",
               "extra_score": "0",
               "total_score": "133",
-              "category": null,
+              "category": "Высокогорье",
               "date": "16.07.2025 08:28:26",
               "admitted": true
             }
@@ -220,7 +304,21 @@
           "payment_form": "Контракт",
           "payment_amount": "35000",
           "plan": "100",
-          "threshold": "Негизги балл-110 Биология-60 Тарых-60 Химия-60 Физика-60 Англ.тили-60 Математика-60 Кырг.тили-60 Орус тили-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {
+              "Биология": 60,
+              "Тарых": 60,
+              "Химия": 60,
+              "Физика": 60,
+              "Англ.тили": 60,
+              "Математика": 60,
+              "Кырг.тили": 60,
+              "Орус тили": 60
+            }
+          },
           "registered": "1",
           "students": [
             {
@@ -230,7 +328,7 @@
               "main_score": "125",
               "extra_score": "61",
               "total_score": "186",
-              "category": null,
+              "category": "Село",
               "date": "15.07.2025 14:26:26",
               "admitted": true
             }
@@ -245,7 +343,21 @@
           "payment_form": "Контракт",
           "payment_amount": "35000",
           "plan": "60",
-          "threshold": "Негизги балл-110 Биология-60 Тарых-60 Химия-60 Физика-60 Англ.тили-60 Математика-60 Кырг.тили-60 Орус тили-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {
+              "Биология": 60,
+              "Тарых": 60,
+              "Химия": 60,
+              "Физика": 60,
+              "Англ.тили": 60,
+              "Математика": 60,
+              "Кырг.тили": 60,
+              "Орус тили": 60
+            }
+          },
           "registered": "1",
           "students": [
             {
@@ -255,7 +367,7 @@
               "main_score": "116",
               "extra_score": "65",
               "total_score": "181",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 10:52:32",
               "admitted": true
             }
@@ -270,7 +382,21 @@
           "payment_form": "Контракт",
           "payment_amount": "35000",
           "plan": "100",
-          "threshold": "Негизги балл-110 Биология-60 Тарых-60 Химия-60 Физика-60 Англ.тили-60 Математика-60 Кырг.тили-60 Орус тили-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {
+              "Биология": 60,
+              "Тарых": 60,
+              "Химия": 60,
+              "Физика": 60,
+              "Англ.тили": 60,
+              "Математика": 60,
+              "Кырг.тили": 60,
+              "Орус тили": 60
+            }
+          },
           "registered": "1",
           "students": [
             {
@@ -280,7 +406,7 @@
               "main_score": "121",
               "extra_score": "68",
               "total_score": "189",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 13:00:51",
               "admitted": false
             }

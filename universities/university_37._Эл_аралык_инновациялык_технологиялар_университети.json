@@ -16,7 +16,12 @@
           "payment_form": "Контракт",
           "payment_amount": "60000",
           "plan": "20",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "8",
           "students": [
             {
@@ -26,7 +31,7 @@
               "main_score": "174",
               "extra_score": "0",
               "total_score": "174",
-              "category": null,
+              "category": "Село",
               "date": "15.07.2025 14:09:13",
               "admitted": true
             },
@@ -37,7 +42,7 @@
               "main_score": "139",
               "extra_score": "0",
               "total_score": "139",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 15:24:09",
               "admitted": true
             },
@@ -48,7 +53,7 @@
               "main_score": "138",
               "extra_score": "0",
               "total_score": "138",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 11:05:35",
               "admitted": true
             },
@@ -59,7 +64,7 @@
               "main_score": "133",
               "extra_score": "0",
               "total_score": "133",
-              "category": null,
+              "category": "Село",
               "date": "15.07.2025 13:18:45",
               "admitted": true
             },
@@ -70,7 +75,7 @@
               "main_score": "122",
               "extra_score": "0",
               "total_score": "122",
-              "category": null,
+              "category": "Бишкек",
               "date": "14.07.2025 21:27:47",
               "admitted": true
             },
@@ -81,7 +86,7 @@
               "main_score": "117",
               "extra_score": "0",
               "total_score": "117",
-              "category": null,
+              "category": "Село",
               "date": "15.07.2025 12:43:07",
               "admitted": true
             },
@@ -92,7 +97,7 @@
               "main_score": "113",
               "extra_score": "0",
               "total_score": "113",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 22:30:46",
               "admitted": true
             },
@@ -103,7 +108,7 @@
               "main_score": "111",
               "extra_score": "0",
               "total_score": "111",
-              "category": null,
+              "category": "Бишкек",
               "date": "16.07.2025 00:00:17",
               "admitted": true
             }
@@ -118,7 +123,12 @@
           "payment_form": "Контракт",
           "payment_amount": "65000",
           "plan": "50",
-          "threshold": "Негизги балл-0",
+          "threshold": {
+            "main_score": 0,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         },
@@ -131,7 +141,12 @@
           "payment_form": "Контракт",
           "payment_amount": "60000",
           "plan": "25",
-          "threshold": "Негизги балл-0",
+          "threshold": {
+            "main_score": 0,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         },
@@ -144,7 +159,12 @@
           "payment_form": "Контракт",
           "payment_amount": "65000",
           "plan": "50",
-          "threshold": "Негизги балл-0",
+          "threshold": {
+            "main_score": 0,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         }
@@ -162,7 +182,12 @@
           "payment_form": "Контракт",
           "payment_amount": "50000",
           "plan": "20",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "1",
           "students": [
             {
@@ -172,7 +197,7 @@
               "main_score": "127",
               "extra_score": "0",
               "total_score": "127",
-              "category": null,
+              "category": "Высокогорье",
               "date": "15.07.2025 12:25:18",
               "admitted": false
             }
@@ -187,7 +212,14 @@
           "payment_form": "Контракт",
           "payment_amount": "55000",
           "plan": "20",
-          "threshold": "Негизги балл-110 Физика-60 Доп. предмет не обязательно",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": false,
+            "extra_count": 0,
+            "subjects": {
+              "Физика": 60
+            }
+          },
           "registered": "1",
           "students": [
             {
@@ -197,7 +229,7 @@
               "main_score": "111",
               "extra_score": "0",
               "total_score": "111",
-              "category": null,
+              "category": "Бишкек",
               "date": "14.07.2025 10:49:04",
               "admitted": true
             }
@@ -217,7 +249,12 @@
           "payment_form": "Контракт",
           "payment_amount": "50000",
           "plan": "15",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "1",
           "students": [
             {
@@ -227,7 +264,7 @@
               "main_score": "144",
               "extra_score": "0",
               "total_score": "144",
-              "category": null,
+              "category": "Высокогорье",
               "date": "16.07.2025 10:58:15",
               "admitted": true
             }
@@ -242,7 +279,12 @@
           "payment_form": "Контракт",
           "payment_amount": "50000",
           "plan": "15",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "2",
           "students": [
             {
@@ -252,7 +294,7 @@
               "main_score": "145",
               "extra_score": "0",
               "total_score": "145",
-              "category": null,
+              "category": "Бишкек",
               "date": "14.07.2025 10:26:29",
               "admitted": true
             },
@@ -263,7 +305,7 @@
               "main_score": "128",
               "extra_score": "0",
               "total_score": "128",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 10:28:59",
               "admitted": true
             }
@@ -283,7 +325,12 @@
           "payment_form": "Контракт",
           "payment_amount": "50000",
           "plan": "20",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "1",
           "students": [
             {
@@ -293,7 +340,7 @@
               "main_score": "203",
               "extra_score": "0",
               "total_score": "203",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 11:09:37",
               "admitted": true
             }
@@ -308,7 +355,12 @@
           "payment_form": "Контракт",
           "payment_amount": "50000",
           "plan": "20",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         }
@@ -326,7 +378,12 @@
           "payment_form": "Контракт",
           "payment_amount": "65000",
           "plan": "25",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "3",
           "students": [
             {
@@ -336,7 +393,7 @@
               "main_score": "169",
               "extra_score": "0",
               "total_score": "169",
-              "category": null,
+              "category": "Высокогорье",
               "date": "14.07.2025 10:37:56",
               "admitted": true
             },
@@ -347,7 +404,7 @@
               "main_score": "141",
               "extra_score": "0",
               "total_score": "141",
-              "category": null,
+              "category": "Бишкек",
               "date": "16.07.2025 12:46:31",
               "admitted": true
             },
@@ -358,7 +415,7 @@
               "main_score": "134",
               "extra_score": "0",
               "total_score": "134",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 22:32:44",
               "admitted": true
             }
@@ -373,7 +430,12 @@
           "payment_form": "Контракт",
           "payment_amount": "60000",
           "plan": "20",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "2",
           "students": [
             {
@@ -383,7 +445,7 @@
               "main_score": "158",
               "extra_score": "0",
               "total_score": "158",
-              "category": null,
+              "category": "Бишкек",
               "date": "14.07.2025 10:48:20",
               "admitted": false
             },
@@ -394,7 +456,7 @@
               "main_score": "138",
               "extra_score": "0",
               "total_score": "138",
-              "category": null,
+              "category": "Бишкек",
               "date": "16.07.2025 12:18:19",
               "admitted": false
             }
@@ -414,7 +476,12 @@
           "payment_form": "Контракт",
           "payment_amount": "50000",
           "plan": "20",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         },
@@ -427,7 +494,14 @@
           "payment_form": "Контракт",
           "payment_amount": "50000",
           "plan": "20",
-          "threshold": "Негизги балл-110 Математика-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {
+              "Математика": 60
+            }
+          },
           "registered": "2",
           "students": [
             {
@@ -437,7 +511,7 @@
               "main_score": "163",
               "extra_score": "0",
               "total_score": "163",
-              "category": null,
+              "category": "Село",
               "date": "16.07.2025 11:53:55",
               "admitted": true
             },
@@ -448,7 +522,7 @@
               "main_score": "113",
               "extra_score": "0",
               "total_score": "113",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 12:22:11",
               "admitted": true
             }
@@ -468,7 +542,14 @@
           "payment_form": "Контракт",
           "payment_amount": "50000",
           "plan": "25",
-          "threshold": "Негизги балл-110 Физика-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {
+              "Физика": 60
+            }
+          },
           "registered": "0",
           "students": []
         },
@@ -481,7 +562,12 @@
           "payment_form": "Контракт",
           "payment_amount": "45000",
           "plan": "15",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "3",
           "students": [
             {
@@ -491,7 +577,7 @@
               "main_score": "128",
               "extra_score": "0",
               "total_score": "128",
-              "category": null,
+              "category": "Село",
               "date": "16.07.2025 12:00:42",
               "admitted": true
             },
@@ -502,7 +588,7 @@
               "main_score": "125",
               "extra_score": "0",
               "total_score": "125",
-              "category": null,
+              "category": "Село",
               "date": "16.07.2025 13:06:48",
               "admitted": true
             },
@@ -513,7 +599,7 @@
               "main_score": "121",
               "extra_score": "0",
               "total_score": "121",
-              "category": null,
+              "category": "Бишкек",
               "date": "14.07.2025 14:25:35",
               "admitted": true
             }
@@ -528,7 +614,14 @@
           "payment_form": "Контракт",
           "payment_amount": "50000",
           "plan": "15",
-          "threshold": "Негизги балл-110 Физика-60 Доп. предмет не обязательно",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": false,
+            "extra_count": 0,
+            "subjects": {
+              "Физика": 60
+            }
+          },
           "registered": "0",
           "students": []
         }
@@ -546,7 +639,12 @@
           "payment_form": "Контракт",
           "payment_amount": "65000",
           "plan": "20",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         },
@@ -559,7 +657,12 @@
           "payment_form": "Контракт",
           "payment_amount": "50000",
           "plan": "20",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "4",
           "students": [
             {
@@ -569,7 +672,7 @@
               "main_score": "136",
               "extra_score": "0",
               "total_score": "136",
-              "category": null,
+              "category": "Высокогорье",
               "date": "15.07.2025 14:32:08",
               "admitted": true
             },
@@ -580,7 +683,7 @@
               "main_score": "123",
               "extra_score": "0",
               "total_score": "123",
-              "category": null,
+              "category": "Бишкек",
               "date": "16.07.2025 13:18:01",
               "admitted": true
             },
@@ -591,7 +694,7 @@
               "main_score": "121",
               "extra_score": "0",
               "total_score": "121",
-              "category": null,
+              "category": "Село",
               "date": "15.07.2025 14:34:38",
               "admitted": true
             },
@@ -602,7 +705,7 @@
               "main_score": "120",
               "extra_score": "0",
               "total_score": "120",
-              "category": null,
+              "category": "Бишкек",
               "date": "16.07.2025 12:15:16",
               "admitted": true
             }
@@ -617,7 +720,12 @@
           "payment_form": "Контракт",
           "payment_amount": "50000",
           "plan": "20",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         }

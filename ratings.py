@@ -92,11 +92,7 @@ def parse_rating(html_file):
     # Таблицы
     for table in soup.select("table.table"):
         header = clean_text(table.select_one("div.cityColir"))
-
-        # категория = часть до двоеточия
-        category_value = None
-        if header:
-            category_value = header.split(":")[0].strip()
+        is_contract = header is None  # если нет заголовка — контракт
 
         records = []
         for tr in table.select("tbody tr"):
@@ -105,6 +101,14 @@ def parse_rating(html_file):
                 continue
 
             cert_text, admitted, note = parse_certificate(cols[1])
+
+            # категория: из header (для бюджета/ваучера) или из колонки (для контракта)
+            if is_contract and len(cols) >= 6:
+                category_value = cols[5]
+            elif header:
+                category_value = header.split(":")[0].strip()
+            else:
+                category_value = None
 
             record = {
                 "num": cols[0],
@@ -118,12 +122,13 @@ def parse_rating(html_file):
                 "admitted": admitted
             }
 
-            if len(cols) == 6:
-                record["date"] = cols[5]
-            elif len(cols) >= 7:
+            # дата: в контракте 7-я колонка, в бюджете 6-я
+            if is_contract and len(cols) >= 7:
                 record["date"] = cols[6]
+            elif not is_contract and len(cols) >= 6:
+                record["date"] = cols[5]
 
-            # считаем статистику
+            # статистика
             if admitted:
                 data["admitted_count"] += 1
             else:

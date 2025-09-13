@@ -16,7 +16,14 @@
           "payment_form": "Контракт",
           "payment_amount": "44000",
           "plan": "25",
-          "threshold": "Негизги балл-115 Кошумча .-0 сабак Кырг.тили-60",
+          "threshold": {
+            "main_score": 115,
+            "extra_required": true,
+            "extra_count": 0,
+            "subjects": {
+              "сабак Кырг.тили": 60
+            }
+          },
           "registered": "0",
           "students": []
         }
@@ -34,7 +41,14 @@
           "payment_form": "Контракт",
           "payment_amount": "44000",
           "plan": "25",
-          "threshold": "Негизги балл-110 Математика-60 Доп. предмет не обязательно",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": false,
+            "extra_count": 0,
+            "subjects": {
+              "Математика": 60
+            }
+          },
           "registered": "1",
           "students": [
             {
@@ -44,7 +58,7 @@
               "main_score": "145",
               "extra_score": "105",
               "total_score": "250",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 19:09:22",
               "admitted": false
             }
@@ -59,7 +73,14 @@
           "payment_form": "Контракт",
           "payment_amount": "44000",
           "plan": "50",
-          "threshold": "Негизги балл-110 Математика-60 Доп. предмет не обязательно",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": false,
+            "extra_count": 0,
+            "subjects": {
+              "Математика": 60
+            }
+          },
           "registered": "1",
           "students": [
             {
@@ -69,7 +90,7 @@
               "main_score": "130",
               "extra_score": "76",
               "total_score": "206",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 17:12:11",
               "admitted": false
             }
@@ -89,7 +110,14 @@
           "payment_form": "Контракт",
           "payment_amount": "46000",
           "plan": "50",
-          "threshold": "Негизги балл-110 Тарых-60 Доп. предмет не обязательно",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": false,
+            "extra_count": 0,
+            "subjects": {
+              "Тарых": 60
+            }
+          },
           "registered": "0",
           "students": []
         }

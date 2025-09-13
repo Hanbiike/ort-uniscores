@@ -16,7 +16,12 @@
           "payment_form": "Контракт",
           "payment_amount": "135000",
           "plan": "50",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "21",
           "students": [
             {
@@ -26,7 +31,7 @@
               "main_score": "213",
               "extra_score": "0",
               "total_score": "213",
-              "category": null,
+              "category": "Бишкек",
               "date": "15.07.2025 11:59:12",
               "admitted": true
             },
@@ -37,7 +42,7 @@
               "main_score": "206",
               "extra_score": "0",
               "total_score": "206",
-              "category": null,
+              "category": "Село",
               "date": "16.07.2025 09:18:40",
               "admitted": true
             },
@@ -48,7 +53,7 @@
               "main_score": "187",
               "extra_score": "0",
               "total_score": "187",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 10:03:12",
               "admitted": true
             },
@@ -59,7 +64,7 @@
               "main_score": "186",
               "extra_score": "0",
               "total_score": "186",
-              "category": null,
+              "category": "Малый город",
               "date": "16.07.2025 01:18:22",
               "admitted": true
             },
@@ -70,7 +75,7 @@
               "main_score": "176",
               "extra_score": "0",
               "total_score": "176",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 18:06:11",
               "admitted": true
             },
@@ -81,7 +86,7 @@
               "main_score": "175",
               "extra_score": "0",
               "total_score": "175",
-              "category": null,
+              "category": "Бишкек",
               "date": "14.07.2025 10:13:14",
               "admitted": true
             },
@@ -92,7 +97,7 @@
               "main_score": "157",
               "extra_score": "0",
               "total_score": "157",
-              "category": null,
+              "category": "Бишкек",
               "date": "15.07.2025 12:43:03",
               "admitted": true
             },
@@ -103,7 +108,7 @@
               "main_score": "154",
               "extra_score": "0",
               "total_score": "154",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 15:39:11",
               "admitted": true
             },
@@ -114,7 +119,7 @@
               "main_score": "154",
               "extra_score": "0",
               "total_score": "154",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 19:42:17",
               "admitted": true
             },
@@ -125,7 +130,7 @@
               "main_score": "142",
               "extra_score": "0",
               "total_score": "142",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 10:54:50",
               "admitted": true
             },
@@ -136,7 +141,7 @@
               "main_score": "137",
               "extra_score": "0",
               "total_score": "137",
-              "category": null,
+              "category": "Село",
               "date": "15.07.2025 10:49:19",
               "admitted": true
             },
@@ -147,7 +152,7 @@
               "main_score": "135",
               "extra_score": "0",
               "total_score": "135",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 13:47:17",
               "admitted": true
             },
@@ -158,7 +163,7 @@
               "main_score": "135",
               "extra_score": "0",
               "total_score": "135",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 10:14:00",
               "admitted": true
             },
@@ -169,7 +174,7 @@
               "main_score": "134",
               "extra_score": "0",
               "total_score": "134",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 12:46:34",
               "admitted": true
             },
@@ -180,7 +185,7 @@
               "main_score": "133",
               "extra_score": "0",
               "total_score": "133",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 13:17:50",
               "admitted": true
             },
@@ -191,7 +196,7 @@
               "main_score": "131",
               "extra_score": "0",
               "total_score": "131",
-              "category": null,
+              "category": "Село",
               "date": "15.07.2025 12:55:50",
               "admitted": true
             },
@@ -202,7 +207,7 @@
               "main_score": "131",
               "extra_score": "0",
               "total_score": "131",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 13:37:08",
               "admitted": true
             },
@@ -213,7 +218,7 @@
               "main_score": "130",
               "extra_score": "0",
               "total_score": "130",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 11:04:46",
               "admitted": true
             },
@@ -224,7 +229,7 @@
               "main_score": "128",
               "extra_score": "0",
               "total_score": "128",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 14:25:35",
               "admitted": true
             },
@@ -235,7 +240,7 @@
               "main_score": "124",
               "extra_score": "0",
               "total_score": "124",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 15:51:59",
               "admitted": true
             },
@@ -246,7 +251,7 @@
               "main_score": "112",
               "extra_score": "0",
               "total_score": "112",
-              "category": null,
+              "category": "Село",
               "date": "15.07.2025 19:49:05",
               "admitted": true
             }
@@ -266,7 +271,12 @@
           "payment_form": "Контракт",
           "payment_amount": "115000",
           "plan": "30",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "18",
           "students": [
             {
@@ -276,7 +286,7 @@
               "main_score": "194",
               "extra_score": "0",
               "total_score": "194",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 12:19:59",
               "admitted": true
             },
@@ -287,7 +297,7 @@
               "main_score": "191",
               "extra_score": "0",
               "total_score": "191",
-              "category": null,
+              "category": "Малый город",
               "date": "16.07.2025 01:20:11",
               "admitted": true
             },
@@ -298,7 +308,7 @@
               "main_score": "161",
               "extra_score": "0",
               "total_score": "161",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 17:44:44",
               "admitted": true
             },
@@ -309,7 +319,7 @@
               "main_score": "160",
               "extra_score": "0",
               "total_score": "160",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 14:07:51",
               "admitted": true
             },
@@ -320,7 +330,7 @@
               "main_score": "153",
               "extra_score": "0",
               "total_score": "153",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 09:40:38",
               "admitted": true
             },
@@ -331,7 +341,7 @@
               "main_score": "148",
               "extra_score": "0",
               "total_score": "148",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 13:11:35",
               "admitted": true
             },
@@ -342,7 +352,7 @@
               "main_score": "145",
               "extra_score": "0",
               "total_score": "145",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 13:13:12",
               "admitted": true
             },
@@ -353,7 +363,7 @@
               "main_score": "145",
               "extra_score": "0",
               "total_score": "145",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 14:37:06",
               "admitted": true
             },
@@ -364,7 +374,7 @@
               "main_score": "141",
               "extra_score": "0",
               "total_score": "141",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 12:30:54",
               "admitted": true
             },
@@ -375,7 +385,7 @@
               "main_score": "140",
               "extra_score": "0",
               "total_score": "140",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 13:33:51",
               "admitted": true
             },
@@ -386,7 +396,7 @@
               "main_score": "138",
               "extra_score": "0",
               "total_score": "138",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 13:05:20",
               "admitted": true
             },
@@ -397,7 +407,7 @@
               "main_score": "130",
               "extra_score": "0",
               "total_score": "130",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 18:03:04",
               "admitted": true
             },
@@ -408,7 +418,7 @@
               "main_score": "130",
               "extra_score": "0",
               "total_score": "130",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 10:59:07",
               "admitted": true
             },
@@ -419,7 +429,7 @@
               "main_score": "121",
               "extra_score": "0",
               "total_score": "121",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 15:10:54",
               "admitted": true
             },
@@ -430,7 +440,7 @@
               "main_score": "121",
               "extra_score": "0",
               "total_score": "121",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 10:52:23",
               "admitted": true
             },
@@ -441,7 +451,7 @@
               "main_score": "115",
               "extra_score": "0",
               "total_score": "115",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 13:11:27",
               "admitted": true
             },
@@ -452,7 +462,7 @@
               "main_score": "113",
               "extra_score": "0",
               "total_score": "113",
-              "category": null,
+              "category": "Село",
               "date": "15.07.2025 14:11:48",
               "admitted": true
             },
@@ -463,7 +473,7 @@
               "main_score": "112",
               "extra_score": "0",
               "total_score": "112",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 13:52:18",
               "admitted": true
             }
@@ -478,7 +488,12 @@
           "payment_form": "Контракт",
           "payment_amount": "95000",
           "plan": "20",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "9",
           "students": [
             {
@@ -488,7 +503,7 @@
               "main_score": "217",
               "extra_score": "0",
               "total_score": "217",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 16:11:27",
               "admitted": true
             },
@@ -499,7 +514,7 @@
               "main_score": "170",
               "extra_score": "0",
               "total_score": "170",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 12:03:02",
               "admitted": true
             },
@@ -510,7 +525,7 @@
               "main_score": "161",
               "extra_score": "0",
               "total_score": "161",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 13:34:51",
               "admitted": true
             },
@@ -521,7 +536,7 @@
               "main_score": "142",
               "extra_score": "0",
               "total_score": "142",
-              "category": null,
+              "category": "Бишкек",
               "date": "14.07.2025 16:47:34",
               "admitted": true
             },
@@ -532,7 +547,7 @@
               "main_score": "142",
               "extra_score": "0",
               "total_score": "142",
-              "category": null,
+              "category": "Село",
               "date": "15.07.2025 11:17:26",
               "admitted": true
             },
@@ -543,7 +558,7 @@
               "main_score": "138",
               "extra_score": "0",
               "total_score": "138",
-              "category": null,
+              "category": "Вне конкурса",
               "date": "15.07.2025 11:33:05",
               "admitted": true
             },
@@ -554,7 +569,7 @@
               "main_score": "127",
               "extra_score": "0",
               "total_score": "127",
-              "category": null,
+              "category": "Село",
               "date": "15.07.2025 11:28:08",
               "admitted": true
             },
@@ -565,7 +580,7 @@
               "main_score": "117",
               "extra_score": "0",
               "total_score": "117",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 12:43:02",
               "admitted": true
             },
@@ -576,7 +591,7 @@
               "main_score": "116",
               "extra_score": "0",
               "total_score": "116",
-              "category": null,
+              "category": "Село",
               "date": "15.07.2025 11:18:57",
               "admitted": true
             }
@@ -596,7 +611,12 @@
           "payment_form": "Контракт",
           "payment_amount": "135000",
           "plan": "50",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "8",
           "students": [
             {
@@ -606,7 +626,7 @@
               "main_score": "188",
               "extra_score": "0",
               "total_score": "188",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 13:53:32",
               "admitted": true
             },
@@ -617,7 +637,7 @@
               "main_score": "188",
               "extra_score": "0",
               "total_score": "188",
-              "category": null,
+              "category": "Малый город",
               "date": "16.07.2025 12:36:58",
               "admitted": true
             },
@@ -628,7 +648,7 @@
               "main_score": "164",
               "extra_score": "0",
               "total_score": "164",
-              "category": null,
+              "category": "Бишкек",
               "date": "16.07.2025 08:45:05",
               "admitted": true
             },
@@ -639,7 +659,7 @@
               "main_score": "146",
               "extra_score": "0",
               "total_score": "146",
-              "category": null,
+              "category": "Бишкек",
               "date": "14.07.2025 13:21:07",
               "admitted": true
             },
@@ -650,7 +670,7 @@
               "main_score": "136",
               "extra_score": "0",
               "total_score": "136",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 22:39:43",
               "admitted": true
             },
@@ -661,7 +681,7 @@
               "main_score": "132",
               "extra_score": "0",
               "total_score": "132",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 14:40:01",
               "admitted": true
             },
@@ -672,7 +692,7 @@
               "main_score": "114",
               "extra_score": "0",
               "total_score": "114",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 13:30:59",
               "admitted": true
             },
@@ -683,7 +703,7 @@
               "main_score": "110",
               "extra_score": "0",
               "total_score": "110",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 13:05:07",
               "admitted": true
             }
@@ -703,7 +723,12 @@
           "payment_form": "Ваучер",
           "payment_amount": "0",
           "plan": "10",
-          "threshold": "Негизги балл-130",
+          "threshold": {
+            "main_score": 130,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "1",
           "students": [
             {
@@ -713,7 +738,7 @@
               "main_score": "190",
               "extra_score": "0",
               "total_score": "190",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 15:36:31",
               "admitted": true
             }
@@ -728,7 +753,12 @@
           "payment_form": "Контракт",
           "payment_amount": "85000",
           "plan": "20",
-          "threshold": "Негизги балл-130",
+          "threshold": {
+            "main_score": 130,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "3",
           "students": [
             {
@@ -738,7 +768,7 @@
               "main_score": "178",
               "extra_score": "0",
               "total_score": "178",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 09:50:56",
               "admitted": true
             },
@@ -749,7 +779,7 @@
               "main_score": "169",
               "extra_score": "0",
               "total_score": "169",
-              "category": null,
+              "category": "Малый город",
               "date": "16.07.2025 13:55:37",
               "admitted": true
             },
@@ -760,7 +790,7 @@
               "main_score": "161",
               "extra_score": "0",
               "total_score": "161",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 12:00:11",
               "admitted": true
             }
@@ -780,7 +810,12 @@
           "payment_form": "Контракт",
           "payment_amount": "115000",
           "plan": "30",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "9",
           "students": [
             {
@@ -790,7 +825,7 @@
               "main_score": "184",
               "extra_score": "0",
               "total_score": "184",
-              "category": null,
+              "category": "Село",
               "date": "16.07.2025 12:30:25",
               "admitted": true
             },
@@ -801,7 +836,7 @@
               "main_score": "170",
               "extra_score": "0",
               "total_score": "170",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 13:28:28",
               "admitted": true
             },
@@ -812,7 +847,7 @@
               "main_score": "148",
               "extra_score": "0",
               "total_score": "148",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 17:52:05",
               "admitted": true
             },
@@ -823,7 +858,7 @@
               "main_score": "146",
               "extra_score": "0",
               "total_score": "146",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 12:49:50",
               "admitted": true
             },
@@ -834,7 +869,7 @@
               "main_score": "137",
               "extra_score": "0",
               "total_score": "137",
-              "category": null,
+              "category": "Село",
               "date": "16.07.2025 13:48:04",
               "admitted": true
             },
@@ -845,7 +880,7 @@
               "main_score": "135",
               "extra_score": "0",
               "total_score": "135",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 13:24:05",
               "admitted": true
             },
@@ -856,7 +891,7 @@
               "main_score": "130",
               "extra_score": "0",
               "total_score": "130",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 11:14:41",
               "admitted": true
             },
@@ -867,7 +902,7 @@
               "main_score": "124",
               "extra_score": "0",
               "total_score": "124",
-              "category": null,
+              "category": "Село",
               "date": "15.07.2025 14:13:13",
               "admitted": true
             },
@@ -878,7 +913,7 @@
               "main_score": "119",
               "extra_score": "0",
               "total_score": "119",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 13:35:18",
               "admitted": true
             }
@@ -898,7 +933,12 @@
           "payment_form": "Контракт",
           "payment_amount": "115000",
           "plan": "30",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "7",
           "students": [
             {
@@ -908,7 +948,7 @@
               "main_score": "195",
               "extra_score": "0",
               "total_score": "195",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 13:26:34",
               "admitted": true
             },
@@ -919,7 +959,7 @@
               "main_score": "150",
               "extra_score": "0",
               "total_score": "150",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 20:00:38",
               "admitted": true
             },
@@ -930,7 +970,7 @@
               "main_score": "145",
               "extra_score": "0",
               "total_score": "145",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 15:28:19",
               "admitted": true
             },
@@ -941,7 +981,7 @@
               "main_score": "139",
               "extra_score": "0",
               "total_score": "139",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 12:36:24",
               "admitted": true
             },
@@ -952,7 +992,7 @@
               "main_score": "123",
               "extra_score": "0",
               "total_score": "123",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 11:03:21",
               "admitted": true
             },
@@ -963,7 +1003,7 @@
               "main_score": "123",
               "extra_score": "0",
               "total_score": "123",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 13:09:25",
               "admitted": true
             },
@@ -974,7 +1014,7 @@
               "main_score": "120",
               "extra_score": "0",
               "total_score": "120",
-              "category": null,
+              "category": "Село",
               "date": "15.07.2025 15:54:48",
               "admitted": true
             }

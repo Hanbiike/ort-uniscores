@@ -16,7 +16,12 @@
           "payment_form": "Контракт",
           "payment_amount": "40000",
           "plan": "100",
-          "threshold": "Негизги балл-110 Доп. предмет не обязательно",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": false,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "1",
           "students": [
             {
@@ -26,7 +31,7 @@
               "main_score": "155",
               "extra_score": "0",
               "total_score": "155",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 11:27:23",
               "admitted": false
             }
@@ -46,7 +51,12 @@
           "payment_form": "Контракт",
           "payment_amount": "34000",
           "plan": "80",
-          "threshold": "Негизги балл-110 Доп. предмет не обязательно",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": false,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         },
@@ -59,7 +69,12 @@
           "payment_form": "Контракт",
           "payment_amount": "34000",
           "plan": "80",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         },
@@ -72,7 +87,12 @@
           "payment_form": "Контракт",
           "payment_amount": "34000",
           "plan": "80",
-          "threshold": "Негизги балл-34000 Доп. предмет не обязательно",
+          "threshold": {
+            "main_score": 34000,
+            "extra_required": false,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         }
@@ -90,7 +110,12 @@
           "payment_form": "Контракт",
           "payment_amount": "34000",
           "plan": "60",
-          "threshold": "Негизги балл-110 Доп. предмет не обязательно",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": false,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         },
@@ -103,7 +128,12 @@
           "payment_form": "Контракт",
           "payment_amount": "34000",
           "plan": "100",
-          "threshold": "Негизги балл-110 Доп. предмет не обязательно",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": false,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         },
@@ -116,7 +146,12 @@
           "payment_form": "Контракт",
           "payment_amount": "34000",
           "plan": "80",
-          "threshold": "Негизги балл-110 Доп. предмет не обязательно",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": false,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         }
@@ -134,7 +169,12 @@
           "payment_form": "Контракт",
           "payment_amount": "34000",
           "plan": "100",
-          "threshold": "Негизги балл-110 Доп. предмет не обязательно",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": false,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         }

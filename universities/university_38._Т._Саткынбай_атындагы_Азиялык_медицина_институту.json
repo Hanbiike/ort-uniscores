@@ -16,7 +16,15 @@
           "payment_form": "Контракт",
           "payment_amount": "60000",
           "plan": "800",
-          "threshold": "Негизги балл-110 Кошумча .-2 сабак Биология-60 Химия-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": true,
+            "extra_count": 2,
+            "subjects": {
+              "сабак Биология": 60,
+              "Химия": 60
+            }
+          },
           "registered": "0",
           "students": []
         }
@@ -34,7 +42,15 @@
           "payment_form": "Контракт",
           "payment_amount": "55000",
           "plan": "150",
-          "threshold": "Негизги балл-110 Кошумча .-2 сабак Биология-60 Химия-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": true,
+            "extra_count": 2,
+            "subjects": {
+              "сабак Биология": 60,
+              "Химия": 60
+            }
+          },
           "registered": "5",
           "students": [
             {
@@ -44,7 +60,7 @@
               "main_score": "171",
               "extra_score": "166",
               "total_score": "337",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 10:35:51",
               "admitted": true
             },
@@ -55,7 +71,7 @@
               "main_score": "136",
               "extra_score": "162",
               "total_score": "298",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 11:03:30",
               "admitted": true
             },
@@ -66,7 +82,7 @@
               "main_score": "152",
               "extra_score": "141",
               "total_score": "293",
-              "category": null,
+              "category": "Село",
               "date": "16.07.2025 13:38:52",
               "admitted": true
             },
@@ -77,7 +93,7 @@
               "main_score": "116",
               "extra_score": "144",
               "total_score": "260",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 10:53:43",
               "admitted": true
             },
@@ -88,7 +104,7 @@
               "main_score": "137",
               "extra_score": "122",
               "total_score": "259",
-              "category": null,
+              "category": "Бишкек",
               "date": "14.07.2025 10:34:30",
               "admitted": true
             }

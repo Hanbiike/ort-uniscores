@@ -16,7 +16,12 @@
           "payment_form": "Контракт",
           "payment_amount": "85000",
           "plan": "75",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "2",
           "students": [
             {
@@ -26,7 +31,7 @@
               "main_score": "142",
               "extra_score": "0",
               "total_score": "142",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 14:51:20",
               "admitted": true
             },
@@ -37,7 +42,7 @@
               "main_score": "117",
               "extra_score": "0",
               "total_score": "117",
-              "category": null,
+              "category": "Малый город",
               "date": "16.07.2025 09:25:52",
               "admitted": true
             }
@@ -52,7 +57,12 @@
           "payment_form": "Контракт",
           "payment_amount": "85000",
           "plan": "50",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         }
@@ -70,7 +80,12 @@
           "payment_form": "Контракт",
           "payment_amount": "85000",
           "plan": "75",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "1",
           "students": [
             {
@@ -80,7 +95,7 @@
               "main_score": "127",
               "extra_score": "0",
               "total_score": "127",
-              "category": null,
+              "category": "Малый город",
               "date": "14.07.2025 15:52:40",
               "admitted": true
             }

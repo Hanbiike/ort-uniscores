@@ -16,7 +16,14 @@
           "payment_form": "Контракт",
           "payment_amount": "35000",
           "plan": "48",
-          "threshold": "Негизги балл-115 Кырг.тили-60",
+          "threshold": {
+            "main_score": 115,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {
+              "Кырг.тили": 60
+            }
+          },
           "registered": "0",
           "students": []
         },
@@ -29,7 +36,14 @@
           "payment_form": "Контракт",
           "payment_amount": "35000",
           "plan": "84",
-          "threshold": "Негизги балл-115 Кырг.тили-60 Доп. предмет не обязательно",
+          "threshold": {
+            "main_score": 115,
+            "extra_required": false,
+            "extra_count": 0,
+            "subjects": {
+              "Кырг.тили": 60
+            }
+          },
           "registered": "0",
           "students": []
         }
@@ -47,7 +61,14 @@
           "payment_form": "Контракт",
           "payment_amount": "35000",
           "plan": "83",
-          "threshold": "Негизги балл-110 Тарых-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {
+              "Тарых": 60
+            }
+          },
           "registered": "0",
           "students": []
         },
@@ -60,7 +81,14 @@
           "payment_form": "Контракт",
           "payment_amount": "35000",
           "plan": "86",
-          "threshold": "Негизги балл-110 Тарых-60 Доп. предмет не обязательно",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": false,
+            "extra_count": 0,
+            "subjects": {
+              "Тарых": 60
+            }
+          },
           "registered": "1",
           "students": [
             {
@@ -70,7 +98,7 @@
               "main_score": "116",
               "extra_score": "72",
               "total_score": "188",
-              "category": null,
+              "category": "Село",
               "date": "14.07.2025 17:49:22",
               "admitted": false
             }

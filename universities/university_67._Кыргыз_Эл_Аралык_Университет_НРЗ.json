@@ -16,7 +16,12 @@
           "payment_form": "Контракт",
           "payment_amount": "30000",
           "plan": "12",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "1",
           "students": [
             {
@@ -26,7 +31,7 @@
               "main_score": "111",
               "extra_score": "0",
               "total_score": "111",
-              "category": null,
+              "category": "Малый город",
               "date": "15.07.2025 21:14:34",
               "admitted": true
             }
@@ -41,7 +46,12 @@
           "payment_form": "Контракт",
           "payment_amount": "40000",
           "plan": "12",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         }
@@ -59,7 +69,12 @@
           "payment_form": "Контракт",
           "payment_amount": "50000",
           "plan": "12",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         },
@@ -72,7 +87,12 @@
           "payment_form": "Контракт",
           "payment_amount": "70000",
           "plan": "12",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         }
@@ -90,7 +110,12 @@
           "payment_form": "Контракт",
           "payment_amount": "40000",
           "plan": "12",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         },
@@ -103,7 +128,12 @@
           "payment_form": "Контракт",
           "payment_amount": "50000",
           "plan": "12",
-          "threshold": "Негизги балл-110",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {}
+          },
           "registered": "0",
           "students": []
         },
@@ -116,7 +146,14 @@
           "payment_form": "Контракт",
           "payment_amount": "90000",
           "plan": "12",
-          "threshold": "Негизги балл-110 Физика-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": null,
+            "extra_count": 0,
+            "subjects": {
+              "Физика": 60
+            }
+          },
           "registered": "0",
           "students": []
         }
@@ -134,7 +171,15 @@
           "payment_form": "Бюджет",
           "payment_amount": "0",
           "plan": "12",
-          "threshold": "Негизги балл-120 Биология-60 Химия-60 Доп. предмет не обязательно",
+          "threshold": {
+            "main_score": 120,
+            "extra_required": false,
+            "extra_count": 0,
+            "subjects": {
+              "Биология": 60,
+              "Химия": 60
+            }
+          },
           "registered": "8",
           "students": [
             {
@@ -236,7 +281,15 @@
           "payment_form": "Контракт",
           "payment_amount": "70000",
           "plan": "12",
-          "threshold": "Негизги балл-110 Биология-60 Химия-60 Доп. предмет не обязательно",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": false,
+            "extra_count": 0,
+            "subjects": {
+              "Биология": 60,
+              "Химия": 60
+            }
+          },
           "registered": "0",
           "students": []
         }

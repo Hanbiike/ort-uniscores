@@ -16,7 +16,15 @@
           "payment_form": "Контракт",
           "payment_amount": "87500",
           "plan": "50",
-          "threshold": "Негизги балл-110 Кошумча .-2 сабак Биология-60 Химия-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": true,
+            "extra_count": 2,
+            "subjects": {
+              "сабак Биология": 60,
+              "Химия": 60
+            }
+          },
           "registered": "1",
           "students": [
             {
@@ -26,7 +34,7 @@
               "main_score": "133",
               "extra_score": "144",
               "total_score": "277",
-              "category": null,
+              "category": "Бишкек",
               "date": "16.07.2025 10:27:07",
               "admitted": false
             }
@@ -46,7 +54,15 @@
           "payment_form": "Контракт",
           "payment_amount": "87500",
           "plan": "50",
-          "threshold": "Негизги балл-110 Кошумча .-2 сабак Биология-60 Химия-60",
+          "threshold": {
+            "main_score": 110,
+            "extra_required": true,
+            "extra_count": 2,
+            "subjects": {
+              "сабак Биология": 60,
+              "Химия": 60
+            }
+          },
           "registered": "1",
           "students": [
             {
@@ -56,7 +72,7 @@
               "main_score": "150",
               "extra_score": "144",
               "total_score": "294",
-              "category": null,
+              "category": "Высокогорье",
               "date": "14.07.2025 14:30:24",
               "admitted": false
             }
