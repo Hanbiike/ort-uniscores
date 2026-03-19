@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Поступление в вузы КР</title>
+    <meta
+      name="description"
+      content="Поиск вуза и направления с актуальной статистикой поступления в вузы КР."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Sora:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <div class="background-noise" aria-hidden="true"></div>
+    <div class="background-orbs" aria-hidden="true">
+      <span class="orb orb-a"></span>
+      <span class="orb orb-b"></span>
+      <span class="orb orb-c"></span>
+    </div>
+
+    <main class="layout">
+      <section
+        class="panel reveal panel-wide selection-panel"
+        id="universityStep"
+        aria-label="Выбор вуза"
+      >
+        <div class="panel-header">
+          <h2>1. Выберите вуз</h2>
+          <p>Сначала выберите университет крупной карточкой.</p>
+        </div>
+        <label class="field">
+          <span>Поиск по вузам</span>
+          <input
+            id="universitySearch"
+            type="search"
+            placeholder="Например: Кыргызский..."
+            autocomplete="off"
+          />
+        </label>
+        <div class="block-grid" id="universityList" role="listbox"></div>
+      </section>
+
+      <section
+        class="panel reveal panel-wide selection-panel is-hidden"
+        id="programStep"
+        aria-label="Выбор направления"
+        aria-hidden="true"
+      >
+        <div class="panel-header panel-header-row">
+          <div>
+            <h2>2. Выберите направление</h2>
+            <p id="programStepCaption">
+              После выбора вуза выберите направление крупной карточкой.
+            </p>
+          </div>
+          <button
+            id="backToUniversities"
+            type="button"
+            class="action-btn back-btn"
+          >
+            Назад к вузам
+          </button>
+        </div>
+        <label class="field">
+          <span>Поиск по программам</span>
+          <input
+            id="programSearch"
+            type="search"
+            placeholder="Направление, специальность, код"
+            autocomplete="off"
+          />
+        </label>
+        <div class="block-grid" id="programList" role="listbox"></div>
+        <div class="meta-grid" id="programMeta"></div>
+      </section>
+
+      <section class="panel reveal panel-wide" aria-label="Статистика по баллам">
+        <div class="panel-header">
+          <h2>Статистика по баллам</h2>
+          <p>
+            Показываются три среза: по основному баллу, по дополнительным
+            баллам (если есть доп) и по общему баллу (если есть доп).
+          </p>
+        </div>
+
+        <div class="stats-wrap">
+          <h3 class="subheading">Для направления</h3>
+          <div id="directionStatsOverall" class="stats-grid"></div>
+        </div>
+
+        <div id="categoryStatsList" class="category-stats-list"></div>
+      </section>
+
+    </main>
+
+    <script src="./assets/app.js" defer></script>
+  </body>
+</html>
