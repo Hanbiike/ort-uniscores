@@ -261,6 +261,106 @@ select,
   margin-top: 0.15rem;
 }
 
+.ratings-title {
+  margin: 0;
+  font-family: "Sora", "IBM Plex Sans", sans-serif;
+  font-size: clamp(1.3rem, 2.5vw, 2.05rem);
+  line-height: 1.14;
+}
+
+.ratings-controls-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.62rem;
+}
+
+.ratings-note {
+  margin: 0.12rem 0 0;
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+}
+
+.ratings-summary {
+  margin: 0 0 0.7rem;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.ratings-table-wrap {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: auto;
+  background: #fff;
+}
+
+.ratings-table {
+  width: 100%;
+  min-width: 980px;
+  border-collapse: collapse;
+}
+
+.ratings-table th,
+.ratings-table td {
+  padding: 0.55rem 0.62rem;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+.ratings-table th {
+  background: var(--bg-soft);
+  color: var(--ink-soft);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.ratings-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.ratings-table tbody tr:hover {
+  background: rgba(239, 127, 72, 0.08);
+}
+
+.rating-entity-title {
+  display: block;
+  font-size: 0.93rem;
+}
+
+.rating-entity-meta {
+  display: block;
+  margin-top: 0.16rem;
+  font-size: 0.76rem;
+  color: var(--ink-soft);
+}
+
+.rating-chip {
+  display: inline-block;
+  margin-top: 0.28rem;
+  border: 1px solid rgba(21, 122, 125, 0.36);
+  border-radius: 999px;
+  background: rgba(142, 207, 202, 0.22);
+  color: #0f4f53;
+  padding: 0.1rem 0.42rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.align-right {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.col-rank {
+  width: 3.6rem;
+}
+
+.is-hidden-column {
+  display: none;
+}
+
 input,
 select {
   width: 100%;
@@ -615,6 +715,14 @@ select:focus,
 @media (max-width: 860px) {
   .layout {
     grid-template-columns: 1fr;
+  }
+
+  .ratings-controls-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ratings-table {
+    min-width: 760px;
   }
 
   .panel-header-row {

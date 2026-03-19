@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Рейтинги поступления в вузы КР</title>
+    <meta
+      name="description"
+      content="Рейтинги вузов и направлений по нижнему порогу, среднему и медианному баллу."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Sora:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <div class="background-noise" aria-hidden="true"></div>
+    <div class="background-orbs" aria-hidden="true">
+      <span class="orb orb-a"></span>
+      <span class="orb orb-b"></span>
+      <span class="orb orb-c"></span>
+    </div>
+
+    <main class="layout">
+      <section class="panel reveal panel-wide" aria-label="Настройки рейтинга">
+        <div class="panel-header panel-header-row">
+          <div>
+            <h1 class="ratings-title">Рейтинги поступления</h1>
+            <p>
+              Сравнение по нижнему порогу, среднему и медианному баллу среди
+              рекомендованных.
+            </p>
+          </div>
+          <a class="action-btn back-btn" href="./index.html"
+            >К выбору направлений</a
+          >
+        </div>
+
+        <div class="ratings-controls-grid">
+          <label class="field">
+            <span>Тип рейтинга</span>
+            <select id="scopeSelect">
+              <option value="universities">По вузам</option>
+              <option value="directions">По направлениям (все вузы)</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Тип балла</span>
+            <select id="scoreTypeSelect">
+              <option value="primary">Основной</option>
+              <option value="additional">Дополнительный</option>
+              <option value="total">Общий</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Метрика сортировки</span>
+            <select id="metricSelect">
+              <option value="lower_passing_score">Нижний порог</option>
+              <option value="average_score">Средний балл</option>
+              <option value="median_score">Медианный балл</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Поиск</span>
+            <input
+              id="ratingSearch"
+              type="search"
+              placeholder="Вуз, направление, код"
+              autocomplete="off"
+            />
+          </label>
+
+          <label class="field">
+            <span>Показывать</span>
+            <select id="limitSelect">
+              <option value="50">Топ-50</option>
+              <option value="100" selected>Топ-100</option>
+              <option value="300">Топ-300</option>
+              <option value="all">Все</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Минимум записей</span>
+            <input
+              id="minRecordsInput"
+              type="number"
+              min="1"
+              step="1"
+              value="5"
+              inputmode="numeric"
+            />
+          </label>
+        </div>
+
+        <p class="ratings-note" id="ratingsNote"></p>
+      </section>
+
+      <section class="panel reveal panel-wide" aria-label="Таблица рейтингов">
+        <p class="ratings-summary" id="ratingsSummary">Загрузка рейтингов...</p>
+
+        <div class="ratings-table-wrap">
+          <table class="ratings-table">
+            <thead>
+              <tr>
+                <th class="col-rank">#</th>
+                <th id="entityHeader">Вуз</th>
+                <th id="universityHeader" data-col="university">Вуз</th>
+                <th class="align-right">Нижний порог</th>
+                <th class="align-right">Средний балл</th>
+                <th class="align-right">Медианный балл</th>
+                <th class="align-right">Записей</th>
+              </tr>
+            </thead>
+            <tbody id="ratingsTableBody"></tbody>
+          </table>
+        </div>
+
+        <p class="meta-item is-hidden" id="ratingsEmpty">
+          Нет данных для выбранных фильтров.
+        </p>
+      </section>
+    </main>
+
+    <script src="./assets/ratings.js" defer></script>
+  </body>
+</html>
