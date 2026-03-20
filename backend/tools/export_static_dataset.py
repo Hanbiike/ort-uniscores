@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 from decimal import Decimal
 from pathlib import Path
 import sys
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Set
 
 from sqlalchemy import text
 
@@ -172,11 +172,83 @@ def build_recommended_only_score_stats(
     }
 
 
+def sum_stat_values(left: Any, right: Any) -> float | None:
+    """Return rounded sum of two metric values when both are numeric."""
+    left_value = to_float(left)
+    right_value = to_float(right)
+    if left_value is None or right_value is None:
+        return None
+    return round(left_value + right_value, 2)
+
+
+def build_university_total_from_aggregates(
+    primary_stats: Dict[str, Any],
+    additional_stats: Dict[str, Any],
+) -> Dict[str, Any]:
+    """Build university total as aggregate primary(all) + additional(valid)."""
+    participants_count = to_int(additional_stats.get("participants_count")) or 0
+    recommended_count = to_int(additional_stats.get("recommended_count")) or 0
+
+    return {
+        "participants_count": participants_count,
+        "recommended_count": recommended_count,
+        "lower_passing_score": sum_stat_values(
+            primary_stats.get("lower_passing_score"),
+            additional_stats.get("lower_passing_score"),
+        ),
+        "average_score": sum_stat_values(
+            primary_stats.get("average_score"),
+            additional_stats.get("average_score"),
+        ),
+        "median_score": sum_stat_values(
+            primary_stats.get("median_score"),
+            additional_stats.get("median_score"),
+        ),
+        "max_score": sum_stat_values(
+            primary_stats.get("max_score"),
+            additional_stats.get("max_score"),
+        ),
+    }
+
+
+def build_score_series_payload(
+    scores_by_type: Dict[str, List[float]],
+    has_additional: bool,
+    include_total: bool,
+) -> Dict[str, Any]:
+    """Build sorted score series for optional top-N frontend recalculation."""
+    primary_series = sorted(
+        scores_by_type.get("primary", []),
+        reverse=True,
+    )
+    additional_series = None
+    total_series = None
+
+    if has_additional:
+        additional_series = sorted(
+            scores_by_type.get("additional", []),
+            reverse=True,
+        )
+        if include_total:
+            total_series = sorted(
+                scores_by_type.get("total", []),
+                reverse=True,
+            )
+
+    return {
+        "has_additional": has_additional,
+        "primary": primary_series,
+        "additional": additional_series,
+        "total": total_series,
+    }
+
+
 def build_dataset(
     university_rows: List[Dict[str, Any]],
     program_rows: List[Dict[str, Any]],
     round_rows: List[Dict[str, Any]],
     category_rows: List[Dict[str, Any]],
+    threshold_rows: List[Dict[str, Any]],
     score_rows: List[Dict[str, Any]],
 ) -> Dict[str, Any]:
     """Transform relational rows into a nested JSON-friendly structure."""
@@ -211,6 +283,13 @@ def build_dataset(
         program_code_by_id[program_id] = row.get("program_code")
         program_faculty_by_id[program_id] = row.get("faculty_name")
         program_payment_by_id[program_id] = row.get("payment_type")
+
+    programs_with_required_additional: Set[int] = set()
+    for row in threshold_rows:
+        program_id = to_int(row.get("program_id"))
+        if program_id is None:
+            continue
+        programs_with_required_additional.add(program_id)
 
     university_name_by_id: Dict[int, str] = {}
     for row in university_rows:
@@ -498,6 +577,9 @@ def build_dataset(
         primary_score = to_int(row.get("primary_score"))
         additional_score = to_int(row.get("additional_score"))
         total_score = to_int(row.get("total_score"))
+        program_requires_additional = (
+            program_id in programs_with_required_additional
+        )
         requires_two_subjects = requires_two_subjects_by_program.get(
             program_id,
             False,
@@ -521,9 +603,10 @@ def build_dataset(
             direction_recommended_scores[program_id]["additional"].append(
                 adjusted_additional
             )
-            university_recommended_scores[university_id]["additional"].append(
-                adjusted_additional
-            )
+            if program_requires_additional:
+                university_recommended_scores[university_id][
+                    "additional"
+                ].append(adjusted_additional)
 
         adjusted_total: float | None = None
         if primary_score is not None and adjusted_additional is not None:
@@ -537,16 +620,10 @@ def build_dataset(
             direction_recommended_scores[program_id]["total"].append(
                 adjusted_total
             )
-            university_recommended_scores[university_id]["total"].append(
-                adjusted_total
-            )
 
     university_has_additional_by_id: Dict[int, bool] = defaultdict(bool)
-    for program_id, has_additional in program_has_additional_by_id.items():
-        university_id = program_university_by_id.get(program_id)
-        if university_id is None:
-            continue
-        if has_additional:
+    for university_id, university_scores in university_recommended_scores.items():
+        if university_scores.get("additional"):
             university_has_additional_by_id[university_id] = True
 
     direction_rankings: List[Dict[str, Any]] = []
@@ -580,6 +657,11 @@ def build_dataset(
                     scores_by_type=direction_recommended_scores[program_id],
                     has_additional=has_additional,
                 ),
+                "score_series": build_score_series_payload(
+                    scores_by_type=direction_recommended_scores[program_id],
+                    has_additional=has_additional,
+                    include_total=True,
+                ),
             }
         )
 
@@ -601,16 +683,28 @@ def build_dataset(
             university_id,
             False,
         )
+        university_stats = build_recommended_only_score_stats(
+            scores_by_type=university_recommended_scores[university_id],
+            has_additional=has_additional,
+        )
+        if has_additional:
+            university_stats["total"] = build_university_total_from_aggregates(
+                primary_stats=university_stats["primary"],
+                additional_stats=university_stats["additional"],
+            )
+
         university_rankings.append(
             {
                 "university_id": university_id,
                 "name": university_name_by_id.get(university_id, ""),
                 "has_additional": has_additional,
-                "score_stats": build_recommended_only_score_stats(
+                "score_stats": university_stats,
+                "score_series": build_score_series_payload(
                     scores_by_type=university_recommended_scores[
                         university_id
                     ],
                     has_additional=has_additional,
+                    include_total=False,
                 ),
             }
         )
@@ -619,7 +713,7 @@ def build_dataset(
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "dataset_version": 6,
+        "dataset_version": 9,
         "summary": {
             "universities": len(universities),
             "programs": programs_count,
@@ -637,8 +731,22 @@ def build_dataset(
                     f"than {TWO_SUBJECT_ADDITIONAL_THRESHOLD}"
                 ),
                 "total_score_rule": (
-                    "ranking total is calculated as primary + adjusted "
-                    "additional (adjusted additional = additional/divisor)"
+                    "for direction rankings, total is calculated as primary "
+                    "+ adjusted additional (adjusted additional = "
+                    "additional/divisor)"
+                ),
+                "university_rankings_scope_rule": (
+                    "for university rankings, additional uses only "
+                    "programs that have at least one subject in "
+                    "program_thresholds"
+                ),
+                "university_total_aggregation_rule": (
+                    "for university rankings, total is aggregated as "
+                    "primary(all programs) + additional(valid programs)"
+                ),
+                "top_n_rule": (
+                    "score_series arrays are sorted in descending order and "
+                    "used by frontend for optional top-N recalculation"
                 ),
             },
             "universities": university_rankings,
@@ -738,6 +846,17 @@ def main() -> None:
             ORDER BY program_round_id, category_name
             """,
         )
+        threshold_rows = fetch_rows(
+            connection,
+            """
+            SELECT DISTINCT
+                program_id
+            FROM program_thresholds
+            WHERE subject_name IS NOT NULL
+              AND TRIM(subject_name) <> ''
+            ORDER BY program_id
+            """,
+        )
         score_rows = fetch_rows(
             connection,
             """
@@ -758,6 +877,7 @@ def main() -> None:
         program_rows=program_rows,
         round_rows=round_rows,
         category_rows=category_rows,
+        threshold_rows=threshold_rows,
         score_rows=score_rows,
     )
 

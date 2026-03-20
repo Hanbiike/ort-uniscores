@@ -20,6 +20,7 @@ const state = {
   query: "",
   limit: 100,
   minRecords: 5,
+  topN: 0,
 };
 
 const refs = {
@@ -29,6 +30,7 @@ const refs = {
   ratingSearch: document.getElementById("ratingSearch"),
   limitSelect: document.getElementById("limitSelect"),
   minRecordsInput: document.getElementById("minRecordsInput"),
+  topNInput: document.getElementById("topNInput"),
   ratingsNote: document.getElementById("ratingsNote"),
   ratingsSummary: document.getElementById("ratingsSummary"),
   ratingsTableBody: document.getElementById("ratingsTableBody"),
@@ -44,6 +46,7 @@ const REQUIRED_REF_KEYS = [
   "ratingSearch",
   "limitSelect",
   "minRecordsInput",
+  "topNInput",
   "ratingsNote",
   "ratingsSummary",
   "ratingsTableBody",
@@ -125,6 +128,17 @@ function bindEvents() {
     refs.minRecordsInput.value = String(state.minRecords);
     renderRatings();
   });
+
+  refs.topNInput.addEventListener("input", () => {
+    state.topN = parseTopN(refs.topNInput.value);
+    renderRatings();
+  });
+
+  refs.topNInput.addEventListener("change", () => {
+    state.topN = parseTopN(refs.topNInput.value);
+    refs.topNInput.value = String(state.topN);
+    renderRatings();
+  });
 }
 
 async function loadDataset() {
@@ -144,6 +158,7 @@ async function loadDataset() {
     refs.metricSelect.value = state.metric;
     refs.limitSelect.value = String(state.limit);
     refs.minRecordsInput.value = String(state.minRecords);
+    refs.topNInput.value = String(state.topN);
 
     renderRatings();
   } catch (error) {
@@ -212,7 +227,7 @@ function prepareEntry(entry) {
     return null;
   }
 
-  const metricStats = scoreStats[state.scoreType];
+  const metricStats = resolveStatsForEntry(entry, scoreStats);
   if (!metricStats) {
     return null;
   }
@@ -238,6 +253,119 @@ function prepareEntry(entry) {
     displayName: getDisplayName(entry),
     searchText: buildSearchText(entry),
   };
+}
+
+function resolveStatsForEntry(entry, scoreStats) {
+  const precomputedStats = scoreStats[state.scoreType];
+  if (state.topN < 1) {
+    return precomputedStats || null;
+  }
+
+  const scoreSeries = entry?.score_series;
+  if (!scoreSeries) {
+    return precomputedStats || null;
+  }
+
+  if (state.scope === "universities" && state.scoreType === "total") {
+    const primarySeries = getScoreSeries(scoreSeries, "primary");
+    const additionalSeries = getScoreSeries(scoreSeries, "additional");
+    if (!primarySeries.length || !additionalSeries.length) {
+      return null;
+    }
+
+    const primaryStats = buildStatsFromSeries(primarySeries, state.topN);
+    const additionalStats = buildStatsFromSeries(additionalSeries, state.topN);
+    if (!primaryStats || !additionalStats) {
+      return null;
+    }
+
+    return sumUniversityAggregates(primaryStats, additionalStats);
+  }
+
+  const selectedSeries = getScoreSeries(scoreSeries, state.scoreType);
+  if (!selectedSeries.length) {
+    return null;
+  }
+
+  return buildStatsFromSeries(selectedSeries, state.topN);
+}
+
+function getScoreSeries(scoreSeries, scoreType) {
+  const raw = scoreSeries?.[scoreType];
+  if (!Array.isArray(raw)) {
+    return [];
+  }
+
+  return raw
+    .map((value) => toNumber(value))
+    .filter((value) => value !== null);
+}
+
+function buildStatsFromSeries(series, topN) {
+  const limit = topN > 0 ? Math.min(topN, series.length) : series.length;
+  if (limit <= 0) {
+    return null;
+  }
+
+  const selected = series.slice(0, limit);
+  const count = selected.length;
+  const sum = selected.reduce((acc, value) => acc + value, 0);
+
+  return {
+    participants_count: count,
+    recommended_count: count,
+    lower_passing_score: Math.min(...selected),
+    average_score: roundTo2(sum / count),
+    median_score: computeMedian(selected),
+    max_score: Math.max(...selected),
+  };
+}
+
+function sumUniversityAggregates(primaryStats, additionalStats) {
+  return {
+    participants_count: toNumber(additionalStats.participants_count) || 0,
+    recommended_count: toNumber(additionalStats.recommended_count) || 0,
+    lower_passing_score: sumMetrics(
+      primaryStats.lower_passing_score,
+      additionalStats.lower_passing_score
+    ),
+    average_score: sumMetrics(
+      primaryStats.average_score,
+      additionalStats.average_score
+    ),
+    median_score: sumMetrics(
+      primaryStats.median_score,
+      additionalStats.median_score
+    ),
+    max_score: sumMetrics(primaryStats.max_score, additionalStats.max_score),
+  };
+}
+
+function sumMetrics(leftValue, rightValue) {
+  const left = toNumber(leftValue);
+  const right = toNumber(rightValue);
+  if (left === null || right === null) {
+    return null;
+  }
+  return roundTo2(left + right);
+}
+
+function roundTo2(value) {
+  return Math.round(value * 100) / 100;
+}
+
+function computeMedian(values) {
+  if (!values.length) {
+    return null;
+  }
+
+  const ordered = [...values].sort((left, right) => left - right);
+  const middle = Math.floor(ordered.length / 2);
+  if (ordered.length % 2 === 1) {
+    return ordered[middle];
+  }
+
+  return roundTo2((ordered[middle - 1] + ordered[middle]) / 2);
 }
 
 function matchQuery(prepared) {
@@ -337,14 +465,17 @@ function renderTable(rows) {
 function renderSummary(renderedCount, filteredCount) {
   const scopeLabel = state.scope === "universities" ? "вузов" : "направлений";
   const metricLabel = METRIC_LABELS[state.metric] || state.metric;
+  const topNLabel = state.topN > 0 ? `top-${state.topN}` : "полный набор";
   refs.ratingsSummary.textContent =
     `Показано ${renderedCount} из ${filteredCount} ${scopeLabel}. ` +
     `Сортировка по метрике: ${metricLabel}. ` +
-    `Минимум записей: ${state.minRecords}.`;
+    `Минимум записей: ${state.minRecords}. ` +
+    `Расчет агрегатов: ${topNLabel}.`;
 }
 
 function renderNote(notes) {
   const scoreTypeLabel = SCORE_LABELS[state.scoreType] || state.scoreType;
+  const byUniversities = state.scope === "universities";
   let text = `Тип балла: ${scoreTypeLabel}.`;
 
   if (state.scoreType === "additional") {
@@ -352,11 +483,26 @@ function renderNote(notes) {
     text +=
       ` Для направлений с двумя профильными предметами используется ` +
       `дополнительный балл / ${divisor}.`;
+    if (byUniversities) {
+      text +=
+        " В рейтинге вузов учитываются только направления, " +
+        "где обязателен хотя бы один дополнительный предмет.";
+    }
   } else if (state.scoreType === "total") {
     const divisor = toNumber(notes?.additional_two_subject_divisor) || 2;
     text +=
       ` Для направлений с двумя профильными предметами общий балл ` +
       `считается как основной + (дополнительный / ${divisor}).`;
+    if (byUniversities) {
+      text +=
+        " В рейтинге вузов общий балл считается как агрегированный " +
+        "основной (по всем направлениям) + агрегированный дополнительный " +
+        "(только по направлениям с обязательным доппредметом).";
+    }
+  }
+
+  if (state.topN > 0) {
+    text += ` Включен расчет по top-${state.topN}.`;
   }
 
   refs.ratingsNote.textContent = text;
@@ -482,6 +628,20 @@ function parseMinRecords(raw) {
   const normalized = Math.floor(parsed);
   if (normalized < 1) {
     return 1;
+  }
+
+  return normalized;
+}
+
+function parseTopN(raw) {
+  const parsed = Number(raw);
+  if (!Number.isFinite(parsed)) {
+    return 0;
+  }
+
+  const normalized = Math.floor(parsed);
+  if (normalized < 0) {
+    return 0;
   }
 
   return normalized;
