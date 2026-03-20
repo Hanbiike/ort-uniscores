@@ -352,6 +352,11 @@ function renderNote(notes) {
     text +=
       ` Для направлений с двумя профильными предметами используется ` +
       `дополнительный балл / ${divisor}.`;
+  } else if (state.scoreType === "total") {
+    const divisor = toNumber(notes?.additional_two_subject_divisor) || 2;
+    text +=
+      ` Для направлений с двумя профильными предметами общий балл ` +
+      `считается как основной + (дополнительный / ${divisor}).`;
   }
 
   refs.ratingsNote.textContent = text;

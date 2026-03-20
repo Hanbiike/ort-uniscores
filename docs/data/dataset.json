@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-19T19:23:13.156030+00:00",
-  "dataset_version": 5,
+  "generated_at": "2026-03-20T05:29:29.622758+00:00",
+  "dataset_version": 6,
   "summary": {
     "universities": 67,
     "programs": 1524,
@@ -12,7 +12,8 @@
   "rankings": {
     "notes": {
       "additional_two_subject_divisor": 2,
-      "two_subject_rule": "requires_two_subjects_additional=true when max additional score for a direction is greater than 150"
+      "two_subject_rule": "requires_two_subjects_additional=true when max additional score for a direction is greater than 150",
+      "total_score_rule": "ranking total is calculated as primary + adjusted additional (adjusted additional = additional/divisor)"
     },
     "universities": [
       {
@@ -91,9 +92,9 @@
             "participants_count": 569,
             "recommended_count": 569,
             "lower_passing_score": 110.0,
-            "average_score": 192.88,
+            "average_score": 190.26,
             "median_score": 178.0,
-            "max_score": 434.0
+            "max_score": 370.0
           }
         }
       },
@@ -191,7 +192,7 @@
             "participants_count": 142,
             "recommended_count": 142,
             "lower_passing_score": 110.0,
-            "average_score": 178.08,
+            "average_score": 176.04,
             "median_score": 155.5,
             "max_score": 370.0
           }
@@ -355,9 +356,9 @@
             "participants_count": 185,
             "recommended_count": 185,
             "lower_passing_score": 102.0,
-            "average_score": 194.34,
-            "median_score": 190.0,
-            "max_score": 350.0
+            "average_score": 175.45,
+            "median_score": 186.0,
+            "max_score": 293.0
           }
         }
       },
@@ -387,9 +388,9 @@
             "participants_count": 114,
             "recommended_count": 114,
             "lower_passing_score": 102.0,
-            "average_score": 165.56,
+            "average_score": 156.93,
             "median_score": 134.0,
-            "max_score": 319.0
+            "max_score": 261.0
           }
         }
       },
@@ -437,9 +438,9 @@
             "participants_count": 57,
             "recommended_count": 57,
             "lower_passing_score": 111.0,
-            "average_score": 177.28,
-            "median_score": 176.0,
-            "max_score": 364.0
+            "average_score": 170.93,
+            "median_score": 175.5,
+            "max_score": 281.0
           }
         }
       },
@@ -733,7 +734,7 @@
             "participants_count": 531,
             "recommended_count": 531,
             "lower_passing_score": 110.0,
-            "average_score": 174.09,
+            "average_score": 172.46,
             "median_score": 174.0,
             "max_score": 335.0
           }
@@ -828,10 +829,10 @@
           "total": {
             "participants_count": 1066,
             "recommended_count": 1066,
-            "lower_passing_score": 183.0,
-            "average_score": 355.52,
-            "median_score": 360.5,
-            "max_score": 500.0
+            "lower_passing_score": 177.0,
+            "average_score": 267.02,
+            "median_score": 270.5,
+            "max_score": 362.0
           }
         }
       },
@@ -943,8 +944,8 @@
             "participants_count": 169,
             "recommended_count": 169,
             "lower_passing_score": 105.0,
-            "average_score": 195.72,
-            "median_score": 201.0,
+            "average_score": 185.6,
+            "median_score": 192.0,
             "max_score": 367.0
           }
         }
@@ -1459,9 +1460,9 @@
             "participants_count": 1561,
             "recommended_count": 1561,
             "lower_passing_score": 100.0,
-            "average_score": 194.1,
-            "median_score": 190.0,
-            "max_score": 428.0
+            "average_score": 186.65,
+            "median_score": 188.0,
+            "max_score": 333.0
           }
         }
       },
@@ -1490,10 +1491,10 @@
           "total": {
             "participants_count": 30,
             "recommended_count": 30,
-            "lower_passing_score": 239.0,
-            "average_score": 284.53,
-            "median_score": 273.5,
-            "max_score": 388.0
+            "lower_passing_score": 174.5,
+            "average_score": 211.95,
+            "median_score": 204.25,
+            "max_score": 272.0
           }
         }
       },
@@ -1523,9 +1524,9 @@
             "participants_count": 1471,
             "recommended_count": 1471,
             "lower_passing_score": 105.0,
-            "average_score": 212.61,
-            "median_score": 203.0,
-            "max_score": 444.0
+            "average_score": 195.31,
+            "median_score": 193.0,
+            "max_score": 363.0
           }
         }
       },
@@ -1555,9 +1556,9 @@
             "participants_count": 72,
             "recommended_count": 72,
             "lower_passing_score": 105.0,
-            "average_score": 162.0,
+            "average_score": 155.02,
             "median_score": 138.0,
-            "max_score": 296.0
+            "max_score": 234.0
           }
         }
       },
@@ -1587,8 +1588,8 @@
             "participants_count": 60,
             "recommended_count": 60,
             "lower_passing_score": 116.0,
-            "average_score": 292.3,
-            "median_score": 320.0,
+            "average_score": 282.28,
+            "median_score": 304.5,
             "max_score": 384.0
           }
         }
@@ -1654,10 +1655,10 @@
           "total": {
             "participants_count": 5,
             "recommended_count": 5,
-            "lower_passing_score": 259.0,
-            "average_score": 289.4,
-            "median_score": 293.0,
-            "max_score": 337.0
+            "lower_passing_score": 188.0,
+            "average_score": 215.9,
+            "median_score": 217.0,
+            "max_score": 254.0
           }
         }
       },
@@ -1872,10 +1873,10 @@
           "total": {
             "participants_count": 42,
             "recommended_count": 42,
-            "lower_passing_score": 239.0,
-            "average_score": 275.43,
-            "median_score": 277.0,
-            "max_score": 311.0
+            "lower_passing_score": 177.0,
+            "average_score": 210.15,
+            "median_score": 207.5,
+            "max_score": 272.0
           }
         }
       }
@@ -2091,10 +2092,10 @@
           "total": {
             "participants_count": 17,
             "recommended_count": 17,
-            "lower_passing_score": 263.0,
-            "average_score": 354.71,
-            "median_score": 356.0,
-            "max_score": 434.0
+            "lower_passing_score": 193.0,
+            "average_score": 266.85,
+            "median_score": 272.0,
+            "max_score": 318.0
           }
         }
       },
@@ -2900,10 +2901,10 @@
           "total": {
             "participants_count": 4,
             "recommended_count": 4,
-            "lower_passing_score": 243.0,
-            "average_score": 280.25,
-            "median_score": 282.5,
-            "max_score": 313.0
+            "lower_passing_score": 178.5,
+            "average_score": 207.75,
+            "median_score": 210.5,
+            "max_score": 231.5
           }
         }
       },
@@ -5597,10 +5598,10 @@
           "total": {
             "participants_count": 32,
             "recommended_count": 32,
-            "lower_passing_score": 254.0,
-            "average_score": 281.62,
-            "median_score": 283.0,
-            "max_score": 350.0
+            "lower_passing_score": 188.5,
+            "average_score": 212.47,
+            "median_score": 212.25,
+            "max_score": 267.0
           }
         }
       },
@@ -5700,10 +5701,10 @@
           "total": {
             "participants_count": 13,
             "recommended_count": 13,
-            "lower_passing_score": 241.0,
-            "average_score": 270.31,
-            "median_score": 264.0,
-            "max_score": 350.0
+            "lower_passing_score": 178.0,
+            "average_score": 199.15,
+            "median_score": 194.5,
+            "max_score": 267.0
           }
         }
       },
@@ -6634,10 +6635,10 @@
           "total": {
             "participants_count": 5,
             "recommended_count": 5,
-            "lower_passing_score": 245.0,
-            "average_score": 265.4,
-            "median_score": 268.0,
-            "max_score": 296.0
+            "lower_passing_score": 180.0,
+            "average_score": 194.1,
+            "median_score": 193.0,
+            "max_score": 220.5
           }
         }
       },
@@ -7182,10 +7183,10 @@
           "total": {
             "participants_count": 11,
             "recommended_count": 11,
-            "lower_passing_score": 247.0,
-            "average_score": 272.91,
-            "median_score": 266.0,
-            "max_score": 319.0
+            "lower_passing_score": 179.0,
+            "average_score": 201.55,
+            "median_score": 198.0,
+            "max_score": 230.0
           }
         }
       },
@@ -8122,10 +8123,10 @@
           "total": {
             "participants_count": 3,
             "recommended_count": 3,
-            "lower_passing_score": 249.0,
-            "average_score": 274.67,
-            "median_score": 281.0,
-            "max_score": 294.0
+            "lower_passing_score": 188.0,
+            "average_score": 208.17,
+            "median_score": 218.0,
+            "max_score": 218.5
           }
         }
       },
@@ -8650,10 +8651,10 @@
           "total": {
             "participants_count": 5,
             "recommended_count": 5,
-            "lower_passing_score": 240.0,
-            "average_score": 280.0,
-            "median_score": 260.0,
-            "max_score": 364.0
+            "lower_passing_score": 175.5,
+            "average_score": 207.6,
+            "median_score": 189.5,
+            "max_score": 281.0
           }
         }
       },
@@ -17057,10 +17058,10 @@
           "total": {
             "participants_count": 13,
             "recommended_count": 13,
-            "lower_passing_score": 238.0,
-            "average_score": 268.62,
-            "median_score": 270.0,
-            "max_score": 299.0
+            "lower_passing_score": 175.0,
+            "average_score": 201.92,
+            "median_score": 202.0,
+            "max_score": 232.5
           }
         }
       },
@@ -25322,10 +25323,10 @@
           "total": {
             "participants_count": 200,
             "recommended_count": 200,
-            "lower_passing_score": 369.0,
-            "average_score": 412.39,
-            "median_score": 408.0,
-            "max_score": 500.0
+            "lower_passing_score": 269.0,
+            "average_score": 304.58,
+            "median_score": 304.0,
+            "max_score": 362.0
           }
         }
       },
@@ -25361,10 +25362,10 @@
           "total": {
             "participants_count": 200,
             "recommended_count": 200,
-            "lower_passing_score": 265.0,
-            "average_score": 374.09,
-            "median_score": 369.0,
-            "max_score": 442.0
+            "lower_passing_score": 200.5,
+            "average_score": 278.82,
+            "median_score": 275.5,
+            "max_score": 329.5
           }
         }
       },
@@ -25400,10 +25401,10 @@
           "total": {
             "participants_count": 34,
             "recommended_count": 34,
-            "lower_passing_score": 328.0,
-            "average_score": 355.62,
-            "median_score": 353.5,
-            "max_score": 393.0
+            "lower_passing_score": 236.0,
+            "average_score": 265.6,
+            "median_score": 264.25,
+            "max_score": 293.5
           }
         }
       },
@@ -25439,10 +25440,10 @@
           "total": {
             "participants_count": 8,
             "recommended_count": 8,
-            "lower_passing_score": 314.0,
-            "average_score": 346.12,
-            "median_score": 340.0,
-            "max_score": 413.0
+            "lower_passing_score": 238.5,
+            "average_score": 262.19,
+            "median_score": 257.75,
+            "max_score": 295.0
           }
         }
       },
@@ -25478,10 +25479,10 @@
           "total": {
             "participants_count": 4,
             "recommended_count": 4,
-            "lower_passing_score": 276.0,
-            "average_score": 348.25,
-            "median_score": 359.5,
-            "max_score": 398.0
+            "lower_passing_score": 208.0,
+            "average_score": 260.38,
+            "median_score": 268.5,
+            "max_score": 296.5
           }
         }
       },
@@ -25517,10 +25518,10 @@
           "total": {
             "participants_count": 52,
             "recommended_count": 52,
-            "lower_passing_score": 247.0,
-            "average_score": 286.44,
-            "median_score": 281.0,
-            "max_score": 347.0
+            "lower_passing_score": 184.0,
+            "average_score": 216.14,
+            "median_score": 215.0,
+            "max_score": 254.0
           }
         }
       },
@@ -25556,10 +25557,10 @@
           "total": {
             "participants_count": 20,
             "recommended_count": 20,
-            "lower_passing_score": 240.0,
-            "average_score": 269.65,
-            "median_score": 261.5,
-            "max_score": 347.0
+            "lower_passing_score": 177.0,
+            "average_score": 201.85,
+            "median_score": 196.75,
+            "max_score": 249.0
           }
         }
       },
@@ -25595,10 +25596,10 @@
           "total": {
             "participants_count": 55,
             "recommended_count": 55,
-            "lower_passing_score": 288.0,
-            "average_score": 311.75,
-            "median_score": 310.0,
-            "max_score": 353.0
+            "lower_passing_score": 209.0,
+            "average_score": 234.66,
+            "median_score": 233.0,
+            "max_score": 266.5
           }
         }
       },
@@ -25634,10 +25635,10 @@
           "total": {
             "participants_count": 20,
             "recommended_count": 20,
-            "lower_passing_score": 266.0,
-            "average_score": 288.8,
-            "median_score": 284.0,
-            "max_score": 367.0
+            "lower_passing_score": 192.0,
+            "average_score": 215.53,
+            "median_score": 209.0,
+            "max_score": 269.5
           }
         }
       },
@@ -25776,10 +25777,10 @@
           "total": {
             "participants_count": 1,
             "recommended_count": 1,
-            "lower_passing_score": 256.0,
-            "average_score": 256.0,
-            "median_score": 256.0,
-            "max_score": 256.0
+            "lower_passing_score": 193.0,
+            "average_score": 193.0,
+            "median_score": 193.0,
+            "max_score": 193.0
           }
         }
       },
@@ -25815,10 +25816,10 @@
           "total": {
             "participants_count": 100,
             "recommended_count": 100,
-            "lower_passing_score": 326.0,
-            "average_score": 357.28,
-            "median_score": 353.0,
-            "max_score": 412.0
+            "lower_passing_score": 242.5,
+            "average_score": 268.83,
+            "median_score": 267.25,
+            "max_score": 300.0
           }
         }
       },
@@ -25854,10 +25855,10 @@
           "total": {
             "participants_count": 100,
             "recommended_count": 100,
-            "lower_passing_score": 311.0,
-            "average_score": 328.94,
-            "median_score": 327.0,
-            "max_score": 409.0
+            "lower_passing_score": 227.0,
+            "average_score": 248.16,
+            "median_score": 246.75,
+            "max_score": 296.5
           }
         }
       },
@@ -25893,10 +25894,10 @@
           "total": {
             "participants_count": 10,
             "recommended_count": 10,
-            "lower_passing_score": 306.0,
-            "average_score": 315.5,
-            "median_score": 313.0,
-            "max_score": 333.0
+            "lower_passing_score": 226.0,
+            "average_score": 238.2,
+            "median_score": 236.0,
+            "max_score": 257.5
           }
         }
       },
@@ -25932,10 +25933,10 @@
           "total": {
             "participants_count": 4,
             "recommended_count": 4,
-            "lower_passing_score": 272.0,
-            "average_score": 289.25,
-            "median_score": 291.0,
-            "max_score": 303.0
+            "lower_passing_score": 203.5,
+            "average_score": 219.62,
+            "median_score": 221.25,
+            "max_score": 232.5
           }
         }
       },
@@ -25971,10 +25972,10 @@
           "total": {
             "participants_count": 150,
             "recommended_count": 150,
-            "lower_passing_score": 270.0,
-            "average_score": 387.15,
-            "median_score": 384.0,
-            "max_score": 500.0
+            "lower_passing_score": 205.0,
+            "average_score": 287.86,
+            "median_score": 286.5,
+            "max_score": 362.0
           }
         }
       },
@@ -26010,10 +26011,10 @@
           "total": {
             "participants_count": 80,
             "recommended_count": 80,
-            "lower_passing_score": 260.0,
-            "average_score": 300.06,
-            "median_score": 293.0,
-            "max_score": 430.0
+            "lower_passing_score": 190.0,
+            "average_score": 225.14,
+            "median_score": 221.0,
+            "max_score": 321.0
           }
         }
       },
@@ -28694,10 +28695,10 @@
           "total": {
             "participants_count": 24,
             "recommended_count": 24,
-            "lower_passing_score": 249.0,
-            "average_score": 274.88,
-            "median_score": 275.0,
-            "max_score": 301.0
+            "lower_passing_score": 183.0,
+            "average_score": 203.62,
+            "median_score": 204.0,
+            "max_score": 225.5
           }
         }
       },
@@ -38574,10 +38575,10 @@
           "total": {
             "participants_count": 42,
             "recommended_count": 42,
-            "lower_passing_score": 332.0,
-            "average_score": 378.05,
-            "median_score": 377.0,
-            "max_score": 428.0
+            "lower_passing_score": 247.0,
+            "average_score": 281.64,
+            "median_score": 281.5,
+            "max_score": 311.5
           }
         }
       },
@@ -38652,10 +38653,10 @@
           "total": {
             "participants_count": 12,
             "recommended_count": 12,
-            "lower_passing_score": 248.0,
-            "average_score": 313.58,
-            "median_score": 324.0,
-            "max_score": 383.0
+            "lower_passing_score": 187.0,
+            "average_score": 236.08,
+            "median_score": 242.25,
+            "max_score": 287.0
           }
         }
       },
@@ -40138,10 +40139,10 @@
           "total": {
             "participants_count": 19,
             "recommended_count": 19,
-            "lower_passing_score": 246.0,
-            "average_score": 283.21,
-            "median_score": 277.0,
-            "max_score": 364.0
+            "lower_passing_score": 185.0,
+            "average_score": 212.95,
+            "median_score": 209.5,
+            "max_score": 273.5
           }
         }
       },
@@ -40394,10 +40395,10 @@
           "total": {
             "participants_count": 23,
             "recommended_count": 23,
-            "lower_passing_score": 294.0,
-            "average_score": 331.57,
-            "median_score": 326.0,
-            "max_score": 368.0
+            "lower_passing_score": 222.0,
+            "average_score": 252.22,
+            "median_score": 252.0,
+            "max_score": 274.0
           }
         }
       },
@@ -40433,10 +40434,10 @@
           "total": {
             "participants_count": 14,
             "recommended_count": 14,
-            "lower_passing_score": 258.0,
-            "average_score": 294.21,
-            "median_score": 286.5,
-            "max_score": 365.0
+            "lower_passing_score": 188.0,
+            "average_score": 219.57,
+            "median_score": 215.25,
+            "max_score": 278.0
           }
         }
       },
@@ -41123,10 +41124,10 @@
           "total": {
             "participants_count": 9,
             "recommended_count": 9,
-            "lower_passing_score": 249.0,
-            "average_score": 285.67,
-            "median_score": 283.0,
-            "max_score": 338.0
+            "lower_passing_score": 183.0,
+            "average_score": 214.61,
+            "median_score": 216.5,
+            "max_score": 249.5
           }
         }
       },
@@ -41162,10 +41163,10 @@
           "total": {
             "participants_count": 10,
             "recommended_count": 10,
-            "lower_passing_score": 244.0,
-            "average_score": 288.8,
-            "median_score": 292.5,
-            "max_score": 334.0
+            "lower_passing_score": 181.0,
+            "average_score": 216.25,
+            "median_score": 214.75,
+            "max_score": 254.5
           }
         }
       },
@@ -41443,10 +41444,10 @@
           "total": {
             "participants_count": 16,
             "recommended_count": 16,
-            "lower_passing_score": 235.0,
-            "average_score": 269.25,
-            "median_score": 263.0,
-            "max_score": 332.0
+            "lower_passing_score": 174.0,
+            "average_score": 201.75,
+            "median_score": 195.5,
+            "max_score": 258.0
           }
         }
       },
@@ -42292,10 +42293,10 @@
           "total": {
             "participants_count": 30,
             "recommended_count": 30,
-            "lower_passing_score": 239.0,
-            "average_score": 284.53,
-            "median_score": 273.5,
-            "max_score": 388.0
+            "lower_passing_score": 174.5,
+            "average_score": 211.95,
+            "median_score": 204.25,
+            "max_score": 272.0
           }
         }
       },
@@ -42584,10 +42585,10 @@
           "total": {
             "participants_count": 20,
             "recommended_count": 20,
-            "lower_passing_score": 359.0,
-            "average_score": 379.1,
-            "median_score": 374.0,
-            "max_score": 436.0
+            "lower_passing_score": 257.0,
+            "average_score": 281.32,
+            "median_score": 279.5,
+            "max_score": 319.5
           }
         }
       },
@@ -42623,10 +42624,10 @@
           "total": {
             "participants_count": 162,
             "recommended_count": 162,
-            "lower_passing_score": 236.0,
-            "average_score": 293.53,
-            "median_score": 291.0,
-            "max_score": 444.0
+            "lower_passing_score": 173.0,
+            "average_score": 219.67,
+            "median_score": 218.25,
+            "max_score": 325.0
           }
         }
       },
@@ -43110,10 +43111,10 @@
           "total": {
             "participants_count": 19,
             "recommended_count": 19,
-            "lower_passing_score": 326.0,
-            "average_score": 335.47,
-            "median_score": 334.0,
-            "max_score": 368.0
+            "lower_passing_score": 234.5,
+            "average_score": 252.16,
+            "median_score": 253.0,
+            "max_score": 273.5
           }
         }
       },
@@ -43149,10 +43150,10 @@
           "total": {
             "participants_count": 13,
             "recommended_count": 13,
-            "lower_passing_score": 239.0,
-            "average_score": 279.15,
-            "median_score": 270.0,
-            "max_score": 330.0
+            "lower_passing_score": 178.0,
+            "average_score": 208.96,
+            "median_score": 201.5,
+            "max_score": 252.5
           }
         }
       },
@@ -43327,10 +43328,10 @@
           "total": {
             "participants_count": 122,
             "recommended_count": 122,
-            "lower_passing_score": 235.0,
-            "average_score": 292.82,
-            "median_score": 290.5,
-            "max_score": 352.0
+            "lower_passing_score": 174.0,
+            "average_score": 218.7,
+            "median_score": 219.0,
+            "max_score": 265.0
           }
         }
       },
@@ -43975,10 +43976,10 @@
           "total": {
             "participants_count": 7,
             "recommended_count": 7,
-            "lower_passing_score": 263.0,
-            "average_score": 274.57,
-            "median_score": 268.0,
-            "max_score": 296.0
+            "lower_passing_score": 189.5,
+            "average_score": 202.79,
+            "median_score": 200.0,
+            "max_score": 215.0
           }
         }
       },
@@ -45321,10 +45322,10 @@
           "total": {
             "participants_count": 8,
             "recommended_count": 8,
-            "lower_passing_score": 282.0,
-            "average_score": 328.88,
-            "median_score": 314.5,
-            "max_score": 384.0
+            "lower_passing_score": 219.0,
+            "average_score": 253.75,
+            "median_score": 241.75,
+            "max_score": 299.0
           }
         }
       },
@@ -45674,10 +45675,10 @@
           "total": {
             "participants_count": 5,
             "recommended_count": 5,
-            "lower_passing_score": 259.0,
-            "average_score": 289.4,
-            "median_score": 293.0,
-            "max_score": 337.0
+            "lower_passing_score": 188.0,
+            "average_score": 215.9,
+            "median_score": 217.0,
+            "max_score": 254.0
           }
         }
       },
@@ -48014,10 +48015,10 @@
           "total": {
             "participants_count": 14,
             "recommended_count": 14,
-            "lower_passing_score": 251.0,
-            "average_score": 280.14,
-            "median_score": 282.5,
-            "max_score": 311.0
+            "lower_passing_score": 183.5,
+            "average_score": 208.71,
+            "median_score": 209.5,
+            "max_score": 233.0
           }
         }
       },
@@ -48142,10 +48143,10 @@
           "total": {
             "participants_count": 25,
             "recommended_count": 25,
-            "lower_passing_score": 239.0,
-            "average_score": 275.08,
-            "median_score": 277.0,
-            "max_score": 309.0
+            "lower_passing_score": 177.0,
+            "average_score": 205.42,
+            "median_score": 205.0,
+            "max_score": 237.0
           }
         }
       },
